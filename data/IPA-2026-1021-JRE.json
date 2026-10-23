@@ -1,0 +1,14 @@
+{
+  "cve": "IPA-2026-1021-JRE",
+  "cvss": null,
+  "detectedAt": "2026-10-21T21:40:00Z",
+  "exploited": "none",
+  "product": "Oracle Java SE 8 / 11 / 17 / 21 / 25 / 26 / 27(2026年10月CPU 対象の各版)",
+  "sources": [
+    {
+      "title": "IPA: Oracle Java の脆弱性対策について(2026年10月)",
+      "url": "https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html"
+    }
+  ],
+  "summary": "IPA が Oracle Java の10月分の脆弱性について注意を呼びかけています。放置するとアプリケーションの異常終了や、攻撃者による端末の制御奪取につながるおそれがあるため、Oracle の最新版へ早めに更新してください。"
+}
