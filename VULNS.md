@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 10/23 23:38(日本時間)
-- 登録: 33 件 / 悪用確認あり: 16 件
+- 最終チェック: 11/07 16:15(日本時間)
+- 登録: 35 件 / 悪用確認あり: 18 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/07 16:15 | **CVE-2026-118527**<br>Ivanti Connect Secure 25.1.1.2 以前 | Ivanti Connect Secure で予測可能な識別子が生成される問題で、悪意あるコンテンツを予測可能な場所に配置する攻撃チェーンに悪用されている。修正版へ更新し、侵害の兆候を確認すること。 | 未評価 | **悪用確認あり**<br>CISA KEV に追加(2026-10-30) | [SecurityWeek: Ivanti patches two more zero-days exploited in Connect Secure attack chain](https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/)<br>[BleepingComputer: Ivanti patches two more Connect Secure zero-days chained in attacks](https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/) |
+| 11/07 16:15 | **CVE-2026-111357**<br>Ivanti Connect Secure 25.1.1.2 以前 | Ivanti Connect Secure の重要機能における認証欠如の脆弱性で、攻撃チェーンの一部として root 権限への昇格に悪用されている。Ivanti が公開した修正版(25.1.1.3 など)へ速やかに更新し、侵害有無を点検すること。 | 未評価 | **悪用確認あり**<br>CISA KEV に追加(2026-10-30) | [SecurityWeek: Ivanti patches two more zero-days exploited in Connect Secure attack chain](https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/)<br>[BleepingComputer: Ivanti patches two more Connect Secure zero-days chained in attacks](https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/) |
 | 10/23 20:50 | **CVE-2026-96655**<br>Plex Media Server 1.43.3.10861 より前(Plex2Shell 連鎖攻撃の一部) | トランスコーダーのエンドポイントで認証済みSSRFが可能になり、内部・外部の任意の宛先へリクエストさせられます。1.43.3.10861 以降へ更新してください。 | 未評価 | **悪用確認あり**<br>CISA KEV に追加(2026-10-20 の追加分に含まれる。二次情報で確認) | [BleepingComputer: Plex2Shell attacks](https://bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers)<br>[The Hacker News: CISA orders federal agencies to patch](https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html) |
 | 10/23 20:50 | **CVE-2026-96654**<br>Plex Media Server 1.43.3.10861 より前(Plex2Shell 連鎖攻撃の一部) | searchOne のURLインジェクションにより、他プラグインの機能を攻撃者指定の引数で呼び出せます。1.43.3.10861 以降へ更新してください。 | 未評価 | **悪用確認あり**<br>CISA KEV に追加(2026-10-20 の追加分に含まれる。二次情報で確認) | [BleepingComputer: Plex2Shell attacks](https://bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers)<br>[The Hacker News: CISA orders federal agencies to patch](https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html) |
 | 10/23 20:50 | **CVE-2026-96652**<br>Plex Media Server 1.43.3.10861 より前(Plex2Shell 連鎖攻撃の一部) | 認証なしで /player/timeline 経由のSSRFが可能で、内部APIへ任意のリクエストを送らせる足がかりになります。1.43.3.10861 以降へ更新してください。 | 未評価 | **悪用確認あり**<br>CISA KEV に追加(2026-10-20 の追加分に含まれる。二次情報で確認) | [BleepingComputer: Plex2Shell attacks](https://bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers)<br>[The Hacker News: CISA orders federal agencies to patch](https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html) |
