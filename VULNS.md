@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 04:38(日本時間)
-- 登録: 153 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/12 05:38(日本時間)
+- 登録: 155 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 05:38 | **CVE-2026-91151**<br>Cockpit(RHEL 7/8/9/10 同梱) | Cockpit の特権ヘルパー ssh-add-public-key.sh がシンボリックリンクをたどってしまい、ホームディレクトリを操作できるローカルユーザーが任意ファイルの所有者や権限を変更し権限昇格できるおそれがあります。Cockpit 372 以降または Red Hat の修正パッケージを適用してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-91151(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91151.json) |
+| 11/12 05:38 | **CVE-2026-126815**<br>XauenDevs Lagarto Chivato 0.4.2 以前(Web) | 未登録のメールアドレスに攻撃者があらかじめパスワードを設定しておくと、被害者が初めてパスワードレスでログインした際にそのアカウントを乗っ取られるおそれがあります。修正版 0.4.4 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-126815(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126815.json) |
 | 11/12 04:38 | **CVE-2026-91150**<br>Cockpit(cockpit-ws、RHEL 7/8/9/10) | 認証前に送られる断片化WebSocketメッセージが上限なく蓄積され、メモリ枯渇でcockpit-wsが停止させられるおそれがあります。Cockpit 372 以降または各ディストリビューションの修正版を適用し、外部公開を制限してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-91150(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91150.json) |
 | 11/12 04:38 | **CVE-2026-12977**<br>WildFly Core / Red Hat JBoss EAP 8.1 | デプロイ操作の一部ハンドラーの機密区分が不適切で、Maintainer ロールの管理者が設定ファイルを読み出し、認証情報を得て SuperUser 権限を奪えるおそれがあります。RHSA-2026:99017/99018 を適用してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-12977(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/12xxx/CVE-2026-12977.json) |
 | 11/12 04:38 | **CVE-2026-126781**<br>Webmin 2.670 以前 | 証明書発行機能のDNフィールドに改行を混入させることでユーザーファイルにroot相当のエントリを追加され、Webminの管理者権限を奪われるおそれがあります。修正を含む版へ更新してください。 | 7.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-126781(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126781.json) |
