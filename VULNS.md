@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/11 23:38(日本時間)
-- 登録: 87 件 / 悪用確認あり: 34 件
+- 最終チェック: 11/12 00:38(日本時間)
+- 登録: 93 件 / 悪用確認あり: 34 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 00:38 | **CVE-2026-126325**<br>PTC Windchill 11.0〜13.1.4.0 / FlexPLM | 信頼できないデータのデシリアライズにより、遠隔から任意のコードを実行されるおそれがあります。PTC のアドバイザリ(CS483249)に従い修正・緩和策を適用してください。 | 9.2 (緊急)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-126325](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126325.json) |
+| 11/12 00:38 | **CVE-2026-123710**<br>Red Hat Quay 3 / Quay 5 | 認証なしで匿名トークンを悪用し、署名鍵ローテーション機能から独自の署名鍵を登録できるため、全リポジトリのプライベートイメージの読み書きやタグ差し替えが可能になるおそれがあります。Red Hat の修正版が出たら速やかに適用してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-123710](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/123xxx/CVE-2026-123710.json) |
+| 11/12 00:38 | **CVE-2026-111024**<br>Grafana OSS/Enterprise 13.0.2〜13.3.0(Git Sync 利用時) | Git Sync 管理下のリソースでフォルダ権限が回避され、Viewer の閲覧や Editor によるダッシュボード改変・削除が可能になるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-111024](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111024.json) |
+| 11/12 00:38 | **CVE-2026-111000**<br>Grafana OSS/Enterprise 12.4.0〜12.4.14、13.0.10 より前 | フォルダ編集権限を持つ Editor が新 API でフォルダを自分の管理下へ移動し、管理者権限を得られるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-111000](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111000.json) |
+| 11/12 00:38 | **CVE-2026-105440**<br>Extreme Networks Switch Engine (EXOS) 32.x〜33.7.x(修正パッチ前) | 読み取り専用ユーザーが JSON-RPC 経由で制限されたコマンドを実行でき、機器設定やローカルアカウントのパスワードハッシュが漏えいするおそれがあります。33.7.1-patch1-11 / 33.1.100.133-patch1-9 / 32.7.4.15-patch1-11 以降へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-105440](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/105xxx/CVE-2026-105440.json) |
+| 11/12 00:38 | **CVE-2026-102589**<br>Grafana OSS/Enterprise 9.5.0〜13.3.0(renderAuthJWT 有効時) | 複数の Grafana で同じ renderer_token を共有していると、別インスタンスの同じユーザーIDになりすまされるおそれがあります。修正版へ更新し、インスタンスごとに異なるトークンを設定してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-102589](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/102xxx/CVE-2026-102589.json) |
 | 11/11 23:38 | **CVE-2026-93427**<br>WordPress プラグイン ARMember Premium 7.8.1以下 | 未認証の攻撃者が登録フォームのカスタムフィールド(プロフィールカバー)に不正スクリプトを保存し、閲覧者のブラウザで実行させられるおそれがあります。修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-93427](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93427.json) |
 | 11/11 23:38 | **CVE-2026-91000**<br>N-able N-central 2026.4.1未満 | 認証のない IPC チャネルを通じて、ローカルの攻撃者が権限を昇格できるおそれがあります。2026.4.1 以降へ更新してください。 | 8.4 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-91000](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91000.json) |
 | 11/11 23:38 | **CVE-2026-85632**<br>Sipay WooCommerce Virtual POS Module 26.8.3〜26.9.1未満 | 認証や整合性検証が欠けているため、認証なしの攻撃者が決済の状態を書き換え、未払いの注文を支払い済みに見せかけられるおそれがあります。26.9.1 以降へ更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-85632](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/85xxx/CVE-2026-85632.json) |
