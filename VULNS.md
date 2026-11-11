@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/11 20:37(日本時間)
-- 登録: 56 件 / 悪用確認あり: 34 件
+- 最終チェック: 11/11 21:39(日本時間)
+- 登録: 59 件 / 悪用確認あり: 34 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/11 21:39 | **CVE-2026-126662**<br>Contao 4.0.0〜5.3.53、5.4.0〜5.7.16、6.0.0〜6.0.5 | フォルダ権限を制限されたバックエンド利用者が、ファイルマネージャーの一括編集を悪用して権限外のフォルダを公開設定にでき、保護されたファイルが外部からダウンロード可能になるおそれがあります。5.3.54 / 5.7.17 / 6.0.6 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-126662](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126662.json) |
+| 11/11 21:39 | **CVE-2026-126659**<br>BlueprintUE Self-Hosted Edition 1.0.0〜4.3.4 | 認証なしで無期限の匿名ブループリントを大量に作成でき、サーバーのディスクを埋めてサービス停止に追い込まれるおそれがあります。4.3.5 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-126659](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126659.json) |
+| 11/11 21:39 | **CVE-2026-125446**<br>WordPress プラグイン Edwiser Bridge 4.3.4 以前 | 管理者などのログイン中ユーザーに細工したページを開かせることで、本人の意図しない設定変更などの操作を実行させられるおそれがあります(CSRF)。プラグインを 4.3.5 以降に更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-125446](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125446.json) |
 | 11/11 20:37 | **CVE-2026-78287**<br>WordPress プラグイン STAGGS 3.3.0 以前 | STAGGS プラグインにコードインジェクションの脆弱性があり、認証なしの遠隔攻撃者にサイト上で任意のコードを実行されるおそれがあります。3.4.0 以降へ更新するか、使っていなければ削除してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-78287](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/78xxx/CVE-2026-78287.json) |
 | 11/11 20:37 | **CVE-2026-124741**<br>BusyBox udhcpc6(Red Hat Hardened Images の busybox ほか) | BusyBox の DHCPv6 クライアントがサーバーから受け取るオプションの長さを検証せず、同じネットワーク上の悪意ある DHCPv6 サーバーにより root 権限での任意のコード実行やクラッシュを起こされるおそれがあります。修正版の busybox へ更新し、不要なら udhcpc6 を無効にしてください。 | 7.6 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-124741](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124741.json) |
 | 11/11 20:37 | **CVE-2026-124739**<br>BusyBox httpd(Red Hat Enterprise Linux 6 ELS、Red Hat Hardened Images の busybox) | BusyBox httpd がサブディレクトリの設定ファイルを処理する際にスタックバッファオーバーフローが起き、設定ファイルを書き込める攻撃者に任意のコード実行やサービス停止を引き起こされるおそれがあります。Red Hat の修正パッケージを適用し、設定ファイルの書き込み権限を制限してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-124739](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124739.json) |
