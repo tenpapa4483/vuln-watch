@@ -2,12 +2,20 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 00:38(日本時間)
-- 登録: 93 件 / 悪用確認あり: 34 件
+- 最終チェック: 11/12 01:38(日本時間)
+- 登録: 101 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 01:38 | **CVE-2026-96760**<br>Authlib 1.8.0 以前 | JWS の JSON シリアライズ形式を処理する際に署名を検証せずペイロードを正当なものとして扱うため、トークンの偽造による認証回避が起こりえます。修正版の Authlib へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-96760](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/96xxx/CVE-2026-96760.json) |
+| 11/12 01:38 | **CVE-2026-89061**<br>Lenovo PC Manager(中国市場向け)5.1.210 より前 | ローカルユーザーが権限を昇格できるおそれがあります。該当製品を利用している場合はベンダーの案内に従い最新版へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-89061](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/89xxx/CVE-2026-89061.json) |
+| 11/12 01:38 | **CVE-2026-8398**<br>AVB Disc Soft DAEMON Tools Lite(Windows版 12.5.0.2421〜12.5.0.2434) | 2026年4〜5月に公式サイトで配布されたインストーラーが改ざんされ、正規署名付きのバックドア入りバイナリが混入していました。該当版を導入した端末は侵害を前提に調査し、クリーンな最新版へ入れ替えてください。 | 9.8 (緊急)<br>v3.1 | **悪用確認あり**<br>CISA KEV に追加(2026-05-27) | [CISA KEV カタログ(公式 GitHub ミラー cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json)<br>[CVE List V5: CVE-2026-8398](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/8xxx/CVE-2026-8398.json) |
+| 11/12 01:38 | **CVE-2026-77882**<br>Lenovo System Update 5.08.03.59 より前 | 信頼できないデータのデシリアライズにより、ローカルの認証済みユーザーが高い権限でコードを実行できるおそれがあります。System Update を最新版へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-77882](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77882.json) |
+| 11/12 01:38 | **CVE-2026-77873**<br>Lenovo System Update 5.08.03.59 より前 | 権限設定の不備により、ローカルの認証済みユーザーが高い権限でコードを実行できるおそれがあります。System Update を最新版へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-77873](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77873.json) |
+| 11/12 01:38 | **CVE-2026-64855**<br>soapbar(Python 向け SOAP ライブラリ)0.13.0 より前 | WS-Security の署名検証でメッセージに埋め込まれた証明書をそのまま信頼するため、攻撃者が自作証明書で署名を偽造し認証を回避できます。0.13.0 以降へ更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-64855](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/64xxx/CVE-2026-64855.json) |
+| 11/12 01:38 | **CVE-2026-124687**<br>Progress Kendo UI for jQuery 2022.2.621 以降 2026.4.1111 より前 | DropDownButton/SplitButton の項目属性を通じてマークアップを注入でき、クロスサイトスクリプティングにつながるおそれがあります。2026.4.1111 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-124687](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124687.json) |
+| 11/12 01:38 | **CVE-2026-116633**<br>Lenovo Idea Tab Pro TB373FU、Tab One TB305FU/TB305XU、Tab Plus TB351FU など一部タブレット | 第三者アプリが昇格した権限で任意のファイルを書き込めるおそれがあります。ベンダーが案内する修正済みファームウェアへ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-116633](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116633.json) |
 | 11/12 00:38 | **CVE-2026-126325**<br>PTC Windchill 11.0〜13.1.4.0 / FlexPLM | 信頼できないデータのデシリアライズにより、遠隔から任意のコードを実行されるおそれがあります。PTC のアドバイザリ(CS483249)に従い修正・緩和策を適用してください。 | 9.2 (緊急)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-126325](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126325.json) |
 | 11/12 00:38 | **CVE-2026-123710**<br>Red Hat Quay 3 / Quay 5 | 認証なしで匿名トークンを悪用し、署名鍵ローテーション機能から独自の署名鍵を登録できるため、全リポジトリのプライベートイメージの読み書きやタグ差し替えが可能になるおそれがあります。Red Hat の修正版が出たら速やかに適用してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-123710](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/123xxx/CVE-2026-123710.json) |
 | 11/12 00:38 | **CVE-2026-111024**<br>Grafana OSS/Enterprise 13.0.2〜13.3.0(Git Sync 利用時) | Git Sync 管理下のリソースでフォルダ権限が回避され、Viewer の閲覧や Editor によるダッシュボード改変・削除が可能になるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-111024](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111024.json) |
