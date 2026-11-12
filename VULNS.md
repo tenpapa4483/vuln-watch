@@ -2,12 +2,21 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 21:38(日本時間)
-- 登録: 331 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/12 22:39(日本時間)
+- 登録: 340 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 22:39 | **CVE-2026-75869**<br>ManageEngine DDI Central 6301 未満 | 認可チェックの不備とPowerShellコマンドインジェクションにより、管理者でない認証済みユーザーが管理下のWindows DHCPサーバー上で任意のコマンドを実行できるおそれがあります。6301以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-75869(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/75xxx/CVE-2026-75869.json) |
+| 11/12 22:39 | **CVE-2026-127056**<br>PapaParse 5.7.1 未満 | 区切り文字のない引用符付きCSVを解析させると処理時間が二次的に増え、Node.jsのイベントループやブラウザが停止するサービス妨害につながるおそれがあります。5.7.1以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-127056(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127056.json) |
+| 11/12 22:39 | **CVE-2026-126256**<br>Fortinet FortiOS 7.2.0〜7.2.13、7.4.0〜7.4.12、7.6.0〜7.6.7、8.0.0〜8.0.1 | 細工したパケットによる境界外読み取りにより、特権を持つリモート攻撃者が任意のコードやコマンドを実行できるおそれがあります。FG-IR-26-270 を確認し、修正版のFortiOSへ更新してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-126256(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126256.json) |
+| 11/12 22:39 | **CVE-2026-125285**<br>TIBCO Platform Self-Hosted Control Plane 1〜1.21 | 代替経路を使った認証回避の脆弱性があり、認証なしで管理機能にアクセスされるおそれがあります。ベンダーのアドバイザリに従い修正版へ更新してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-125285(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125285.json) |
+| 11/12 22:39 | **CVE-2026-124628**<br>Octopus Server 2018.3.0〜2026.2.13526未満、2026.3.0〜2026.3.15936未満 | 自己のLDAPアイデンティティ編集が無効化されていても編集できてしまい、所属しないLDAPグループに紐づくチームへ参加して管理者権限まで昇格されるおそれがあります。修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-124628(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124628.json) |
+| 11/12 22:39 | **CVE-2026-124627**<br>Octopus Server 3.0.0〜2026.2.13526未満、2026.3.0〜2026.3.15926未満 | LDAP認証有効時、新規登録ユーザーに別ユーザーのLDAPマッピング済みチーム所属と権限が付与されるおそれがあります。修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-124627(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124627.json) |
+| 11/12 22:39 | **CVE-2026-124018**<br>WordPress用プラグイン Gutenverse Form 3.2.2 未満 | 認証不要のフォーム送信で数式を埋め込まれ、管理者がエクスポートしたCSVを表計算ソフトで開くと数式が実行されるおそれがあります。3.2.2以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-124018(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124018.json) |
+| 11/12 22:39 | **CVE-2026-116835**<br>Octopus Server 2025.3.11571〜2026.2.13503未満、2026.3.0〜2026.3.15894未満 | OIDCアカウントのカスタムクレーム検証が不十分で、アカウント編集権限を持つユーザーが別プロジェクトになりすました署名付きOIDCトークンを発行させ、クラウド等の外部システムへアクセスできるおそれがあります。修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-116835(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116835.json) |
+| 11/12 22:39 | **CVE-2026-111552**<br>Hyper E-Commerce Infrastructure 1.1未満(ディーラー連携 1.2未満、ストアフロント/管理画面 2.1796未満) | 単一要素認証に依存しているため多要素認証を回避され、アカウントに不正アクセスされるおそれがあります。各コンポーネントを修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-111552(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111552.json) |
 | 11/12 21:38 | **CVE-2026-75868**<br>Zoho ManageEngine DDI Central ビルド 6301 未満 | 認可回避により、管理者でない認証済みユーザーが権限のないクラスタに属するサブネットのDHCPオプションを変更できるおそれがあります。ビルド6301以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-75868(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/75xxx/CVE-2026-75868.json) |
 | 11/12 21:38 | **CVE-2026-75867**<br>Zoho ManageEngine DDI Central ビルド 6301 未満 | 認可回避により、管理者でない認証済みユーザーが権限のないクラスタのWindows DHCPフィルタリスト設定を変更できるおそれがあります。ビルド6301以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-75867(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/75xxx/CVE-2026-75867.json) |
 | 11/12 21:38 | **CVE-2026-75864**<br>Zoho ManageEngine DDI Central ビルド 6301 未満 | 認可チェックの不備により、管理者でない認証済みユーザーが担当範囲外のDNSゾーンを削除できるおそれがあります。ビルド6301以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-75864(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/75xxx/CVE-2026-75864.json) |
