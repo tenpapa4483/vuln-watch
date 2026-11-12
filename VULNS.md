@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 14:38(日本時間)
-- 登録: 289 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/12 15:38(日本時間)
+- 登録: 295 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 15:38 | **CVE-2026-96541**<br>gnome-remote-desktop(RHEL 8/9/10) | RDP 接続のハンドシェイクに期限がないため、認証なしの攻撃者が接続枠を占有し続け、正規の利用者が接続できなくなるおそれがあります。Red Hat の修正パッケージを適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-96541](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/96xxx/CVE-2026-96541.json) |
+| 11/12 15:38 | **CVE-2026-8333**<br>Microchip TimePictra 12.0 未満 | ストアド型クロスサイトスクリプティングにより、低権限の利用者が埋め込んだスクリプトが他の利用者の閲覧時に実行され、管理操作の乗っ取りなどにつながるおそれがあります。12.0 以降へ更新してください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-8333](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/8xxx/CVE-2026-8333.json) |
+| 11/12 15:38 | **CVE-2026-8332**<br>Microchip TimePictra 12.0 未満 | インストールファイルに root パスワードがハードコードされており、システム全体を乗っ取られるおそれがあります。12.0 以降へ更新し、関連する認証情報を変更してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-8332](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/8xxx/CVE-2026-8332.json) |
+| 11/12 15:38 | **CVE-2026-8331**<br>Microchip TimePictra 12.0 未満 | 危険な種類のファイルを制限なくアップロードできる不備があり、ログイン済みの利用者により遠隔からコードを実行されるおそれがあります。12.0 以降へ更新してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-8331](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/8xxx/CVE-2026-8331.json) |
+| 11/12 15:38 | **CVE-2026-118597**<br>Akaunting 3.3.0 | 請求書の支払条件設定にストアド型 XSS があり、Manager 権限の利用者が仕込んだスクリプトが設定画面を開いた他の利用者の権限で実行されるおそれがあります。修正版の提供状況を確認し、Manager 権限の付与を最小限にしてください。 | 7.2 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-118597](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118597.json) |
+| 11/12 15:38 | **CVE-2026-107935**<br>gvisor-tap-vsock(gvproxy)0.4.0 以上 0.9.0 未満(Podman Desktop、RHEL 10 ほか) | gvproxy の認証不要な /services/forwarder/expose エンドポイントでパスが検証されず、隣接ネットワークの攻撃者がホスト上の任意のファイルを削除できるおそれがあります。0.9.0 以降または各ディストリビューションの修正版へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-107935](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/107xxx/CVE-2026-107935.json) |
 | 11/12 14:38 | **CVE-2026-125958**<br>N-able N-central 24.6.1 以前 | 署名のない NSP アップグレードパッケージを受け入れてしまうため、高権限の攻撃者が細工したパッケージで root 権限のコード実行を行えるおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-125958](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125958.json) |
 | 11/12 14:38 | **CVE-2026-125883**<br>N-able N-central 26.4.1未満 | XML外部実体参照(XXE)の不備により、認証なしで遠隔から機密情報の取得や改ざんにつながる攻撃を受けるおそれがあります。26.4.1 以降へ更新してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-125883](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125883.json) |
 | 11/12 14:38 | **CVE-2026-101107**<br>SoftBank Air Terminal 6 v1.01.80 以前 | Web管理画面にログインできる利用者が OS コマンドインジェクションにより root 権限で任意のコマンドを実行できるおそれがあります。修正ファームウェアへ更新し、管理画面へのアクセスを信頼できる利用者に限定してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-101107](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/101xxx/CVE-2026-101107.json) |
