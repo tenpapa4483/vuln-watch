@@ -2,12 +2,20 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/13 02:37(日本時間)
-- 登録: 415 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/13 03:38(日本時間)
+- 登録: 423 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/13 03:38 | **CVE-2026-127204**<br>Payment Gateway for PayPal Pro, PayPal Checkout & Subscriptions for WooCommerce 4.1.1 未満 | 未認証の攻撃者が pp_capture_order の処理を悪用し、未払いの注文を支払い済みにできるおそれがあります。4.1.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-127204(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127204.json) |
+| 11/13 03:38 | **CVE-2026-127063**<br>DataComm RMM+(ConnectWise ScreenConnect 用サードパーティ拡張)全バージョン | 既定の固定APIシークレットを変更していない環境では、拡張機能のAPIへ不正にアクセスされ管理下のエージェントにコマンドを送られるおそれがあります。管理者は既定のシークレットを直ちに変更してください(ScreenConnect 本体は影響なし)。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-127063(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127063.json) |
+| 11/13 03:38 | **CVE-2026-120466**<br>AcyMailing(Joomla/WordPress 拡張)1.0.0〜11.1.1 | 未認証の攻撃者がメールアドレスだけで任意の購読者をメーリングリストから解除でき、購読の有無も判別できるおそれがあります。11.1.1 より新しい修正版へ更新してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-120466(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120466.json) |
+| 11/13 03:38 | **CVE-2026-118495**<br>AcyMailing(Joomla/WordPress 拡張)6.0.0〜11.1.1 | 購読者のメールアドレスを知る未認証の攻撃者が、その購読者の秘密キーを含む情報を取得し、本人になりすましてGDPRデータエクスポートやアカウント削除を実行できるおそれがあります。11.1.1 より新しい修正版へ更新してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-118495(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118495.json) |
+| 11/13 03:38 | **CVE-2026-117551**<br>jDownloads(Joomla 拡張)4.1.8 未満 | サムネイルアップロードの検証不備により、アップロード権限を持つユーザーが実行可能ファイルを設置してPHPコードを実行できるおそれがあります。至急 4.1.8 以降へ更新してください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-117551(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/117xxx/CVE-2026-117551.json) |
+| 11/13 03:38 | **CVE-2026-117550**<br>jDownloads(Joomla 拡張)4.1.8 未満 | フロントエンド投稿のパラメーター改ざんにより、承認なしでのファイル公開や所有者の不正な割り当てが可能になるおそれがあります。4.1.8 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-117550(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/117xxx/CVE-2026-117550.json) |
+| 11/13 03:38 | **CVE-2026-117543**<br>jDownloads(Joomla 拡張)4.1.8 未満 | 外部ダウンロードURLの取得時にHTTPリダイレクトで宛先検証を回避でき、内部ネットワーク等へのサーバー側リクエスト(SSRF)と応答の漏えいが起こりえます。4.1.8 以降へ更新してください。 | 8.9 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-117543(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/117xxx/CVE-2026-117543.json) |
+| 11/13 03:38 | **CVE-2026-106475**<br>Grafana(Elasticsearch データソース)OSS/Enterprise 10.1.0〜11.6.16、12.0.0〜12.2.10、12.3.0〜12.3.11、12.4.0〜12.4.14 等 | Elasticsearch データソースのリソースプロキシがメソッドやパスを制限せずデータソースの認証情報で転送するため、データソースを照会できるユーザーがインデックスのマッピング変更や他インデックスへのアクセスを行えるおそれがあります。Grafana を修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-106475(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/106xxx/CVE-2026-106475.json) |
 | 11/13 01:41 | **CVE-2026-127141**<br>SOGo 5.12.13 未満 | 応答しないIMAPサーバーを補助アカウントとして設定することで、認証済みの攻撃者がワーカープロセスを占有しサービス停止を引き起こせるおそれがあります。5.12.13 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-127141(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127141.json) |
 | 11/13 01:41 | **CVE-2026-127131**<br>SOGo 5.12.13 未満 | TOTP(二要素認証)コードの検証に試行回数制限がなく、パスワードを知る攻撃者が総当たりで二要素認証を突破できるおそれがあります。5.12.13 以降へ更新してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-127131(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127131.json) |
 | 11/13 01:41 | **CVE-2026-127121**<br>SOGo 5.12.13 未満 | 署名検証の不備により、送信者を詐称した細工メールで連絡先のS/MIME証明書を攻撃者の証明書へ差し替えられるおそれがあります。5.12.13 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-127121(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127121.json) |
