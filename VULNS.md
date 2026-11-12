@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 08:37(日本時間)
-- 登録: 247 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/12 09:38(日本時間)
+- 登録: 249 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 09:38 | **CVE-2026-119618**<br>Apache HTTP Server 2.4.55〜2.4.70(mod_http2 有効時)、mod_h2 2.0.8〜2.0.42 | mod_http2 のヘッダー処理の競合状態によりヒープ破壊が起き、リモートから任意のコードを実行されるおそれがあります(Apache の深刻度評価は critical、CVSS は未公表)。2.4.71 へ更新し、すぐに更新できない場合は HTTP/2 の無効化を検討してください。 | 未評価 | 確認されていない | [CVE List V5: CVE-2026-119618](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119618.json) |
+| 11/12 09:38 | **CVE-2026-107441**<br>Zyxel GS1900 シリーズ スイッチ(GS1900-24E 2.90(AAHK.2)C0 以前など10機種) | Web 管理画面の CGI の境界外書き込みにより、同一ネットワーク上の認証されていない攻撃者に OS コマンドを実行されるおそれがあります。Zyxel が公開した修正ファームウェアへ更新し、管理画面へのアクセスを信頼できる端末に限定してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-107441](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/107xxx/CVE-2026-107441.json) |
 | 11/12 06:38 | **CVE-2026-81936**<br>Lenovo ThinkSystem v4 XClarity Controller 3(2.51〜2.56) | 「工場出荷時に戻す」操作で既定のOpenBMC rootパスワードが復活する退行があり、管理インターフェースや内部OSに不正アクセスされるおそれがあります。修正版ファームウェアへ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-81936(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/81xxx/CVE-2026-81936.json) |
 | 11/12 06:38 | **CVE-2026-65982**<br>nginx-http-flv-module 1.2.14 未満 | HostヘッダーのないHTTP/1.0リクエストでNULLポインタ参照が起き、サーバーが停止するおそれがあります。1.2.14 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-65982(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/65xxx/CVE-2026-65982.json) |
 | 11/12 06:38 | **CVE-2026-65965**<br>ideon 0.9.4 未満 | 閲覧専用ロールの利用者が書き込み系APIを使え、招待されたプロジェクトのキャンバス全体を書き換え・消去できるおそれがあります。0.9.4 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-65965(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/65xxx/CVE-2026-65965.json) |
