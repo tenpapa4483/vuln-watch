@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 15:38(日本時間)
-- 登録: 295 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/12 16:38(日本時間)
+- 登録: 298 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 16:38 | **CVE-2026-87772**<br>Pardus About 1.2.5未満 | Polkit の認可設定に不備があり、ローカルの一般ユーザーが管理者権限へ昇格できるおそれがあります。Pardus About を1.2.5以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-87772](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87772.json) |
+| 11/12 16:38 | **CVE-2026-12591**<br>ManageEngine M365 Manager Plus 4818未満 | 委任管理機能の権限確認が不十分なため、認証済みの技術者アカウントが想定以上の権限に昇格し、リモートコード実行に至るおそれがあります。ビルド4818以降へ更新してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-12591](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/12xxx/CVE-2026-12591.json) |
+| 11/12 16:38 | **CVE-2026-12507**<br>ManageEngine AssetExplorer 7860未満、ServiceDesk Plus 15290未満、ServiceDesk Plus MSP / SupportCenter Plus 15150未満 | レポート機能でクエリレポート作成権限を持つ認証済みユーザーが、細工したデータベースクエリによりサーバー上で任意のコマンドを実行できるおそれがあります。修正版へ更新し、当該権限の付与範囲を見直してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-12507](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/12xxx/CVE-2026-12507.json) |
 | 11/12 15:38 | **CVE-2026-96541**<br>gnome-remote-desktop(RHEL 8/9/10) | RDP 接続のハンドシェイクに期限がないため、認証なしの攻撃者が接続枠を占有し続け、正規の利用者が接続できなくなるおそれがあります。Red Hat の修正パッケージを適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-96541](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/96xxx/CVE-2026-96541.json) |
 | 11/12 15:38 | **CVE-2026-8333**<br>Microchip TimePictra 12.0 未満 | ストアド型クロスサイトスクリプティングにより、低権限の利用者が埋め込んだスクリプトが他の利用者の閲覧時に実行され、管理操作の乗っ取りなどにつながるおそれがあります。12.0 以降へ更新してください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-8333](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/8xxx/CVE-2026-8333.json) |
 | 11/12 15:38 | **CVE-2026-8332**<br>Microchip TimePictra 12.0 未満 | インストールファイルに root パスワードがハードコードされており、システム全体を乗っ取られるおそれがあります。12.0 以降へ更新し、関連する認証情報を変更してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-8332](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/8xxx/CVE-2026-8332.json) |
