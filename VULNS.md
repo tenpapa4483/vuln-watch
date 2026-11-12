@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 17:37(日本時間)
-- 登録: 301 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/12 18:38(日本時間)
+- 登録: 305 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 18:38 | **CVE-2026-90908**<br>Azul Payara Server / Payara Micro 7.6.0・6.44.0・5.93.0・4.1.2.191.61 未満ほか | 管理用JMX/RMIの接続元制限が送信元ホストの偽装で回避され、認証なしの遠隔攻撃者に管理権限を奪われ任意のコードを実行されるおそれがあります。修正版へ更新し、不要ならJMXコネクタを無効化するかネットワークで遮断してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE Record CVE-2026-90908(CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/90xxx/CVE-2026-90908.json) |
+| 11/12 18:38 | **CVE-2026-76173**<br>Sgestion / EasySoft WhatsApp for Dolibarr 1.9 | WHATSAPP_WEBHOOK_ALLOWが有効な場合、公開Webhookの電話番号値経由で認証なしのブラインドSQLインジェクションが可能で、DB情報の窃取やサービス障害につながります。開発元の修正版を適用するか、Webhook受付を無効化してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE Record CVE-2026-76173(CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/76xxx/CVE-2026-76173.json) |
+| 11/12 18:38 | **CVE-2026-54825**<br>WordPress プラグイン wpDataTables(TMS)7.4 以前 | ブラインドSQLインジェクションによりデータベースの情報を不正に取得されるおそれがあります(2026年6月公開、本日CVEレコード更新)。7.4より新しい修正版へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE Record CVE-2026-54825(CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/54xxx/CVE-2026-54825.json) |
+| 11/12 18:38 | **CVE-2026-110003**<br>Azul Payara Server 7.6.0・6.44.0・5.93.0・4.1.2.191.61 未満ほか | 管理REST APIでX-GlassFish-authTokenヘッダーを付けるだけで遠隔接続制限が外れ、管理パスワードが空の既定ドメインでは認証なしで管理コマンドを実行されサーバー全体を乗っ取られるおそれがあります。修正版へ更新し、管理パスワードを設定してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE Record CVE-2026-110003(CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/110xxx/CVE-2026-110003.json) |
 | 11/12 17:37 | **CVE-2026-47832**<br>Cloud Foundry bosh-openstack-cpi-release v55〜v55.0.4 | OpenStack のアプリケーション認証情報が BOSH のデバッグログに平文で記録されるため、ログを読める者に認証情報が漏えいするおそれがあります。修正版へ更新し、既存のアプリケーション認証情報をローテーションしてログを見直してください。 | 7.3 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-47832](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/47xxx/CVE-2026-47832.json) |
 | 11/12 17:37 | **CVE-2026-125836**<br>WordPress プラグイン Simple JWT Login 3.6.8 以前 | クロスサイトリクエストフォージェリ(CSRF)の脆弱性があり、ログイン中の管理者が細工されたページを開くと意図しない操作を実行させられるおそれがあります。修正版が提供され次第更新し、それまでは不要であればプラグインを無効化してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-125836](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125836.json) |
 | 11/12 17:37 | **CVE-2026-118855**<br>Akaunting 3.3.0 | 請求書インポート時にステータス欄へ埋め込まれたHTMLがエスケープされずに表示される格納型XSSがあり、他の利用者が請求書編集画面を開くと任意のスクリプトが実行されるおそれがあります。修正版への更新と、請求書作成権限の付与範囲の見直しを行ってください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-118855](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118855.json) |
