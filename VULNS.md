@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/13 03:38(日本時間)
-- 登録: 423 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/13 04:38(日本時間)
+- 登録: 425 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/13 04:38 | **CVE-2026-18379**<br>Red Hat Enterprise Linux 10 の yggdrasil-worker-package-manager | リポジトリ名に含まれる「../」などのパス要素が無害化されないため、認証済みの攻撃者が root 権限のワーカーにより意図しない場所のファイルを作成・削除でき、権限昇格につながるおそれがあります。Red Hat の修正版パッケージが提供され次第適用してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-18379 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/18xxx/CVE-2026-18379.json) |
+| 11/13 04:38 | **CVE-2024-21954**<br>AMD EPYC 7003/9004 シリーズおよび Embedded 7003/9004(修正版 PI ファームウェアより前) | IOMMU の例外処理の不備により、ATC 非対応の PCIe デバイスへ無効化コマンドが送られ、サービス拒否が起きるおそれがあります。AMD が案内する修正版プラットフォームファームウェア(MilanPI 1.0.0.J、GenoaPI 1.0.0.H など)をサーバーベンダー経由で適用してください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2024-21954 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/21xxx/CVE-2024-21954.json) |
 | 11/13 03:38 | **CVE-2026-127204**<br>Payment Gateway for PayPal Pro, PayPal Checkout & Subscriptions for WooCommerce 4.1.1 未満 | 未認証の攻撃者が pp_capture_order の処理を悪用し、未払いの注文を支払い済みにできるおそれがあります。4.1.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-127204(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127204.json) |
 | 11/13 03:38 | **CVE-2026-127063**<br>DataComm RMM+(ConnectWise ScreenConnect 用サードパーティ拡張)全バージョン | 既定の固定APIシークレットを変更していない環境では、拡張機能のAPIへ不正にアクセスされ管理下のエージェントにコマンドを送られるおそれがあります。管理者は既定のシークレットを直ちに変更してください(ScreenConnect 本体は影響なし)。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-127063(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127063.json) |
 | 11/13 03:38 | **CVE-2026-120466**<br>AcyMailing(Joomla/WordPress 拡張)1.0.0〜11.1.1 | 未認証の攻撃者がメールアドレスだけで任意の購読者をメーリングリストから解除でき、購読の有無も判別できるおそれがあります。11.1.1 より新しい修正版へ更新してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE.org レコード CVE-2026-120466(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120466.json) |
