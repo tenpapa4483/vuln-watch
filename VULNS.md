@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 12:42(日本時間)
-- 登録: 282 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/12 13:37(日本時間)
+- 登録: 286 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 13:37 | **CVE-2026-85101**<br>Synology DiskStation Manager (DSM) 7.2.1-69057-13 / 7.2.2-72806-10 / 7.3.2-86009-5 / 7.4.1-90080-1 より前 | DSMのrsyncに認証回避の欠陥があり、遠隔から特定ファイルの読み取り、任意ファイルの書き込み、限定的なサービス停止が起こりえます。修正版へ更新し、不要ならrsyncサービスを無効化してください。 | 8.6 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-85101(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/85xxx/CVE-2026-85101.json) |
+| 11/12 13:37 | **CVE-2026-76954**<br>Synology DiskStation Manager (DSM) 7.2.1-69057-13 / 7.2.2-72806-10 / 7.3.2-86009-5 / 7.4.1-90080-1 より前 | DSMの認証APIにSQLインジェクションがあり、認証なしの遠隔攻撃者が任意ファイルの読み書きやサービス停止を起こせるおそれがあります。DSMを修正版(Synology-SA-26:19)へ早急に更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-76954(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/76xxx/CVE-2026-76954.json) |
+| 11/12 13:37 | **CVE-2026-111435**<br>openEuler iSulad 2.1.6 以前 | イメージ読み込み時にmanifest.jsonのパスが検証されず、細工したtarを読み込ませるとroot権限でホスト上の任意ファイルを読まれるおそれがあります。修正版へ更新し、出所不明のイメージアーカイブを読み込まないでください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-111435(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111435.json) |
+| 11/12 13:37 | **CVE-2026-111433**<br>openEuler iSulad 2.1.6 以前 | 悪意あるコンテナイメージを実行するとシンボリックリンク追従により、ホストの機密ディレクトリがコンテナから読める状態になるおそれがあります。修正を含む版へ更新し、信頼できないイメージを実行しないでください。 | 8.6 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-111433(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111433.json) |
 | 11/12 12:42 | **CVE-2026-81584**<br>Synology DSM 7.3.2-86009-5 / 7.4.1-90080-1 より前 | User APIのSQLインジェクションにより、侵害されたLDAP/ADサーバーを制御する攻撃者が任意のファイルを読み書きしたりサービスを停止させたりするおそれがあります。DSM 7.3.2-86009-5 または 7.4.1-90080-1 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-81584(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/81xxx/CVE-2026-81584.json) |
 | 11/12 12:42 | **CVE-2026-75785**<br>Synology DSM 7.3.2-86009-5 / 7.4.1-90080-1 より前 | VPN APIのOSコマンドインジェクションにより、管理者権限を持つ攻撃者が任意のファイルを読み書きしたりサービスを停止させたりするおそれがあります。DSM 7.3.2-86009-5 または 7.4.1-90080-1 以降へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-75785(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/75xxx/CVE-2026-75785.json) |
 | 11/12 12:42 | **CVE-2026-74857**<br>Synology DSM 7.3.2-86009-5 / 7.4.1-90080-1 より前 | Auth APIの認証手順の欠落により、認証済みユーザーが任意のファイルを読み書きしたりサービスを停止させたりするおそれがあります。DSM 7.3.2-86009-5 または 7.4.1-90080-1 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE.org レコード CVE-2026-74857(cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/74xxx/CVE-2026-74857.json) |
