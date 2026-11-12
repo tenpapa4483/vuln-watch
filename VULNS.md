@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/12 16:38(日本時間)
-- 登録: 298 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/12 17:37(日本時間)
+- 登録: 301 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/12 17:37 | **CVE-2026-47832**<br>Cloud Foundry bosh-openstack-cpi-release v55〜v55.0.4 | OpenStack のアプリケーション認証情報が BOSH のデバッグログに平文で記録されるため、ログを読める者に認証情報が漏えいするおそれがあります。修正版へ更新し、既存のアプリケーション認証情報をローテーションしてログを見直してください。 | 7.3 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-47832](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/47xxx/CVE-2026-47832.json) |
+| 11/12 17:37 | **CVE-2026-125836**<br>WordPress プラグイン Simple JWT Login 3.6.8 以前 | クロスサイトリクエストフォージェリ(CSRF)の脆弱性があり、ログイン中の管理者が細工されたページを開くと意図しない操作を実行させられるおそれがあります。修正版が提供され次第更新し、それまでは不要であればプラグインを無効化してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-125836](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125836.json) |
+| 11/12 17:37 | **CVE-2026-118855**<br>Akaunting 3.3.0 | 請求書インポート時にステータス欄へ埋め込まれたHTMLがエスケープされずに表示される格納型XSSがあり、他の利用者が請求書編集画面を開くと任意のスクリプトが実行されるおそれがあります。修正版への更新と、請求書作成権限の付与範囲の見直しを行ってください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE List V5: CVE-2026-118855](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118855.json) |
 | 11/12 16:38 | **CVE-2026-87772**<br>Pardus About 1.2.5未満 | Polkit の認可設定に不備があり、ローカルの一般ユーザーが管理者権限へ昇格できるおそれがあります。Pardus About を1.2.5以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-87772](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87772.json) |
 | 11/12 16:38 | **CVE-2026-12591**<br>ManageEngine M365 Manager Plus 4818未満 | 委任管理機能の権限確認が不十分なため、認証済みの技術者アカウントが想定以上の権限に昇格し、リモートコード実行に至るおそれがあります。ビルド4818以降へ更新してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-12591](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/12xxx/CVE-2026-12591.json) |
 | 11/12 16:38 | **CVE-2026-12507**<br>ManageEngine AssetExplorer 7860未満、ServiceDesk Plus 15290未満、ServiceDesk Plus MSP / SupportCenter Plus 15150未満 | レポート機能でクエリレポート作成権限を持つ認証済みユーザーが、細工したデータベースクエリによりサーバー上で任意のコマンドを実行できるおそれがあります。修正版へ更新し、当該権限の付与範囲を見直してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE List V5: CVE-2026-12507](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/12xxx/CVE-2026-12507.json) |
