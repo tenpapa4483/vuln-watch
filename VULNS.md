@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/13 15:38(日本時間)
-- 登録: 600 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/13 16:37(日本時間)
+- 登録: 603 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/13 16:37 | **CVE-2026-59075**<br>Edito CMS 5.10.2607 より前 | 管理画面のページング用ソート引数に Dynamic LINQ の式を注入でき、認証済みの攻撃者が任意のフィールドの値を1文字ずつ抜き出せるおそれがあります。5.10.2607 以降(5.8系はホットフィックス)へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-59075 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59075.json) |
+| 11/13 16:37 | **CVE-2026-59074**<br>Edito CMS 5.10.2607 より前 | JWT更新処理で署名が検証されないため、低権限の認証済みユーザーが管理者を含む任意のアカウントになりすませるおそれがあります。5.10.2607 以降(5.8系はホットフィックス)へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-59074 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59074.json) |
+| 11/13 16:37 | **CVE-2026-11732**<br>NETGEAR CAX30 V2.3.4.12/RAX30 V1.0.14.108/RAX5 V1.0.5.34/RAXE300 V1.0.10.72 より前 | サイトブロック機能が有効な場合、LAN内(Wi-Fi接続など)の攻撃者がルーター上で任意のコマンドを実行できるおそれがあります。修正済みファームウェアへ更新し、更新できない場合はサイトブロック機能を無効にしてください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-11732 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/11xxx/CVE-2026-11732.json) |
 | 11/13 14:38 | **CVE-2026-95405**<br>Google Pixel 端末の Android(2026年11月 Pixel アップデート対象) | Bluetooth BQR オフロードのバッファサイズ計算の誤りで範囲外書き込みが起き、ローカル権限昇格されるおそれがあります。2026-11-01 Pixel アップデート以降のセキュリティパッチを適用してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-95405 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95405.json) |
 | 11/13 14:38 | **CVE-2026-95403**<br>Google Pixel 端末の Android(2026年11月 Pixel アップデート対象) | 共有メモリ追跡ビットマップへの範囲外書き込みにより、追加権限なしでローカル権限昇格されるおそれがあります。2026-11-01 Pixel アップデート以降のセキュリティパッチを適用してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-95403 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95403.json) |
 | 11/13 14:38 | **CVE-2026-95402**<br>Google Pixel 端末の Android(2026年11月 Pixel アップデート対象) | HEVC デコーダー(スライスヘッダー)の処理にバッファオーバーフローがあり、細工されたメディアの処理などを通じてローカルで権限昇格されるおそれがあります。2026-11-01 Pixel アップデート以降のセキュリティパッチを適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-95402 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95402.json) |
