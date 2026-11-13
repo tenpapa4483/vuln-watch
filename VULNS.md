@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/13 09:38(日本時間)
-- 登録: 515 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/13 10:38(日本時間)
+- 登録: 518 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/13 10:38 | **CVE-2026-127281**<br>lanyulei ferry 1.0.0-beta.1 / 1.0.0(JWT 検証ミドルウェア) | JWT 検証処理の不備により、リモートから認証を回避されるおそれがあります。開発元は連絡に応答しておらず修正は未確認のため、外部公開を避けるか代替手段への移行を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-127281 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127281.json) |
+| 11/13 10:38 | **CVE-2026-127279**<br>AIP-PUB ACPs-community 2.0〜2.2.0(Discovery Server) | Discovery Server に認証が欠けており、リモートの第三者が認証なしで機能を利用できるおそれがあります。攻撃手法は公開済みのため、ネットワーク上での公開を制限し、修正版の提供状況を確認してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-127279 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127279.json) |
+| 11/13 10:38 | **CVE-2026-127278**<br>AIP-PUB ACPs-community 2.0〜2.2.0(registry-server の認証コード送信機能) | 認証コード送信エンドポイントの phone パラメータ処理に認証不備があり、リモートから認証を回避されるおそれがあります。攻撃手法は公開済みのため、修正版の有無を確認し、提供されるまでは該当エンドポイントへのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-127278 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127278.json) |
 | 11/13 09:38 | **CVE-2026-90959**<br>pulpcore(Red Hat Satellite 6.16 以降、Ansible Automation Platform 2.6、修正適用前) | file: スキームの検証漏れにより、低権限ユーザーがサーバー上のローカルファイルを取り込み読み出せるおそれがあります。Red Hat の修正パッケージを適用してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-90959 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/90xxx/CVE-2026-90959.json) |
 | 11/13 09:38 | **CVE-2026-67547**<br>taOS 1.0.0-beta.23 未満 | スキル実行 API に権限チェックがなく、一般ユーザーが code_exec スキル経由でホスト上の任意コードを実行できるおそれがあります。1.0.0-beta.23 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-67547 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/67xxx/CVE-2026-67547.json) |
 | 11/13 09:38 | **CVE-2026-67544**<br>Heym 0.0.71 未満 | Playwright ノードの任意 Python コードがサンドボックスなしで実行され、登録直後のユーザーでもサーバー上でコードを実行できるおそれがあります。0.0.71 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-67544 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/67xxx/CVE-2026-67544.json) |
