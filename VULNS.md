@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/13 12:38(日本時間)
-- 登録: 533 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/13 13:38(日本時間)
+- 登録: 540 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/13 13:38 | **CVE-2026-124579**<br>aaPanel BillionMail 4.9 以前(リレー設定 API) | リレー設定 API の helo_name 引数にインジェクションの不具合があり、リモートからメール送信設定を不正に操作されるおそれがあります。攻撃手法が公開済みでベンダーの対応もないため、管理 API へのアクセスを信頼できる範囲に制限してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-124579 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124579.json) |
+| 11/13 13:38 | **CVE-2026-124563**<br>D-Link DIR-878 ファームウェア 1.20B05(サポート終了製品) | HNAP の SetWanSettings 処理にバッファオーバーフローがあり、リモートから機器を停止させられたり任意のコードを実行されたりするおそれがあります。サポート終了製品のため修正は提供されず、後継機種への置き換えを検討してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-124563 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124563.json) |
+| 11/13 13:38 | **CVE-2026-124558**<br>DataLinkDC Dinky 1.2.0〜1.2.5(sql-gateway) | sql-gateway エンドポイントの connectAddress 引数を検証していないため、サーバー側リクエストフォージェリ(SSRF)で内部ネットワークへ不正にアクセスされるおそれがあります。修正版の確認と、管理画面への外部アクセス制限を行ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-124558 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124558.json) |
+| 11/13 13:38 | **CVE-2026-124554**<br>JeecgBoot 3.9.5(JimuBI getAllChartData) | JimuBI のチャートデータ取得 API の params 引数に SQL インジェクションがあり、リモートからデータベースを不正に操作されるおそれがあります。攻撃手法が公開済みのため、該当 API へのアクセス制限や修正版の確認を行ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-124554 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124554.json) |
+| 11/13 13:38 | **CVE-2026-124501**<br>moto 5.2.0〜5.2.4(AWS Batch エミュレーション) | AWS Batch エミュレーションで privileged や volumes の指定を適切に制限しておらず、リモートから不適切な権限でジョブを動かされるおそれがあります。修正版が出るまで、moto のサーバーモードを信頼できないネットワークに公開しないでください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-124501 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124501.json) |
+| 11/13 13:38 | **CVE-2026-124492**<br>SunEditor 3.4.0 より前 | リンク編集画面のブックマーク一覧で見出しの文字列をエスケープせずに表示するため、蓄積型クロスサイトスクリプティングで利用者のブラウザ上で任意のスクリプトを実行されるおそれがあります。SunEditor 3.4.0 以降へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-124492 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124492.json) |
+| 11/13 13:38 | **CVE-2026-124331**<br>Jinher OA C6(ProjectAfficheManage.aspx) | プロジェクト告知管理画面の ProjID パラメータに SQL インジェクションがあり、リモートからデータベースの情報を読み取られたり改ざんされたりするおそれがあります。攻撃手法が公開済みでベンダーの対応もないため、外部からのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-124331 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124331.json) |
 | 11/13 12:38 | **CVE-2026-111342**<br>Citrix NetScaler ADC / Gateway 14.1-73.57 未満、13.1-64.39 未満(LDAP 認証、FIPS/NDcPP 版含む) | LDAP 認証処理のメモリオーバーフローにより、誤動作やサービス停止を引き起こされるおそれがあります。Citrix のアドバイザリ CTX697305 に従い修正版(14.1-73.57 / 13.1-64.39 以降など)へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-111342 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111342.json) |
 | 11/13 12:38 | **CVE-2026-111341**<br>Citrix NetScaler ADC / Gateway 14.1-73.57 未満、13.1-64.39 未満(クライアント証明書認証、FIPS/NDcPP 版含む) | クライアント証明書認証処理のメモリオーバーフローにより、誤動作やサービス停止を引き起こされるおそれがあります。Citrix のアドバイザリ CTX697305 に従い修正版(14.1-73.57 / 13.1-64.39 以降など)へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-111341 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111341.json) |
 | 11/13 12:38 | **CVE-2026-111340**<br>Citrix NetScaler ADC / Gateway 14.1-73.57 未満、13.1-64.39 未満(KBA(知識ベース認証)、FIPS/NDcPP 版含む) | KBA(知識ベース認証)処理のメモリオーバーフローにより、誤動作やサービス停止を引き起こされるおそれがあります。Citrix のアドバイザリ CTX697305 に従い修正版(14.1-73.57 / 13.1-64.39 以降など)へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-111340 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111340.json) |
