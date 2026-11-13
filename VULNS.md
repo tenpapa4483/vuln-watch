@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/13 17:38(日本時間)
-- 登録: 616 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/13 18:38(日本時間)
+- 登録: 618 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/13 18:38 | **CVE-2026-116418**<br>Dell PowerScale InsightIQ 6.3.0〜6.4.0 | 認可処理の不備により、低権限のリモート攻撃者が権限昇格できるおそれがあります。Dell のアドバイザリ DSA-2026-480 に従い 6.4.1 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-116418 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116418.json) |
+| 11/13 18:38 | **CVE-2026-116417**<br>Dell PowerScale InsightIQ 6.3.0〜6.4.0 | パスワード要件が弱いため、隣接ネットワーク上の未認証の攻撃者が不正アクセスや情報漏えいを起こすおそれがあります。Dell のアドバイザリ DSA-2026-480 に従い 6.4.1 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-116417 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116417.json) |
 | 11/13 17:38 | **CVE-2026-120867**<br>NetScaler ADC / NetScaler Gateway(14.1-73.57 未満、13.1-64.39 未満、FIPS/NDcPP 版の該当ビルド) | SSL/TLS/DTLS 処理のメモリオーバーフローにより、予期しない動作やサービス拒否が発生するおそれがあります。Citrix の CTX697305 に従い修正ビルドへ速やかに更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-120867 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120867.json) |
 | 11/13 17:38 | **CVE-2026-120866**<br>NetScaler ADC / NetScaler Gateway(14.1-73.57 未満、13.1-64.39 未満、FIPS/NDcPP 版の該当ビルド) | BGP 動的ルーティング処理の不備により、隣接ネットワーク上の攻撃者が予期しない動作やサービス拒否を引き起こすおそれがあります。Citrix の CTX697305 に従い修正ビルドへ速やかに更新してください。 | 7.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-120866 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120866.json) |
 | 11/13 17:38 | **CVE-2026-120865**<br>NetScaler ADC / NetScaler Gateway(14.1-73.57 未満、13.1-64.39 未満、FIPS/NDcPP 版の該当ビルド) | HTTP/3(QUIC)処理のメモリオーバーフローにより、予期しない動作やサービス拒否が発生するおそれがあります。Citrix の CTX697305 に従い修正ビルドへ速やかに更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-120865 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120865.json) |
