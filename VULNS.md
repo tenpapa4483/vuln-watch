@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/13 19:40(日本時間)
-- 登録: 756 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/13 21:38(日本時間)
+- 登録: 762 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/13 21:38 | **CVE-2026-86356**<br>Dell PowerStore 5.1.0.0-2798105 より前 | Dell PowerStore に認可回避の脆弱性があり、低権限ユーザーが管理者権限へ昇格できるおそれがあります。DSA-2026-479 に従い 5.1.0.0-2798105 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86356 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86356.json) |
+| 11/13 21:38 | **CVE-2026-13732**<br>GDB(Red Hat Enterprise Linux 10 ほかの gdb パッケージ) | GDB の STABS デバッグ情報パーサーにリスト操作の不具合があり、細工された ELF ファイルを開いてシンボル操作を行うと範囲外書き込みが起き、任意コード実行につながるおそれがあります。Red Hat の修正済み gdb パッケージへ更新し、信頼できないバイナリを GDB で開かないでください。 | 7.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-13732 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/13xxx/CVE-2026-13732.json) |
+| 11/13 21:38 | **CVE-2026-120221**<br>FRRouting 8.4 以降(修正コミット 6a96f51 より前) | bgp listen range のピアグループに Site-of-Origin を設定していると、動的 BGP ネイバーの切断で二重解放が起き、範囲内のホストから TCP 接続を2回開閉するだけで bgpd が停止し全 BGP セッションが落ちるおそれがあります。修正版へ更新するか、該当設定を見直してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-120221 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120221.json) |
+| 11/13 21:38 | **CVE-2026-118137**<br>Windows 10/11、Windows Server(Windows FTP Service、2026年11月更新より前) | Windows FTP Service の認可不備により、ローカルの認証済み攻撃者が権限を昇格できるおそれがあります。2026年11月のセキュリティ更新プログラムを適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-118137 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118137.json) |
+| 11/13 21:38 | **CVE-2026-109903**<br>X.Org X Server 21.1.26 より前、xwayland 24.1.15 より前 | XvQueryImageAttributes で負の値を CARD32 に変換する処理によりバッファの範囲外読み取りが起き、認証済みの X クライアントからサーバーをクラッシュさせられるおそれがあります。X Server 21.1.26 / xwayland 24.1.15 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-109903 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/109xxx/CVE-2026-109903.json) |
+| 11/13 21:38 | **CVE-2026-105544**<br>.NET 10.0(10.0.404 より前)、.NET 11.0 など(Windows/Linux/macOS) | Microsoft .NET のアクセス制御の不備により、ローカルの認証済み攻撃者が権限を昇格できるおそれがあります。11月の更新で提供された修正版の .NET ランタイム/SDK へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-105544 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/105xxx/CVE-2026-105544.json) |
 | 11/13 19:40 | **CVE-2026-75578**<br>Cudy TR3000 ファームウェア 2.5.42 より前 | OpenVPN 設定のホスト名の引用処理が不適切で、細工した設定ファイルのアップロードにより root でコマンドを実行されるおそれがあります。2.5.42 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-75578 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/75xxx/CVE-2026-75578.json) |
 | 11/13 19:40 | **CVE-2026-75577**<br>Cudy TR3000 ファームウェア 2.5.42 より前 | 保存した WireGuard 秘密鍵にシェル置換を含めることで、管理者権限から root でコマンドを実行できるおそれがあります。2.5.42 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-75577 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/75xxx/CVE-2026-75577.json) |
 | 11/13 19:40 | **CVE-2026-75576**<br>Cudy TR3000 ファームウェア 2.5.42 より前 | ファイルアップロード処理のファイル名が検証されず、管理者権限から root でコマンドを実行できるおそれがあります。2.5.42 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-75576 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/75xxx/CVE-2026-75576.json) |
