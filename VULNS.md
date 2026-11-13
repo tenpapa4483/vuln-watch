@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/13 11:38(日本時間)
-- 登録: 529 件 / 悪用確認あり: 35 件
+- 最終チェック: 11/13 12:38(日本時間)
+- 登録: 533 件 / 悪用確認あり: 35 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/13 12:38 | **CVE-2026-111342**<br>Citrix NetScaler ADC / Gateway 14.1-73.57 未満、13.1-64.39 未満(LDAP 認証、FIPS/NDcPP 版含む) | LDAP 認証処理のメモリオーバーフローにより、誤動作やサービス停止を引き起こされるおそれがあります。Citrix のアドバイザリ CTX697305 に従い修正版(14.1-73.57 / 13.1-64.39 以降など)へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-111342 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111342.json) |
+| 11/13 12:38 | **CVE-2026-111341**<br>Citrix NetScaler ADC / Gateway 14.1-73.57 未満、13.1-64.39 未満(クライアント証明書認証、FIPS/NDcPP 版含む) | クライアント証明書認証処理のメモリオーバーフローにより、誤動作やサービス停止を引き起こされるおそれがあります。Citrix のアドバイザリ CTX697305 に従い修正版(14.1-73.57 / 13.1-64.39 以降など)へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-111341 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111341.json) |
+| 11/13 12:38 | **CVE-2026-111340**<br>Citrix NetScaler ADC / Gateway 14.1-73.57 未満、13.1-64.39 未満(KBA(知識ベース認証)、FIPS/NDcPP 版含む) | KBA(知識ベース認証)処理のメモリオーバーフローにより、誤動作やサービス停止を引き起こされるおそれがあります。Citrix のアドバイザリ CTX697305 に従い修正版(14.1-73.57 / 13.1-64.39 以降など)へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-111340 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111340.json) |
+| 11/13 12:38 | **CVE-2026-107415**<br>Citrix NetScaler ADC / Gateway 14.1-73.57 未満、13.1-64.39 未満(Email OTP 認証、FIPS/NDcPP 版含む) | Email OTP 認証処理のメモリオーバーフローにより、誤動作やサービス停止を引き起こされるおそれがあります(認証不要・ネットワーク経由)。Citrix のアドバイザリ CTX697305 に従い修正版(14.1-73.57 / 13.1-64.39 以降など)へ更新してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-107415 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/107xxx/CVE-2026-107415.json) |
 | 11/13 11:38 | **CVE-2026-127286**<br>Zackriya-Solutions Meetily 0.4.0〜0.4.1(旧バックエンド backend/app/main.py) | 旧クライアント・サーバ構成のバックエンドに認証がなく、リモートから API を無断で操作されるおそれがあります。旧バックエンドは非推奨のため停止し、外部からアクセスできないようにしてください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-127286 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127286.json) |
 | 11/13 11:38 | **CVE-2026-127284**<br>SourceCodester Food Ordering System 1.0(admin/add_category.php) | カテゴリ追加処理の複数パラメータに SQL インジェクションがあり、データベースの改ざんや情報漏えいのおそれがあります。攻撃手法が公開済みのため、利用を停止するか管理画面へのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-127284 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127284.json) |
 | 11/13 11:38 | **CVE-2026-127283**<br>SourceCodester Food Ordering System 1.0(admin/update_food.php) | 管理画面の画像更新処理で任意ファイルをアップロードでき、リモートからコード実行につながるおそれがあります。攻撃手法が公開済みのため、利用を停止するか管理画面へのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-127283 CVE Record (CVE List V5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127283.json) |
