@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/14 23:38(日本時間)
-- 登録: 1037 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 00:38(日本時間)
+- 登録: 1042 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 00:38 | **CVE-2026-62031**<br>WordPress プラグイン uListing 2.2.0 以前 | ブラインドSQLインジェクションによりデータベースの情報を窃取されるおそれがあります。修正版へ更新するか、プラグインの無効化を検討してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-62031 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/62xxx/CVE-2026-62031.json) |
+| 11/15 00:38 | **CVE-2026-59514**<br>WordPress プラグイン BuddyBoss Platform 3.0.5 以前 | ブラインドSQLインジェクションによりデータベースの情報を窃取されるおそれがあります。3.0.5 より新しい修正版へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-59514 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59514.json) |
+| 11/15 00:38 | **CVE-2026-39732**<br>WordPress プラグイン Transliterator(serbian-transliteration)2.5.13 以前 | ブラインドSQLインジェクションによりデータベースの情報を窃取されるおそれがあります。修正版へ更新するか、更新できない場合はプラグインを無効化してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-39732 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/39xxx/CVE-2026-39732.json) |
+| 11/15 00:38 | **CVE-2026-120687**<br>WordPress プラグイン FooBox(Lightbox & Modal Popup)2.8.7 以前 | 画像の alt 属性を介した格納型DOM XSSにより、ページ閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります(bbPress 併用時は購読者権限でも可能)。2.8.7 より新しい版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-120687 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120687.json) |
+| 11/15 00:38 | **CVE-2026-116753**<br>WordPress プラグイン Multi Step for Contact Form 7 2.9.1 以前 | 未認証の攻撃者がフォームのフィールド名経由でスクリプトを埋め込み、閲覧者のブラウザで実行させられる格納型XSSです(特定の保存オプション有効時)。2.9.1 より新しい版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-116753 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116753.json) |
 | 11/14 23:38 | **CVE-2026-121731**<br>RosarioSIS 12.9 未満 | StudentSummary.php の period_id パラメータでSQLインジェクションがあり、保護者など生徒以外の認証済みユーザーが管理者のパスワードハッシュなどを抜き出せるおそれがあります。12.9 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-121731 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121731.json) |
 | 11/14 22:38 | **CVE-2026-116219**<br>Dolibarr ERP CRM 24.0.0 未満 | データベースエクスポート機能の許可リストを回避するOSコマンドインジェクションがあり、管理者権限を持つ攻撃者がWebサーバー権限で任意のコマンドを実行できるおそれがあります。24.0.0 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-116219 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116219.json) |
 | 11/14 22:38 | **CVE-2026-116218**<br>Dolibarr ERP CRM 19.0.0 以上 23.0.4 未満 | サードパーティ銀行口座のREST APIでSQLインジェクションがあり、権限の低い認証済みAPIユーザーがパスワードハッシュやAPIキーを読み取れるおそれがあります。23.0.4 以降へ更新してください。 | 7.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-116218 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116218.json) |
