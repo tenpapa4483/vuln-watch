@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 00:38(日本時間)
-- 登録: 1042 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 01:38(日本時間)
+- 登録: 1044 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 01:38 | **CVE-2026-129262**<br>Wuxi Wubang 五位一体安全生産管理情報システム 3.5 以前 | /ws.asmx の DiyFileUpload で任意ファイルのアップロードが可能で、遠隔から不正なファイルを設置されるおそれがあります(攻撃手法は公開済み、ベンダー未対応)。外部公開を避け、該当機能へのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-129262 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129262.json) |
+| 11/15 01:38 | **CVE-2026-129261**<br>Kingston FURY CTRL RGB Control Software 2.0.66.0 以前 | 同梱ドライバ NTIOLib_X64.sys の IOCTL にアクセス制御の不備があり、ローカルの攻撃者に権限昇格などへ悪用されるおそれがあります。不要ならソフトウェアを削除し、ベンダーの修正版が出たら更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-129261 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129261.json) |
 | 11/15 00:38 | **CVE-2026-62031**<br>WordPress プラグイン uListing 2.2.0 以前 | ブラインドSQLインジェクションによりデータベースの情報を窃取されるおそれがあります。修正版へ更新するか、プラグインの無効化を検討してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-62031 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/62xxx/CVE-2026-62031.json) |
 | 11/15 00:38 | **CVE-2026-59514**<br>WordPress プラグイン BuddyBoss Platform 3.0.5 以前 | ブラインドSQLインジェクションによりデータベースの情報を窃取されるおそれがあります。3.0.5 より新しい修正版へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-59514 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59514.json) |
 | 11/15 00:38 | **CVE-2026-39732**<br>WordPress プラグイン Transliterator(serbian-transliteration)2.5.13 以前 | ブラインドSQLインジェクションによりデータベースの情報を窃取されるおそれがあります。修正版へ更新するか、更新できない場合はプラグインを無効化してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-39732 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/39xxx/CVE-2026-39732.json) |
