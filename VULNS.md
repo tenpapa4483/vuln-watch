@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/14 16:37(日本時間)
-- 登録: 1031 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/14 17:38(日本時間)
+- 登録: 1032 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/14 17:38 | **CVE-2026-84761**<br>LiteSpeed Cache(WordPressプラグイン)7.9 以下 | 認証なしでサーバー側リクエストフォージェリ(SSRF)を起こされ、サーバーから内部ネットワーク等へ任意のリクエストを送られるおそれがあります。7.9.1 以降へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-84761 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/84xxx/CVE-2026-84761.json) |
 | 11/14 14:38 | **CVE-2026-76981**<br>ManageEngine ADAudit Plus 8711 より前 | カスタムレポート機能に認証済みユーザーが悪用できる二次SQLインジェクションがあります。8711 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-76981 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/76xxx/CVE-2026-76981.json) |
 | 11/14 14:38 | **CVE-2026-61418**<br>Dell SmartFabric OS10 10.6.0.10 より前 | 認可の不備により、低権限のリモート攻撃者がコマンドを実行できるおそれがあります。10.6.0.10 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-61418 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/61xxx/CVE-2026-61418.json) |
 | 11/14 14:38 | **CVE-2026-56916**<br>Android カーネル(Trusty vqueue) | Trusty の vqueue 処理に競合状態(二重読み取り)があり、ローカルでの権限昇格につながるおそれがあります。2026年11月のセキュリティアップデートを適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-56916 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/56xxx/CVE-2026-56916.json) |
