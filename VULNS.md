@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/14 21:38(日本時間)
-- 登録: 1034 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/14 22:38(日本時間)
+- 登録: 1036 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/14 22:38 | **CVE-2026-116219**<br>Dolibarr ERP CRM 24.0.0 未満 | データベースエクスポート機能の許可リストを回避するOSコマンドインジェクションがあり、管理者権限を持つ攻撃者がWebサーバー権限で任意のコマンドを実行できるおそれがあります。24.0.0 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-116219 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116219.json) |
+| 11/14 22:38 | **CVE-2026-116218**<br>Dolibarr ERP CRM 19.0.0 以上 23.0.4 未満 | サードパーティ銀行口座のREST APIでSQLインジェクションがあり、権限の低い認証済みAPIユーザーがパスワードハッシュやAPIキーを読み取れるおそれがあります。23.0.4 以降へ更新してください。 | 7.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-116218 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116218.json) |
 | 11/14 20:38 | **CVE-2026-129427**<br>CervantesSec Cervantes alpha 0.3〜1.3-beta | アバター画像のアップロードを使った格納型 XSS と添付ファイル機能の認証回避を組み合わせ、他のユーザー(管理者を含む)のアカウントを乗っ取られるおそれがあります。修正版(1.4.0-beta 以降)へ更新してください。 | 8.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-129427 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129427.json) |
 | 11/14 20:38 | **CVE-2026-129250**<br>Edimax BR6478ACV2 ファームウェア 1.23 | ルーターの PPTP 設定処理でユーザー名の長さが検査されず、遠隔からバッファオーバーフローを起こされて機器を乗っ取られるおそれがあります。攻撃手法が公開されているため、管理画面を外部に公開しない・機器の更新や置き換えを検討してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129250 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129250.json) |
 | 11/14 17:38 | **CVE-2026-84761**<br>LiteSpeed Cache(WordPressプラグイン)7.9 以下 | 認証なしでサーバー側リクエストフォージェリ(SSRF)を起こされ、サーバーから内部ネットワーク等へ任意のリクエストを送られるおそれがあります。7.9.1 以降へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-84761 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/84xxx/CVE-2026-84761.json) |
