@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 03:37(日本時間)
-- 登録: 1046 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 04:37(日本時間)
+- 登録: 1047 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 04:37 | **CVE-2026-129456**<br>FRRouting bgpd 10.4.0〜10.4.3、10.5.0〜10.5.3 | BGPピアが長さ不整合のTunnel Encapsulation属性を送ると解放済みメモリの参照や二重解放が起き、bgpdが異常終了してセッションが切断されるおそれがあります。10.4.4/10.5.4以降へ更新し、BGPピアを信頼できる相手に限定してください。 | 7.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-129456 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129456.json) |
 | 11/15 03:37 | **CVE-2026-54831**<br>WordPress プラグイン GeoDirectory 2.8.162 以前 | ブラインド SQL インジェクションにより、データベース内の情報が不正に取得されるおそれがあります。2.8.163 以降へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-54831 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/54xxx/CVE-2026-54831.json) |
 | 11/15 03:37 | **CVE-2026-112359**<br>WordPress プラグイン WPMobile.App(wpappninja)11.86 以前 | アクセス制御の認可チェックが欠けており、権限のない攻撃者が本来許可されない機能を操作できるおそれがあります。11.87 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-112359 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/112xxx/CVE-2026-112359.json) |
 | 11/15 01:38 | **CVE-2026-129262**<br>Wuxi Wubang 五位一体安全生産管理情報システム 3.5 以前 | /ws.asmx の DiyFileUpload で任意ファイルのアップロードが可能で、遠隔から不正なファイルを設置されるおそれがあります(攻撃手法は公開済み、ベンダー未対応)。外部公開を避け、該当機能へのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-129262 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129262.json) |
