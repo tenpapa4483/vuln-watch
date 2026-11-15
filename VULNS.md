@@ -2,12 +2,20 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 23:38(日本時間)
-- 登録: 1085 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/16 00:37(日本時間)
+- 登録: 1093 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/16 00:37 | **CVE-2026-128893**<br>Wise Chat(WordPress プラグイン)3.4.5 以前 | 反射型XSSにより、細工したリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-128893 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128893.json) |
+| 11/16 00:37 | **CVE-2026-125799**<br>Flow-Flow Social Stream(WordPress プラグイン)5.0.5 以前 | 外部からアクセス可能な場所に機密情報が置かれ、第三者に取得されるおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-125799 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125799.json) |
+| 11/16 00:37 | **CVE-2026-125795**<br>Estatik(WordPress プラグイン)4.3.6 以前 | ファイルのインクルード処理の不備により、認証なしの攻撃者がサーバー上のPHPファイルを読み込ませて任意のコードを実行できるおそれがあります。修正版への更新、または更新までプラグインの無効化を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-125795 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125795.json) |
+| 11/16 00:37 | **CVE-2026-125793**<br>Flexmls IDX(WordPress プラグイン)4.1.2 以前 | 反射型XSSにより、細工したリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125793 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125793.json) |
+| 11/16 00:37 | **CVE-2026-125771**<br>MCP Server for WordPress(AtlasAiDev)2.0.3 以前 | 権限の割り当てに不備があり、権限昇格につながるおそれがあります。修正版へ更新し、不要であればプラグインを無効化してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-125771 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125771.json) |
+| 11/16 00:37 | **CVE-2026-125765**<br>ShortPixel Adaptive Images(WordPress プラグイン)3.11.6 以前 | 保存型XSSにより、ページを閲覧した利用者のブラウザで任意のスクリプトが実行されるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125765 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125765.json) |
+| 11/16 00:37 | **CVE-2026-125733**<br>ShopLentor(WordPress プラグイン)3.5.7 以前 | 反射型XSSにより、細工したリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125733 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125733.json) |
+| 11/16 00:37 | **CVE-2026-125447**<br>Kali Forms(WordPress プラグイン)2.4.31 以前 | 反射型クロスサイトスクリプティング(XSS)により、細工したリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125447 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125447.json) |
 | 11/15 23:38 | **CVE-2026-129483**<br>Cyrus SASL 2.1.28 以前(SRP 機構) | SRP サーバー機構の検証不備により、認証なしで任意の利用者として認証を突破されるおそれがあります。修正版の適用か、SRP 機構の無効化を検討してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129483 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129483.json) |
 | 11/15 23:38 | **CVE-2026-129453**<br>DrayTek Vigor2960 ファームウェア 1.5.1.6 | mainfunction.cgi のファイル存在確認処理のヒープバッファオーバーフローにより、遠隔から任意コード実行やサービス妨害を受けるおそれがあります。サポート状況を確認し、機器の更新・置き換えや管理画面の外部公開停止を検討してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129453 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129453.json) |
 | 11/15 23:38 | **CVE-2026-125832**<br>WordPress プラグイン WP Data Access 5.5.92 以前 | SQL インジェクションにより、データベースの情報を窃取・改ざんされるおそれがあります。修正版へ更新してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-125832 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125832.json) |
