@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/16 06:38(日本時間)
-- 登録: 1105 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/16 07:37(日本時間)
+- 登録: 1107 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/16 07:37 | **CVE-2026-71531**<br>PrestaShop 8.2.9 未満、9.x は 9.2.1 未満 | Webサービス API で id_shop / id_shop_group パラメータによるショップ範囲の拡張が検証されず、特定ショップ限定の API キーで全ショップのデータを操作されるおそれがあります。8.2.9 または 9.2.1 以降に更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-71531 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/71xxx/CVE-2026-71531.json) |
+| 11/16 07:37 | **CVE-2026-71519**<br>PrestaShop 8.2.9 未満、9.x は 9.2.1 未満 | Webサービス API の顧客エンドポイントでショップ単位の所有権確認が欠けており、API キーを持つ攻撃者がマルチショップ構成の他ショップの顧客情報を閲覧・改ざんできるおそれがあります。8.2.9 または 9.2.1 以降に更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-71519 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/71xxx/CVE-2026-71519.json) |
 | 11/16 04:37 | **CVE-2026-129091**<br>GrandPrix Core(Mikado-Themes、WordPress)1.0 以前 | ローカルファイルインクルードにより、認証なしで任意のファイル読み込みやコード実行につながるおそれがあります。修正版の提供状況を確認し、未提供なら無効化を検討してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129091 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129091.json) |
 | 11/16 04:37 | **CVE-2026-125830**<br>belingoGeo(WordPress プラグイン)1.13.3 以前 | 反射型クロスサイトスクリプティングにより、細工されたリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。1.13.4 以降に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125830 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125830.json) |
 | 11/16 04:37 | **CVE-2026-125823**<br>Gutenverse(WordPress プラグイン)4.2.2 以前 | リソース消費の制限がなく、認証なしの HTTP リクエストでサービス拒否状態にされるおそれがあります。4.2.3 以降に更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-125823 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125823.json) |
