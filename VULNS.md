@@ -2,12 +2,22 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/16 03:37(日本時間)
-- 登録: 1095 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/16 04:37(日本時間)
+- 登録: 1105 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/16 04:37 | **CVE-2026-129091**<br>GrandPrix Core(Mikado-Themes、WordPress)1.0 以前 | ローカルファイルインクルードにより、認証なしで任意のファイル読み込みやコード実行につながるおそれがあります。修正版の提供状況を確認し、未提供なら無効化を検討してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129091 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129091.json) |
+| 11/16 04:37 | **CVE-2026-125830**<br>belingoGeo(WordPress プラグイン)1.13.3 以前 | 反射型クロスサイトスクリプティングにより、細工されたリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。1.13.4 以降に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125830 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125830.json) |
+| 11/16 04:37 | **CVE-2026-125823**<br>Gutenverse(WordPress プラグイン)4.2.2 以前 | リソース消費の制限がなく、認証なしの HTTP リクエストでサービス拒否状態にされるおそれがあります。4.2.3 以降に更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-125823 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125823.json) |
+| 11/16 04:37 | **CVE-2026-125822**<br>WordPress File Upload(WordPress プラグイン)5.2.3 以前 | 格納型クロスサイトスクリプティングにより、閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。5.2.4 以降に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125822 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125822.json) |
+| 11/16 04:37 | **CVE-2026-125818**<br>wpDiscuz(WordPress プラグイン)7.6.75 以前 | コメント機能の格納型クロスサイトスクリプティングにより、閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。7.7.0 以降に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125818 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125818.json) |
+| 11/16 04:37 | **CVE-2026-125817**<br>Feedzy(WordPress プラグイン)5.2.15 以前 | 格納型クロスサイトスクリプティングにより、ページ閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。5.2.16 以降に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125817 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125817.json) |
+| 11/16 04:37 | **CVE-2026-125804**<br>AI Engine(WordPress プラグイン)3.9.3 以前 | 格納型クロスサイトスクリプティングにより、ページ閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。3.9.4 以降に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125804 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125804.json) |
+| 11/16 04:37 | **CVE-2026-125798**<br>Smart Online Order for Clover(WordPress プラグイン)1.6.6 以前 | DOM ベースのクロスサイトスクリプティングにより、利用者のブラウザで任意のスクリプトが実行されるおそれがあります。1.6.7 以降に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125798 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125798.json) |
+| 11/16 04:37 | **CVE-2026-125760**<br>Bit Assist(WordPress プラグイン)1.8.4 以前 | DOM ベースのクロスサイトスクリプティングにより、細工されたリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。1.8.5 以降に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-125760 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125760.json) |
+| 11/16 04:37 | **CVE-2026-123962**<br>FreedomBox(Debian)26.15 未満 | 一般ユーザーが authorized_keys をシンボリックリンクにすることで、権限のないファイルを読み書きできるおそれがあります。FreedomBox 26.15 以降に更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-123962 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/123xxx/CVE-2026-123962.json) |
 | 11/16 03:37 | **CVE-2026-73186**<br>Enable Media Replace(WordPress プラグイン)4.2.2 以前 | 信頼できないデータのデシリアライズにより、ログイン済みの低権限ユーザーがPHPオブジェクトインジェクションを起こせるおそれがあります。4.2.3 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-73186 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/73xxx/CVE-2026-73186.json) |
 | 11/16 03:37 | **CVE-2026-57739**<br>AcyMailing SMTP Newsletter(WordPress プラグイン)10.11.0 以前 | 認証なしのブラインドSQLインジェクションにより、データベース内の情報が盗まれるおそれがあります。10.11.1 以降へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-57739 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/57xxx/CVE-2026-57739.json) |
 | 11/16 00:37 | **CVE-2026-128893**<br>Wise Chat(WordPress プラグイン)3.4.5 以前 | 反射型XSSにより、細工したリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-128893 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128893.json) |
