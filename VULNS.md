@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 21:38(日本時間)
-- 登録: 1064 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 22:37(日本時間)
+- 登録: 1066 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 22:37 | **CVE-2026-124561**<br>D-Link DIR-878 ファームウェア 1.20B05(サポート終了製品) | HNAP ハンドラ(prog.cgi)の SetVLANSettings で VID 引数によるスタックバッファオーバーフローがあり、リモートから機器を停止させられるおそれがあります。PoCが公開済みでサポート終了製品のため、機器の置き換えや管理画面の外部公開停止を検討してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-124561 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124561.json) |
+| 11/15 22:37 | **CVE-2026-124560**<br>D-Link DIR-878 ファームウェア 1.20B05(サポート終了製品) | HNAP ハンドラ(prog.cgi)の GetCAPTCHAsetting で uid 引数によるヒープバッファオーバーフローがあり、認証なしでリモートから任意コード実行されるおそれがあります。PoCが公開済みでサポート終了製品のため修正版は提供されず、機器の置き換えを検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-124560 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124560.json) |
 | 11/15 21:38 | **CVE-2026-129452**<br>DrayTek Vigor2960 ファームウェア 1.5.1.6 | mainfunction.cgi の set_table 機能で jsondata パラメータにコマンドインジェクションがあり、リモートから OS コマンドを実行されるおそれがあります。PoCが公開済みのため 1.5.1.7 以降へ更新し、管理画面へのアクセスを制限してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129452 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129452.json) |
 | 11/15 21:38 | **CVE-2026-129451**<br>DrayTek Vigor2960 ファームウェア 1.5.1.0〜1.5.1.6 | mainfunction.cgi の app_guest_export 機能で filename パラメータにパストラバーサルがあり、リモートから任意のファイルを読み書きされるおそれがあります。PoCが公開済みのため 1.5.1.7 以降へ更新してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129451 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129451.json) |
 | 11/15 21:38 | **CVE-2026-129450**<br>DrayTek Vigor2960 ファームウェア 1.5.1.6 | 管理画面の mainfunction.cgi(doWebBackup)の option パラメータにパストラバーサルがあり、リモートから想定外のファイルにアクセスされるおそれがあります。PoCが公開済みのため 1.5.1.7 以降へ更新し、管理画面をインターネットに公開しないでください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129450 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129450.json) |
