@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 17:38(日本時間)
-- 登録: 1056 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 18:37(日本時間)
+- 登録: 1057 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 18:37 | **CVE-2026-129349**<br>Apache Shiro 3.0.0 以前(DefaultLdapRealm/JndiLdapRealm で認証キャッシュ有効時) | LDAP レルムで認証キャッシュを有効にしている場合、一度ログインしたユーザー名に対して任意のパスワードで認証が通ってしまい、なりすましのおそれがあります。3.0.1 以降へ更新するか、認証キャッシュを無効化するか資格情報を検証するマッチャーを設定してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129349 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129349.json) |
 | 11/15 17:38 | **CVE-2026-129444**<br>D-Link DSL-6740C ファームウェア 20131126 | FTP デーモンの設定にハードコードされた認証情報があり、リモートの第三者に機器を乗っ取られるおそれがあります(攻撃手法は公開済み)。ベンダーの対応状況を確認し、修正がなければ FTP の無効化や外部からのアクセス遮断、機器の更新を検討してください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129444 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129444.json) |
 | 11/15 12:38 | **CVE-2026-129360**<br>Linux Foundation Magma 1.9.0 以前(orc8r Obsidian REST) | Obsidian REST API が X-Magma-Client-Cert-Serial ヘッダーの値を信用するため、ヘッダーを偽装したリモートの攻撃者が認証を回避して管理操作を行えるおそれがあります。ベンダーの修正は確認できないため、前段のプロキシでこのヘッダーを除去・上書きし、API への到達経路を信頼できるネットワークに限定してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-129360 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129360.json) |
 | 11/15 12:38 | **CVE-2026-129359**<br>Linux Foundation Magma 1.9.0 以前(orc8r) | Orchestrator(orc8r)のサービス間通信の仕組みにハードコードされた認証情報が含まれており、リモートの攻撃者に悪用されるおそれがあります。攻撃コードが公開済みで、ベンダーの修正は確認できないため、orc8r を外部ネットワークから隔離し、アクセス元を厳しく制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-129359 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129359.json) |
