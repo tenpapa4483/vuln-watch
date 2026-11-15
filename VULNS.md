@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 18:37(日本時間)
-- 登録: 1057 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 19:37(日本時間)
+- 登録: 1060 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 19:37 | **CVE-2026-82663**<br>WordPress用 Give - Peer-to-Peer プラグイン 2.9.5 以前 | 権限確認の欠如により、認証なしでチーム情報の改ざんやメディアファイルのアップロードが可能です。CVE-2026-82568 との組み合わせでリモートコード実行に悪用されうるため、2.9.5 より新しい版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-82663 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82663.json) |
+| 11/15 19:37 | **CVE-2026-82568**<br>WordPress用 Give - Peer-to-Peer プラグイン 2.9.3 以前 | sort パラメータの処理に認証不要のSQLインジェクションがあり、データベースから機密情報を抜き取られるおそれがあります。CVE-2026-82663 と組み合わせるとリモートコード実行に至るため、修正版へ速やかに更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-82568 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82568.json) |
+| 11/15 19:37 | **CVE-2026-129445**<br>D-Link DIR-850L FW1.20WWb03 | コンソールログイン機能(/usr/sbin/consolepwd)にハードコードされた認証情報があり、端末へのローカルアクセスを持つ攻撃者に機器を完全に掌握されるおそれがあります。PoCが公開済みのため、サポート状況を確認のうえ後継機への置き換えや物理・コンソールアクセスの制限を検討してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-129445 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129445.json) |
 | 11/15 18:37 | **CVE-2026-129349**<br>Apache Shiro 3.0.0 以前(DefaultLdapRealm/JndiLdapRealm で認証キャッシュ有効時) | LDAP レルムで認証キャッシュを有効にしている場合、一度ログインしたユーザー名に対して任意のパスワードで認証が通ってしまい、なりすましのおそれがあります。3.0.1 以降へ更新するか、認証キャッシュを無効化するか資格情報を検証するマッチャーを設定してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129349 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129349.json) |
 | 11/15 17:38 | **CVE-2026-129444**<br>D-Link DSL-6740C ファームウェア 20131126 | FTP デーモンの設定にハードコードされた認証情報があり、リモートの第三者に機器を乗っ取られるおそれがあります(攻撃手法は公開済み)。ベンダーの対応状況を確認し、修正がなければ FTP の無効化や外部からのアクセス遮断、機器の更新を検討してください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129444 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129444.json) |
 | 11/15 12:38 | **CVE-2026-129360**<br>Linux Foundation Magma 1.9.0 以前(orc8r Obsidian REST) | Obsidian REST API が X-Magma-Client-Cert-Serial ヘッダーの値を信用するため、ヘッダーを偽装したリモートの攻撃者が認証を回避して管理操作を行えるおそれがあります。ベンダーの修正は確認できないため、前段のプロキシでこのヘッダーを除去・上書きし、API への到達経路を信頼できるネットワークに限定してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-129360 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129360.json) |
