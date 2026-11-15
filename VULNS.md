@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 11:37(日本時間)
-- 登録: 1053 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 12:38(日本時間)
+- 登録: 1055 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 12:38 | **CVE-2026-129360**<br>Linux Foundation Magma 1.9.0 以前(orc8r Obsidian REST) | Obsidian REST API が X-Magma-Client-Cert-Serial ヘッダーの値を信用するため、ヘッダーを偽装したリモートの攻撃者が認証を回避して管理操作を行えるおそれがあります。ベンダーの修正は確認できないため、前段のプロキシでこのヘッダーを除去・上書きし、API への到達経路を信頼できるネットワークに限定してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-129360 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129360.json) |
+| 11/15 12:38 | **CVE-2026-129359**<br>Linux Foundation Magma 1.9.0 以前(orc8r) | Orchestrator(orc8r)のサービス間通信の仕組みにハードコードされた認証情報が含まれており、リモートの攻撃者に悪用されるおそれがあります。攻撃コードが公開済みで、ベンダーの修正は確認できないため、orc8r を外部ネットワークから隔離し、アクセス元を厳しく制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-129359 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129359.json) |
 | 11/15 11:37 | **CVE-2026-129465**<br>Zr.Admin.NET コミット af07ffc〜eb9228a | プロフィール更新処理で対象ユーザーIDを検証しておらず、ログイン済みの一般ユーザーが他人(管理者を含む)の電話番号などを書き換えられ、SMSログイン経由で管理者アカウントを乗っ取られるおそれがあります。修正版の適用までアカウント登録やSMSログインの利用を制限してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-129465 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129465.json) |
 | 11/15 11:37 | **CVE-2026-129464**<br>Zr.Admin.NET コミット 0ee1ab8〜eb9228a | ファイルダウンロード機能(/common/DownloadFile)のパストラバーサルにより、ログイン済みの一般ユーザーがサーバー上の任意のファイルを読めます。設定ファイルの JWT 秘密鍵を盗まれると管理者トークンを偽造されるおそれがあるため、修正版の適用か当該エンドポイントの制限を行い、秘密鍵を入れ替えてください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-129464 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129464.json) |
 | 11/15 11:37 | **CVE-2026-129454**<br>Zr.Admin.NET コミット 85cff6a〜eb9228a | ワークフローインスタンス取得API(/workflow/instance/{id})に権限確認がなく、ログイン済みユーザーが連番IDを辿って他人の申請内容や承認記録を閲覧できます。修正版の適用か、当該APIへのアクセス制限を行ってください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-129454 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129454.json) |
