@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 20:38(日本時間)
-- 登録: 1061 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 21:38(日本時間)
+- 登録: 1064 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 21:38 | **CVE-2026-129452**<br>DrayTek Vigor2960 ファームウェア 1.5.1.6 | mainfunction.cgi の set_table 機能で jsondata パラメータにコマンドインジェクションがあり、リモートから OS コマンドを実行されるおそれがあります。PoCが公開済みのため 1.5.1.7 以降へ更新し、管理画面へのアクセスを制限してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129452 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129452.json) |
+| 11/15 21:38 | **CVE-2026-129451**<br>DrayTek Vigor2960 ファームウェア 1.5.1.0〜1.5.1.6 | mainfunction.cgi の app_guest_export 機能で filename パラメータにパストラバーサルがあり、リモートから任意のファイルを読み書きされるおそれがあります。PoCが公開済みのため 1.5.1.7 以降へ更新してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129451 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129451.json) |
+| 11/15 21:38 | **CVE-2026-129450**<br>DrayTek Vigor2960 ファームウェア 1.5.1.6 | 管理画面の mainfunction.cgi(doWebBackup)の option パラメータにパストラバーサルがあり、リモートから想定外のファイルにアクセスされるおそれがあります。PoCが公開済みのため 1.5.1.7 以降へ更新し、管理画面をインターネットに公開しないでください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129450 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129450.json) |
 | 11/15 20:38 | **CVE-2026-129449**<br>DrayTek Vigor2960 ファームウェア 1.5.1.0〜1.5.1.6 | 管理画面の mainfunction.cgi が swmconfigupload パラメータを適切に処理せず、ログイン済みの攻撃者がリモートから任意の OS コマンドを実行できるおそれがあります。1.5.1.7 以降へ更新し、管理画面をインターネットに公開しないでください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129449 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129449.json) |
 | 11/15 19:37 | **CVE-2026-82663**<br>WordPress用 Give - Peer-to-Peer プラグイン 2.9.5 以前 | 権限確認の欠如により、認証なしでチーム情報の改ざんやメディアファイルのアップロードが可能です。CVE-2026-82568 との組み合わせでリモートコード実行に悪用されうるため、2.9.5 より新しい版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-82663 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82663.json) |
 | 11/15 19:37 | **CVE-2026-82568**<br>WordPress用 Give - Peer-to-Peer プラグイン 2.9.3 以前 | sort パラメータの処理に認証不要のSQLインジェクションがあり、データベースから機密情報を抜き取られるおそれがあります。CVE-2026-82663 と組み合わせるとリモートコード実行に至るため、修正版へ速やかに更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-82568 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82568.json) |
