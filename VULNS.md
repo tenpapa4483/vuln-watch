@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/16 02:38(日本時間)
-- 登録: 1093 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/16 03:37(日本時間)
+- 登録: 1095 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/16 03:37 | **CVE-2026-73186**<br>Enable Media Replace(WordPress プラグイン)4.2.2 以前 | 信頼できないデータのデシリアライズにより、ログイン済みの低権限ユーザーがPHPオブジェクトインジェクションを起こせるおそれがあります。4.2.3 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-73186 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/73xxx/CVE-2026-73186.json) |
+| 11/16 03:37 | **CVE-2026-57739**<br>AcyMailing SMTP Newsletter(WordPress プラグイン)10.11.0 以前 | 認証なしのブラインドSQLインジェクションにより、データベース内の情報が盗まれるおそれがあります。10.11.1 以降へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-57739 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/57xxx/CVE-2026-57739.json) |
 | 11/16 00:37 | **CVE-2026-128893**<br>Wise Chat(WordPress プラグイン)3.4.5 以前 | 反射型XSSにより、細工したリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-128893 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128893.json) |
 | 11/16 00:37 | **CVE-2026-125799**<br>Flow-Flow Social Stream(WordPress プラグイン)5.0.5 以前 | 外部からアクセス可能な場所に機密情報が置かれ、第三者に取得されるおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-125799 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125799.json) |
 | 11/16 00:37 | **CVE-2026-125795**<br>Estatik(WordPress プラグイン)4.3.6 以前 | ファイルのインクルード処理の不備により、認証なしの攻撃者がサーバー上のPHPファイルを読み込ませて任意のコードを実行できるおそれがあります。修正版への更新、または更新までプラグインの無効化を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-125795 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125795.json) |
