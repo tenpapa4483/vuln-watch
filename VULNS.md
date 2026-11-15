@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/15 10:37(日本時間)
-- 登録: 1050 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/15 11:37(日本時間)
+- 登録: 1053 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/15 11:37 | **CVE-2026-129465**<br>Zr.Admin.NET コミット af07ffc〜eb9228a | プロフィール更新処理で対象ユーザーIDを検証しておらず、ログイン済みの一般ユーザーが他人(管理者を含む)の電話番号などを書き換えられ、SMSログイン経由で管理者アカウントを乗っ取られるおそれがあります。修正版の適用までアカウント登録やSMSログインの利用を制限してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-129465 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129465.json) |
+| 11/15 11:37 | **CVE-2026-129464**<br>Zr.Admin.NET コミット 0ee1ab8〜eb9228a | ファイルダウンロード機能(/common/DownloadFile)のパストラバーサルにより、ログイン済みの一般ユーザーがサーバー上の任意のファイルを読めます。設定ファイルの JWT 秘密鍵を盗まれると管理者トークンを偽造されるおそれがあるため、修正版の適用か当該エンドポイントの制限を行い、秘密鍵を入れ替えてください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-129464 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129464.json) |
+| 11/15 11:37 | **CVE-2026-129454**<br>Zr.Admin.NET コミット 85cff6a〜eb9228a | ワークフローインスタンス取得API(/workflow/instance/{id})に権限確認がなく、ログイン済みユーザーが連番IDを辿って他人の申請内容や承認記録を閲覧できます。修正版の適用か、当該APIへのアクセス制限を行ってください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-129454 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129454.json) |
 | 11/15 08:38 | **CVE-2026-129353**<br>D-Link DIR-600L ファームウェア 2.17 / 2.17b02 | ルーターの認証処理(authentication.cgi)で ID/パスワードの処理にスタックバッファオーバーフローがあり、認証なしでリモートから任意コード実行されるおそれがあります。実証コードが公開済みのため、管理画面を外部に公開しないようにし、修正が提供されない場合は機器の置き換えを検討してください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129353 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129353.json) |
 | 11/15 08:38 | **CVE-2026-129352**<br>TRENDnet TEW-657BRM ファームウェア 1.00.1(サポート終了製品) | ルーターのファームウェア更新処理(upgrade_flash.cgi)にスタックバッファオーバーフローがあり、管理者権限を持つ攻撃者がリモートから任意コード実行などを行うおそれがあります。実証コードが公開済みで修正は提供されない見込みのため、使用を中止し後継機へ置き換えてください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129352 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129352.json) |
 | 11/15 07:37 | **CVE-2026-129351**<br>TRENDnet TEW-657BRM ファームウェア 1.00.1(サポート終了製品) | ルーターの Web 管理機能(setup.cgi)に境界外書き込みがあり、リモートから任意コード実行などに悪用されるおそれがあります。実証コードが公開済みで修正版は提供されないため、使用を中止し後継機へ置き換えてください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129351 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129351.json) |
