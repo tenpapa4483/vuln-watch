@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 03:38(日本時間)
-- 登録: 1246 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/17 04:38(日本時間)
+- 登録: 1252 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 04:38 | **CVE-2026-83817**<br>CodeWhale 0.9.0 より前 | 定期実行タスクの自動承認が既定で有効になっており、承認後の実行で人の確認なしに変更系ツールが使われる恐れがあります。0.9.0 以降へ更新し、自動承認設定を見直してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-83817 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/83xxx/CVE-2026-83817.json) |
+| 11/17 04:38 | **CVE-2026-83816**<br>CodeWhale 0.9.0 より前 | fd・rg・git grep を読み取り専用として自動承認するため、外部プログラムを起動するオプション経由で確認なしに任意のコマンドが実行される恐れがあります。0.9.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-83816 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/83xxx/CVE-2026-83816.json) |
+| 11/17 04:38 | **CVE-2026-129266**<br>Amazon Deep Java Library(DJL)0.7.0〜0.38.0 | 細工されたモデルアーカイブを読み込ませることで、認証なしでライブラリのプロセスが読めるファイルを読み取られる恐れがあります。0.39.0 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-129266 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129266.json) |
+| 11/17 04:38 | **CVE-2026-126526**<br>Microsoft OneNote(Microsoft 365 Apps、Office LTSC 2021/2024、Office for Mac) | OneNoteのヒープバッファオーバーフローにより、細工されたファイルを開かせることで任意のコードが実行される恐れがあります。Officeの最新の更新を適用してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-126526 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126526.json) |
+| 11/17 04:38 | **CVE-2026-124223**<br>Microsoft SharePoint Server Subscription Edition 16.0.20326.20278 より前 | 信頼できないデータのデシリアライズにより、認証済みの攻撃者がネットワーク経由でサーバー上で任意のコードを実行できます。Microsoftの更新プログラムを適用してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-124223 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124223.json) |
+| 11/17 04:38 | **CVE-2026-101327**<br>Autodesk Installer 2.22.0.548〜2.26.0.515 より前 | インストーラーが書き込み可能な一時ディレクトリから検証なしにDLLを読み込むため、ローカルの低権限ユーザーがSYSTEM権限でコードを実行できます。2.26.0.515 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-101327 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/101xxx/CVE-2026-101327.json) |
 | 11/17 03:38 | **CVE-2026-44382**<br>Intel Wireless Bluetooth | 近接ネットワーク上の認証されていない攻撃者が範囲外読み取りを起こし、サービス停止を引き起こせます。Intelの修正済みドライバーへ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-44382 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/44xxx/CVE-2026-44382.json) |
 | 11/17 03:38 | **CVE-2026-42956**<br>Intel Wireless Bluetooth | 近接ネットワーク上の認証されていない攻撃者が範囲外書き込みを起こし、サービス停止を引き起こせます。Intelの修正済みドライバーへ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-42956 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/42xxx/CVE-2026-42956.json) |
 | 11/17 03:38 | **CVE-2026-41224**<br>Intel Slim Bootloader | UEFIファームウェアの範囲外書き込みにより、物理アクセスできる攻撃者が権限昇格できる恐れがあります。Intelの案内に従いファームウェアを更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-41224 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/41xxx/CVE-2026-41224.json) |
