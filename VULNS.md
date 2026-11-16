@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/16 21:39(日本時間)
-- 登録: 1149 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/16 22:38(日本時間)
+- 登録: 1154 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/16 22:38 | **CVE-2026-124950**<br>Firefox 160 未満、Thunderbird 160 未満 | CSS の解析・計算処理の不具合により同一オリジンポリシーを回避され、他サイトの情報を読み取られるおそれがあります。Firefox 160 / Thunderbird 160 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-124950 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124950.json) |
+| 11/16 22:38 | **CVE-2026-124949**<br>Firefox 160 未満、Thunderbird 160 未満 | SVG コンポーネントの不具合により、細工したコンテンツの表示でメモリ破損などの深刻な影響を受けるおそれがあります。Firefox 160 / Thunderbird 160 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-124949 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124949.json) |
+| 11/16 22:38 | **CVE-2026-124946**<br>Firefox 160 未満、Thunderbird 160 未満 | JavaScript エンジン(JIT)の不正なポインタ処理により、細工したWebコンテンツで任意コード実行につながるおそれがあります。Firefox 160 / Thunderbird 160 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-124946 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124946.json) |
+| 11/16 22:38 | **CVE-2026-124905**<br>Firefox 160 未満、Firefox ESR 115.45 / 153.7 未満、Thunderbird 160/153.7 未満 | DOM の Navigation コンポーネントの不具合によりサンドボックスを回避されるおそれがあります。Firefox 160 / ESR 115.45・153.7 / Thunderbird 160・153.7 以降へ更新してください。 | 8.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-124905 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124905.json) |
+| 11/16 22:38 | **CVE-2026-110710**<br>@fastify/multipart 3.0.0〜10.1.3 | saveRequestFiles で保存した一時ファイルが、アップロード完了後に応答前で切断されると削除されず残り続けるため、繰り返し送信でディスクを枯渇させられサービス停止に陥るおそれがあります。10.1.4 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-110710 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/110xxx/CVE-2026-110710.json) |
 | 11/16 21:39 | **CVE-2026-93664**<br>Dassault Systèmes 3DEXPERIENCE Station Launcher App R2023x〜R2026x | 信頼できないデータのデシリアライズにより、未認証の攻撃者がリモートで任意のコードを実行できるおそれがあります。至急ベンダーの修正(各リリースのFP.CFA)を適用してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-93664 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93664.json) |
 | 11/16 21:39 | **CVE-2026-77033**<br>Dassault Systèmes 3DEXPERIENCE Station Launcher App R2023x〜R2026x | 別のOSコマンドインジェクションにより、攻撃者がサーバー上で任意のコマンドを実行できるおそれがあります。ベンダーの修正(各リリースのFP.CFA)を適用してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-77033 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77033.json) |
 | 11/16 21:39 | **CVE-2026-21176**<br>Samsung Device Care 4.0.80 未満 | 引用符のない検索パスにより、ローカル攻撃者が細工した実行ファイルを置いて任意のコードを実行できるおそれがあります。4.0.80 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-21176 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/21xxx/CVE-2026-21176.json) |
