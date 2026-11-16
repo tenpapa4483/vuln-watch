@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 04:38(日本時間)
-- 登録: 1252 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/17 05:38(日本時間)
+- 登録: 1258 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 05:38 | **CVE-2026-95839**<br>containerd 2.2.0〜2.2.10 より前、2.3.0〜2.3.7 より前、2.4.0〜2.4.2 より前 | 細工したイメージを pull/import するとデーモンがパニックで停止し、Kubernetes ではコンテナ運用が繰り返し妨害されます。2.2.10 / 2.3.7 / 2.4.2 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-95839 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95839.json) |
+| 11/17 05:38 | **CVE-2026-62336**<br>qbee-agent 2026.27 より前 | 特権ヘルパーがシンボリックリンクを追跡するため、ローカルの一般ユーザーが root の authorized_keys に鍵を書き込ませるなどして root 権限を得られます。2026.27 以降へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-62336 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/62xxx/CVE-2026-62336.json) |
+| 11/17 05:38 | **CVE-2026-53998**<br>Arize Phoenix 13.0.0〜15.7.0 より前 | 既定で認証不要の applyChatTemplate GraphQL クエリでテンプレートから Python 内部属性をたどれ、リモートの攻撃者が環境変数(秘密情報を含む)を読み取れます。15.7.0 以降へ更新してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-53998 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/53xxx/CVE-2026-53998.json) |
+| 11/17 05:38 | **CVE-2026-129302**<br>guard-core 3.5.0〜3.13.0 より前 | 組み込みの検知パターンがタイムアウト保護なしで実行され、細工した入力による正規表現の過負荷でサービス拒否が起きえます。3.13.0 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-129302 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129302.json) |
+| 11/17 05:38 | **CVE-2026-124019**<br>VB-Audio VB-CABLE ドライバ(vbaudio_cable64_win10.sys 10.0.10011.16384 以前) | カーネルドライバのプロパティ処理に範囲外読み書きがあり、ローカルの一般ユーザーがカーネル権限への昇格を狙えます。ベンダーの修正版を確認し、不要ならドライバを削除してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-124019 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124019.json) |
+| 11/17 05:38 | **CVE-2026-115563**<br>MCP Python SDK 1.9.1〜1.30.0 より前、2.0.0a1〜2.2.0 より前 | OAuth クライアント機能が信頼できない MCP サーバーの指定する認可サーバーへ資格情報を送ってしまい、資格情報が漏えいするおそれがあります。1.30.0 / 2.2.0 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-115563 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115563.json) |
 | 11/17 04:38 | **CVE-2026-83817**<br>CodeWhale 0.9.0 より前 | 定期実行タスクの自動承認が既定で有効になっており、承認後の実行で人の確認なしに変更系ツールが使われる恐れがあります。0.9.0 以降へ更新し、自動承認設定を見直してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-83817 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/83xxx/CVE-2026-83817.json) |
 | 11/17 04:38 | **CVE-2026-83816**<br>CodeWhale 0.9.0 より前 | fd・rg・git grep を読み取り専用として自動承認するため、外部プログラムを起動するオプション経由で確認なしに任意のコマンドが実行される恐れがあります。0.9.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-83816 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/83xxx/CVE-2026-83816.json) |
 | 11/17 04:38 | **CVE-2026-129266**<br>Amazon Deep Java Library(DJL)0.7.0〜0.38.0 | 細工されたモデルアーカイブを読み込ませることで、認証なしでライブラリのプロセスが読めるファイルを読み取られる恐れがあります。0.39.0 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-129266 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129266.json) |
