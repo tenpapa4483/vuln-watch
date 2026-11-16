@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/16 19:38(日本時間)
-- 登録: 1119 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/16 20:38(日本時間)
+- 登録: 1122 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/16 20:38 | **CVE-2026-67250**<br>Creative Pebble V3 / Nova / Pro / X / X Plus のインストーラー(各記載バージョン) | インストーラーが特権で読み込むDLLを低権限のローカル攻撃者が差し替えられ、管理者権限への昇格につながるおそれがあります。ベンダーの更新版インストーラーの入手・適用状況を確認し、古いインストーラーを実行しないでください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-67250 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/67xxx/CVE-2026-67250.json) |
+| 11/16 20:38 | **CVE-2026-63245**<br>Creative Sound Blaster Audigy 5/Rx ドライバー(Emupia2k.sys) | ドライバーの欠陥により、低権限のローカル攻撃者が管理者などの高い権限を取得できるおそれがあります。ベンダーの修正ドライバーの提供状況を確認して更新し、不要なら無効化を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-63245 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/63xxx/CVE-2026-63245.json) |
+| 11/16 20:38 | **CVE-2026-129784**<br>httpx(Ruby gem)1.9.0 | oj gem を読み込み multi_json がない環境で、攻撃者が影響を与えられるURLの応答を Response#json で解析すると任意のRubyオブジェクトが生成され、ガジェットチェーン次第でリモートコード実行に至るおそれがあります。httpx 1.9.1 以降へ更新してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-129784 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129784.json) |
 | 11/16 19:38 | **CVE-2026-102448**<br>Bosch Rexroth IndraWorks 15V24 未満、OPC DA Client v33.0.0.0 未満 | 細工されたファイルを開くとパス名の検証不備により任意の場所へファイルが書き込まれ、最終的に任意コードが実行されてシステムを乗っ取られるおそれがあります。修正版(IndraWorks 15V24 以降など)へ更新し、信頼できないファイルを開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-102448 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/102xxx/CVE-2026-102448.json) |
 | 11/16 18:38 | **CVE-2026-129703**<br>vulnerability-lookup(Web アプリケーション)修正コミット 3605d5b 適用前 | フィードキーや API キーだけで認証されたリクエストにセッション Cookie が発行され、漏えいしたフィード URL などからパスワードや二要素認証なしで全機能にログインされるおそれがあります。修正版へ更新し、既存のフィードキー・API キーの再発行を検討してください。 | 7.8 (高)<br>v4.0 | 確認されていない | [CVE-2026-129703 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129703.json) |
 | 11/16 18:38 | **CVE-2026-124672**<br>Burst Statistics(WordPress プラグイン)3.7.5 未満 | 細工したリクエストにより他のプラグインを無効化した状態で処理させられるため、認証なしで二要素認証や REST API 制限などの保護を回避されたり、予約タスクを破棄されたりするおそれがあります。3.7.5 以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-124672 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124672.json) |
