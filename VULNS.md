@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 07:38(日本時間)
-- 登録: 1296 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/17 08:37(日本時間)
+- 登録: 1301 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 08:37 | **CVE-2026-130327**<br>ooRexx 4.0.0〜5.2.0未満 | RXAPI が誰でも書き込める /tmp のファイルやローカルTCPポートで通信するため、ローカルの他ユーザーがマクロを注入して REXX スクリプト経由でコードを実行させる恐れがあります。5.2.0 へ更新するか XDG_RUNTIME_DIR を設定してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-130327 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130327.json) |
+| 11/17 08:37 | **CVE-2026-125423**<br>Gitea 28.4.0未満 | 自動初期化中のリポジトリへの細工したプッシュでシンボリックリンク経由でサーバ側の git フックを上書きでき、Gitea のシステムユーザー権限でコマンドを実行される恐れがあります。Gitea 28.4.0 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-125423 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125423.json) |
+| 11/17 08:37 | **CVE-2026-120869**<br>Citrix NetScaler Console 14.1-74.34未満 | NetScaler Console に認証回避の脆弱性があり、未認証の攻撃者が制限されたリソースへアクセスできる恐れがあります。ベンダーの修正版(14.1-74.34以降)へ更新してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-120869 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120869.json) |
+| 11/17 08:37 | **CVE-2026-118389**<br>Gitea 28.3.0未満(RubyGemsパッケージレジストリ) | RubyGems レジストリが改行を含むメタデータを受け付けるため、公開権限を持つ利用者が索引を偽装し、利用者に任意の依存パッケージをインストールさせる恐れがあります。Gitea 28.3.0 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-118389 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118389.json) |
+| 11/17 08:37 | **CVE-2026-102632**<br>Devolutions PowerShell Universal 2026.3.4以前 | アプリトークン管理の権限割り当て不備により、トークン作成・更新権限を持つ認証済みユーザーが管理者へ権限昇格したり、失効トークンを復活させたりできる恐れがあります。2026.3.5 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-102632 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/102xxx/CVE-2026-102632.json) |
 | 11/17 07:38 | **CVE-2026-97035**<br>Go ツールチェーン(cmd/go)1.26.11 未満 / 1.27.0〜1.27.4 未満 | cgoのフラグ許可リストが一部のClang/GCCオプションを誤って許可し、悪意あるパッケージのビルド時にコード実行や任意ディレクトリへの書き込みが起きる恐れがあります。1.26.11/1.27.4以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-97035 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97035.json) |
 | 11/17 07:38 | **CVE-2026-96414**<br>Octopus Server 2022.1.3143〜2026.2.13487未満 / 2026.3.0〜2026.3.15875未満 | 認証Cookieの完全性保護と権限検証の不備が組み合わさり、ユーザーや監査イベントの閲覧権限を持つユーザーが管理者に権限昇格できる恐れがあります。修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-96414 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/96xxx/CVE-2026-96414.json) |
 | 11/17 07:38 | **CVE-2026-93487**<br>Octopus Server 2019.11.0〜2026.2.13487未満 / 2026.3.0〜2026.3.15863未満 | プロジェクトトリガー作成権限の検証不備により、許可されていないランブック実行やデプロイ作成を行われる恐れがあります。修正版へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-93487 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93487.json) |
