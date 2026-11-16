@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/16 16:37(日本時間)
-- 登録: 1113 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/16 17:38(日本時間)
+- 登録: 1116 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/16 17:38 | **CVE-2026-96822**<br>Books Gallery(wp-books-gallery、WordPress プラグイン)4.8.3 以前 | ブラインド SQL インジェクションがあり、データベースの内容が不正に取得されるおそれがあります。修正版が提供されたら速やかに更新し、それまではプラグインの無効化を検討してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-96822 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/96xxx/CVE-2026-96822.json) |
+| 11/16 17:38 | **CVE-2026-105925**<br>Qt 5.x(Qt XML)全般、Qt 6.8.10 未満、6.9.0〜6.11.2(Qt 5 Core Compat) | QXmlSimpleReader クラスの処理に問題があり、細工した XML を読み込ませるとアプリケーションがサービス不能に陥るおそれがあります。修正版の Qt(6.8.10 / 6.11.3 以降)へ更新するか修正パッチを適用してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-105925 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/105xxx/CVE-2026-105925.json) |
+| 11/16 17:38 | **CVE-2024-38795**<br>ListingPro プラグイン(WordPress)2.9.4 以前 | 認証なしで悪用できる SQL インジェクションがあり、データベースの情報が不正に読み取られるおそれがあります。修正版へ更新し、更新できない場合はプラグインの無効化を検討してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2024-38795 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/38xxx/CVE-2024-38795.json) |
 | 11/16 15:38 | **CVE-2026-129606**<br>Samsung Open Source mTower(修正コミット d71301d より前) | mTower の HOTP トラステッドアプリケーションに入力サイズ未検証のバッファオーバーフローがあり、ローカルの低権限ユーザーがメモリを書き換えて改ざんやサービス停止を起こすおそれがあります。修正コミット(d71301d)以降のバージョンに更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129606 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129606.json) |
 | 11/16 12:37 | **CVE-2026-82156**<br>Dell PowerStore(500T〜9500 各モデル)5.1.0.0-2798105 未満 | 認可チェックを回避できる欠陥があり、低権限のユーザーが管理者権限を得るおそれがあります。PowerStore OS を 5.1.0.0-2798105 以降に更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-82156 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82156.json) |
 | 11/16 11:37 | **CVE-2026-129540**<br>VoAPI 1.0.0〜1.2.0 | 認証済みユーザーが一覧APIの検索フィルターでSQLインジェクションを行い、JWT署名鍵を盗んで管理者トークンを偽造し管理APIを乗っ取るおそれがあります。修正版への更新や署名鍵の変更、アカウント発行の制限を検討してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-129540 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129540.json) |
