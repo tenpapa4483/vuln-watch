@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/16 10:37(日本時間)
-- 登録: 1109 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/16 11:37(日本時間)
+- 登録: 1111 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/16 11:37 | **CVE-2026-129540**<br>VoAPI 1.0.0〜1.2.0 | 認証済みユーザーが一覧APIの検索フィルターでSQLインジェクションを行い、JWT署名鍵を盗んで管理者トークンを偽造し管理APIを乗っ取るおそれがあります。修正版への更新や署名鍵の変更、アカウント発行の制限を検討してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-129540 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129540.json) |
+| 11/16 11:37 | **CVE-2026-129539**<br>SSCMS 7.2.0〜7.4.0 | 一般のユーザーセンターアカウントで画像アップロード用エンドポイントを悪用し、設定ファイルなどサーバー上の任意ファイルを公開領域へコピーして取得されるおそれがあります。修正版の提供状況を確認し、ユーザー登録の制限やエンドポイントへのアクセス制御を検討してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-129539 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129539.json) |
 | 11/16 09:37 | **CVE-2026-129494**<br>CloudPaste 1.1.0〜1.9.1 | 認証不要の /api/proxy/link エンドポイントから WebDAV ストレージの認証情報が取得でき、公開共有のスラッグを知る攻撃者に WebDAV 上のファイルを閲覧・改ざん・削除されるおそれがあります。修正版への更新と WebDAV 認証情報の変更を検討してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-129494 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129494.json) |
 | 11/16 09:37 | **CVE-2026-129493**<br>Bolo (bolo-solo) 1.7〜2.6.4 | 公開の GET /articles エンドポイントが記事閲覧用パスワードを平文で返すため、認証なしでパスワード保護された記事の内容を読まれるおそれがあります。修正版の提供を確認し、それまでは保護記事の扱いや外部公開の制限を検討してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-129493 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129493.json) |
 | 11/16 07:37 | **CVE-2026-71531**<br>PrestaShop 8.2.9 未満、9.x は 9.2.1 未満 | Webサービス API で id_shop / id_shop_group パラメータによるショップ範囲の拡張が検証されず、特定ショップ限定の API キーで全ショップのデータを操作されるおそれがあります。8.2.9 または 9.2.1 以降に更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-71531 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/71xxx/CVE-2026-71531.json) |
