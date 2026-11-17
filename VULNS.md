@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 21:38(日本時間)
-- 登録: 1366 件 / 悪用確認あり: 38 件
+- 最終チェック: 11/17 22:38(日本時間)
+- 登録: 1372 件 / 悪用確認あり: 38 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 22:38 | **CVE-2026-130608**<br>pretix Venueless(コミット 2f70a9d0 より前) | 管理画面でパスワード以外のプロフィール項目を変更すると、データベース上のパスワードが平文で上書き保存され、漏えいの恐れがあります。修正コミットを含む版へ更新し、影響を受けたアカウントのパスワードを再設定してください。 | 8.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-130608 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130608.json) |
+| 11/17 22:38 | **CVE-2026-128346**<br>exceljs 4.4.0 以前 | ストリーミング読み込み(WorkbookReader)で解析失敗時に一時ファイルとファイル記述子が解放されず、不正なブックを繰り返しアップロードされるとディスクや記述子が枯渇します。アップロード頻度の制限などで緩和し、修正版の提供を確認してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-128346 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128346.json) |
+| 11/17 22:38 | **CVE-2026-128342**<br>exceljs 4.4.0 以前 | workbook.xml に極端に大きい sheetId を含むブックを読み込ませると、イベントループが長時間停止してサービス拒否になります。信頼できないxlsxの処理を制限し、修正版の提供を確認してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-128342 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128342.json) |
+| 11/17 22:38 | **CVE-2026-128338**<br>exceljs 4.4.0 以前 | 列範囲の上限値が極端に大きいブックを読み込ませると大量のメモリを確保して、プロセスがメモリ不足で異常終了します。信頼できないxlsxを処理する場合は入力サイズを制限し、修正版の提供を確認してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-128338 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128338.json) |
+| 11/17 22:38 | **CVE-2026-128049**<br>OpenMage Magento LTS 20.18.2 未満、21.0.0-beta1〜beta3 未満 | OAuth認可確認処理にCSRFの欠陥があり、ログイン中の管理者や顧客が細工されたURLを開くと、攻撃者に被害者権限の永続的なREST APIアクセストークンを発行されます。20.18.2 または 21.0.0-beta3 以降へ更新してください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-128049 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128049.json) |
+| 11/17 22:38 | **CVE-2026-12239**<br>WP Abstracts(WordPressプラグイン)2.7.6 以前 | 権限チェックの欠如により、購読者レベルのユーザーが登録フォーム設定を改ざんして管理者権限を取得できます。修正版へ更新するか、更新できるまでプラグインを無効化してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-12239 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/12xxx/CVE-2026-12239.json) |
 | 11/17 21:38 | **CVE-2026-124646**<br>e-Sushrut HMIS(CDAC-Noida 病院情報管理システム)修正前の全バージョン | APIのオブジェクト単位の認可確認が不十分で、認証なしにパラメータを書き換えて患者の機微情報を列挙・取得される恐れがあります。CDACの修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-124646 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124646.json) |
 | 11/17 21:38 | **CVE-2026-124645**<br>e-Sushrut HMIS(CDAC-Noida 病院情報管理システム)修正前の全バージョン | ログインページに埋め込まれた固定値でパスワードをクライアント側ハッシュしているため、認証の強度が下がり認証攻撃を助長する恐れがあります。CDACの修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-124645 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124645.json) |
 | 11/17 21:38 | **CVE-2026-124643**<br>e-Sushrut HMIS(CDAC-Noida 病院情報管理システム)修正前の全バージョン | ダッシュボード機能の認証・セッション検証が不十分で、認証なしの細工したHTTPリクエストにより医療機関のダッシュボード情報を閲覧される恐れがあります。CDACが提供する修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-124643 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124643.json) |
