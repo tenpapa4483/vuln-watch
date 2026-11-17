@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 18:38(日本時間)
-- 登録: 1340 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/17 19:38(日本時間)
+- 登録: 1345 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 19:38 | **CVE-2026-89788**<br>Linux カーネル ksmbd(6.6 以降、6.1.71〜6.1.190 ほか。6.1.191 / 6.6.160 / 6.12.114 / 6.18.64 / 7.2.6 / 7.3 で修正) | ksmbd の SMB2 TREE_CONNECT 処理とセッションログオフが競合すると解放済みメモリを使用し、カーネルのクラッシュや任意コード実行につながる恐れがあります。修正済みの安定版カーネルへ更新し、不要なら ksmbd を無効化してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-89788 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/89xxx/CVE-2026-89788.json) |
+| 11/17 19:38 | **CVE-2026-89692**<br>Linux カーネル nfsd(6.15 以降。6.18.50 / 7.2.4 / 7.3 で修正) | 委任のリコール投入に失敗した際にフラグが残り、以後そのリコールが行われず競合するオープンやロックが停止するため、NFS サーバーがサービス不能になる恐れがあります。修正済みの安定版カーネルへ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-89692 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/89xxx/CVE-2026-89692.json) |
+| 11/17 19:38 | **CVE-2026-21609**<br>Atlassian Jira Service Management Data Center/Server 5.12.16〜5.12.42、10.2〜10.7.4、10.3.0〜10.3.26、11.0〜11.3.12 ほか | 認可処理の不備により、認証済みの攻撃者が本来アクセスできない機能や情報に到達し、場合によってはコード実行に至る恐れがあります。10.3.27 以降、11.3.13 以降、または最新版へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-21609 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/21xxx/CVE-2026-21609.json) |
+| 11/17 19:38 | **CVE-2026-126255**<br>Fortinet FortiOS 7.2.0〜7.2.13 / 7.4.0〜7.4.12 / 7.6.0〜7.6.7 / 8.0.0〜8.0.1、FortiPAM 1.0〜1.6 全版 | パストラバーサルの不備により、細工した資格情報で認証を回避される恐れがあります(未認証の攻撃者が対象)。Fortinet のアドバイザリ FG-IR-26-269 に従い修正版へ更新してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-126255 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126255.json) |
+| 11/17 19:38 | **CVE-2024-46670**<br>Fortinet FortiOS 7.2.0〜7.2.9、7.4.0〜7.4.4、7.6.0 | 境界外読み取りの不備により、未認証のリモート攻撃者が細工したリクエストでメモリを消費させ、サービス停止を起こす恐れがあります。Fortinet のアドバイザリ FG-IR-24-266 に従い修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2024-46670 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/46xxx/CVE-2024-46670.json) |
 | 11/17 18:38 | **CVE-2026-121865**<br>nanobot (nanobot-ai) 0.3.5〜0.4.1 未満 | WebSocket クライアントが設定外のディレクトリを会話のルートに指定でき、サービスアカウントが読めるファイルを漏えいさせる恐れがあります。0.4.1 へ更新してください。 | 7.6 (高)<br>v3.1 | 確認されていない | [CVE-2026-121865 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121865.json) |
 | 11/17 18:38 | **CVE-2026-121864**<br>nanobot (nanobot-ai) 0.2.1〜0.4.1 未満 | サンドボックス実行時にシェル実行ファイルを呼び出し側が指定でき、サンドボックス外でプロセス権限のまま任意プログラムを実行される恐れがあります。0.4.1 へ更新してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-121864 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121864.json) |
 | 11/17 18:38 | **CVE-2026-119643**<br>WordPress プラグイン MembershipWorks 6.17 以前 | SaaS API から取得した会員名やイベント情報が出力時にエスケープされず、未認証で格納型XSSを仕込まれる恐れがあります。6.18 以降へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-119643 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119643.json) |
