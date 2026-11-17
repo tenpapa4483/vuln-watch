@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 12:38(日本時間)
-- 登録: 1317 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/17 13:37(日本時間)
+- 登録: 1321 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 13:37 | **CVE-2026-97187**<br>GitLab CE/EE 17.6 以上 19.3.9 未満、19.4〜19.4.8 未満、19.5〜19.5.6 未満 | ワークスペース機能の認可不備により、GitLab agent for Kubernetes で接続されたクラスタの他の名前空間のSecretを認証済みユーザーが読み取れるおそれがあります。19.3.9/19.4.8/19.5.6 以降へ更新してください。 | 7.6 (高)<br>v3.1 | 確認されていない | [CVE-2026-97187 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97187.json) |
+| 11/17 13:37 | **CVE-2026-18241**<br>GitLab CE/EE 9.3 以上 19.3.9 未満、19.4〜19.4.8 未満、19.5〜19.5.6 未満 | パイプラインのジョブ認可処理の競合状態により、認証済みユーザーが保護されたCI/CD変数やリソースにアクセスできるおそれがあります。19.3.9/19.4.8/19.5.6 以降へ更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-18241 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/18xxx/CVE-2026-18241.json) |
+| 11/17 13:37 | **CVE-2026-108153**<br>GitLab CE/EE 16.1 以上 19.3.9 未満、19.4〜19.4.8 未満、19.5〜19.5.6 未満 | エラートラッキング画面の入力値の無害化が不十分なため、認証済みユーザーが閲覧者のブラウザで任意のJavaScriptを実行させるおそれがあります。19.3.9/19.4.8/19.5.6 以降へ更新してください。 | 8.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-108153 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/108xxx/CVE-2026-108153.json) |
+| 11/17 13:37 | **CVE-2026-105739**<br>GitLab CE/EE 17.2 以上 19.3.9 未満、19.4〜19.4.8 未満、19.5〜19.5.6 未満 | Wikiページの入力値の無害化が不十分なため、認証済みユーザーが閲覧者のブラウザで任意のJavaScriptを実行させるおそれがあります(格納型XSS)。19.3.9/19.4.8/19.5.6 以降へ更新してください。 | 8.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-105739 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/105xxx/CVE-2026-105739.json) |
 | 11/17 12:38 | **CVE-2026-125275**<br>nerves-hub nerves_hub_web 1.0.0 以上 2.5.4 未満 | 未登録CAのTLSクライアント証明書を送ると証明書検証が無限ループに陥り、認証なしでサービス妨害を起こされる恐れがあります。2.5.4 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-125275 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125275.json) |
 | 11/17 12:38 | **CVE-2026-107902**<br>富士電機/発紘電機 TELLUS・TELLUS Lite 5.0.5.0 以前 | 解放済みメモリ使用の不具合により、細工されたV9ファイルを開くと情報漏えいや任意のコード実行につながる恐れがあります。修正版へ更新し、信頼できないV9ファイルを開かないようにしてください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-107902 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/107xxx/CVE-2026-107902.json) |
 | 11/17 12:38 | **CVE-2026-107901**<br>富士電機/発紘電機 TELLUS・TELLUS Lite 5.0.5.0 以前 | 境界外読み取りにより、細工されたV9ファイルを開くと情報漏えいや任意のコード実行につながる恐れがあります。修正版へ更新し、信頼できないV9ファイルを開かないようにしてください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-107901 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/107xxx/CVE-2026-107901.json) |
