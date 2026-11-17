@@ -2,12 +2,20 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 13:37(日本時間)
-- 登録: 1321 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/17 14:37(日本時間)
+- 登録: 1329 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 14:37 | **CVE-2026-97043**<br>Go ツールチェーン(cmd/go・cmd/compile)1.26.11 未満 / 1.27.0〜1.27.4 未満 | //go:cgo_ldflag ディレクティブのエスケープ処理の不整合により LDFLAGS 検証を回避され、ビルド時の任意コード実行やgoコマンドのパニックが起きる恐れがあります。1.26.11/1.27.4 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-97043 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97043.json) |
+| 11/17 14:37 | **CVE-2026-97038**<br>Go ツールチェーン(cmd/go)1.26.11 未満 / 1.27.0〜1.27.4 未満 | 細工された .syso ファイルやcgoのリンカ入力ファイルが検証なしでリンカに渡され、ビルド時に任意コード実行やフラグ注入が起きる恐れがあります。1.26.11/1.27.4 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-97038 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97038.json) |
+| 11/17 14:37 | **CVE-2026-97037**<br>Go ツールチェーン(cmd/go)1.26.11 未満 / 1.27.0〜1.27.4 未満 | 分割された -Wl, フラグ等を通じてリンカスクリプトを注入され、悪意あるcgoパッケージのリンク時に任意コードが実行される恐れがあります。1.26.11/1.27.4 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-97037 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97037.json) |
+| 11/17 14:37 | **CVE-2026-97036**<br>Go ツールチェーン(cmd/go、macOS)1.26.11 未満 / 1.27.0〜1.27.4 未満 | macOSでAppleリンカ使用時、#cgo LDFLAGS の "-l to_library" によって任意のLTOプラグインが読み込まれ、ビルド時に任意コードが実行される恐れがあります。1.26.11/1.27.4 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-97036 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97036.json) |
+| 11/17 14:37 | **CVE-2026-97034**<br>Go ツールチェーン(cmd/go)1.26.11 未満 / 1.27.0〜1.27.4 未満 | GCC使用時、リンカ検索ディレクトリ内の細工されたspecファイルが読み込まれ、悪意あるcgoパッケージのリンク時に任意コマンドが実行される恐れがあります。1.26.11/1.27.4 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-97034 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97034.json) |
+| 11/17 14:37 | **CVE-2026-97033**<br>Go ツールチェーン(cmd/go)1.26.11 未満 / 1.27.0〜1.27.4 未満 | cgoディレクティブで許可されていた --sysroot や -target などのフラグを悪用され、悪意あるパッケージのビルド時に任意コードが実行される恐れがあります。1.26.11/1.27.4 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-97033 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97033.json) |
+| 11/17 14:37 | **CVE-2026-121684**<br>WordPress テーマ Soledad 8.7.7 以前 | 公開AJAX処理のショートコード許可リスト回避とローカルファイルインクルードの組み合わせにより、未認証で任意コードを実行される恐れがあります。8.7.7 より新しい修正版へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-121684 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121684.json) |
+| 11/17 14:37 | **CVE-2026-120387**<br>Circutor PowerStudio SCADA Wave(Windows版)24.8.0〜24.11.17.0 未満 | JWTの署名検証不備により、署名なし(alg=none)のトークンで認証を回避され、未認証の遠隔攻撃者が他ユーザーになりすまして操作できる恐れがあります。24.11.17.0 以降へ更新してください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-120387 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120387.json) |
 | 11/17 13:37 | **CVE-2026-97187**<br>GitLab CE/EE 17.6 以上 19.3.9 未満、19.4〜19.4.8 未満、19.5〜19.5.6 未満 | ワークスペース機能の認可不備により、GitLab agent for Kubernetes で接続されたクラスタの他の名前空間のSecretを認証済みユーザーが読み取れるおそれがあります。19.3.9/19.4.8/19.5.6 以降へ更新してください。 | 7.6 (高)<br>v3.1 | 確認されていない | [CVE-2026-97187 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/97xxx/CVE-2026-97187.json) |
 | 11/17 13:37 | **CVE-2026-18241**<br>GitLab CE/EE 9.3 以上 19.3.9 未満、19.4〜19.4.8 未満、19.5〜19.5.6 未満 | パイプラインのジョブ認可処理の競合状態により、認証済みユーザーが保護されたCI/CD変数やリソースにアクセスできるおそれがあります。19.3.9/19.4.8/19.5.6 以降へ更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-18241 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/18xxx/CVE-2026-18241.json) |
 | 11/17 13:37 | **CVE-2026-108153**<br>GitLab CE/EE 16.1 以上 19.3.9 未満、19.4〜19.4.8 未満、19.5〜19.5.6 未満 | エラートラッキング画面の入力値の無害化が不十分なため、認証済みユーザーが閲覧者のブラウザで任意のJavaScriptを実行させるおそれがあります。19.3.9/19.4.8/19.5.6 以降へ更新してください。 | 8.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-108153 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/108xxx/CVE-2026-108153.json) |
