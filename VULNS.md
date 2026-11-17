@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 20:38(日本時間)
-- 登録: 1362 件 / 悪用確認あり: 38 件
+- 最終チェック: 11/17 21:38(日本時間)
+- 登録: 1366 件 / 悪用確認あり: 38 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 21:38 | **CVE-2026-124646**<br>e-Sushrut HMIS(CDAC-Noida 病院情報管理システム)修正前の全バージョン | APIのオブジェクト単位の認可確認が不十分で、認証なしにパラメータを書き換えて患者の機微情報を列挙・取得される恐れがあります。CDACの修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-124646 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124646.json) |
+| 11/17 21:38 | **CVE-2026-124645**<br>e-Sushrut HMIS(CDAC-Noida 病院情報管理システム)修正前の全バージョン | ログインページに埋め込まれた固定値でパスワードをクライアント側ハッシュしているため、認証の強度が下がり認証攻撃を助長する恐れがあります。CDACの修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-124645 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124645.json) |
+| 11/17 21:38 | **CVE-2026-124643**<br>e-Sushrut HMIS(CDAC-Noida 病院情報管理システム)修正前の全バージョン | ダッシュボード機能の認証・セッション検証が不十分で、認証なしの細工したHTTPリクエストにより医療機関のダッシュボード情報を閲覧される恐れがあります。CDACが提供する修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-124643 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124643.json) |
+| 11/17 21:38 | **CVE-2026-119757**<br>BTCPay Server 2.4.2 未満(2.4.2 RC含む) | 認証なしでLNDノードの.macaroon認証情報ファイルを取得され、ノードを乗っ取られて資金を移動・窃取される恐れがあります。2.4.2 正式版以降へ更新し、LNDのmacaroonを再発行してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-119757 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119757.json) |
 | 11/17 20:37 | **CVE-2026-129448**<br>Apache Roller 4.0.0〜6.1.4 | XML-RPCエンドポイントが認証前に信頼できないデータをデシリアライズするため、認証なしで任意コード実行が可能で、すでに悪用されています。6.1.6以降へ更新し、すぐできない場合はweb.xmlでenabledForExtensionsをfalseにするかXML-RPCのマッピングを削除してください。 | 9.8 (緊急)<br>v3.1 | **悪用確認あり**<br>Apache(CNA)がCVE記述で悪用中と明記(2026-11-17) | [CVE-2026-129448 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129448.json) |
 | 11/17 20:37 | **CVE-2026-129287**<br>N-able N-central 2026.4.1 HF3 より前 | ソフトウェアリポジトリファイルの解析でXXEが処理され、ファイルを改ざんできる攻撃者がサーバー上のファイル読み取りやSSRFを行えます。2026.4.1 HF3 以降へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-129287 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129287.json) |
 | 11/17 20:37 | **CVE-2026-129286**<br>N-able N-central 2026.4.1 HF3 より前 | ソフトウェア更新メタデータのバージョン値や取得先が検証されず、メタデータを改ざんできる攻撃者がファイルを任意の場所に書き込みコードを実行できます。2026.4.1 HF3 以降へ更新してください。 | 9.2 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129286 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129286.json) |
