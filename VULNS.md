@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/17 11:38(日本時間)
-- 登録: 1314 件 / 悪用確認あり: 37 件
+- 最終チェック: 11/17 12:38(日本時間)
+- 登録: 1317 件 / 悪用確認あり: 37 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/17 12:38 | **CVE-2026-125275**<br>nerves-hub nerves_hub_web 1.0.0 以上 2.5.4 未満 | 未登録CAのTLSクライアント証明書を送ると証明書検証が無限ループに陥り、認証なしでサービス妨害を起こされる恐れがあります。2.5.4 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-125275 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125275.json) |
+| 11/17 12:38 | **CVE-2026-107902**<br>富士電機/発紘電機 TELLUS・TELLUS Lite 5.0.5.0 以前 | 解放済みメモリ使用の不具合により、細工されたV9ファイルを開くと情報漏えいや任意のコード実行につながる恐れがあります。修正版へ更新し、信頼できないV9ファイルを開かないようにしてください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-107902 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/107xxx/CVE-2026-107902.json) |
+| 11/17 12:38 | **CVE-2026-107901**<br>富士電機/発紘電機 TELLUS・TELLUS Lite 5.0.5.0 以前 | 境界外読み取りにより、細工されたV9ファイルを開くと情報漏えいや任意のコード実行につながる恐れがあります。修正版へ更新し、信頼できないV9ファイルを開かないようにしてください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-107901 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/107xxx/CVE-2026-107901.json) |
 | 11/17 11:38 | **CVE-2026-86676**<br>Zyxel DX3300-T0 ファームウェア 5.50(ABVY.8.3)C0 以前 | CGIの Description パラメータにOSコマンドインジェクションがあり、管理者権限を持つ攻撃者が任意のOSコマンドを実行できる恐れがあります。修正版ファームウェアへ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-86676 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86676.json) |
 | 11/17 11:38 | **CVE-2026-79614**<br>Zyxel DX3301-T0 / EX3301-T0 ファームウェア 5.50(ABVY.8.3)C0 以前 | libclinkc.so の境界外書き込みにより、認証なしの攻撃者が細工したHTTPリクエストで権限昇格や任意コマンド実行を行える恐れがあります。修正版ファームウェアへ更新し、WAN側からの管理アクセスを無効のままにしてください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-79614 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/79xxx/CVE-2026-79614.json) |
 | 11/17 11:38 | **CVE-2026-130382**<br>AdminNeo 5.9.1 より前 | OTPログインプラグインで常時ログインCookieを悪用し、DBパスワードを知る攻撃者がTOTP検証を回避してログインできる恐れがあります。5.9.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-130382 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130382.json) |
