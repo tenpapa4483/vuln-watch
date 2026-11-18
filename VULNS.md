@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 17:38(日本時間)
-- 登録: 1834 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 18:37(日本時間)
+- 登録: 1836 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 18:37 | **CVE-2026-95645**<br>Zoho ManageEngine DDI Central ビルド 6500 未満 | Windows DDI エージェントのブロック済みドメイン消去機能におけるコマンドインジェクションにより、管理者権限を持つ攻撃者が Windows システム上で任意のコマンドを実行できるおそれがあります。ビルド 6500 以降へ更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-95645 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95645.json) |
+| 11/18 18:37 | **CVE-2026-95643**<br>Zoho ManageEngine DDI Central ビルド 6500 未満 | Telnet 接続機能における PowerShell コマンドインジェクションにより、管理者権限を持つ攻撃者が細工した IPv6 スコープ ID を使い、管理対象の Windows ノード上で任意のコマンドを実行できるおそれがあります。ビルド 6500 以降へ更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-95643 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95643.json) |
 | 11/18 17:38 | **CVE-2026-131959**<br>GNU Emacs 31.1(30.2 は影響なし) | 細工された .dir-locals.el を含むディレクトリでファイルを開くと、検証前に関数が呼ばれ任意の Emacs Lisp が実行されるおそれがあります。修正コミットを含む版へ更新し、信頼できないリポジトリでの利用に注意してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-131959 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131959.json) |
 | 11/18 17:38 | **CVE-2026-125829**<br>WordPress プラグイン Product Feed PRO for WooCommerce 13.5.8 以前 | パストラバーサルにより、認証済みの低権限ユーザーがサーバー上の任意ファイルを削除でき、サイト停止等につながるおそれがあります。13.5.9 以降へ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-125829 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125829.json) |
 | 11/18 17:38 | **CVE-2026-125820**<br>WordPress プラグイン Product Feed PRO for WooCommerce 13.5.8 以前 | 信頼できないデータのデシリアライズにより、認証済みの低権限ユーザーが PHP オブジェクトインジェクションを行い、サイトの侵害につながるおそれがあります。13.5.9 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-125820 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125820.json) |
