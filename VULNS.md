@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 18:37(日本時間)
-- 登録: 1836 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 19:37(日本時間)
+- 登録: 1839 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 19:37 | **CVE-2026-19707**<br>Airlock Gateway 8.5.2以前、8.6.0 | Smart Form Protection有効時、バックエンド応答中の特定のHTML文字参照の解析でバッファオーバーフローが起き、ゲートウェイのサービス停止や最悪の場合リモートコード実行に至るおそれがあります。8.5.3または8.6.1へ更新してください。 | 9.5 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-19707 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/19xxx/CVE-2026-19707.json) |
+| 11/18 19:37 | **CVE-2026-19706**<br>Red Hat OpenShift Container Platform Assisted Installer 2(エージェントベースインストール) | ブートストラップ時にCSRが無検証で承認されるため、インストールネットワーク上の攻撃者がcluster-admin権限を取得できるおそれがあります(ブートストラップ中のみ悪用可能)。Red Hatの修正を適用し、インストールネットワークを隔離してください。 | 8.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-19706 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/19xxx/CVE-2026-19706.json) |
+| 11/18 19:37 | **CVE-2026-110486**<br>Eclipse Mosquitto 2.1〜2.1.2(WebSocketsリスナー使用時) | WebSocketsリスナーで空のデータフレームを誤処理するため、未認証のリモート攻撃者がヒープメモリの漏えいや範囲外書き込みを起こし、ブローカーのクラッシュや任意コード実行に至るおそれがあります。修正版へ更新し、それまではWebSocketsリスナーの無効化を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-110486 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/110xxx/CVE-2026-110486.json) |
 | 11/18 18:37 | **CVE-2026-95645**<br>Zoho ManageEngine DDI Central ビルド 6500 未満 | Windows DDI エージェントのブロック済みドメイン消去機能におけるコマンドインジェクションにより、管理者権限を持つ攻撃者が Windows システム上で任意のコマンドを実行できるおそれがあります。ビルド 6500 以降へ更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-95645 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95645.json) |
 | 11/18 18:37 | **CVE-2026-95643**<br>Zoho ManageEngine DDI Central ビルド 6500 未満 | Telnet 接続機能における PowerShell コマンドインジェクションにより、管理者権限を持つ攻撃者が細工した IPv6 スコープ ID を使い、管理対象の Windows ノード上で任意のコマンドを実行できるおそれがあります。ビルド 6500 以降へ更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-95643 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95643.json) |
 | 11/18 17:38 | **CVE-2026-131959**<br>GNU Emacs 31.1(30.2 は影響なし) | 細工された .dir-locals.el を含むディレクトリでファイルを開くと、検証前に関数が呼ばれ任意の Emacs Lisp が実行されるおそれがあります。修正コミットを含む版へ更新し、信頼できないリポジトリでの利用に注意してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-131959 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131959.json) |
