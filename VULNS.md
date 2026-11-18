@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 12:38(日本時間)
-- 登録: 1807 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 13:38(日本時間)
+- 登録: 1813 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 13:38 | **CVE-2026-130644**<br>ansible-core(ansible-galaxy collection install。Red Hat MTA 8 / MTV / OpenShift Service Mesh 3 等に同梱) | コレクションのメタデータに含まれる名前が検証されず、悪意あるコレクションをインストールするとインストール先の外へのファイル書き込みやディレクトリ削除が起きるおそれがあります。修正版への更新と、信頼できるコレクションのみのインストールを行ってください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-130644 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130644.json) |
+| 11/18 13:38 | **CVE-2026-129354**<br>D-Link DIR-600L ファームウェア 2.17b02 | HNAP処理のスタックバッファオーバーフローにより、認証なしでリモートから任意コード実行などを受けるおそれがあり、攻撃コードも公開されています。サポート終了製品の可能性が高いため、機器の置き換えまたはインターネットからの管理アクセス遮断を行ってください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129354 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129354.json) |
+| 11/18 13:38 | **CVE-2026-127082**<br>Huginn 2026.11.09 未満 | JqAgent のフィルタからサーバープロセスの環境変数を参照でき、APP_SECRET_TOKEN やDB・SMTP・OAuthの秘密情報が漏えいするおそれがあります。2026.11.09 以降へ更新し、秘密情報のローテーションを検討してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-127082 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127082.json) |
+| 11/18 13:38 | **CVE-2026-127078**<br>OpsTree BuildPiper 2.7.0 未満 | 認可チェックの不備により、認証済みユーザーが他アプリケーションの環境設定を流用してビルドやデプロイを実行できるおそれがあります。2.7.0 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-127078 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127078.json) |
+| 11/18 13:38 | **CVE-2026-126949**<br>Zipline 4.4.0 以前 | ファイル名変更APIのパストラバーサルにより、認証済みユーザーが他ユーザーのアップロードファイルを上書きできるおそれがあります。修正版へ更新してください(PoC公開済み)。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2026-126949 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126949.json) |
+| 11/18 13:38 | **CVE-2026-101113**<br>ELECOM 無線LANルーター WRC-BE36QS-B / WRC-BE36QSD-B / WRC-W701-B(ファームウェア 2.1.3 以前) | 管理画面にアクセスできる攻撃者により任意のOSコマンドを実行されるおそれがあります。ELECOMが公開する修正ファームウェアに更新し、管理画面へのアクセス元を制限してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-101113 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/101xxx/CVE-2026-101113.json) |
 | 11/18 12:38 | **CVE-2026-131800**<br>GitHub Enterprise Server 3.19〜3.22(3.19.16 / 3.20.12 / 3.21.10 / 3.22.5 未満) | カスタムプロパティの選択肢に保存されたHTMLによる格納型XSSで、条件が揃うと他のメンバーのアカウントに攻撃者のSSH鍵を追加されるおそれがあります。修正版(3.19.16 / 3.20.12 / 3.21.10 / 3.22.5 以降)へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-131800 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131800.json) |
 | 11/18 12:38 | **CVE-2026-130121**<br>WordPress プラグイン AI Puffer – MCP Server for Claude & ChatGPT, with AI Chatbot 2.5.28 以前 | AIが自動生成するコメント返信が無害化されずに保存されるため、未認証の攻撃者がコメント経由でAIにHTMLを出力させ、格納型XSSを仕込めるおそれがあります。修正版へ更新するか、AIによるコメント自動返信機能を無効化してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-130121 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130121.json) |
 | 11/18 12:38 | **CVE-2026-128030**<br>OpenMage magento-lts 20.18.2 未満、21.0.0-beta1〜beta3 未満 | APIユーザーを無効化したりAPIキーを変更しても既存のSOAP/XML-RPCセッションやOAuthトークンが有効なまま残り、顧客・注文・商品データを読み書きされるおそれがあります。20.18.2 / 21.0.0-beta3 以降へ更新し、既存トークンを失効させてください。 | 7.4 (高)<br>v4.0 | 確認されていない | [CVE-2026-128030 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128030.json) |
