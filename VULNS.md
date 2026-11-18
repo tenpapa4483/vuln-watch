@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 15:38(日本時間)
-- 登録: 1827 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 16:37(日本時間)
+- 登録: 1829 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 16:37 | **CVE-2026-61984**<br>WordPress プラグイン WPMobile.App(wpappninja)11.77 以前 | 認可チェックの欠如により、認証なしの攻撃者が本来アクセスできない情報を取得できるおそれがあります。プラグインを 11.78 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-61984 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/61xxx/CVE-2026-61984.json) |
+| 11/18 16:37 | **CVE-2025-2235**<br>OpenText Connected MX macOS Agent 25.2 未満 | Agent の更新処理で暗号署名の検証が不十分なため、macOS 端末上の低権限ユーザーが root 権限を取得するおそれがあります。Connected MX macOS Agent を 25.2 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2025-2235 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/2xxx/CVE-2025-2235.json) |
 | 11/18 15:38 | **CVE-2026-86563**<br>DPDK lib/vhost(RHEL 8/9/10 の dpdk、Fast Datapath / OpenShift の openvswitch ほか) | vhost のログマッピング計算でオフセットが二重に加算される不具合により、不正なメモリアクセスが発生するおそれがあります。Red Hat の修正済み dpdk パッケージ(RHSA)を適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86563 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86563.json) |
 | 11/18 15:38 | **CVE-2026-86562**<br>DPDK lib/vhost(RHEL 8/9/10 の dpdk、Fast Datapath / OpenShift の openvswitch ほか) | VDUSE 制御キュー処理での二重読み取り(TOCTOU)により、攻撃者が制御する内容でヒープバッファオーバーフローが起き、権限昇格等につながるおそれがあります。Red Hat の修正済み dpdk パッケージ(RHSA)を適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86562 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86562.json) |
 | 11/18 15:38 | **CVE-2026-5765**<br>WordPress プラグイン Essential Real Estate 5.3.3 以前 | saved_search_check_result 関数での安全でないデシリアライズにより、購読者権限以上のユーザーが PHP オブジェクトを注入できます。POP チェーンを持つ他のプラグイン等があればファイル削除や情報窃取、コード実行に至るおそれがあるため、修正版への更新か無効化を検討してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-5765 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/5xxx/CVE-2026-5765.json) |
