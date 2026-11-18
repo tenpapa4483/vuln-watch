@@ -2,12 +2,22 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 13:38(日本時間)
-- 登録: 1813 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 14:38(日本時間)
+- 登録: 1823 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 14:38 | **CVE-2026-90436**<br>Apache Axis 1.x(1.4 以前、サポート終了) | SOAP Fault の処理で任意クラスがロード・生成され、認証なしでリモートコード実行につながるおそれがあります。サポート終了製品のため Axis2 など後継への移行や修正コミットの適用を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-90436 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/90xxx/CVE-2026-90436.json) |
+| 11/18 14:38 | **CVE-2026-77943**<br>Autodesk AutoCAD 2027.1.0(2027.1.1 未満) | 細工した DXF ファイルを開くと範囲外書き込みが起き、クラッシュや任意コード実行につながるおそれがあります。修正版へ更新し、信頼できないファイルを開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-77943 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77943.json) |
+| 11/18 14:38 | **CVE-2026-77942**<br>Autodesk AutoCAD 2027.1.0(2027.1.1 未満) | 細工した IES ファイルを開くと範囲外書き込みが起き、クラッシュや任意コード実行につながるおそれがあります。修正版へ更新し、信頼できないファイルを開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-77942 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77942.json) |
+| 11/18 14:38 | **CVE-2026-131077**<br>Google Chrome 158.0.8127.36 未満 | Tint の範囲外書き込みにより、細工した HTML ページを介してサンドボックス外で任意のコードを実行されるおそれがあります。Chrome を 158.0.8127.36 以降へ更新してください。 | 9.6 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-131077 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131077.json) |
+| 11/18 14:38 | **CVE-2026-131054**<br>Google Chrome 158.0.8127.36 未満 | ANGLE の範囲外書き込みにより、細工した HTML ページを介してサンドボックス外で任意のコードを実行されるおそれがあります(重大度 Critical)。Chrome を 158.0.8127.36 以降へ更新してください。 | 9.6 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-131054 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131054.json) |
+| 11/18 14:38 | **CVE-2026-131031**<br>Google Chrome 158.0.8127.36 未満 | GPU 処理の範囲外書き込みにより、細工した HTML ページを介してサンドボックス外で任意のコードを実行されるおそれがあります(重大度 Critical)。Chrome を 158.0.8127.36 以降へ更新してください。 | 9.6 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-131031 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131031.json) |
+| 11/18 14:38 | **CVE-2026-131013**<br>Google Chrome 158.0.8127.36 未満 | Skia のバッファオーバーフローにより、レンダラーを侵害した攻撃者がサンドボックス外で任意のコードを実行するおそれがあります。Chrome を 158.0.8127.36 以降へ更新してください。 | 8.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-131013 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131013.json) |
+| 11/18 14:38 | **CVE-2026-130996**<br>Google Chrome 158.0.8127.36 未満 | ANGLE の範囲外書き込みにより、細工した HTML ページを介してサンドボックス外で任意のコードを実行されるおそれがあります。Chrome を 158.0.8127.36 以降へ更新してください。 | 9.6 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-130996 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130996.json) |
+| 11/18 14:38 | **CVE-2026-130971**<br>Google Chrome 158.0.8127.36 未満 | ANGLE の範囲外書き込みにより、細工した HTML ページを介してサンドボックス外で任意のコードを実行されるおそれがあります。Chrome を 158.0.8127.36 以降へ更新してください。 | 9.6 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-130971 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130971.json) |
+| 11/18 14:38 | **CVE-2026-118900**<br>宮内庁 Android アプリ「皇居等ご案内」2.7 未満 | OSコマンドインジェクションにより、アプリの権限で任意のOSコマンドを実行されるおそれがあります。修正版へアプリを更新してください。 | 8.4 (高)<br>v4.0 | 確認されていない | [CVE-2026-118900 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118900.json) |
 | 11/18 13:38 | **CVE-2026-130644**<br>ansible-core(ansible-galaxy collection install。Red Hat MTA 8 / MTV / OpenShift Service Mesh 3 等に同梱) | コレクションのメタデータに含まれる名前が検証されず、悪意あるコレクションをインストールするとインストール先の外へのファイル書き込みやディレクトリ削除が起きるおそれがあります。修正版への更新と、信頼できるコレクションのみのインストールを行ってください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-130644 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130644.json) |
 | 11/18 13:38 | **CVE-2026-129354**<br>D-Link DIR-600L ファームウェア 2.17b02 | HNAP処理のスタックバッファオーバーフローにより、認証なしでリモートから任意コード実行などを受けるおそれがあり、攻撃コードも公開されています。サポート終了製品の可能性が高いため、機器の置き換えまたはインターネットからの管理アクセス遮断を行ってください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129354 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129354.json) |
 | 11/18 13:38 | **CVE-2026-127082**<br>Huginn 2026.11.09 未満 | JqAgent のフィルタからサーバープロセスの環境変数を参照でき、APP_SECRET_TOKEN やDB・SMTP・OAuthの秘密情報が漏えいするおそれがあります。2026.11.09 以降へ更新し、秘密情報のローテーションを検討してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-127082 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127082.json) |
