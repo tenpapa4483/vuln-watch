@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 11:38(日本時間)
-- 登録: 1802 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 12:38(日本時間)
+- 登録: 1807 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 12:38 | **CVE-2026-131800**<br>GitHub Enterprise Server 3.19〜3.22(3.19.16 / 3.20.12 / 3.21.10 / 3.22.5 未満) | カスタムプロパティの選択肢に保存されたHTMLによる格納型XSSで、条件が揃うと他のメンバーのアカウントに攻撃者のSSH鍵を追加されるおそれがあります。修正版(3.19.16 / 3.20.12 / 3.21.10 / 3.22.5 以降)へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-131800 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131800.json) |
+| 11/18 12:38 | **CVE-2026-130121**<br>WordPress プラグイン AI Puffer – MCP Server for Claude & ChatGPT, with AI Chatbot 2.5.28 以前 | AIが自動生成するコメント返信が無害化されずに保存されるため、未認証の攻撃者がコメント経由でAIにHTMLを出力させ、格納型XSSを仕込めるおそれがあります。修正版へ更新するか、AIによるコメント自動返信機能を無効化してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-130121 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130121.json) |
+| 11/18 12:38 | **CVE-2026-128030**<br>OpenMage magento-lts 20.18.2 未満、21.0.0-beta1〜beta3 未満 | APIユーザーを無効化したりAPIキーを変更しても既存のSOAP/XML-RPCセッションやOAuthトークンが有効なまま残り、顧客・注文・商品データを読み書きされるおそれがあります。20.18.2 / 21.0.0-beta3 以降へ更新し、既存トークンを失効させてください。 | 7.4 (高)<br>v4.0 | 確認されていない | [CVE-2026-128030 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128030.json) |
+| 11/18 12:38 | **CVE-2026-127091**<br>Jadaptive Maverick Synergy Server 3.0.33 未満 / 3.1.x 3.1.7 未満、Maverick Legacy Server 1.8.1 未満 | パスの正規化不備により、認証済みユーザーが重複区切りやドットを含むパスでマウント単位のアクセス制限を回避し、ファイルを読み書きできるおそれがあります。修正版(3.0.33 / 3.1.7 / 1.8.1 以降)へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-127091 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127091.json) |
+| 11/18 12:38 | **CVE-2026-125276**<br>Pleasanter 1.2.24.0〜1.5.9.1 | APIの応答に他ユーザー(管理者含む)のAPIキー等の認証情報が含まれ、認証済みの攻撃者がその権限で任意の操作を行えるおそれがあります。ベンダーが公開した修正版へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-125276 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125276.json) |
 | 11/18 11:38 | **CVE-2026-93459**<br>ASUS ルーター ファームウェア(3.0.0.4.386 / 3.0.0.4.388 / 3.0.0.6.102 系) | 書式文字列の問題により、近接ネットワーク上の管理者権限を持つ攻撃者がメモリを読み書きし、サービス停止などを引き起こすおそれがあります。ASUS の案内に従いファームウェアを更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-93459 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93459.json) |
 | 11/18 11:38 | **CVE-2026-88711**<br>ASUS ルーター ファームウェア(3.0.0.6.102 系の一部機種) | OS コマンドインジェクションにより、ログイン中の管理者に悪意あるサイトを閲覧させることで、遠隔から root 権限で任意コマンドを実行されるおそれがあります。ASUS の案内に従いファームウェアを更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-88711 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/88xxx/CVE-2026-88711.json) |
 | 11/18 11:38 | **CVE-2026-131876**<br>fqterm 0.9.9〜0.9.11 より前(SSH クライアント) | SSH クライアントがサーバー由来の長さを検証しないため、ホスト鍵検証前に悪意あるサーバーや中間者がメモリ範囲外アクセスを起こしクライアントを停止させるおそれがあります。0.9.11 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-131876 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131876.json) |
