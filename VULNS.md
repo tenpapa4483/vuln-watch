@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 14:38(日本時間)
-- 登録: 1823 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 15:38(日本時間)
+- 登録: 1827 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 15:38 | **CVE-2026-86563**<br>DPDK lib/vhost(RHEL 8/9/10 の dpdk、Fast Datapath / OpenShift の openvswitch ほか) | vhost のログマッピング計算でオフセットが二重に加算される不具合により、不正なメモリアクセスが発生するおそれがあります。Red Hat の修正済み dpdk パッケージ(RHSA)を適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86563 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86563.json) |
+| 11/18 15:38 | **CVE-2026-86562**<br>DPDK lib/vhost(RHEL 8/9/10 の dpdk、Fast Datapath / OpenShift の openvswitch ほか) | VDUSE 制御キュー処理での二重読み取り(TOCTOU)により、攻撃者が制御する内容でヒープバッファオーバーフローが起き、権限昇格等につながるおそれがあります。Red Hat の修正済み dpdk パッケージ(RHSA)を適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86562 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86562.json) |
+| 11/18 15:38 | **CVE-2026-5765**<br>WordPress プラグイン Essential Real Estate 5.3.3 以前 | saved_search_check_result 関数での安全でないデシリアライズにより、購読者権限以上のユーザーが PHP オブジェクトを注入できます。POP チェーンを持つ他のプラグイン等があればファイル削除や情報窃取、コード実行に至るおそれがあるため、修正版への更新か無効化を検討してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-5765 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/5xxx/CVE-2026-5765.json) |
+| 11/18 15:38 | **CVE-2026-111825**<br>WordPress プラグイン Event Tickets with Ticket Scanner 3.3.1 以前 | code パラメータの検証不備により、未認証の攻撃者が格納型クロスサイトスクリプティングを仕込め、チケットスキャナ画面の閲覧時にスクリプトが実行されるおそれがあります。修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-111825 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111825.json) |
 | 11/18 14:38 | **CVE-2026-90436**<br>Apache Axis 1.x(1.4 以前、サポート終了) | SOAP Fault の処理で任意クラスがロード・生成され、認証なしでリモートコード実行につながるおそれがあります。サポート終了製品のため Axis2 など後継への移行や修正コミットの適用を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-90436 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/90xxx/CVE-2026-90436.json) |
 | 11/18 14:38 | **CVE-2026-77943**<br>Autodesk AutoCAD 2027.1.0(2027.1.1 未満) | 細工した DXF ファイルを開くと範囲外書き込みが起き、クラッシュや任意コード実行につながるおそれがあります。修正版へ更新し、信頼できないファイルを開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-77943 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77943.json) |
 | 11/18 14:38 | **CVE-2026-77942**<br>Autodesk AutoCAD 2027.1.0(2027.1.1 未満) | 細工した IES ファイルを開くと範囲外書き込みが起き、クラッシュや任意コード実行につながるおそれがあります。修正版へ更新し、信頼できないファイルを開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-77942 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77942.json) |
