@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 21:39(日本時間)
-- 登録: 1927 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 22:38(日本時間)
+- 登録: 1933 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 22:38 | **CVE-2026-130333**<br>SNORDIAN's H5PxAPIkatchu(WordPressプラグイン)0.4.24 以下 | 公開されたノンスを使って未認証の訪問者が xAPI データ経由でスクリプトを保存でき、閲覧者のブラウザで実行されるおそれがあります。修正版へ更新するか、修正版が出るまでプラグインを無効化してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-130333 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130333.json) |
+| 11/18 22:38 | **CVE-2026-129961**<br>LMS(Lan Management System)コミット d5059b1 より前 | メール経由のヘルプデスク受付が危険な添付ファイルを拒否しないため、未認証の遠隔攻撃者がメールを送るだけでWebサーバー権限の任意コード実行に至るおそれがあります。修正コミット以降へ更新し、添付保存ディレクトリでのスクリプト実行を禁止してください。 | 9.5 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-129961 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129961.json) |
+| 11/18 22:38 | **CVE-2026-129117**<br>C-Kermit 8.0.200 以上 11.1.515 未満 | Telnet の SSL 認証でサーバー名を検証しないため、中間者攻撃により接続先を偽装され、認証情報や通信内容を盗まれるおそれがあります。11.1.515 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-129117 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129117.json) |
+| 11/18 22:38 | **CVE-2026-127143**<br>LMS(Lan Management System)lmsd、コミット 89dd3f7 より前 | lmsd デーモンがデータベースに登録された任意のライブラリを検証せず読み込むため、Webサーバー権限やDB書き込み権限を持つ攻撃者が root 権限でコードを実行できるおそれがあります。lmsd を停止・削除し、修正版へ更新してください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-127143 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127143.json) |
+| 11/18 22:38 | **CVE-2026-127142**<br>LMS(Lan Management System)コミット 89dd3f7 より前 | 顧客パネルのサービスチケット添付で .htaccess と PHP ファイルを上げられ、認証済み利用者がWebサーバー権限で任意コードを実行できるおそれがあります。修正コミット以降の版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-127142 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127142.json) |
+| 11/18 22:38 | **CVE-2026-125033**<br>Smash Balloon Social Post Feed(WordPressプラグイン)4.15.1 以下 | Facebook 投稿の添付説明文を通じて、未認証の第三者がフィード表示ページに悪意あるスクリプトを埋め込めるおそれがあります。修正版へ更新し、更新まではフィードのショートコード利用を控えてください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-125033 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125033.json) |
 | 11/18 21:39 | **CVE-2026-96571**<br>FancyBox for WordPress 3.4.2 以前 | コメントのリンク href の無害化不足により、未認証の攻撃者が格納型 XSS を仕込めるおそれがあります。修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-96571 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/96xxx/CVE-2026-96571.json) |
 | 11/18 21:39 | **CVE-2026-87790**<br>LVRTC eParakstītājs 3.0 1.11.0 未満 | 細工した署名付き eDOC を開くと証明書検証処理を通じて利用者端末から任意の HTTP リクエストが送られる(SSRF)おそれがあります。1.11.0 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-87790 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87790.json) |
 | 11/18 21:39 | **CVE-2026-87789**<br>LVRTC eParakstītājs 3.0(macOS)1.11.0 未満 | 細工したファイル名の PDF を開いて送信操作をすると、利用者権限で任意のコマンドが実行されるおそれがあります。1.11.0 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-87789 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87789.json) |
