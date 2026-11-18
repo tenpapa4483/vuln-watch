@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/18 16:37(日本時間)
-- 登録: 1829 件 / 悪用確認あり: 39 件
+- 最終チェック: 11/18 17:38(日本時間)
+- 登録: 1834 件 / 悪用確認あり: 39 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/18 17:38 | **CVE-2026-131959**<br>GNU Emacs 31.1(30.2 は影響なし) | 細工された .dir-locals.el を含むディレクトリでファイルを開くと、検証前に関数が呼ばれ任意の Emacs Lisp が実行されるおそれがあります。修正コミットを含む版へ更新し、信頼できないリポジトリでの利用に注意してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-131959 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131959.json) |
+| 11/18 17:38 | **CVE-2026-125829**<br>WordPress プラグイン Product Feed PRO for WooCommerce 13.5.8 以前 | パストラバーサルにより、認証済みの低権限ユーザーがサーバー上の任意ファイルを削除でき、サイト停止等につながるおそれがあります。13.5.9 以降へ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-125829 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125829.json) |
+| 11/18 17:38 | **CVE-2026-125820**<br>WordPress プラグイン Product Feed PRO for WooCommerce 13.5.8 以前 | 信頼できないデータのデシリアライズにより、認証済みの低権限ユーザーが PHP オブジェクトインジェクションを行い、サイトの侵害につながるおそれがあります。13.5.9 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-125820 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125820.json) |
+| 11/18 17:38 | **CVE-2026-113497**<br>Phoenix Contact FL WLAN 1020 / 1120 / 1022 ほか 26.10 未満 | REST API の権限管理不備により、低権限の遠隔攻撃者が管理者を含む任意ユーザーのパスワードを変更し、機器の完全な管理権限を奪えるおそれがあります。ファームウェア 26.10 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-113497 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/113xxx/CVE-2026-113497.json) |
+| 11/18 17:38 | **CVE-2025-15716**<br>Synology DiskStation Manager (DSM) 7.2.2-72806-5 / 7.3.1-86003-1 未満 | SSO API の認証実装の誤りにより、DN を知る遠隔攻撃者が任意ファイルの読み書きやサービス妨害を行えるおそれがあります。DSM 7.2.2-72806-5 / 7.3.1-86003-1 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2025-15716 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/15xxx/CVE-2025-15716.json) |
 | 11/18 16:37 | **CVE-2026-61984**<br>WordPress プラグイン WPMobile.App(wpappninja)11.77 以前 | 認可チェックの欠如により、認証なしの攻撃者が本来アクセスできない情報を取得できるおそれがあります。プラグインを 11.78 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-61984 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/61xxx/CVE-2026-61984.json) |
 | 11/18 16:37 | **CVE-2025-2235**<br>OpenText Connected MX macOS Agent 25.2 未満 | Agent の更新処理で暗号署名の検証が不十分なため、macOS 端末上の低権限ユーザーが root 権限を取得するおそれがあります。Connected MX macOS Agent を 25.2 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2025-2235 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/2xxx/CVE-2025-2235.json) |
 | 11/18 15:38 | **CVE-2026-86563**<br>DPDK lib/vhost(RHEL 8/9/10 の dpdk、Fast Datapath / OpenShift の openvswitch ほか) | vhost のログマッピング計算でオフセットが二重に加算される不具合により、不正なメモリアクセスが発生するおそれがあります。Red Hat の修正済み dpdk パッケージ(RHSA)を適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86563 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86563.json) |
