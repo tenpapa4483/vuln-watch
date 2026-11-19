@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/19 12:38(日本時間)
-- 登録: 3129 件 / 悪用確認あり: 44 件
+- 最終チェック: 11/19 13:38(日本時間)
+- 登録: 3134 件 / 悪用確認あり: 44 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/19 13:38 | **CVE-2026-28273**<br>ZoneMinder 1.36.38 以前、1.37.61〜1.38.4 未満 | 設定変更APIの権限確認が不十分なため、ログイン済みの一般ユーザーが保護された設定を書き換え、Webサーバー権限で任意のコマンドを実行できるおそれがあります。1.38.4 以降へ更新してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-28273 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/28xxx/CVE-2026-28273.json) |
+| 11/19 13:38 | **CVE-2026-132798**<br>Temenos Application Framework Java (TAFJ) R18.SP76.0(Comoログビューア) | ログビューアにパストラバーサルがあり、認証済みのリモート攻撃者がサーバー上の任意のファイルを読み取れるおそれがあります。ベンダーの修正情報を確認して適用し、ログビューアへのアクセスを制限してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-132798 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132798.json) |
+| 11/19 13:38 | **CVE-2026-132625**<br>SourceCodester Student Project Allocation and Management System 1.0(/login.php) | ログイン処理にSQLインジェクションがあり、リモートからデータベースの不正操作や認証回避をされるおそれがあります。攻撃手法が公開済みのため、利用を停止するか外部からのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-132625 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132625.json) |
+| 11/19 13:38 | **CVE-2026-132622**<br>GearUP Hyperev 20261020 まで(WLAN Site Survey機能) | 無線サイトサーベイ機能の入力処理に不備があり、リモートからOSコマンドを注入・実行されるおそれがあります。ベンダーは未対応のため、管理画面を外部に公開せずアクセスを制限してください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-132622 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132622.json) |
+| 11/19 13:38 | **CVE-2026-110789**<br>@libp2p/crypto 5.1.22 未満(js-libp2p 3.3.8 未満) | 細工された公開鍵を受け取るとASN.1デコーダが長時間ループし、認証前のリモート攻撃でNode.jsプロセスを停止させられる(サービス拒否)おそれがあります。@libp2p/crypto 5.1.22 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-110789 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/110xxx/CVE-2026-110789.json) |
 | 11/19 12:38 | **CVE-2026-132621**<br>GearUP Hyperev 20261020 まで | デバッグ・テスト用インターフェースのアクセス制御が不十分で、機器に物理的に触れられる攻撃者に機密情報の取得や改ざんをされるおそれがあります。ベンダーは未対応のため、機器を物理的に保護してください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2026-132621 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132621.json) |
 | 11/19 12:38 | **CVE-2026-132611**<br>SourceCodester Simple Form Builder Web App 1.0(/classes/Forms.php) | 回答保存処理でファイルの種類を制限していないため、任意ファイルをアップロードされコード実行につながるおそれがあります。攻撃手法が公開済みのため、利用を停止するか外部からのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-132611 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132611.json) |
 | 11/19 12:38 | **CVE-2026-132610**<br>SourceCodester Simple Form Builder Web App 1.0(/classes/Forms.php) | フォーム保存処理に入力値を検証せずに渡すため、リモートから任意のコードを注入・実行されるおそれがあります。攻撃手法が公開済みのため、利用を停止するか外部からのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-132610 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132610.json) |
