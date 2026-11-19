@@ -2,12 +2,23 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/20 03:38(日本時間)
-- 登録: 3513 件 / 悪用確認あり: 44 件
+- 最終チェック: 11/20 04:38(日本時間)
+- 登録: 3524 件 / 悪用確認あり: 44 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/20 04:38 | **CVE-2026-3598**<br>RustDesk Server Pro 1.7.5 以前 | 設定文字列の生成・エクスポートに弱い暗号方式が使われ、埋め込まれた機密情報を取得されるおそれがあります(ベンダーは脆弱性ではないとの立場)。エクスポートした設定文字列の取り扱いに注意し、更新情報を確認してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-3598 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/3xxx/CVE-2026-3598.json) |
+| 11/20 04:38 | **CVE-2026-30798**<br>RustDesk Client 1.4.8 以前 | ハートビート同期で受け取る停止指示の真正性が検証されず、サービスを停止させられるおそれがあります(ベンダーは脆弱性ではないとの立場)。通信経路の保護と最新版の適用を検討してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-30798 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/30xxx/CVE-2026-30798.json) |
+| 11/20 04:38 | **CVE-2026-30797**<br>RustDesk Client 1.4.5 以前 | URI ハンドラ経由で認可なしに設定をインポートでき、細工したリンクで接続先サーバー等を書き換えられるおそれがあります(ベンダー見解と相違ありとの注記あり)。最新版へ更新し、不審なリンクを開かないでください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-30797 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/30xxx/CVE-2026-30797.json) |
+| 11/20 04:38 | **CVE-2026-30793**<br>RustDesk Client 1.4.5 以前 | rustdesk:// URI 経由で常設パスワードを設定でき、利用者に細工したリンクを開かせることで遠隔操作を乗っ取られるおそれがあります(ベンダー見解と相違ありとの注記あり)。最新版へ更新し、不審なリンクを開かないでください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-30793 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/30xxx/CVE-2026-30793.json) |
+| 11/20 04:38 | **CVE-2026-30792**<br>RustDesk Client 1.4.8 以前 | サーバーとの戦略同期が中間者攻撃で改ざんされ、クライアント設定を書き換えられるおそれがあります(ベンダー見解と相違ありとの注記あり)。通信経路の保護と最新版の適用状況を確認してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-30792 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/30xxx/CVE-2026-30792.json) |
+| 11/20 04:38 | **CVE-2026-30785**<br>RustDesk Client 1.4.5 以前 | 設定の暗号化が機械固有の公開情報に依存しており、ローカルの低権限ユーザーに保存されたパスワード等を復号されるおそれがあります(ベンダー見解と相違ありとの注記あり)。最新版への更新と設定ファイルのアクセス制限を検討してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-30785 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/30xxx/CVE-2026-30785.json) |
+| 11/20 04:38 | **CVE-2026-130160**<br>RepoManager 5.13.3 未満 | GPG 鍵削除処理で識別子がシェルに渡されるため、認証済みユーザーに OS コマンドを実行され、秘密情報の漏えいやパッケージ改ざんにつながるおそれがあります。5.13.3 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-130160 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130160.json) |
+| 11/20 04:38 | **CVE-2026-130158**<br>RepoManager 5.13.3 未満 | 登録ホストが送るパッケージ情報が無害化されずに表示され、管理者が閲覧すると保存型 XSS で管理者権限の操作を行われるおそれがあります。5.13.3 以降へ更新してください。 | 9.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-130158 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130158.json) |
+| 11/20 04:38 | **CVE-2026-130157**<br>RepoManager 5.13.3 未満 | 攻撃者が管理する上流 RPM リポジトリをミラーすると、細工したファイル名によりサーバー上でコマンドを実行されるおそれがあります。5.13.3 以降へ更新し、信頼できる上流のみをミラーしてください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-130157 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130157.json) |
+| 11/20 04:38 | **CVE-2026-104129**<br>pREST(PostgreSQL REST API)2.4.0 未満 | _groupby パラメータの検証が甘く、GROUP BY 句に任意の SQL 構造を差し込まれてデータベースの情報窃取や改ざんにつながるおそれがあります(既定構成では認証不要)。2.4.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-104129 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/104xxx/CVE-2026-104129.json) |
+| 11/20 04:38 | **CVE-2026-103026**<br>Paymenter 1.5.7 未満 | Livewire コンポーネントの確認処理から任意のメソッドを呼び出せ、保護されたプロパティを書き換えて認可を回避されるおそれがあります。1.5.7 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-103026 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/103xxx/CVE-2026-103026.json) |
 | 11/20 03:38 | **CVE-2026-91469**<br>Oracle WebLogic Server 12.2.1.4.0 / 14.1.1.0.0 / 14.1.2.0.0 / 15.1.1.0.0 | 未認証の攻撃者が HTTP 経由で WebLogic Server の Core を悪用し、重要なデータの改ざんや漏えいを起こせるおそれがあります。Oracle 2026年11月 CPU で修正されています。パッチを適用してください。 | 9.4 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-91469 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91469.json) |
 | 11/20 03:38 | **CVE-2026-130886**<br>@fastify/reply-from 12.8.1〜12.8.3 | スキーム付きでエンコードされた「..」を含むパスにより、上流サーバーで意図しないパスにアクセスされるおそれがあります。12.8.4 以降に更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-130886 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130886.json) |
 | 11/20 03:38 | **CVE-2026-130647**<br>@fastify/http-proxy 9.x〜11.6.9(WebSocket有効時) | パイプライン化された WebSocket アップグレード要求でプロセスがクラッシュし、サービス停止になるおそれがあります。11.6.10 以降に更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-130647 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130647.json) |
