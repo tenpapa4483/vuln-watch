@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/19 18:38(日本時間)
-- 登録: 3269 件 / 悪用確認あり: 44 件
+- 最終チェック: 11/19 19:38(日本時間)
+- 登録: 3271 件 / 悪用確認あり: 44 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/19 19:38 | **CVE-2026-21618**<br>hexpm/hexpm(hex.pm、2025-10-01〜2026-01-19 の版) | OAuthデバイス認可画面のスコープ表示処理にクロスサイトスクリプティングがあり、利用者のブラウザで任意のスクリプトが実行されるおそれがあります。hex.pm本体は修正済みで、hexpmを自前で運用している場合は修正コミット以降へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-21618 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/21xxx/CVE-2026-21618.json) |
+| 11/19 19:38 | **CVE-2026-126631**<br>OpenSCAP(Red Hat Enterprise Linux 7〜10 ほか) | オフラインスキャン時にシンボリックリンクの解決先が対象イメージ内に制限されず、細工したコンテナ/VMイメージをスキャンするとホスト上の機密ファイルが読み取られたり結果が改ざんされたりするおそれがあります。修正版が出るまで、信頼できないイメージのスキャンは隔離環境で行ってください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-126631 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126631.json) |
 | 11/19 18:38 | **CVE-2026-85776**<br>WordPressプラグイン WP Duplicate 1.1.11 以前 | AJAX処理に権限・nonce確認がなく、購読者権限以上のユーザーがリモートコード実行に至るおそれがあります。修正版への更新か、プラグインの無効化を検討してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-85776 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/85xxx/CVE-2026-85776.json) |
 | 11/19 18:38 | **CVE-2026-82730**<br>AshTypescript 0.11.0〜0.18.0未満 | フィールドポリシーで拒否された属性値が結果の正規化処理で漏れ、権限のない呼び出し元に読まれるおそれがあります。0.18.0 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-82730 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82730.json) |
 | 11/19 18:38 | **CVE-2026-82724**<br>AshPhoenix 2.1.26〜2.3.25未満 | SubdomainHook の認可コールバックにテナントが渡らず、テナント単位のアクセス制御が機能しないおそれがあります。2.3.25 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-82724 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82724.json) |
