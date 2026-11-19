@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/19 14:38(日本時間)
-- 登録: 3146 件 / 悪用確認あり: 44 件
+- 最終チェック: 11/19 15:37(日本時間)
+- 登録: 3147 件 / 悪用確認あり: 44 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/19 15:37 | **CVE-2026-109555**<br>WordPress用プラグイン WP STAGING 4.17.0以前、WP STAGING Pro 6.17.0以前 | 購読者権限の攻撃者がプロフィールに仕込んだ細工データが、管理者によるDB復元やステージングのリセット時にデシリアライズされ、サーバー上で任意コード実行やファイル読み取り・削除に至るおそれがあります。修正版へ更新してください。 | 8.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-109555 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/109xxx/CVE-2026-109555.json) |
 | 11/19 14:38 | **CVE-2026-91569**<br>Oracle WebLogic Server 12.2.1.4.0、14.1.1.0.0、14.1.2.0.0、15.1.1.0.0(TopLink Integration) | TopLink連携部分の不備により、認証なしでHTTP経由の攻撃を受けWebLogic Serverを乗っ取られるおそれがあります。2026年11月のOracleセキュリティパッチを適用し、外部公開を制限してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-91569 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91569.json) |
 | 11/19 14:38 | **CVE-2026-91510**<br>Oracle Access Manager 12.2.1.4.0、14.1.2.1.0(Authentication Engine) | 認証エンジンの不備により、認証なしのリモート攻撃で重要データの作成・削除・改ざんが可能になるおそれがあります。2026年11月のOracleセキュリティパッチを適用してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-91510 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91510.json) |
 | 11/19 14:38 | **CVE-2026-84998**<br>WordPress プラグイン NextScripts: Social Networks Auto-Poster 4.4.8 以前 | コメント欄の入力処理に不備があり、未認証の攻撃者が仕込んだスクリプトが管理者のコメント承認画面で実行される(格納型XSS)おそれがあります。修正版へ更新するか、プラグインを無効化してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-84998 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/84xxx/CVE-2026-84998.json) |
