@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/19 21:38(日本時間)
-- 登録: 3349 件 / 悪用確認あり: 44 件
+- 最終チェック: 11/19 22:38(日本時間)
+- 登録: 3354 件 / 悪用確認あり: 44 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/19 22:38 | **CVE-2026-116440**<br>Dell PowerStore T/Q シリーズ(5.1.0.0-2798105 より前) | PowerStore の SDNAS にバッファオーバーフローがあり、認証なしのリモート攻撃者がサービス停止や任意コード実行を引き起こすおそれがあります。Dell のセキュリティ更新(DSA-2026-479)を適用してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-116440 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116440.json) |
+| 11/19 22:38 | **CVE-2026-116439**<br>Dell PowerStore T/Q シリーズ(5.1.0.0-2798105 より前) | PowerStore の SDNAS にパストラバーサルがあり、認証なしの攻撃者が NAS ノード上の任意のファイルを読み取り・改ざん・削除できるおそれがあります。Dell のセキュリティ更新(DSA-2026-479)を適用してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-116439 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/116xxx/CVE-2026-116439.json) |
+| 11/19 22:38 | **CVE-2026-115342**<br>OpenVPN(Windows版)2.4.0〜2.6.23、2.7_alpha1〜2.7.8 | Windows 版 OpenVPN の対話型サービスに引数インジェクションがあり、ログイン済みのローカルユーザーがオプション検証を回避して任意の設定を追加し、権限昇格につながるおそれがあります。修正版へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-115342 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115342.json) |
+| 11/19 22:38 | **CVE-2026-111509**<br>Dell PowerStore T/Q シリーズ(5.1.0.0-2798105 より前) | PowerStore の SDNAS が暗号強度の弱い乱数生成器を使っており、ネットワーク上の攻撃者が NAS の SSH/SFTP 通信を復号・改ざんできるおそれがあります。Dell のセキュリティ更新(DSA-2026-479)を適用してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-111509 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111509.json) |
+| 11/19 22:38 | **CVE-2026-111506**<br>Dell PowerStore T/Q シリーズ(5.1.0.0-2798105 より前) | PowerStore に認証の欠如があり、隣接ネットワーク上の攻撃者が認証・認可を回避して情報漏えいやサービス停止を引き起こすおそれがあります。Dell のセキュリティ更新(DSA-2026-479)を適用してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-111506 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111506.json) |
 | 11/19 21:38 | **CVE-2026-22311**<br>JTL-Shop 5.8.0〜5.8.3 | JTL-ShopのJTL-Wawi同期インターフェースでログイン失敗制限の判定に偽装可能なヘッダーが使われ、認証なしの攻撃者に同期を継続的に妨害されて注文連携が止まるおそれがあります。修正版に更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-22311 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/22xxx/CVE-2026-22311.json) |
 | 11/19 21:38 | **CVE-2026-133117**<br>WebToffee WooCommerce Product Feeds(WordPressプラグイン)2.4.4未満 | WebToffee Product Feedにハードコードされた暗号鍵の問題があり、認証なしの攻撃者に署名チェックを回避され、偽造したリクエストで内部処理を実行されるおそれがあります。2.4.4以降に更新してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE-2026-133117 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133117.json) |
 | 11/19 21:38 | **CVE-2026-133097**<br>JetBrains TeamCity 2026.2.2未満(2026.1系は2026.1.6未満) | JetBrains TeamCityに、エージェントのPush認可キーが推測可能で、悪用されるおそれがあります。2026.2.2または2026.1.6以降に更新してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-133097 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133097.json) |
