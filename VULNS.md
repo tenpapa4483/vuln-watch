@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/19 11:38(日本時間)
-- 登録: 3126 件 / 悪用確認あり: 44 件
+- 最終チェック: 11/19 12:38(日本時間)
+- 登録: 3129 件 / 悪用確認あり: 44 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/19 12:38 | **CVE-2026-132621**<br>GearUP Hyperev 20261020 まで | デバッグ・テスト用インターフェースのアクセス制御が不十分で、機器に物理的に触れられる攻撃者に機密情報の取得や改ざんをされるおそれがあります。ベンダーは未対応のため、機器を物理的に保護してください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2026-132621 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132621.json) |
+| 11/19 12:38 | **CVE-2026-132611**<br>SourceCodester Simple Form Builder Web App 1.0(/classes/Forms.php) | 回答保存処理でファイルの種類を制限していないため、任意ファイルをアップロードされコード実行につながるおそれがあります。攻撃手法が公開済みのため、利用を停止するか外部からのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-132611 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132611.json) |
+| 11/19 12:38 | **CVE-2026-132610**<br>SourceCodester Simple Form Builder Web App 1.0(/classes/Forms.php) | フォーム保存処理に入力値を検証せずに渡すため、リモートから任意のコードを注入・実行されるおそれがあります。攻撃手法が公開済みのため、利用を停止するか外部からのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-132610 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132610.json) |
 | 11/19 11:38 | **CVE-2026-91587**<br>Oracle WebCenter Portal 12.2.1.4.0, 14.1.2.0.0 | Composer コンポーネントの欠陥により、未認証の攻撃者がHTTP経由で WebCenter Portal の重要データをすべて読み取れるおそれがあります。Oracle 2026年11月 CPU で修正されています。パッチを適用してください。 | 8.6 (高)<br>v3.1 | 確認されていない | [CVE-2026-91587 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91587.json) |
 | 11/19 11:38 | **CVE-2026-91586**<br>Oracle WebCenter Portal 12.2.1.4.0, 14.1.2.0.0 | 未認証の攻撃者が利用者に操作させることで、WebCenter Portal の重要データを窃取できるおそれがあります。Oracle 2026年11月 CPU で修正されています。パッチを適用してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-91586 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91586.json) |
 | 11/19 11:38 | **CVE-2026-91564**<br>Oracle Access Manager 12.2.1.4.0, 14.1.2.1.0 | 未認証の攻撃者がLDAP経由で Access Manager の重要データをすべて読み取れるおそれがあります。Oracle 2026年11月 CPU で修正されています。パッチを適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-91564 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91564.json) |
