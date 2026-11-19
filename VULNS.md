@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/20 06:38(日本時間)
-- 登録: 3672 件 / 悪用確認あり: 45 件
+- 最終チェック: 11/20 07:38(日本時間)
+- 登録: 3677 件 / 悪用確認あり: 45 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/20 07:38 | **CVE-2026-77316**<br>Flyto2 Core 2.26.8 未満 | validate_url_ssrf が名前解決結果を固定しないため、DNS リバインディングで各種外部通信処理の SSRF 対策を回避されるおそれがあります。2.26.8 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-77316 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77316.json) |
+| 11/20 07:38 | **CVE-2026-77315**<br>Flyto2 Core 2.26.8 未満 | http.paginate がサーバー指定の次ページURLを SSRF 検査なしで辿るため、低権限ユーザーに内部ネットワークやメタデータサービスの応答を取得されるおそれがあります。2.26.8 以降へ更新してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-77315 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77315.json) |
+| 11/20 07:38 | **CVE-2026-77313**<br>Flyto2 Core 2.26.8 未満 | SSRF 対策が検証済みIPではなくホスト名で接続するため、DNS リバインディングで検査を回避され内部サービスへ到達されるおそれがあります。2.26.8 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-77313 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77313.json) |
+| 11/20 07:38 | **CVE-2026-77312**<br>Flyto2 Core 2.26.8 未満 | 以前の修正(CVE-2026-67429)が一部モジュールにしか適用されておらず、data.*/file.* 系モジュール経由でサンドボックス外の任意の場所へファイルを書き込まれるおそれがあります。2.26.8 以降へ更新してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-77312 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77312.json) |
+| 11/20 07:38 | **CVE-2026-114516**<br>Etherpad 1.8.14 以上 3.3.3 未満 | 静的ファイル配信処理のパス検査後にバックスラッシュ変換が行われるため、認証なしで任意のファイルを読み取られ、設定内の秘密情報を足掛かりにコード実行まで至るおそれがあります。3.3.3 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-114516 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/114xxx/CVE-2026-114516.json) |
 | 11/20 06:38 | **CVE-2026-92857**<br>Red Hat build of Keycloak 26.4(26.4.17-2 未満) | 動的クライアント登録の検証不備により、攻撃者が sub や aud を偽った署名付きトークンを発行させ、他の利用者になりすませるおそれがあります。修正版へ更新し、動的クライアント登録の利用を制限してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-92857 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/92xxx/CVE-2026-92857.json) |
 | 11/20 06:38 | **CVE-2026-87977**<br>IBM Guardium Data Protection 12.2 | edge-controller コンポーネントの SQL インジェクションにより、認証なしの攻撃者がデータベースの機微情報を閲覧・改ざんできるおそれがあります。IBM の修正を早急に適用してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-87977 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87977.json) |
 | 11/20 06:38 | **CVE-2026-85018**<br>IBM Guardium Data Protection 12.2(GDP Terraform provider) | TLS 証明書を正しく検証しないため、中間者攻撃によりアプライアンスへ送られる認証情報を盗まれるおそれがあります。IBM の修正を適用してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-85018 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/85xxx/CVE-2026-85018.json) |
