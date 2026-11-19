@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/19 08:38(日本時間)
-- 登録: 3113 件 / 悪用確認あり: 43 件
+- 最終チェック: 11/19 09:37(日本時間)
+- 登録: 3114 件 / 悪用確認あり: 43 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/19 09:37 | **CVE-2026-132286**<br>yangzongzhuan RuoYi 4.8.0〜4.8.3 | ユーザー登録エンドポイント(SysLoginController)で部署ID・状態・ユーザーIDなどの入力値が検証されず、認証なしで不正な属性を持つアカウントを登録されるおそれがあります。攻撃手法が公開済みのため、修正コミット(d7ad977)の適用や修正版への更新を行ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-132286 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132286.json) |
 | 11/19 08:38 | **CVE-2026-77283**<br>obsidian-sync-mcp 0.5.7 未満 | MCP_AUTH_TOKEN 未設定時に /mcp エンドポイントが認証やHost/Origin検証をしないため、悪意あるWebサイト経由(DNSリバインディング等)でObsidianのノートを読み書き・削除されるおそれがあります。0.5.7 以降へ更新するか MCP_AUTH_TOKEN を設定してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE-2026-77283 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77283.json) |
 | 11/19 08:38 | **CVE-2026-71536**<br>Mareforma 0.3.0 以上 0.3.8 未満 | エクスポートバンドルの検証が個々の主張の署名を確認しないため、偽造や無効な署名の主張が本物として受け入れられるおそれがあります。0.3.8 以降へ更新してください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2026-71536 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/71xxx/CVE-2026-71536.json) |
 | 11/19 08:38 | **CVE-2026-71535**<br>Mareforma 0.3.0 以上 0.3.7 未満 | 署名のない主張が署名済みの主張と収束して「REPLICATED(再現済み)」に昇格し、偽の複数者による裏付けとして扱われるおそれがあります。0.3.7 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-71535 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/71xxx/CVE-2026-71535.json) |
