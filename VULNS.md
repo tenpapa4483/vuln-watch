@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 07:37(日本時間)
-- 登録: 4009 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/21 08:37(日本時間)
+- 登録: 4015 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 08:37 | **CVE-2026-15315**<br>TP-Link Tapo C200 v3/v5、Tapo C120 v1(修正ファームウェア未満) | 同一ネットワーク上の攻撃者が認証のチャレンジ検証の弱点を突いて管理者セッションを取得し、設定変更やサービス停止を行えるおそれがあります。最新ファームウェアへ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-15315 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/15xxx/CVE-2026-15315.json) |
+| 11/21 08:37 | **CVE-2026-134170**<br>Cesanta Mongoose 7.22 以上 7.24 未満(内蔵TLSスタック使用時) | TLS ハンドシェイク時に不正な有効期限の月を持つ証明書を提示されると、範囲外読み取りでプロセスがクラッシュするおそれがあります。7.24 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-134170 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134170.json) |
+| 11/21 08:37 | **CVE-2026-134169**<br>Qwik City(@builder.io/qwik-city 1.20.3 未満)、@qwik.dev/router(2.0.0-rc.4 未満) | フォーム POST のネストしたフィールド名で組み込み関数のプロパティを書き換えられ、サーバー全体が再起動まで正常に動かなくなるおそれがあります。修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-134169 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134169.json) |
+| 11/21 08:37 | **CVE-2026-134167**<br>devpi-web(PyPI、5.2.0 未満) | +doc ルートのパス検証不備により、認証なしでサーバー上の任意ファイル(パスワードハッシュを含むデータベースなど)を読み取られるおそれがあります。5.2.0 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-134167 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134167.json) |
+| 11/21 08:37 | **CVE-2026-134164**<br>probe-image-size(npm、7.5.0 未満) | 自己参照する EXIF IFD を含む細工された小さな JPEG を処理させられると、Node.js のイベントループが長時間停止しサービス不能になるおそれがあります。7.5.0 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-134164 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134164.json) |
+| 11/21 08:37 | **CVE-2026-112487**<br>iOS/iPadOS 26.7.2・27.2 未満、macOS Sequoia 15.8.2・Tahoe 26.7.2・Golden Gate 27.2 未満 | パス処理の検証不備により、端末上の悪意あるアプリが root 権限を取得するおそれがあります。iOS/iPadOS と macOS を修正版(26.7.2、27.2、15.8.2 など)へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-112487 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/112xxx/CVE-2026-112487.json) |
 | 11/21 07:37 | **CVE-2026-134172**<br>audio-separator(PyPI、0.47.2 未満) | Demucs モデルファイルを安全でない方法で読み込むため、細工されたモデル(共有の既定キャッシュ先 /tmp に置かれたものや改ざんされた配布元からのもの)で任意のコードが実行されるおそれがあります。0.47.2 以降へ更新し、モデルの入手元と保存先を信頼できる場所に限定してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-134172 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134172.json) |
 | 11/21 06:38 | **CVE-2026-134126**<br>WPC Smart Messages for WooCommerce 4.3.6未満(WordPressプラグイン) | ショートコードの権限確認が欠けており、寄稿者・投稿者権限の利用者が任意の投稿メタや非公開の商品データを読み出せます。4.3.6以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134126 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134126.json) |
 | 11/21 06:38 | **CVE-2026-133835**<br>hankcs HanLP 2.1.6以前 | TARアーカイブ展開処理(io_util.py の uncompress)にパストラバーサルがあり、細工したアーカイブで任意の場所にファイルを書き込まれるおそれがあります。攻撃コードが公開済みのため、2.1.7以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-133835 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133835.json) |
