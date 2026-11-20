@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 06:38(日本時間)
-- 登録: 4008 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/21 07:37(日本時間)
+- 登録: 4009 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 07:37 | **CVE-2026-134172**<br>audio-separator(PyPI、0.47.2 未満) | Demucs モデルファイルを安全でない方法で読み込むため、細工されたモデル(共有の既定キャッシュ先 /tmp に置かれたものや改ざんされた配布元からのもの)で任意のコードが実行されるおそれがあります。0.47.2 以降へ更新し、モデルの入手元と保存先を信頼できる場所に限定してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-134172 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134172.json) |
 | 11/21 06:38 | **CVE-2026-134126**<br>WPC Smart Messages for WooCommerce 4.3.6未満(WordPressプラグイン) | ショートコードの権限確認が欠けており、寄稿者・投稿者権限の利用者が任意の投稿メタや非公開の商品データを読み出せます。4.3.6以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134126 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134126.json) |
 | 11/21 06:38 | **CVE-2026-133835**<br>hankcs HanLP 2.1.6以前 | TARアーカイブ展開処理(io_util.py の uncompress)にパストラバーサルがあり、細工したアーカイブで任意の場所にファイルを書き込まれるおそれがあります。攻撃コードが公開済みのため、2.1.7以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-133835 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133835.json) |
 | 11/21 06:38 | **CVE-2026-127351**<br>Oracle Hyperion Financial Close Management 11.2.26.0.000 | Reconciliation Manager コンポーネントの不備により、認証なしの攻撃者がHTTP経由で重要データを閲覧できるおそれがあります。Oracleの修正パッチを適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-127351 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127351.json) |
