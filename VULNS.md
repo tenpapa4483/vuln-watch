@@ -2,12 +2,20 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/20 13:38(日本時間)
-- 登録: 3688 件 / 悪用確認あり: 45 件
+- 最終チェック: 11/20 14:38(日本時間)
+- 登録: 3696 件 / 悪用確認あり: 45 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/20 14:38 | **CVE-2026-8466**<br>Erlang用HTTPサーバー cowboy 0.10.0〜2.15.0 未満 | multipart のヘッダー解析でバッファに上限がなく、区切りが現れないリクエストを送り続けられるとメモリが際限なく消費され、サービス停止に至るおそれがあります。cowboy 2.15.0 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-8466 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/8xxx/CVE-2026-8466.json) |
+| 11/20 14:38 | **CVE-2026-7790**<br>Erlang/Elixir用HTTPライブラリ cowlib 0.6.0〜2.16.1 未満 | chunked 転送のチャンクサイズに桁数の制限がなく、非常に長い16進数を送られると CPU とメモリを大量に消費させられ、認証不要でサービス停止を起こされるおそれがあります。cowlib 2.16.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-7790 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/7xxx/CVE-2026-7790.json) |
+| 11/20 14:38 | **CVE-2026-43970**<br>Erlang/Elixir用HTTPライブラリ cowlib 0.1.0〜2.16.1 未満 | SPDY ヘッダーの展開に出力サイズの上限がなく、細工した SPDY フレーム1つで巨大なデータに展開されメモリ枯渇でノードが停止するおそれがあります。cowlib 2.16.1 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-43970 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/43xxx/CVE-2026-43970.json) |
+| 11/20 14:38 | **CVE-2026-43967**<br>Elixir用GraphQLライブラリ absinthe 1.2.0〜1.10.2 未満 | フラグメント名の重複チェックが二乗の計算量になっており、認証不要の攻撃者が大量のフラグメントを含むクエリを送ると CPU を占有されサービス停止になるおそれがあります。absinthe 1.10.2 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-43967 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/43xxx/CVE-2026-43967.json) |
+| 11/20 14:38 | **CVE-2026-42793**<br>Elixir用GraphQLライブラリ absinthe 1.5.0-alpha.2〜1.10.2 未満 | 外部から渡された GraphQL SDL の名前が atom に変換されるため、一意な名前を大量に送られると atom テーブルが枯渇し、Erlang VM ごと停止するおそれがあります。absinthe 1.10.2 以降へ更新し、信頼できない SDL を解析しないでください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-42793 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/42xxx/CVE-2026-42793.json) |
+| 11/20 14:38 | **CVE-2026-39803**<br>Elixir用HTTPサーバー bandit 1.4.0〜1.11.1 未満 | HTTP/1 の chunked 形式のリクエストボディでサイズ上限が無視され、認証不要の攻撃者が巨大なボディを送るだけでメモリを使い果たさせ、サービス停止を起こせるおそれがあります。bandit 1.11.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-39803 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/39xxx/CVE-2026-39803.json) |
+| 11/20 14:38 | **CVE-2026-32689**<br>Phoenix Framework 1.7.0〜1.7.22 未満、1.8.0-rc.0〜1.8.6 未満 | ロングポーリング転送で改行だけの NDJSON ボディを送られると大量のリストが生成され、BEAM のメモリが枯渇してノード全体が停止するおそれがあります。1.7.22 / 1.8.6 以降へ更新するか、ロングポーリングを無効にしてください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-32689 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/32xxx/CVE-2026-32689.json) |
+| 11/20 14:38 | **CVE-2026-32687**<br>Elixir用PostgreSQLドライバ postgrex 0.16.0〜0.22.2 未満 | Postgrex.Notifications の listen/unlisten でチャネル名がエスケープされず、チャネル名を操作できる攻撃者が任意の SQL(テーブル削除など)を連結実行できるおそれがあります。postgrex 0.22.2 以降へ更新し、外部入力をチャネル名に使わないでください。 | 7.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-32687 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/32xxx/CVE-2026-32687.json) |
 | 11/20 13:38 | **CVE-2026-86476**<br>GStreamer gst-plugins-base(Red Hat Enterprise Linux 6/7/8/9/10 ほか) | GstVideoMetaのストライドやオフセットが検証されないため、GStreamerのプロセス間パイプラインで細工したバッファを受け取るとヒープ領域外の読み書きが起き、クラッシュやコード実行につながるおそれがあります。RHSA などで提供されている修正版パッケージへ更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-86476 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86476.json) |
 | 11/20 13:38 | **CVE-2026-42786**<br>Elixir用HTTPサーバー bandit 0.5.1〜1.11.0 未満 | WebSocketの分割フレームの再構成にサイズ上限がなく、認証なしのリモート攻撃者がメモリを使い果たさせてサービス停止を起こせるおそれがあります。bandit 1.11.0 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-42786 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/42xxx/CVE-2026-42786.json) |
 | 11/20 13:38 | **CVE-2026-39804**<br>Elixir用HTTPサーバー bandit 0.5.9〜1.11.0 未満 | WebSocketのpermessage-deflate有効時に展開後のサイズ上限がなく、高圧縮率のフレームで大量のメモリを消費させられ、リモートからサービス停止を起こされるおそれがあります。bandit 1.11.0 以降へ更新するか、圧縮を無効にしてください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-39804 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/39xxx/CVE-2026-39804.json) |
