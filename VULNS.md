@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/20 22:38(日本時間)
-- 登録: 3831 件 / 悪用確認あり: 45 件
+- 最終チェック: 11/20 23:38(日本時間)
+- 登録: 3837 件 / 悪用確認あり: 45 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/20 23:38 | **CVE-2026-14914**<br>Tegsoft Contact Center latest-202611161510 より前 | 危険な種類のファイルを制限なくアップロードでき、未認証の攻撃者にWebシェルを置かれて遠隔からコードを実行されるおそれがあります。ベンダーの最新版へ更新してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-14914 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/14xxx/CVE-2026-14914.json) |
+| 11/20 23:38 | **CVE-2026-129074**<br>WordPress miniOrange's Google Authenticator プラグイン 6.6.0 以下 | 認可チェックの欠如により、低権限のユーザーに二要素認証の設定を変更されるおそれがあります。6.6.1 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129074 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129074.json) |
+| 11/20 23:38 | **CVE-2026-129043**<br>WordPress Newsletters(newsletters-lite)プラグイン 4.18.2 以下 | 未認証で悪用できるSQLインジェクションがあり、データベースの情報を盗まれるおそれがあります。4.18.3 以降へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129043 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129043.json) |
+| 11/20 23:38 | **CVE-2026-129039**<br>WordPress Newsletters(newsletters-lite)プラグイン 4.18.2 以下 | 信頼できないデータのデシリアライズにより、未認証の攻撃者にPHPオブジェクトを注入され、サイトを乗っ取られるおそれがあります。4.18.3 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129039 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129039.json) |
+| 11/20 23:38 | **CVE-2026-129017**<br>WordPress Site Reviews プラグイン 8.3.7 以下 | 保存型クロスサイトスクリプティングがあり、閲覧者のブラウザで任意のスクリプトを実行されるおそれがあります。8.3.8 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129017 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129017.json) |
+| 11/20 23:38 | **CVE-2026-128996**<br>WordPress wpForo Forum プラグイン 3.2.4 以下 | 保存型クロスサイトスクリプティングがあり、閲覧者のブラウザで任意のスクリプトを実行されるおそれがあります。3.2.5 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-128996 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128996.json) |
 | 11/20 22:38 | **CVE-2026-63202**<br>netty-incubator-codec-ohttp 0.0.23.Final 未満 | Binary HTTP のフィールド解析で無限ループに陥り、未認証の相手からCPU枯渇によるサービス停止を起こされるおそれがあります。0.0.23.Final 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-63202 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/63xxx/CVE-2026-63202.json) |
 | 11/20 22:38 | **CVE-2026-129424**<br>Solidres(Joomla 拡張)1.0.0〜3.4.1、4.0.0〜4.6.0 | 予約者情報が管理画面でエスケープされずに表示され、未認証のゲストが保存型XSSで管理者のセッションを悪用するおそれがあります。最新版(4.7.0 以降)と関連アドオンを更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-129424 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129424.json) |
 | 11/20 22:38 | **CVE-2026-129073**<br>miniOrange OTP Verification(WordPress プラグイン)5.6.1 以下 | 認証を別経路で回避できる欠陥があり、未認証の攻撃者がOTP認証を突破してアカウントを乗っ取るおそれがあります。5.6.2 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129073 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129073.json) |
