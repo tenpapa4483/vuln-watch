@@ -2,12 +2,22 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 00:38(日本時間)
-- 登録: 3853 件 / 悪用確認あり: 45 件
+- 最終チェック: 11/21 01:38(日本時間)
+- 登録: 3863 件 / 悪用確認あり: 45 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 01:38 | **CVE-2026-133874**<br>Iceburg CRM 5.0.0 以下 | 認証済みユーザーがリクエストのキーに別モジュールIDを付けることで権限外のモジュールへ書き込み、自分のロールを管理者に変更できる恐れがあります。修正版の提供状況を確認し、提供までアクセスを制限してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-133874 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133874.json) |
+| 11/21 01:38 | **CVE-2026-133872**<br>LessPass セルフホスト同期サーバー(コミット 9469b0c より前) | JWT ログインのエンドポイントに試行回数制限がなく、総当たりやクレデンシャルスタッフィングでトークンを奪われ、保存されたプロファイルを読み書きされる恐れがあります。修正コミット以降へ更新してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-133872 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133872.json) |
+| 11/21 01:38 | **CVE-2026-133325**<br>Apache Tomcat 11.0.29 / 10.1.62 / 9.0.124 | TLS 1.3 と TLS-PSK でクラスタを保護している場合に相手を検証せず、認証されていないノードがクラスタに参加できる恐れがあります。修正版(11.0.30 / 10.1.63 など)へ更新するか、TLS 1.2 の設定に切り替えてください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133325 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133325.json) |
+| 11/21 01:38 | **CVE-2026-133199**<br>AWS ssosync 2.9.5 より前 | 再利用された Google Workspace のメールアドレスやグループ名を割り当てられたユーザーが、以前の無関係なIDの IAM Identity Center 権限を引き継いでしまう恐れがあります。ssosync 2.9.5 以降へ更新してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-133199 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133199.json) |
+| 11/21 01:38 | **CVE-2026-115407**<br>Go ライブラリ crypto11 (eclipse-keypont/crypto11/v2 2.0.0-rc8 以下、旧モジュールパス含む) | AES-GCM で空や不正な長さの nonce を検査せず HSM に渡すため、IV の再利用により認証鍵が露出し暗号文の偽造が可能になる恐れがあります。修正版(2.0.0-rc9 以降)へ更新してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-115407 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115407.json) |
+| 11/21 01:38 | **CVE-2026-115130**<br>Oracle Hyperion Planning 11.2.26.0.000(ADF コンポーネント) | 低権限の攻撃者がHTTP経由で容易に悪用でき、重要データの取得や改ざんが可能になる恐れがあります。Oracle の修正パッチを適用してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-115130 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115130.json) |
+| 11/21 01:38 | **CVE-2026-115129**<br>Oracle Hyperion Planning 11.2.26.0.000 | 低権限の攻撃者がHTTP経由で悪用でき、他製品にまたがって重要なデータが読み取られる恐れがあります。Oracle の修正パッチを適用してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-115129 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115129.json) |
+| 11/21 01:38 | **CVE-2026-115124**<br>Oracle Hyperion Planning 11.2.26.0.000 | 認証不要の攻撃者がHTTPS経由で(攻撃難度は高いものの)機密データの取得や改ざんを行える恐れがあります。Oracle の修正パッチを適用してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-115124 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115124.json) |
+| 11/21 01:38 | **CVE-2026-115120**<br>Oracle Hyperion Financial Management 11.2.26.0.000 | 低権限の攻撃者が他ユーザーの操作を介して悪用でき、他製品にも影響が及ぶ形で機密情報の漏えいや改ざんが起きる恐れがあります。Oracle の修正パッチを適用してください。 | 8.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-115120 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115120.json) |
+| 11/21 01:38 | **CVE-2026-115117**<br>Oracle Hyperion Financial Management 11.2.26.0.000 | 低権限の攻撃者がHTTP経由で容易に悪用でき、データの不正な作成・削除・改ざんなどにつながる恐れがあります。Oracle の Critical Patch Update を適用してください。 | 7.6 (高)<br>v3.1 | 確認されていない | [CVE-2026-115117 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115117.json) |
 | 11/21 00:38 | **CVE-2026-133854**<br>flowintel 4.1.0 より前 | 分類情報の利用状況エンドポイントでアクセス制御が欠けており、認証済みユーザーに閲覧権限のないケースのタグや分類を列挙されるおそれがあります。4.1.0 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-133854 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133854.json) |
 | 11/21 00:38 | **CVE-2026-133849**<br>flowintel 4.1.0 より前 | タスクカレンダー(ICS フィードを含む)で親ケースの閲覧権限が確認されず、権限のない非公開ケースの情報が漏れるおそれがあります。4.1.0 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-133849 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133849.json) |
 | 11/21 00:38 | **CVE-2026-133848**<br>flowintel 4.1.0 より前 | ユーザー削除で権限階層が確認されず、組織管理者にプラットフォーム管理者アカウントを削除されるおそれがあります。4.1.0 以降へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-133848 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133848.json) |
