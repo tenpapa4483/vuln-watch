@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/20 09:38(日本時間)
-- 登録: 3678 件 / 悪用確認あり: 45 件
+- 最終チェック: 11/20 10:37(日本時間)
+- 登録: 3679 件 / 悪用確認あり: 45 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/20 10:37 | **CVE-2026-133528**<br>BeamNG.drive 0.40.6 未満 | LuaJIT の JIT コンパイル時に FFI 配列の境界チェックが省かれる不備により、悪意あるMODを読み込むとサンドボックスを脱出され、ゲーム実行ユーザーの権限で任意のコマンドを実行されるおそれがあります。0.40.6 以降へ更新し、信頼できないMODは導入しないでください。 | 8.6 (高)<br>v3.1 | 確認されていない | [CVE-2026-133528 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133528.json) |
 | 11/20 08:37 | **CVE-2026-122676**<br>WordPress用 PublishPress Authors プラグイン 4.18.0 以下 | 入力値の処理不備によるブラインドSQLインジェクションにより、データベース内の情報を不正に取得されるおそれがあります。修正版が提供され次第プラグインを更新し、それまでは無効化を検討してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-122676 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/122xxx/CVE-2026-122676.json) |
 | 11/20 07:38 | **CVE-2026-77316**<br>Flyto2 Core 2.26.8 未満 | validate_url_ssrf が名前解決結果を固定しないため、DNS リバインディングで各種外部通信処理の SSRF 対策を回避されるおそれがあります。2.26.8 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-77316 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77316.json) |
 | 11/20 07:38 | **CVE-2026-77315**<br>Flyto2 Core 2.26.8 未満 | http.paginate がサーバー指定の次ページURLを SSRF 検査なしで辿るため、低権限ユーザーに内部ネットワークやメタデータサービスの応答を取得されるおそれがあります。2.26.8 以降へ更新してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-77315 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/77xxx/CVE-2026-77315.json) |
