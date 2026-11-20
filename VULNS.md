@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/20 12:37(日本時間)
-- 登録: 3682 件 / 悪用確認あり: 45 件
+- 最終チェック: 11/20 13:38(日本時間)
+- 登録: 3688 件 / 悪用確認あり: 45 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/20 13:38 | **CVE-2026-86476**<br>GStreamer gst-plugins-base(Red Hat Enterprise Linux 6/7/8/9/10 ほか) | GstVideoMetaのストライドやオフセットが検証されないため、GStreamerのプロセス間パイプラインで細工したバッファを受け取るとヒープ領域外の読み書きが起き、クラッシュやコード実行につながるおそれがあります。RHSA などで提供されている修正版パッケージへ更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-86476 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86476.json) |
+| 11/20 13:38 | **CVE-2026-42786**<br>Elixir用HTTPサーバー bandit 0.5.1〜1.11.0 未満 | WebSocketの分割フレームの再構成にサイズ上限がなく、認証なしのリモート攻撃者がメモリを使い果たさせてサービス停止を起こせるおそれがあります。bandit 1.11.0 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-42786 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/42xxx/CVE-2026-42786.json) |
+| 11/20 13:38 | **CVE-2026-39804**<br>Elixir用HTTPサーバー bandit 0.5.9〜1.11.0 未満 | WebSocketのpermessage-deflate有効時に展開後のサイズ上限がなく、高圧縮率のフレームで大量のメモリを消費させられ、リモートからサービス停止を起こされるおそれがあります。bandit 1.11.0 以降へ更新するか、圧縮を無効にしてください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-39804 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/39xxx/CVE-2026-39804.json) |
+| 11/20 13:38 | **CVE-2026-133553**<br>crun(Red Hat Enterprise Linux 8/9/10、Red Hat Hardened Images) | tmpcopyup付きtmpfsへのコピー時に宛先を再度名前で開くため、書き込み可能なボリュームを共有する別コンテナがパスを差し替えると、ホスト上のファイル(/proc/sys配下など)にイメージのファイルが上書きコピーされるおそれがあります。Red Hatの修正パッケージが出たら適用し、それまでは信頼できないコンテナとボリュームを共有しないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-133553 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133553.json) |
+| 11/20 13:38 | **CVE-2026-117601**<br>Electrum 4.8.3 未満 | 未承認トランザクション中の自分の入力の署名を検証しないため、悪意あるサーバーに送信直後の取引を差し替えられ、攻撃者宛ての取引にRBFで署名させられるおそれがあります。Electrum 4.8.3 以降へ更新してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-117601 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/117xxx/CVE-2026-117601.json) |
+| 11/20 13:38 | **CVE-2026-113347**<br>Ruijie Networks RG-MA2610-AC(MA_1.1(1)B5P4/B5P6 の複数リリース) | 管理者権限を持つ攻撃者によりOSコマンドインジェクションで任意のOSコマンドを実行されるおそれがあります(JVN公表)。ベンダーのセキュリティ情報を確認して修正版へ更新し、管理画面へのアクセスを制限してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-113347 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/113xxx/CVE-2026-113347.json) |
 | 11/20 12:37 | **CVE-2026-133534**<br>Neotroni Lighting PowerLink 1.1 | PowerLinkにSQLインジェクションの脆弱性があり、認証なしのリモート攻撃者にデータベースの内容を読み取られるおそれがあります。ベンダーの修正版を確認して適用し、それまでは外部からのアクセスを制限してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-133534 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133534.json) |
 | 11/20 12:37 | **CVE-2026-133478**<br>rajesh2211 Doctor-Appointment-System(コミット ee974dc まで) | ログイン処理(Connectivity.php)のUser引数にSQLインジェクションがあり、リモートから認証なしでデータベースを操作されるおそれがあり、攻撃手法も公開されています。修正が提供されるまで公開環境での利用を避けてください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-133478 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133478.json) |
 | 11/20 11:38 | **CVE-2026-65094**<br>NVIDIA VIRTIO-Net for BlueField-3(GA 25.10.6 未満、LTS25 25.10.2 未満、LTS24 24.10.50 未満、LTS23 1.7.21 以前) | BlueField-3 上の VIRTIO-Net で細工されたメッセージを処理すると任意アドレス書き込みが起き、VM 上の利用者が VIRTIO-Net の権限でコードを実行できるおそれがあります。各系列の修正版(GA 25.10.6、LTS25 25.10.2、LTS24 24.10.50 以降など)へ更新してください。 | 9.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-65094 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/65xxx/CVE-2026-65094.json)<br>[NVIDIA Security Bulletin 5815 (NVIDIA/product-security)](https://github.com/NVIDIA/product-security/tree/main/2026/5815) |
