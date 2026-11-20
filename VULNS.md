@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/20 21:38(日本時間)
-- 登録: 3824 件 / 悪用確認あり: 45 件
+- 最終チェック: 11/20 22:38(日本時間)
+- 登録: 3831 件 / 悪用確認あり: 45 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/20 22:38 | **CVE-2026-63202**<br>netty-incubator-codec-ohttp 0.0.23.Final 未満 | Binary HTTP のフィールド解析で無限ループに陥り、未認証の相手からCPU枯渇によるサービス停止を起こされるおそれがあります。0.0.23.Final 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-63202 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/63xxx/CVE-2026-63202.json) |
+| 11/20 22:38 | **CVE-2026-129424**<br>Solidres(Joomla 拡張)1.0.0〜3.4.1、4.0.0〜4.6.0 | 予約者情報が管理画面でエスケープされずに表示され、未認証のゲストが保存型XSSで管理者のセッションを悪用するおそれがあります。最新版(4.7.0 以降)と関連アドオンを更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-129424 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129424.json) |
+| 11/20 22:38 | **CVE-2026-129073**<br>miniOrange OTP Verification(WordPress プラグイン)5.6.1 以下 | 認証を別経路で回避できる欠陥があり、未認証の攻撃者がOTP認証を突破してアカウントを乗っ取るおそれがあります。5.6.2 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129073 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129073.json) |
+| 11/20 22:38 | **CVE-2026-128997**<br>MapSVG(WordPress プラグイン)9.0.5 以下 | 権限チェックの欠如により、未認証の攻撃者が本来アクセスできない情報を取得できるおそれがあります。9.0.6 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-128997 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128997.json) |
+| 11/20 22:38 | **CVE-2026-125094**<br>Optimole(WordPress プラグイン)4.2.19 以下 | AMPプラグイン有効時、コメント欄経由で未認証の攻撃者が保存型XSSを仕込めるおそれがあります。修正版へ更新し、それまではAMPモードやコメントの受付を見直してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-125094 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125094.json) |
+| 11/20 22:38 | **CVE-2026-109878**<br>Elementor Website Builder(WordPress プラグイン)4.4.0 以下 | 反射型XSSにより、細工したリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。4.4.1 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-109878 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/109xxx/CVE-2026-109878.json) |
+| 11/20 22:38 | **CVE-2026-101340**<br>Net::DNS(Perl)1.57 以下 | DNSクエリIDがPerlの rand() で生成され、観測した数個のIDから次のIDを予測できるため、偽のDNS応答を注入されるおそれがあります。1.58 以降へ更新してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-101340 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/101xxx/CVE-2026-101340.json) |
 | 11/20 21:38 | **CVE-2026-133710**<br>llama.cpp b11003以上b12556未満 | hrm_textモデル読み込み時の整数オーバーフローにより、細工されたGGUFモデルでヒープ破壊やコード実行が起きるおそれがあります。b12556以降へ更新し、信頼できないモデルを読み込まないでください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-133710 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133710.json) |
 | 11/20 21:38 | **CVE-2026-133708**<br>diffpy.structure 3.5.1未満 | 細工されたCIFファイルの対称操作がeval()で評価され、解析時に任意のPythonコードが実行されるおそれがあります。3.5.1以降へ更新し、信頼できないCIFを扱わないでください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-133708 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133708.json) |
 | 11/20 21:38 | **CVE-2026-133707**<br>R targets パッケージ 1.12.1未満 | 細工された_targetsデータストアのメタデータを読み込むと、tar_read()などの実行時に任意のRコードが実行されるおそれがあります。1.12.1以降へ更新し、信頼できないデータストアを開かないでください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-133707 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133707.json) |
