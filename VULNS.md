@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 22:37(日本時間)
-- 登録: 4058 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/21 23:37(日本時間)
+- 登録: 4060 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 23:36 | **CVE-2026-83493**<br>Red Hat OpenShift AI(distributed-workloads のトレーニングイメージ) | distributed-workloads の GitHub Actions(pull_request_target)が細工したプルリクエストのコードを機密トークン付きで実行するため、SNYK_TOKEN や書き込みトークンが盗まれリポジトリを乗っ取られるおそれがあります。Red Hat の修正版イメージへの更新と関連トークンの再発行を検討してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-83493 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/83xxx/CVE-2026-83493.json) |
+| 11/21 23:36 | **CVE-2026-133983**<br>eigent-ai eigent(1.0.0〜1.0.2) | eigent のローカルエージェント制御API(chat_controller.py)に認証がなく、リモートから第三者がエージェントを操作できるおそれがあります。修正済みの 1.0.3 以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-133983 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133983.json) |
 | 11/21 22:37 | **CVE-2026-95619**<br>GCC libstdc++(Red Hat Enterprise Linux 8 は gcc 8.5.0-30.el8_10 未満、RHEL 9 は gcc 11.5.0-16.el9_9 未満 ほか) | libstdc++ のアライメント指定付き new 演算子で大きなサイズを渡すと整数オーバーフローが起き、確保領域が不足してメモリ破損やアプリの異常終了につながるおそれがあります。Red Hat の修正済み gcc パッケージへ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-95619 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95619.json) |
 | 11/21 21:38 | **CVE-2026-130323**<br>Accept Stripe Payments(WordPressプラグイン、2.1.4 以前) | 未認証の攻撃者がコメント内のリンクに DOM ベースのスクリプトを仕込み、利用者がクリックすると実行されるおそれがあります。2.1.4 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-130323 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130323.json) |
 | 11/21 21:38 | **CVE-2026-129811**<br>RT-Labs SOES(EtherCAT スレーブスタック、3.2.1 未満) | マスターが書き換え可能な PDO マッピング長の合計が検証されず、プロセスデータ処理のたびにバッファ外書き込みが起きるおそれがあります。3.2.1 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-129811 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129811.json) |
