@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 14:37(日本時間)
-- 登録: 4015 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/21 15:37(日本時間)
+- 登録: 4016 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 15:37 | **CVE-2026-120539**<br>Restrictions for BuddyPress(WordPressプラグイン、1.5.4 以前) | リクエストURIが eval() で評価されるため、BuddyPress と Paid Memberships Pro を併用するサイトでは、未認証の攻撃者が細工したGETリクエスト1回でサーバー上の任意コードを実行できるおそれがあります。1.5.5 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-120539 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120539.json) |
 | 11/21 08:37 | **CVE-2026-15315**<br>TP-Link Tapo C200 v3/v5、Tapo C120 v1(修正ファームウェア未満) | 同一ネットワーク上の攻撃者が認証のチャレンジ検証の弱点を突いて管理者セッションを取得し、設定変更やサービス停止を行えるおそれがあります。最新ファームウェアへ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-15315 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/15xxx/CVE-2026-15315.json) |
 | 11/21 08:37 | **CVE-2026-134170**<br>Cesanta Mongoose 7.22 以上 7.24 未満(内蔵TLSスタック使用時) | TLS ハンドシェイク時に不正な有効期限の月を持つ証明書を提示されると、範囲外読み取りでプロセスがクラッシュするおそれがあります。7.24 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-134170 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134170.json) |
 | 11/21 08:37 | **CVE-2026-134169**<br>Qwik City(@builder.io/qwik-city 1.20.3 未満)、@qwik.dev/router(2.0.0-rc.4 未満) | フォーム POST のネストしたフィールド名で組み込み関数のプロパティを書き換えられ、サーバー全体が再起動まで正常に動かなくなるおそれがあります。修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-134169 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134169.json) |
