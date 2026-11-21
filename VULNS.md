@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 19:37(日本時間)
-- 登録: 4041 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/21 20:37(日本時間)
+- 登録: 4043 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 20:37 | **CVE-2026-129344**<br>Phoenix Framework(Elixir、1.5.7〜1.8.16 の各系列で修正版未満) | 未認証の攻撃者が旧形式のシリアライザで接続してチャネルに参加すると、バイナリのブロードキャストが失敗し続け、PubSub の再起動などによるサービス妨害を起こすおそれがあります。1.5.16 / 1.6.18 / 1.7.25 / 1.8.17 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-129344 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129344.json) |
+| 11/21 20:37 | **CVE-2026-128361**<br>Phoenix Framework(Elixir、1.2.0〜1.8.16 の各系列で修正版未満) | Phoenix.Presence が文字列以外のプレゼンスキーを受け付けるため、チャネルに参加できる攻撃者がプロセスを繰り返しクラッシュさせ、アプリケーション全体を停止させるおそれがあります。1.5.16 / 1.6.18 / 1.7.25 / 1.8.17 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-128361 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128361.json) |
 | 11/21 18:37 | **CVE-2026-133367**<br>WPC Frequently Bought Together for WooCommerce(WordPressプラグイン、8.0.2 以前) | 商品バリエーションの値を通じて、未認証の攻撃者が格納型XSSを仕込めるおそれがあります。8.0.2 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-133367 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133367.json) |
 | 11/21 18:37 | **CVE-2026-131609**<br>Germanized for WooCommerce(WordPressプラグイン、4.1.8 以前) | Store API のチェックアウト時の請求先氏名を通じて、未認証の攻撃者が格納型XSSを仕込めるおそれがあります。4.1.8 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-131609 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131609.json) |
 | 11/21 18:37 | **CVE-2026-125054**<br>SiteOrigin CSS(WordPressプラグイン、1.6.9 以前) | class 属性の値を通じて、未認証の攻撃者がDOMベースの格納型XSSを仕込めるおそれがあります。1.6.9 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-125054 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125054.json) |
