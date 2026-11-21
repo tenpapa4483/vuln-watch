@@ -2,12 +2,22 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 17:37(日本時間)
-- 登録: 4031 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/21 18:37(日本時間)
+- 登録: 4041 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 18:37 | **CVE-2026-133367**<br>WPC Frequently Bought Together for WooCommerce(WordPressプラグイン、8.0.2 以前) | 商品バリエーションの値を通じて、未認証の攻撃者が格納型XSSを仕込めるおそれがあります。8.0.2 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-133367 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133367.json) |
+| 11/21 18:37 | **CVE-2026-131609**<br>Germanized for WooCommerce(WordPressプラグイン、4.1.8 以前) | Store API のチェックアウト時の請求先氏名を通じて、未認証の攻撃者が格納型XSSを仕込めるおそれがあります。4.1.8 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-131609 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131609.json) |
+| 11/21 18:37 | **CVE-2026-125054**<br>SiteOrigin CSS(WordPressプラグイン、1.6.9 以前) | class 属性の値を通じて、未認証の攻撃者がDOMベースの格納型XSSを仕込めるおそれがあります。1.6.9 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-125054 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125054.json) |
+| 11/21 18:37 | **CVE-2026-122230**<br>Thim Kit for Elementor(WordPressプラグイン、1.4.8 以前) | コメント欄を通じて、未認証の攻撃者がDOMベースの格納型XSSを仕込めるおそれがあります。1.4.8 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-122230 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/122xxx/CVE-2026-122230.json) |
+| 11/21 18:37 | **CVE-2026-120526**<br>WCFM Membership(WordPressプラグイン、2.12.0 以前) | 会員登録フォームの店舗名欄を通じて、未認証の攻撃者が格納型XSSを仕込めるおそれがあります。2.12.0 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-120526 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120526.json) |
+| 11/21 18:37 | **CVE-2026-119114**<br>WP Fastest Cache(WordPressプラグイン、1.5.4 以前) | キャッシュ削除処理のパス検証が不十分なため、未認証の攻撃者がサーバー上の任意のディレクトリを削除できるおそれがあります。1.5.4 より新しい修正版へ更新してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-119114 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119114.json) |
+| 11/21 18:37 | **CVE-2026-119061**<br>VikBooking Hotel Booking Engine & PMS(WordPressプラグイン、1.8.20 以前) | カスタムフィールドの入力値を通じて、未認証の攻撃者が格納型XSSを仕込めるおそれがあります。1.8.20 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-119061 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119061.json) |
+| 11/21 18:37 | **CVE-2026-118061**<br>VikBooking Hotel Booking Engine & PMS(WordPressプラグイン、1.8.20 以前) | 問い合わせフォームの配列キーを通じて、未認証の攻撃者が格納型XSSを仕込めるおそれがあります。1.8.20 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-118061 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118061.json) |
+| 11/21 18:37 | **CVE-2026-118049**<br>Tutor LMS(WordPressプラグイン、4.2.0 以前) | 権限確認が不十分なため、認証済みユーザーが本来許可されていない操作を行えるおそれがあります。4.2.0 より新しい修正版へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-118049 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118049.json) |
+| 11/21 18:37 | **CVE-2026-107632**<br>Unbounce Landing Pages(WordPressプラグイン、1.1.6 以前) | 未認証の攻撃者がプロキシのエラーメッセージ経由で格納型XSSを仕込み、管理画面で任意のスクリプトを実行させるおそれがあります。1.1.6 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-107632 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/107xxx/CVE-2026-107632.json) |
 | 11/21 17:37 | **CVE-2026-96991**<br>SchemaEngine AI(WordPressプラグイン、3.1.3 以前) | コメント内容がJSON-LDの説明文に出力される構成で、未認証の攻撃者が格納型XSSを仕込めるおそれがあります。3.1.3 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-96991 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/96xxx/CVE-2026-96991.json) |
 | 11/21 17:37 | **CVE-2026-133361**<br>BlockStrap Page Builder(WordPressプラグイン、0.1.65 以前) | ブロックテーマ利用サイトで、一度承認されたコメント投稿者が格納型XSSを仕込めるおそれがあります。0.1.65 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-133361 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133361.json) |
 | 11/21 17:37 | **CVE-2026-132620**<br>WPBot – AI ChatBot(WordPressプラグイン、9.1 以前) | チャット入力に仕込まれたスクリプトが、管理者がチャットセッション画面を開いた際に実行される格納型XSSのおそれがあります。9.1 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-132620 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132620.json) |
