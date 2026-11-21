@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/22 02:37(日本時間)
-- 登録: 4069 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/22 03:38(日本時間)
+- 登録: 4071 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/22 03:38 | **CVE-2026-133993**<br>D-Link DIR-600L ファームウェア 2.17b02 | gena.cgi の GENA 購読処理にスタックバッファオーバーフローがあり、遠隔から機器を乗っ取られるおそれがあり、攻撃手法も公開されています。サポート終了機種のため、リプレースするか外部からのアクセスを遮断してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133993 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133993.json) |
+| 11/22 03:38 | **CVE-2026-125294**<br>Nexter Blocks Pro(WordPress プラグイン)5.0.10 以下 | ユーザー登録処理で Unicode の似た文字を使った権限キーの指定を防げず、認証なしで管理者権限のアカウントを作られるおそれがあります。修正版への更新、またはそれまでプラグインの無効化やユーザー登録機能の停止を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-125294 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125294.json) |
 | 11/22 02:37 | **CVE-2026-133867**<br>@fastify/express 4.0.7〜4.0.9 | パラメータ付きプレフィックスのプラグイン内で正規表現マウントしたミドルウェアが一致せず飛ばされ、保護ルートが未認証で公開されるおそれがあります。4.0.10以降に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133867 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133867.json) |
 | 11/22 02:37 | **CVE-2026-133250**<br>@fastify/middie 9.3.7 以前 | middieとFastifyルーターのパス解釈の不一致により、パス指定の認証・認可ミドルウェアが飛ばされ、未認証で保護されたハンドラに到達されるおそれがあります。9.3.8以降に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133250 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133250.json) |
 | 11/22 02:37 | **CVE-2026-133120**<br>@fastify/express 4.0.10 未満 | パーセントデコードやアスタリスク始まりのリクエストなどでExpress側とFastify側のパス解釈がずれ、認証等のミドルウェアを回避されるおそれがあります。4.0.10以降に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133120 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133120.json) |
