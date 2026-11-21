@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/22 07:37(日本時間)
-- 登録: 4072 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/22 08:38(日本時間)
+- 登録: 4075 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/22 08:38 | **CVE-2026-134543**<br>jprocms 1.7.7 以前 | データベースバックアップ機能でホスト名や認証情報の入力値が検証されず、OS コマンドを注入されるおそれがあり、攻撃手法も公開されています。ベンダーの対応がないため、管理画面へのアクセスを制限し、バックアップ機能を使わないようにしてください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-134543 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134543.json) |
+| 11/22 08:38 | **CVE-2026-134541**<br>Surya2Developer Online Shopping System 1.0 | product.php のパラメータ p に SQL インジェクションがあり、遠隔からデータベースを不正に操作されるおそれがあり、攻撃手法も公開されています。修正版は確認されていないため、公開を停止するか入力検証・WAF で防御してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134541 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134541.json) |
+| 11/22 08:38 | **CVE-2026-125396**<br>Ghostscript(ghostpdl)10.08.0 未満 | 細工した PostScript/PDF を処理すると -dSAFER の保護を回避され、use-after-free を経由して任意のコードを実行されるおそれがあります。Ghostscript 10.08.0 以降へ更新し、信頼できない文書の自動変換を見直してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-125396 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125396.json) |
 | 11/22 06:37 | **CVE-2026-15565**<br>Undertow(undertow-websockets-jsr)/ Red Hat JBoss EAP 7.4・8.1 ほか | @ServerEndpoint と @OnMessage を持つ WebSocket エンドポイントに対し、認証なしの通常のハンドシェイクだけでメモリ枯渇を起こされ、サービス停止に陥るおそれがあります。Red Hat の修正パッケージを適用し、適用までは不要な WebSocket を無効化してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-15565 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/15xxx/CVE-2026-15565.json) |
 | 11/22 03:38 | **CVE-2026-133993**<br>D-Link DIR-600L ファームウェア 2.17b02 | gena.cgi の GENA 購読処理にスタックバッファオーバーフローがあり、遠隔から機器を乗っ取られるおそれがあり、攻撃手法も公開されています。サポート終了機種のため、リプレースするか外部からのアクセスを遮断してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133993 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133993.json) |
 | 11/22 03:38 | **CVE-2026-125294**<br>Nexter Blocks Pro(WordPress プラグイン)5.0.10 以下 | ユーザー登録処理で Unicode の似た文字を使った権限キーの指定を防げず、認証なしで管理者権限のアカウントを作られるおそれがあります。修正版への更新、またはそれまでプラグインの無効化やユーザー登録機能の停止を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-125294 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125294.json) |
