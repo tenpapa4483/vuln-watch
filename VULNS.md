@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 15:37(日本時間)
-- 登録: 4016 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/21 16:38(日本時間)
+- 登録: 4019 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 16:38 | **CVE-2026-39744**<br>WCFM Membership(WordPressプラグイン wc-multivendor-membership、2.12.0 以前) | 格納型クロスサイトスクリプティングにより、細工されたスクリプトが閲覧者のブラウザで実行され、セッション悪用や改ざんにつながるおそれがあります。2.12.1 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-39744 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/39xxx/CVE-2026-39744.json) |
+| 11/21 16:38 | **CVE-2026-129220**<br>Everest Forms(WordPressプラグイン、3.6.4 以前) | フォーム作成権限(everest_forms_create_forms)を委譲された低権限ユーザーが、サーバー上の未有効化プラグインを任意に有効化でき、管理者権限まで昇格されるおそれがあります。3.6.4 より新しい修正版へ更新し、当該権限の委譲を見直してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-129220 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129220.json) |
+| 11/21 16:38 | **CVE-2026-123086**<br>PublishPress Revisions(WordPressプラグイン、4.3.4 以前) | 権限確認の不備により、寄稿者以上の認証済みユーザーが他ユーザー(管理者含む)のゴミ箱内の投稿・固定ページ・リビジョンを完全削除できるおそれがあります。4.3.4 より新しい修正版へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-123086 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/123xxx/CVE-2026-123086.json) |
 | 11/21 15:37 | **CVE-2026-120539**<br>Restrictions for BuddyPress(WordPressプラグイン、1.5.4 以前) | リクエストURIが eval() で評価されるため、BuddyPress と Paid Memberships Pro を併用するサイトでは、未認証の攻撃者が細工したGETリクエスト1回でサーバー上の任意コードを実行できるおそれがあります。1.5.5 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-120539 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120539.json) |
 | 11/21 08:37 | **CVE-2026-15315**<br>TP-Link Tapo C200 v3/v5、Tapo C120 v1(修正ファームウェア未満) | 同一ネットワーク上の攻撃者が認証のチャレンジ検証の弱点を突いて管理者セッションを取得し、設定変更やサービス停止を行えるおそれがあります。最新ファームウェアへ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-15315 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/15xxx/CVE-2026-15315.json) |
 | 11/21 08:37 | **CVE-2026-134170**<br>Cesanta Mongoose 7.22 以上 7.24 未満(内蔵TLSスタック使用時) | TLS ハンドシェイク時に不正な有効期限の月を持つ証明書を提示されると、範囲外読み取りでプロセスがクラッシュするおそれがあります。7.24 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-134170 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134170.json) |
