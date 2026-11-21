@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/21 21:38(日本時間)
-- 登録: 4057 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/21 22:37(日本時間)
+- 登録: 4058 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/21 22:37 | **CVE-2026-95619**<br>GCC libstdc++(Red Hat Enterprise Linux 8 は gcc 8.5.0-30.el8_10 未満、RHEL 9 は gcc 11.5.0-16.el9_9 未満 ほか) | libstdc++ のアライメント指定付き new 演算子で大きなサイズを渡すと整数オーバーフローが起き、確保領域が不足してメモリ破損やアプリの異常終了につながるおそれがあります。Red Hat の修正済み gcc パッケージへ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-95619 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95619.json) |
 | 11/21 21:38 | **CVE-2026-130323**<br>Accept Stripe Payments(WordPressプラグイン、2.1.4 以前) | 未認証の攻撃者がコメント内のリンクに DOM ベースのスクリプトを仕込み、利用者がクリックすると実行されるおそれがあります。2.1.4 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-130323 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130323.json) |
 | 11/21 21:38 | **CVE-2026-129811**<br>RT-Labs SOES(EtherCAT スレーブスタック、3.2.1 未満) | マスターが書き換え可能な PDO マッピング長の合計が検証されず、プロセスデータ処理のたびにバッファ外書き込みが起きるおそれがあります。3.2.1 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-129811 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129811.json) |
 | 11/21 21:38 | **CVE-2026-129801**<br>RT-Labs SOES(EtherCAT スレーブスタック、3.2.1 未満) | FoE データ長がメールボックスの実サイズと照合されず、バッファ外読み出しによる情報漏えいや停止のおそれがあります。3.2.1 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129801 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129801.json) |
