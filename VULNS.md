@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/22 01:38(日本時間)
-- 登録: 4063 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/22 02:37(日本時間)
+- 登録: 4069 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/22 02:37 | **CVE-2026-133867**<br>@fastify/express 4.0.7〜4.0.9 | パラメータ付きプレフィックスのプラグイン内で正規表現マウントしたミドルウェアが一致せず飛ばされ、保護ルートが未認証で公開されるおそれがあります。4.0.10以降に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133867 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133867.json) |
+| 11/22 02:37 | **CVE-2026-133250**<br>@fastify/middie 9.3.7 以前 | middieとFastifyルーターのパス解釈の不一致により、パス指定の認証・認可ミドルウェアが飛ばされ、未認証で保護されたハンドラに到達されるおそれがあります。9.3.8以降に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133250 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133250.json) |
+| 11/22 02:37 | **CVE-2026-133120**<br>@fastify/express 4.0.10 未満 | パーセントデコードやアスタリスク始まりのリクエストなどでExpress側とFastify側のパス解釈がずれ、認証等のミドルウェアを回避されるおそれがあります。4.0.10以降に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133120 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133120.json) |
+| 11/22 02:37 | **CVE-2026-129850**<br>@fastify/express 4.0.0〜4.0.9(大文字小文字を区別しないルーティング有効時) | 大文字小文字を区別しないルーティング設定時に特定のUnicode文字を使うと、認証・認可等のミドルウェアを回避して保護されたハンドラに到達されるおそれがあります。4.0.10以降に更新してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-129850 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129850.json) |
+| 11/22 02:37 | **CVE-2026-129504**<br>@fastify/express 4.0.0〜4.0.9 | プラグインのプレフィックスとマウントパスの連結不備により、プレフィックス付きプラグイン内のパス指定ミドルウェアが飛ばされ、認証なしで保護ルートにアクセスされるおそれがあります。4.0.10以降に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-129504 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129504.json) |
+| 11/22 02:37 | **CVE-2026-124626**<br>@fastify/express 4.0.5〜4.0.9 | 空の動的セグメントを含むリクエストで、パス指定のExpressミドルウェア(認証など)が飛ばされ、未認証で保護されたハンドラに到達されるおそれがあります。4.0.10以降に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-124626 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124626.json) |
 | 11/22 01:38 | **CVE-2026-133985**<br>TRENDnet TEW-657BRM(ファームウェア 1.00.1、サポート終了製品) | ルーターの設定復元CGI(restore_config.cgi)に境界外読み取りがあり、認証済みの攻撃者がリモートから悪用できるおそれがあります(攻撃コード公開済み)。修正版は提供されないため、サポート中の機器への置き換えを検討してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-133985 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133985.json) |
 | 11/22 00:37 | **CVE-2026-74127**<br>AMD EPYC 7001シリーズ、EPYC Embedded 3000シリーズ(Zen1/Zen+、修正予定なし) | AMD Zen1/Zen+ 世代プロセッサの PSP Boot ROM で署名検証が不十分なため、SPI フラッシュにアクセスできる攻撃者がセキュアブートを回避し、未署名コードを PSP 権限で永続的に実行できるおそれがあります。修正予定がないため、物理アクセスやフラッシュ書き込みの制限、機器更新の検討などで対処してください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-74127 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/74xxx/CVE-2026-74127.json) |
 | 11/22 00:37 | **CVE-2025-61963**<br>AMD EPYC 7001〜9005シリーズ、EPYC Embedded、Instinct MI300A/MI300C(修正版プラットフォームイニシャライゼーション適用前) | AMD のファームウェア内 AmdPlatformRasSmm ドライバの入力検証不備により、管理者権限を持つ攻撃者が SMRAM を書き換え、任意のコードを実行できるおそれがあります。サーバーベンダーから提供される修正版 BIOS/ファームウェアを適用してください。 | 8.4 (高)<br>v4.0 | 確認されていない | [CVE-2025-61963 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/61xxx/CVE-2025-61963.json) |
