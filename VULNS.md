@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/22 18:38(日本時間)
-- 登録: 4096 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/22 19:38(日本時間)
+- 登録: 4103 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/22 19:38 | **CVE-2026-131720**<br>WordPress用プラグイン BookIt 2.6.0.8以前 | WordPressプラグインBookItに機密情報が応答データに含まれてしまう脆弱性があり、認証なしで埋め込まれた機密データを取得されるおそれがあります。2.6.0.9以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-131720 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131720.json) |
+| 11/22 19:38 | **CVE-2026-131708**<br>WordPress用プラグイン ProfileGrid 6.0.0.6以前 | WordPressプラグインProfileGridに反射型クロスサイトスクリプティングの脆弱性があり、細工されたリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。6.0.0.7以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-131708 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131708.json) |
+| 11/22 19:38 | **CVE-2026-131707**<br>WordPress用プラグイン ProfileGrid 6.0.0.6以前 | WordPressプラグインProfileGridに信頼できないデータのデシリアライズ(PHPオブジェクトインジェクション)の脆弱性があり、ログインユーザーによって任意のコード実行などにつながるおそれがあります。6.0.0.7以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-131707 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131707.json) |
+| 11/22 19:38 | **CVE-2026-131706**<br>WordPress用プラグイン ProfileGrid 6.0.0.6以前 | WordPressプラグインProfileGridにブラインドSQLインジェクションの脆弱性があり、認証なしでデータベース内の情報を取得されるおそれがあります。6.0.0.7以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-131706 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131706.json) |
+| 11/22 19:38 | **CVE-2026-131705**<br>WordPress用プラグイン ProfileGrid 6.0.0.6以前 | WordPressプラグインProfileGridにSQLインジェクションの脆弱性があり、低権限のログインユーザーによってデータベース内の情報を窃取されるおそれがあります。6.0.0.7以降へ更新してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-131705 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131705.json) |
+| 11/22 19:38 | **CVE-2026-131700**<br>WordPress用プラグイン Geo Mashup 1.13.23以前 | WordPressプラグインGeo Mashupに反射型クロスサイトスクリプティングの脆弱性があり、細工されたリンク経由で利用者のブラウザ上で任意のスクリプトが実行されるおそれがあります。1.13.24以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-131700 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131700.json) |
+| 11/22 19:38 | **CVE-2026-129016**<br>WordPress用プラグイン Menubar 5.9.4以前 | WordPressプラグインMenubarに反射型クロスサイトスクリプティングの脆弱性があり、細工されたリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。修正版(6.0以降)へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129016 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129016.json) |
 | 11/22 14:37 | **CVE-2026-2818**<br>Spring Data Geode 2.0.0〜2.7.18、Spring Data GemFire 1.7.0〜2.2.13 | スナップショットのインポート処理にZip Slip型のパストラバーサルがあり、Windows環境では細工したアーカイブで展開先以外の場所にファイルを書き込まれるおそれがあります。修正版への更新と、信頼できないスナップショットを取り込まない運用を行ってください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-2818 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/2xxx/CVE-2026-2818.json) |
 | 11/22 14:37 | **CVE-2026-134623**<br>Microweber 2.0.20 以前 | 汎用APIディスパッチャーのアクセス制御不備により、リモートの攻撃者が本来許されないログイン処理を呼び出せるおそれがあり、攻撃手法も公開されています。2.0.21以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134623 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134623.json) |
 | 11/22 11:37 | **CVE-2026-134704**<br>OpenShot Video Editor(openshot-qt)4.1.1 以前 | 旧形式のプロジェクト読み込みでpickleを無制限に復元するため、細工された.ospファイルを開くと利用者権限で任意のコードを実行されるおそれがあります。修正版へ更新し、出所不明のプロジェクトファイルは開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-134704 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134704.json) |
