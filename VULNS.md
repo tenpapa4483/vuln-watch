@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 02:37(日本時間)
-- 登録: 4266 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 03:38(日本時間)
+- 登録: 4268 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 03:38 | **CVE-2024-13280**<br>Drupal Persistent Login 1.8.0未満、2.0.0〜2.2.2未満 | Persistent Loginモジュールでセッションの失効処理が不十分なため、無効化されるべきログイン状態を悪用されアクセス制御を回避されるおそれがあります。1.8.0または2.2.2以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2024-13280 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/13xxx/CVE-2024-13280.json) |
+| 11/23 03:38 | **CVE-2024-13276**<br>Drupal File Entity (fieldable files) 7.x-2.39未満 | File Entityモジュールが送信データに機密情報を含めてしまうため、認証不要の強制ブラウジングで本来見えないファイル情報を取得されるおそれがあります。7.x-2.39以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2024-13276 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/13xxx/CVE-2024-13276.json) |
 | 11/23 01:37 | **CVE-2026-131794**<br>WordPress プラグイン YellowPencil Visual CSS Style Editor 7.6.7 以下 | クロスサイトスクリプティング(XSS)により、利用者のブラウザで不正なスクリプトが実行されるおそれがあります。7.6.8 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-131794 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131794.json) |
 | 11/23 01:37 | **CVE-2026-131793**<br>WordPress プラグイン Contact Form to Any API 3.0.7 以下 | クロスサイトスクリプティング(XSS)により、利用者のブラウザで不正なスクリプトが実行されるおそれがあります。3.0.8 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-131793 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131793.json) |
 | 11/23 01:37 | **CVE-2026-131791**<br>WordPress プラグイン SEOWriting 1.15.0 以下 | ストアド型クロスサイトスクリプティング(XSS)により、閲覧者のブラウザで不正なスクリプトが実行されるおそれがあります。1.15.1 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-131791 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131791.json) |
