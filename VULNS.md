@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/22 13:37(日本時間)
-- 登録: 4094 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/22 14:37(日本時間)
+- 登録: 4096 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/22 14:37 | **CVE-2026-2818**<br>Spring Data Geode 2.0.0〜2.7.18、Spring Data GemFire 1.7.0〜2.2.13 | スナップショットのインポート処理にZip Slip型のパストラバーサルがあり、Windows環境では細工したアーカイブで展開先以外の場所にファイルを書き込まれるおそれがあります。修正版への更新と、信頼できないスナップショットを取り込まない運用を行ってください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-2818 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/2xxx/CVE-2026-2818.json) |
+| 11/22 14:37 | **CVE-2026-134623**<br>Microweber 2.0.20 以前 | 汎用APIディスパッチャーのアクセス制御不備により、リモートの攻撃者が本来許されないログイン処理を呼び出せるおそれがあり、攻撃手法も公開されています。2.0.21以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134623 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134623.json) |
 | 11/22 11:37 | **CVE-2026-134704**<br>OpenShot Video Editor(openshot-qt)4.1.1 以前 | 旧形式のプロジェクト読み込みでpickleを無制限に復元するため、細工された.ospファイルを開くと利用者権限で任意のコードを実行されるおそれがあります。修正版へ更新し、出所不明のプロジェクトファイルは開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-134704 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134704.json) |
 | 11/22 11:37 | **CVE-2026-134694**<br>Gammapy 2.1 以前 | FITSヘッダーのWCSSHAPE値がeval()で評価されるため、細工された.fitsファイルをMap.read()で読み込むと任意のコードを実行されるおそれがあります。修正コミットを含む版へ更新し、信頼できないFITSファイルは開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-134694 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134694.json) |
 | 11/22 11:37 | **CVE-2026-134679**<br>WeddingShare 1.8.2 以前 | 匿名アクセス可能なMediaViewerのGalleryItemが認可なしでアップロードパスを返すため、未認証の攻撃者がIDを列挙して鍵付きギャラリーの写真・動画を取得できるおそれがあります。修正版の提供を確認して更新し、それまでは公開範囲を制限してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-134679 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134679.json) |
