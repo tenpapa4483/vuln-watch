@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/22 10:38(日本時間)
-- 登録: 4088 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/22 11:37(日本時間)
+- 登録: 4094 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/22 11:37 | **CVE-2026-134704**<br>OpenShot Video Editor(openshot-qt)4.1.1 以前 | 旧形式のプロジェクト読み込みでpickleを無制限に復元するため、細工された.ospファイルを開くと利用者権限で任意のコードを実行されるおそれがあります。修正版へ更新し、出所不明のプロジェクトファイルは開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-134704 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134704.json) |
+| 11/22 11:37 | **CVE-2026-134694**<br>Gammapy 2.1 以前 | FITSヘッダーのWCSSHAPE値がeval()で評価されるため、細工された.fitsファイルをMap.read()で読み込むと任意のコードを実行されるおそれがあります。修正コミットを含む版へ更新し、信頼できないFITSファイルは開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-134694 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134694.json) |
+| 11/22 11:37 | **CVE-2026-134679**<br>WeddingShare 1.8.2 以前 | 匿名アクセス可能なMediaViewerのGalleryItemが認可なしでアップロードパスを返すため、未認証の攻撃者がIDを列挙して鍵付きギャラリーの写真・動画を取得できるおそれがあります。修正版の提供を確認して更新し、それまでは公開範囲を制限してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-134679 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134679.json) |
+| 11/22 11:37 | **CVE-2026-134678**<br>freedit 0.9.9 より前 | Private inn を指定した投稿編集で所有者・状態の確認が省かれ、メンバーが他人やロック済みの投稿を上書き・乗っ取れるおそれがあります。0.9.9以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134678 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134678.json) |
+| 11/22 11:37 | **CVE-2026-134675**<br>Servas 1.2.0 より前 | 認可チェックの欠如により、ログイン済みの利用者がIDを指定するだけで他人のタグ・リンク・グループを改名・削除できるおそれがあります。1.2.0以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134675 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134675.json) |
+| 11/22 11:37 | **CVE-2026-134654**<br>Mailflare(コミット 48957fb より前) | パスワード再設定処理がHostヘッダーを信用するため、APP_URL未設定の環境では未認証の攻撃者が再設定リンクを細工し、トークンを奪ってアカウントを乗っ取るおそれがあります。48957fb以降へ更新し、APP_URLを明示的に設定してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-134654 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134654.json) |
 | 11/22 10:38 | **CVE-2026-93565**<br>Netty(netty-codec-http RtspDecoder)/ Red Hat build of Keycloak 26.4・26.6、Apache Camel ほか | RTSPのメソッド名末尾の制御文字が除去されてしまうため、細工した要求でメソッドベースのアクセス制御を回避したり、RTSPプロキシ経由で不正な要求を通したりされるおそれがあります。修正版のNettyを含む製品へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-93565 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93565.json) |
 | 11/22 10:38 | **CVE-2026-93558**<br>Netty(netty-codec-http)/ Red Hat build of Keycloak 26.4・26.6、Apache Camel ほか | WebSocketServerExtensionHandler の接続ごとのキューが HTTP/1.1 パイプラインで際限なく増え、認証なしでJVMのヒープを枯渇させられサービス停止に陥るおそれがあります。修正版のNettyを含む製品へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-93558 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93558.json) |
 | 11/22 10:38 | **CVE-2026-93491**<br>Netty(netty-codec-http)/ Red Hat build of Keycloak 26.4・26.6、Apache Camel ほか | HttpServerCodec で HTTP/1.1 のパイプライン要求を送り続けつつ応答を読まないことで内部キューが際限なく伸び、認証なしでメモリ枯渇によるサービス停止を起こされるおそれがあります。修正版のNettyを含む製品へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-93491 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93491.json) |
