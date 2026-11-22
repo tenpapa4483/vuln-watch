@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/22 23:37(日本時間)
-- 登録: 4245 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 00:37(日本時間)
+- 登録: 4250 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 00:37 | **CVE-2026-131782**<br>WordPress プラグイン Simple Shopping Cart 5.3.3 以下 | 信頼できないデータのデシリアライズにより PHP オブジェクトインジェクションが起き、条件次第で任意コード実行などにつながるおそれがあります。5.3.4 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-131782 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131782.json) |
+| 11/23 00:37 | **CVE-2026-131775**<br>WordPress プラグイン Ghost Kit 3.8.1 以下 | 入力値の無害化が不十分で、蓄積型クロスサイトスクリプティングにより閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。3.8.2 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-131775 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131775.json) |
+| 11/23 00:37 | **CVE-2026-131754**<br>WordPress プラグイン APCu Manager 4.6.1 以下 | 信頼できないデータのデシリアライズにより PHP オブジェクトインジェクションが起き、条件次第で任意コード実行などにつながるおそれがあります。4.7.0 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-131754 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131754.json) |
+| 11/23 00:37 | **CVE-2026-129085**<br>WordPress プラグイン WP Customer Area 8.4.5 以下 | 認可チェックが欠けており、権限のない利用者が本来アクセスできない機能や情報に触れられるおそれがあります。8.4.6 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-129085 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129085.json) |
+| 11/23 00:37 | **CVE-2026-129083**<br>WordPress プラグイン WPKoi Templates for Elementor 3.7.5 以下 | 入力値の無害化が不十分で、蓄積型クロスサイトスクリプティングにより閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。3.7.6 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129083 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129083.json) |
 | 11/22 23:37 | **CVE-2026-134754**<br>anacrolix/torrent(Go ライブラリ)1.62.0 未満 | 深くネストした bencode データ(細工した .torrent やマグネットのメタデータ)でスタックオーバーフローや CPU 枯渇が起き、プロセスが停止するおそれがあります。1.62.0 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134754 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134754.json) |
 | 11/22 23:37 | **CVE-2026-134753**<br>dsniff 2.5a2 以前 | decode_sniffer の整数アンダーフローにより、監視対象セグメントへ細工した UDP パケットを送るだけで認証なしにメモリ破壊やクラッシュが起きるおそれがあります。修正版が出るまで信頼できないネットワークでの使用を避けてください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-134753 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134753.json) |
 | 11/22 23:37 | **CVE-2026-134749**<br>MemberPress Members(WordPress プラグイン)3.3.1 未満(Block Permissions アドオン有効時) | 投稿者権限のユーザーがブロック属性に細工した値を保存すると PHP の致命的エラーが起き、投稿やトップページが表示できなくなるおそれがあります。3.3.1 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134749 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134749.json) |
