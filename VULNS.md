@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 18:37(日本時間)
-- 登録: 4315 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 19:38(日本時間)
+- 登録: 4321 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 19:38 | **CVE-2026-59442**<br>Spring AI 2.0.0〜2.0.2 / 1.1.0〜1.1.9 / 1.0.0〜1.0.10 | Typesense ベクトルストアのフィルタ式でグループ化が正しく変換されず、テナント分離やアクセス制御用の条件が効かずに他者の文書の取得・削除が起きうります。2.0.3 などの修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-59442 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59442.json) |
+| 11/23 19:38 | **CVE-2026-48201**<br>WordPress プラグイン Fast Velocity Minify 3.5.7 以前 | 未認証の攻撃者によるクロスサイトスクリプティングが可能で、閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。3.5.8 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-48201 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/48xxx/CVE-2026-48201.json) |
+| 11/23 19:38 | **CVE-2026-134887**<br>osCommerce 4.14.63493 | 住所録取得処理で customers_id にSQLインジェクションがあり、リモートからデータベースの情報漏えいや改ざんを招くおそれがあります。ベンダーの修正は未確認のため、WAFでの防御やアクセス制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134887 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134887.json) |
+| 11/23 19:38 | **CVE-2026-134885**<br>osCommerce 4.14.63493 以前 | MultiSafepay決済成功コールバックで customer_id の扱いに認証不備があり、リモートから他の顧客になりすました処理が行われるおそれがあります。ベンダーの修正は未確認のため、該当決済モジュールの利用状況を確認し制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134885 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134885.json) |
+| 11/23 19:38 | **CVE-2026-133646**<br>Synchronet BBS 3.20b〜3.21e(SSHサービス有効時) | SSH接続時のTERM属性処理に範囲外書き込みがあり、未認証の攻撃者が接続スレッドを長時間ブロックさせソケットを枯渇させてサービス停止に追い込めます。修正版への更新か、不要ならSSHサービスの無効化を検討してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-133646 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133646.json) |
+| 11/23 19:38 | **CVE-2026-123886**<br>Spring Data Elasticsearch 6.1.0〜6.1.2 / 6.0.0〜6.0.8 | @Query の位置プレースホルダに渡した引数内のSpEL式が評価されるため、信頼できない入力を渡すアプリでリモートから任意コード実行やメモリ枯渇を招くおそれがあります。6.1.3 / 6.0.9 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-123886 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/123xxx/CVE-2026-123886.json) |
 | 11/23 18:37 | **CVE-2026-88850**<br>WAGO 0751-9x01、0750-811x、0750-821x ほか コントローラ 4.10.0 より前 | Web 管理画面(WBM)の権限チェックが不十分で、低権限のリモート攻撃者に PROFIBUS のアドレスなど root 所有の設定を改ざんされるおそれがあります。4.10.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-88850 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/88xxx/CVE-2026-88850.json) |
 | 11/23 18:37 | **CVE-2026-80466**<br>WAGO 0751-9x01、0750-811x、0750-821x ほか コントローラ 4.10.0 より前 | Web 管理画面(WBM)のルーティング設定にコマンドインジェクションがあり、低権限のリモート攻撃者が root 権限でシェルコマンドを実行できるおそれがあります。4.10.0 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80466 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80466.json) |
 | 11/23 18:37 | **CVE-2026-121613**<br>ifm O3D301/O3D303 ほか 3D カメラ(ファームウェア 1.71.10735、1.90.107 など) | 公開されたインターフェースに認証・認可がなく、認証なしのリモート攻撃者に任意コマンドの送信、再起動の強制、不正ファームウェアの書き込みをされるおそれがあります。ベンダーの対策情報を確認し、機器をネットワークから隔離するなどの緩和策を取ってください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-121613 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121613.json) |
