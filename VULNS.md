@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 21:38(日本時間)
-- 登録: 4331 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 22:38(日本時間)
+- 登録: 4335 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 22:38 | **CVE-2026-95704**<br>HPE ArubaOS (AOS) 10.8.0.0〜10.8.1.1、10.7.0.0〜10.7.2.6、10.4.0.0〜10.4.1.13、8.13.0.0〜8.13.3.0 ほか | 無線ネットワーク管理の Web 管理画面に、認証済み(高権限)の攻撃者が OS 上で任意のコマンドを実行できる脆弱性があります。HPE のアドバイザリに従い修正版へ更新し、管理画面へのアクセス元を制限してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-95704 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95704.json) |
+| 11/23 22:38 | **CVE-2026-86312**<br>Apache Solr 9.0.0〜9.11.0 未満 / 10.0.0〜10.1.0 未満 | ルールベース認可の環境で /admin/ping エンドポイントへのリクエストが単なるヘルスチェック以上の処理を実行でき、低権限(設定次第では認証なし)のクライアントが高権限の操作を引き起こせるおそれがあります。Solr 9.11.0 または 10.1.0 へ更新し、ping エンドポイントへのアクセスを制限してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86312 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86312.json) |
+| 11/23 22:38 | **CVE-2026-119068**<br>NLnet Labs Routinator 0.16.2 より前 | 悪意ある rsync サーバーが改行のない大量の診断データを送ると、Routinator がメモリを使い果たしてクラッシュし、RPKI 検証が停止するおそれがあります。Routinator 0.16.2 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-119068 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119068.json) |
+| 11/23 22:38 | **CVE-2006-4339**<br>OpenSSL(RSA 指数 3 の鍵を使う署名検証。Red Hat Enterprise Linux 2.1〜5 の openssl ほか旧版) | PKCS#1 v1.5 パディングの検証不備により RSA 指数 3 の鍵で署名が偽造でき、X.509 証明書の検証などをすり抜けられるおそれがあります(2006年の既知の脆弱性で、今回 Red Hat が評価を更新)。旧版 OpenSSL を使い続けている環境では修正済み版へ更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2006-4339 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2006/4xxx/CVE-2006-4339.json) |
 | 11/23 21:38 | **CVE-2026-93575**<br>Netty netty-codec-mqtt(Red Hat AMQ Broker 7.14.2、Apache Camel for Spring Boot 4、Red Hat Fuse 7、JBoss EAP 7 など) | MQTT CONNECT パケットのプロパティ長を正しく検証せず、認証なしの攻撃者がメモリや CPU を過剰に消費させサービス停止を起こせます。Red Hat の修正版(RHSA-2026:102288 など)を適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-93575 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93575.json) |
 | 11/23 21:38 | **CVE-2026-93564**<br>Netty netty-codec-haproxy(Red Hat AMQ Broker 7.14.2、Apache Camel、Red Hat build of Keycloak 26.4 など) | 細工した PROXY プロトコル v2 ヘッダーにより参照カウントのリークが起き、認証なしでメモリ枯渇によるサービス停止を起こされるおそれがあります。Netty 4.1.138.Final 相当以降を含む修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-93564 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93564.json) |
 | 11/23 21:38 | **CVE-2026-87114**<br>kube-compare(Red Hat OpenShift Container Platform 4.19〜4.22 の kube-compare-artifacts) | container:// 参照を処理する際に信頼できないイメージのエントリポイントを実行してしまい、操作者の端末で任意コードが実行されるおそれがあります。Red Hat の修正版へ更新し、信頼できないイメージを参照に使わないでください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-87114 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87114.json) |
