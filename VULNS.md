@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 11:38(日本時間)
-- 登録: 4297 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 12:38(日本時間)
+- 登録: 4301 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 12:38 | **CVE-2026-134851**<br>leonkhoo123 self-hosting-file-uploader(コミット473e38f まで) | 管理用ジェネレーターAPIに認証がなく、リモートから管理機能を無断で使われるおそれがあります。修正が入った最新版へ更新するか、管理APIへのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134851 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134851.json) |
+| 11/23 12:38 | **CVE-2026-134850**<br>aceberg WatchYourLAN 2.1.4まで | Web APIのポート状態確認機能がaddr引数を検証しないため、リモートからサーバー側リクエストフォージェリ(SSRF)で内部ネットワークへアクセスされるおそれがあります。修正版が出るまでAPIへのアクセスを信頼できる範囲に制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134850 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134850.json) |
+| 11/23 12:38 | **CVE-2026-134789**<br>DumbWareio DumbAssets 1.0.11まで | 設定APIのappriseUrl引数の処理に不備があり、リモートから内部オブジェクトの属性を操作されるおそれがあります。ベンダーの修正は未確認のため、外部公開を避けアクセス制限を行ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134789 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134789.json) |
+| 11/23 12:38 | **CVE-2025-11234**<br>QEMU 2.6.0以上10.1.2未満(RHEL 7〜10 の qemu-kvm ほか) | VNCのWebSocketハンドシェイク中にチャネルが解放されると解放後使用が起き、認証前のリモート攻撃者がQEMUプロセスを停止させるおそれがあります。QEMU 10.1.2以降またはRed Hatの修正済みパッケージへ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2025-11234 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/11xxx/CVE-2025-11234.json) |
 | 11/23 10:38 | **CVE-2026-86848**<br>DPDK lib/vhost vhost-crypto(RHEL 10、Fast Datapath for RHEL 8 ほか) | vhost-cryptoの間接記述子処理でゲスト記述子のnextインデックスを二重に読み込むため、悪意あるゲストがホスト側バックエンドで範囲外アクセスを起こせるおそれがあります。Red Hatの修正済みパッケージへ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86848 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86848.json) |
 | 11/23 10:38 | **CVE-2026-86567**<br>DPDK lib/vhost VDUSE(RHEL 10、Fast Datapath for RHEL 10 ほか) | VDUSEハンドラがIOTLB無効化時にvringポインタを破棄しないため、解放後のメモリ領域を参照する状態になり、ホスト側でのメモリ破壊やコード実行につながるおそれがあります。Red Hatの修正済みパッケージへ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-86567 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86567.json) |
 | 11/23 10:38 | **CVE-2026-86565**<br>DPDK lib/vhost(RHEL 10、Fast Datapath for RHEL 8 ほか) | ゲストがvirtqueueサイズとinflight記述子テーブルのサイズを食い違わせることで、ホスト側vhostプロセスで範囲外書き込みが起き、ホストの侵害やサービス停止につながるおそれがあります。Red Hatの修正済みdpdk/openvswitchパッケージへ更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-86565 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86565.json) |
