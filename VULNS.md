@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 17:37(日本時間)
-- 登録: 4308 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 18:37(日本時間)
+- 登録: 4315 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 18:37 | **CVE-2026-88850**<br>WAGO 0751-9x01、0750-811x、0750-821x ほか コントローラ 4.10.0 より前 | Web 管理画面(WBM)の権限チェックが不十分で、低権限のリモート攻撃者に PROFIBUS のアドレスなど root 所有の設定を改ざんされるおそれがあります。4.10.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-88850 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/88xxx/CVE-2026-88850.json) |
+| 11/23 18:37 | **CVE-2026-80466**<br>WAGO 0751-9x01、0750-811x、0750-821x ほか コントローラ 4.10.0 より前 | Web 管理画面(WBM)のルーティング設定にコマンドインジェクションがあり、低権限のリモート攻撃者が root 権限でシェルコマンドを実行できるおそれがあります。4.10.0 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80466 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80466.json) |
+| 11/23 18:37 | **CVE-2026-121613**<br>ifm O3D301/O3D303 ほか 3D カメラ(ファームウェア 1.71.10735、1.90.107 など) | 公開されたインターフェースに認証・認可がなく、認証なしのリモート攻撃者に任意コマンドの送信、再起動の強制、不正ファームウェアの書き込みをされるおそれがあります。ベンダーの対策情報を確認し、機器をネットワークから隔離するなどの緩和策を取ってください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-121613 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121613.json) |
+| 11/23 18:37 | **CVE-2026-115901**<br>Cribl Stream 4.20.4 より前(OIDC SSO 構成) | OIDC のユーザー識別クレームを操作できる攻撃者が細工した認証リンクを踏ませると、Cribl の画面上でスクリプトが実行されセッショントークンを盗まれるおそれがあります。4.20.4 以降へ更新してください。 | 9.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-115901 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115901.json) |
+| 11/23 18:37 | **CVE-2026-115900**<br>Cribl Stream 4.20.4 より前 | 有効な Worker 配布用認証情報を持つ攻撃者が細工したハートビートを送ることで、Leader の REST 認証を回避して管理 API にアクセスできるおそれがあります。4.20.4 以降へ更新し、配布用認証情報の管理を見直してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-115900 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115900.json) |
+| 11/23 18:37 | **CVE-2026-115899**<br>Cribl Stream 4.20.4 より前(REST Collector) | REST Collector が上流 API から受け取るページネーション情報を攻撃者が操作できる場合、ジョブ実行時に Worker サービスアカウントの権限で任意のコードを実行されるおそれがあります。4.20.4 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-115899 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115899.json) |
+| 11/23 18:37 | **CVE-2026-115873**<br>Cribl Stream 4.20.4 より前 | 読み取り専用(GroupRead)権限を持つ認証済み攻撃者が、細工した式でネストされたコンパイラの制限を回避し、Leader サービスアカウントの権限で任意のコードを実行できるおそれがあります。4.20.4 以降へ更新してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-115873 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115873.json) |
 | 11/23 17:37 | **CVE-2026-93584**<br>OTRS 2024.3.1〜2026.8.1(Survey モジュール) | Survey エンドポイントにSQLインジェクションがあり、外部フロントエンドが公開されていれば認証なしでチケット情報などデータベース内の機密情報を抜き取られるおそれがあります。2026.8.2 以降へ更新してください。 | 8.6 (高)<br>v3.1 | 確認されていない | [CVE-2026-93584 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93584.json) |
 | 11/23 17:37 | **CVE-2026-134935**<br>Omarchy 用 dell-xps-touchpad-haptics パッケージ 1.0.0-4 より前 | 設定ファイルをシンボリックリンクにすることで、ローカルの一般ユーザーが root 所有ファイルの所有者を変更でき、権限昇格につながるおそれがあります。1.0.0-4 以降へ更新してください。 | 7.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-134935 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134935.json) |
 | 11/23 17:37 | **CVE-2026-120382**<br>Synology DiskStation Manager (DSM) 7.1.1〜7.4.1(7.4.1-90080-2 等の修正版より前) | DSM の OAuth API でコマンド引数の区切り文字が適切に処理されず、認証なしのリモート攻撃者に任意ファイルの読み書きやサービス停止を引き起こされるおそれがあります。各系列の修正版(7.4.1-90080-2、7.3.2-86009-6 など)へ速やかに更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-120382 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120382.json) |
