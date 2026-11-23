@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 14:37(日本時間)
-- 登録: 4302 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 15:37(日本時間)
+- 登録: 4304 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 15:37 | **CVE-2026-91149**<br>Cockpit(cockpit-tls)/ Red Hat Enterprise Linux 7〜10(修正版適用前) | cockpit-tlsが同時接続ごとに無制限にスレッドを生成するため、認証なしの遠隔攻撃者が大量の接続を維持するとメモリなどの資源を使い果たし、Cockpitが利用できなくなるおそれがあります。Red Hatの修正版(RHSA-2026:102208 など)を適用し、Cockpitのポートを信頼できるネットワークに限定してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-91149 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/91xxx/CVE-2026-91149.json) |
+| 11/23 15:37 | **CVE-2026-76235**<br>Cockpit(cockpit-ws)/ Red Hat Enterprise Linux 7〜10(修正版適用前) | Cockpitのログイン画面処理で、特定のCookie付きリクエストごとにメモリが解放されず、認証なしの遠隔攻撃者にメモリを枯渇させられてサービス停止に陥るおそれがあります。Red Hatが提供するcockpitの修正版(RHSA-2026:102208 など)を適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-76235 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/76xxx/CVE-2026-76235.json) |
 | 11/23 14:37 | **CVE-2026-121876**<br>Red Hat OpenShift Sandboxed Containers(confidential peer pods)のRHELベースPodVMイメージ(systemd-gpt-auto-generator) | コンフィデンシャルコンピューティング環境で、悪意あるホストがゲストのディスクにスワップなどのパーティションを差し込むと自動でマウントされ、TEEで保護されたメモリの内容が漏れるおそれがあります。Red Hatの修正版(RHSA-2026:102168 など)を適用してください。 | 7.9 (高)<br>v3.1 | 確認されていない | [CVE-2026-121876 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121876.json) |
 | 11/23 12:38 | **CVE-2026-134851**<br>leonkhoo123 self-hosting-file-uploader(コミット473e38f まで) | 管理用ジェネレーターAPIに認証がなく、リモートから管理機能を無断で使われるおそれがあります。修正が入った最新版へ更新するか、管理APIへのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134851 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134851.json) |
 | 11/23 12:38 | **CVE-2026-134850**<br>aceberg WatchYourLAN 2.1.4まで | Web APIのポート状態確認機能がaddr引数を検証しないため、リモートからサーバー側リクエストフォージェリ(SSRF)で内部ネットワークへアクセスされるおそれがあります。修正版が出るまでAPIへのアクセスを信頼できる範囲に制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134850 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134850.json) |
