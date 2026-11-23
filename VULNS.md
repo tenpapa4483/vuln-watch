@@ -2,12 +2,21 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/24 03:38(日本時間)
-- 登録: 4417 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/24 04:38(日本時間)
+- 登録: 4426 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/24 04:38 | **CVE-2026-49965**<br>DreameHome クラウド API(2026-11-19 より前) | 認証済みの攻撃者がカメラ識別子を使って他ユーザーのカメラを自分のアカウントに紐付け直せるおそれがありました。サービス側で修正済みのため、機器の登録状況を確認してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-49965 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49965.json) |
+| 11/24 04:38 | **CVE-2026-49964**<br>DreameHome クラウド API(2026-10-14 より前) | 認証済みの攻撃者が他ユーザーの機器用 RTC トークンを取得し、カメラのライブ映像に参加できるおそれがありました。サービス側で修正済みです。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-49964 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49964.json) |
+| 11/24 04:38 | **CVE-2026-49963**<br>DreameHome Android アプリ(com.dreame.smartlife)2.6.4.0 未満 | React Native プラグインの配布物が発行元の検証なしで読み込まれ、通信経路上の攻撃者がアプリ内で任意の JavaScript を実行できるおそれがあります。2.6.4.0 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-49963 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49963.json) |
+| 11/24 04:38 | **CVE-2026-49962**<br>DreameHome 機器共有 / MQTT ブローカー(2026-10-26 より前) | 共有を取り消された元の共有相手が、引き続き機器の状態メッセージを受信できるおそれがありました。サービス側で修正済みのため、共有設定を見直してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-49962 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49962.json) |
+| 11/24 04:38 | **CVE-2026-49961**<br>DreameHome MQTT ブローカー(2026-10-26 より前) | 認証済みの攻撃者が所有していない機器の状態トピックを購読し、間取りを含む LiDAR 地図などのテレメトリを取得できるおそれがありました。サービス側で修正済みです。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-49961 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49961.json) |
+| 11/24 04:38 | **CVE-2026-49960**<br>DreameHome クラウド API(2026-10-14 より前) | 認証済みの攻撃者が他ユーザーの uid を指定して、そのユーザーの Meari カメラ基盤の認証情報・セッションを取得できるおそれがありました。サービス側で修正済みのため、アプリを最新にして不審なアクセスを確認してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-49960 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49960.json) |
+| 11/24 04:38 | **CVE-2026-135452**<br>HP Hotkey UWP Service 8.10.48.359 未満 | HP Hotkey UWP Service に権限昇格のおそれがある脆弱性があります。HP Programmable Key 利用環境では HP Hotkey Support を更新してください。 | 8.4 (高)<br>v4.0 | 確認されていない | [CVE-2026-135452 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135452.json) |
+| 11/24 04:38 | **CVE-2026-134461**<br>web-token jwt-framework / jwt-library 3.4.10 未満、4.0.0〜4.0.6、4.1.0〜4.1.6 | PBES2 系 JWE の反復回数(p2c)に上限がなく、認証不要の攻撃者が巨大な値を送ってCPUを消費させサービス停止を起こせるおそれがあります。3.4.10 / 4.0.7 / 4.1.7 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-134461 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134461.json) |
+| 11/24 04:38 | **CVE-2026-103786**<br>Dell Enterprise SONiC Distribution 4.6.1 未満 | 隣接ネットワーク上の認証不要の攻撃者が NULL ポインタ参照を誘発し、サービス停止を引き起こすおそれがあります。4.6.1 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-103786 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/103xxx/CVE-2026-103786.json) |
 | 11/24 03:38 | **CVE-2026-135446**<br>Bold pagos en linea(WordPress プラグイン)3.5.1 未満 | Webhook の署名検証の不備により、認証不要の攻撃者が支払い通知を偽造して未払いの WooCommerce 注文を支払済みにできるおそれがあります。3.5.1 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-135446 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135446.json) |
 | 11/24 03:38 | **CVE-2026-135436**<br>KindleEar 3.0.0〜3.5.3 | 管理者でない認証済みユーザーが細工したレシピをアップロードすると、Python コードがサンドボックスなしで実行され、コンテナ内で root 権限のコード実行やパスワードハッシュの取得が可能になるおそれがあります。修正版へ更新し、利用者登録を制限してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-135436 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135436.json) |
 | 11/24 03:38 | **CVE-2026-135433**<br>FLTK 1.4.5 以前 | 細工された BMP/ICO ファイルを読み込むとヒープバッファオーバーフローが起き、アプリのクラッシュや任意コード実行につながるおそれがあります。修正コミットを適用し、信頼できない画像ファイルを開かないでください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-135433 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135433.json) |
