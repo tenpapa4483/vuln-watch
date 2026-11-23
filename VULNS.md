@@ -2,12 +2,23 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/24 04:38(日本時間)
-- 登録: 4426 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/24 05:38(日本時間)
+- 登録: 4437 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/24 05:38 | **CVE-2026-95793**<br>HPE Morpheus Software 8.1.0〜8.1.2-2、9.0.0〜9.0.2-3、9.1.0〜9.1.0-2 | HPE Morpheus Manager に任意のリモートコード実行の脆弱性があります。HPEのアドバイザリに従い修正版へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-95793 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95793.json) |
+| 11/24 05:38 | **CVE-2026-46595**<br>golang.org/x/crypto/ssh 0.43.0 以上 0.52.0 未満 | 公開鍵以外のコールバックを使うSSHサーバー設定で送信元アドレス制限の検証が省略され、認可を回避されるおそれがあります。golang.org/x/crypto 0.52.0 以降へ更新してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-46595 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/46xxx/CVE-2026-46595.json) |
+| 11/24 05:38 | **CVE-2026-39821**<br>Go 標準ライブラリ(1.25.13 / 1.26.6 未満)、golang.org/x/net/idna 0.57.0 未満 | IDNA処理がASCIIのみに復号されるPunycodeラベルを誤って受け入れるため、ホスト名に基づく権限チェックを回避されるおそれがあります。Go 1.25.13 / 1.26.6 以降、x/net 0.57.0 以降へ更新してください。 | 9.6 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-39821 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/39xxx/CVE-2026-39821.json) |
+| 11/24 05:38 | **CVE-2026-135470**<br>WPC Product Options for WooCommerce 4.0.9 未満 | 認証不要の攻撃者が負の価格を含むオプションデータを送り、商品を0円や任意の価格で購入できるおそれがあります。4.0.9 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-135470 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135470.json) |
+| 11/24 05:38 | **CVE-2026-134457**<br>Hysteria 2.5.0 以上 2.8.2 未満 | スニッフィング有効時、有効なパスワードを持つ利用者が細工したQUICパケットでメモリを枯渇させ、サーバーを停止させるおそれがあります。2.8.2 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134457 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134457.json) |
+| 11/24 05:38 | **CVE-2026-134293**<br>SurrealDB 3.1.0 以上 4.0.0 未満(MCPサーバー) | MCPサーバーの識別子検証がエスケープされたバッククォートを正しく扱わず、MCPツール引数経由で任意のSurrealQL文を実行されるおそれがあります。4.0.0 以降へ更新してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE-2026-134293 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134293.json) |
+| 11/24 05:38 | **CVE-2026-134282**<br>Vikunja 0.14.0 以上 2.8.0 未満 | 認証済み利用者がXMLリクエストで非公開フィールドを設定でき、任意の保存ファイルの取得やインスタンス管理者権限の取得につながるおそれがあります。2.8.0 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-134282 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134282.json) |
+| 11/24 05:38 | **CVE-2026-134253**<br>Grav API プラグイン 1.0.0 以上 1.1.4 未満 | メディア・ページ書き込み権限を持つ利用者がテーマのTwigテンプレートを書き込み、Webサーバー権限でコマンドを実行できるおそれがあります。1.1.4 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-134253 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134253.json) |
+| 11/24 05:38 | **CVE-2026-132147**<br>Debian debbugs(コミット 2fbf068 より前) | versions.cgi がパッケージ名パラメータを適切に検証せず、細工したクエリでサーバー上の任意ファイルの内容の一部を読み取られるおそれがあります。修正コミットを適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-132147 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132147.json) |
+| 11/24 05:38 | **CVE-2026-130164**<br>Hermes Agent 0.21.6 以上 0.23.2 未満 | Bot Desktop を docker/ssh など非ローカルの端末バックエンドで使う場合、バックエンド側で書き換え可能な環境ファイルが検証なしにエージェント側プロセスの環境変数に取り込まれ、コード実行につながるおそれがあります。0.23.2 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-130164 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130164.json) |
+| 11/24 05:38 | **CVE-2025-68119**<br>Go ツールチェーン cmd/go(1.24.13 / 1.25.6 未満) | 悪意あるバージョン文字列や非標準ソースのモジュールを取得・ビルドすると、Mercurial環境でのコード実行やGit環境での任意ファイル書き込みが起きるおそれがあります。Go 1.24.13 / 1.25.6 以降へ更新してください。 | 7.0 (高)<br>v3.1 | 確認されていない | [CVE-2025-68119 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/68xxx/CVE-2025-68119.json) |
 | 11/24 04:38 | **CVE-2026-49965**<br>DreameHome クラウド API(2026-11-19 より前) | 認証済みの攻撃者がカメラ識別子を使って他ユーザーのカメラを自分のアカウントに紐付け直せるおそれがありました。サービス側で修正済みのため、機器の登録状況を確認してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-49965 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49965.json) |
 | 11/24 04:38 | **CVE-2026-49964**<br>DreameHome クラウド API(2026-10-14 より前) | 認証済みの攻撃者が他ユーザーの機器用 RTC トークンを取得し、カメラのライブ映像に参加できるおそれがありました。サービス側で修正済みです。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-49964 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49964.json) |
 | 11/24 04:38 | **CVE-2026-49963**<br>DreameHome Android アプリ(com.dreame.smartlife)2.6.4.0 未満 | React Native プラグインの配布物が発行元の検証なしで読み込まれ、通信経路上の攻撃者がアプリ内で任意の JavaScript を実行できるおそれがあります。2.6.4.0 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-49963 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49963.json) |
