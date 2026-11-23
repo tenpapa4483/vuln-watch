@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 19:38(日本時間)
-- 登録: 4321 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 20:38(日本時間)
+- 登録: 4325 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 20:38 | **CVE-2026-135055**<br>WebKitGTK(GLib DMA-BUF処理、RHEL 7/8/9 の webkitgtk 系パッケージ) | UIProcessがDMA-BUFのプレーン数とオフセット/ストライド配列の長さを照合しないため、侵害されたWebProcessから範囲外読み取りを起こされ、メモリ漏えいやクラッシュ、サンドボックス脱出の一段階に悪用されるおそれがあります。ディストリビューションの修正版WebKitGTKが出たら速やかに適用してください。 | 8.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-135055 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135055.json) |
+| 11/23 20:38 | **CVE-2026-134891**<br>osCommerce 4.14.63493 | 仮想ギフトカードのカート処理で products_id の扱いに認可不備があり、リモートから認可を回避した操作が可能になるおそれがあります。ベンダーの対応は未確認のため、修正版の公開を注視しつつWAF等での入力制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134891 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134891.json) |
+| 11/23 20:38 | **CVE-2026-104405**<br>GiveWP(WordPressプラグイン)4.17.0 以前 | 権限の割り当てに不備があり、未認証の攻撃者が条件次第で権限昇格しサイトを乗っ取るおそれがあります。4.18.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-104405 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/104xxx/CVE-2026-104405.json) |
+| 11/23 20:38 | **CVE-2025-25125**<br>Fyrebox Quizzes(WordPressプラグイン)3.1 以前 | CSRF対策の欠如により、管理者に細工したページを開かせることで保存型XSSを埋め込まれるおそれがあります。修正状況が限定的なため、最新版への更新か不要ならプラグインの無効化を検討してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2025-25125 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/25xxx/CVE-2025-25125.json) |
 | 11/23 19:38 | **CVE-2026-59442**<br>Spring AI 2.0.0〜2.0.2 / 1.1.0〜1.1.9 / 1.0.0〜1.0.10 | Typesense ベクトルストアのフィルタ式でグループ化が正しく変換されず、テナント分離やアクセス制御用の条件が効かずに他者の文書の取得・削除が起きうります。2.0.3 などの修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-59442 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59442.json) |
 | 11/23 19:38 | **CVE-2026-48201**<br>WordPress プラグイン Fast Velocity Minify 3.5.7 以前 | 未認証の攻撃者によるクロスサイトスクリプティングが可能で、閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。3.5.8 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-48201 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/48xxx/CVE-2026-48201.json) |
 | 11/23 19:38 | **CVE-2026-134887**<br>osCommerce 4.14.63493 | 住所録取得処理で customers_id にSQLインジェクションがあり、リモートからデータベースの情報漏えいや改ざんを招くおそれがあります。ベンダーの修正は未確認のため、WAFでの防御やアクセス制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134887 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134887.json) |
