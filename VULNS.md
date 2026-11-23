@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 20:38(日本時間)
-- 登録: 4325 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 21:38(日本時間)
+- 登録: 4331 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 21:38 | **CVE-2026-93575**<br>Netty netty-codec-mqtt(Red Hat AMQ Broker 7.14.2、Apache Camel for Spring Boot 4、Red Hat Fuse 7、JBoss EAP 7 など) | MQTT CONNECT パケットのプロパティ長を正しく検証せず、認証なしの攻撃者がメモリや CPU を過剰に消費させサービス停止を起こせます。Red Hat の修正版(RHSA-2026:102288 など)を適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-93575 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93575.json) |
+| 11/23 21:38 | **CVE-2026-93564**<br>Netty netty-codec-haproxy(Red Hat AMQ Broker 7.14.2、Apache Camel、Red Hat build of Keycloak 26.4 など) | 細工した PROXY プロトコル v2 ヘッダーにより参照カウントのリークが起き、認証なしでメモリ枯渇によるサービス停止を起こされるおそれがあります。Netty 4.1.138.Final 相当以降を含む修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-93564 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93564.json) |
+| 11/23 21:38 | **CVE-2026-87114**<br>kube-compare(Red Hat OpenShift Container Platform 4.19〜4.22 の kube-compare-artifacts) | container:// 参照を処理する際に信頼できないイメージのエントリポイントを実行してしまい、操作者の端末で任意コードが実行されるおそれがあります。Red Hat の修正版へ更新し、信頼できないイメージを参照に使わないでください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-87114 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87114.json) |
+| 11/23 21:38 | **CVE-2026-84218**<br>Jolokia JSR-160 プロキシ(Red Hat AMQ Broker 7.14.2、Red Hat build of Apache Camel、Red Hat Fuse 7 など) | JMX サービス URL の拒否リストが ldaps:// などの別形式で回避でき、JNDI 参照を通じてリモートコード実行につながるおそれがあります(CVE-2018-1000130 対策の回避)。Red Hat の修正版(RHSA-2026:102288 など)を適用し、不要なプロキシ機能は無効化してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-84218 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/84xxx/CVE-2026-84218.json) |
+| 11/23 21:38 | **CVE-2026-134892**<br>SourceCodester Cosmetics and Beauty Product Online Store 1.0 | 管理画面の注文表示(view_order.php)の ID パラメータに SQL インジェクションがあり、遠隔からデータベースの改ざんや情報漏えいのおそれがあります。攻撃手法が公開済みのため、公開を停止するか入力値の検証を行ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134892 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134892.json) |
+| 11/23 21:38 | **CVE-2026-102483**<br>NTPsec ntpd 1.1.4〜1.2.5(1.2.6 で修正) | NTS 要求に余分な Cookie Placeholder 拡張フィールドを付けることで、遠隔の攻撃者が ntpd を終了させサービス停止を起こせます。NTS を有効にしている場合は 1.2.6 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-102483 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/102xxx/CVE-2026-102483.json) |
 | 11/23 20:38 | **CVE-2026-135055**<br>WebKitGTK(GLib DMA-BUF処理、RHEL 7/8/9 の webkitgtk 系パッケージ) | UIProcessがDMA-BUFのプレーン数とオフセット/ストライド配列の長さを照合しないため、侵害されたWebProcessから範囲外読み取りを起こされ、メモリ漏えいやクラッシュ、サンドボックス脱出の一段階に悪用されるおそれがあります。ディストリビューションの修正版WebKitGTKが出たら速やかに適用してください。 | 8.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-135055 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135055.json) |
 | 11/23 20:38 | **CVE-2026-134891**<br>osCommerce 4.14.63493 | 仮想ギフトカードのカート処理で products_id の扱いに認可不備があり、リモートから認可を回避した操作が可能になるおそれがあります。ベンダーの対応は未確認のため、修正版の公開を注視しつつWAF等での入力制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134891 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134891.json) |
 | 11/23 20:38 | **CVE-2026-104405**<br>GiveWP(WordPressプラグイン)4.17.0 以前 | 権限の割り当てに不備があり、未認証の攻撃者が条件次第で権限昇格しサイトを乗っ取るおそれがあります。4.18.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-104405 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/104xxx/CVE-2026-104405.json) |
