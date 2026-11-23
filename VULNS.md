@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/23 13:37(日本時間)
-- 登録: 4301 件 / 悪用確認あり: 49 件
+- 最終チェック: 11/23 14:37(日本時間)
+- 登録: 4302 件 / 悪用確認あり: 49 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/23 14:37 | **CVE-2026-121876**<br>Red Hat OpenShift Sandboxed Containers(confidential peer pods)のRHELベースPodVMイメージ(systemd-gpt-auto-generator) | コンフィデンシャルコンピューティング環境で、悪意あるホストがゲストのディスクにスワップなどのパーティションを差し込むと自動でマウントされ、TEEで保護されたメモリの内容が漏れるおそれがあります。Red Hatの修正版(RHSA-2026:102168 など)を適用してください。 | 7.9 (高)<br>v3.1 | 確認されていない | [CVE-2026-121876 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121876.json) |
 | 11/23 12:38 | **CVE-2026-134851**<br>leonkhoo123 self-hosting-file-uploader(コミット473e38f まで) | 管理用ジェネレーターAPIに認証がなく、リモートから管理機能を無断で使われるおそれがあります。修正が入った最新版へ更新するか、管理APIへのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134851 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134851.json) |
 | 11/23 12:38 | **CVE-2026-134850**<br>aceberg WatchYourLAN 2.1.4まで | Web APIのポート状態確認機能がaddr引数を検証しないため、リモートからサーバー側リクエストフォージェリ(SSRF)で内部ネットワークへアクセスされるおそれがあります。修正版が出るまでAPIへのアクセスを信頼できる範囲に制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134850 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134850.json) |
 | 11/23 12:38 | **CVE-2026-134789**<br>DumbWareio DumbAssets 1.0.11まで | 設定APIのappriseUrl引数の処理に不備があり、リモートから内部オブジェクトの属性を操作されるおそれがあります。ベンダーの修正は未確認のため、外部公開を避けアクセス制限を行ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-134789 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134789.json) |
