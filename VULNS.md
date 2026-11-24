@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/24 12:39(日本時間)
-- 登録: 4558 件 / 悪用確認あり: 54 件
+- 最終チェック: 11/24 13:37(日本時間)
+- 登録: 4563 件 / 悪用確認あり: 54 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/24 13:37 | **CVE-2026-54892**<br>Elixir Plug 1.15.0〜1.15.4、1.16.0〜1.16.3、1.17.0〜1.17.1、1.18.0〜1.18.2、1.19.0〜1.19.2 | 深くネストしたクエリ/フォームパラメーターの解析に二乗時間がかかり、認証不要のリクエストでサービス拒否を起こされるおそれがあります。1.15.5 / 1.16.4 / 1.17.2 / 1.18.3 / 1.19.3 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-54892 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/54xxx/CVE-2026-54892.json) |
+| 11/24 13:37 | **CVE-2026-14164**<br>libarchive(RAR5 リーダー)— Red Hat Enterprise Linux 6〜10、OpenShift 等に同梱 | 細工された RAR5 アーカイブの展開時に二重解放が発生し、libarchive を使うアプリケーションが異常終了(サービス拒否)するおそれがあります。Red Hat のエラータに従って libarchive を更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-14164 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/14xxx/CVE-2026-14164.json) |
+| 11/24 13:37 | **CVE-2026-135457**<br>amirhamza05 Student-Management-System(コミット 449397e まで) | インストーラー(install.php)の db_name パラメーター経由でリモートからコードを注入され、任意のコードが実行されるおそれがあります。攻撃手法が公開済みのため、インストーラーを削除するか外部から到達できないよう制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-135457 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135457.json) |
+| 11/24 13:37 | **CVE-2026-128791**<br>Acer Connect M6E 5G ポータブル Wi-Fi ルーター ファームウェア M6E_AI_1.00.000019〜M6E_GBL_1.00.000079 | Wi-Fi に接続した任意の端末が認証なしで会議録音ファイルを削除できるおそれがあります。Acer が公開している更新ファームウェアを適用してください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-128791 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128791.json) |
+| 11/24 13:37 | **CVE-2026-124906**<br>Mozilla Firefox 160 未満、Firefox ESR 153.7 未満、Thunderbird 160 / 153.7 未満 | WebRender の解放済みメモリ使用により、細工されたコンテンツを開くと任意のコードが実行されるおそれがあります。Firefox 160 / ESR 153.7、Thunderbird 160 / 153.7 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-124906 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124906.json) |
 | 11/24 12:39 | **CVE-2026-9790**<br>Acer Connect M6E 5G ポータブル Wi-Fi ルーター ファームウェア M6E_AI_1.00.000019〜M6E_GBL_1.00.000079 | Wi-Fi に接続した端末から認証なしで一部の API にアクセスでき、機器情報などが取得されるおそれがあります。Acer が公開している更新ファームウェアを適用してください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-9790 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/9xxx/CVE-2026-9790.json) |
 | 11/24 12:39 | **CVE-2026-93569**<br>Netty netty-codec-http2(Red Hat build of Apache Camel / Keycloak / Quarkus / JBoss EAP / AMQ Broker 等に同梱) | 絶対形式の URL と食い違う Host ヘッダーを送られると HTTP/2 の宛先がすり替わり、Netty ベースのプロキシやゲートウェイでセキュリティ制御を回避されるおそれがあります。Red Hat のエラータに従い更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-93569 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93569.json) |
 | 11/24 12:39 | **CVE-2026-93568**<br>Netty netty-codec-http2 / http3(Red Hat build of Apache Camel / Keycloak / Quarkus / JBoss EAP / AMQ Broker 等に同梱) | HTTP/2・HTTP/3 の拡張 CONNECT が通常の CONNECT として扱われ、経路制御や認可のポリシーを回避されるおそれがあります。Red Hat のエラータに従い更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-93568 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93568.json) |
