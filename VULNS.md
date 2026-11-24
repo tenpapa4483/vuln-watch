@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/24 10:38(日本時間)
-- 登録: 4537 件 / 悪用確認あり: 54 件
+- 最終チェック: 11/24 11:37(日本時間)
+- 登録: 4540 件 / 悪用確認あり: 54 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/24 11:37 | **CVE-2026-93457**<br>ASUS ルーター ファームウェア 3.0.0.4.386 / 3.0.0.4.388 / 3.0.0.6.102 系列の一部機種 | 細工した LLTD パケットにより、近隣の認証されていない攻撃者がメモリ破損を起こしサービス停止させるおそれがあります。ASUS のアドバイザリに従いファームウェアを更新してください。 | 7.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-93457 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/93xxx/CVE-2026-93457.json) |
+| 11/24 11:37 | **CVE-2026-124251**<br>WordPress プラグイン WPIDE – File Manager & Code Editor 3.6.4 以前 | CSRF の脆弱性があり、管理者が細工したページを開くと意図しない操作(ファイル編集など)を実行させられるおそれがあります。3.6.5 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-124251 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124251.json) |
+| 11/24 11:37 | **CVE-2026-114203**<br>ASUS GPU Tweak III V.1.6.9.4 〜 v2.2.1.1 | サービスの HTTP エンドポイントへ細工したリクエストを送られると、OS コマンドインジェクションにより任意のコマンドを実行されるおそれがあります。ASUS のセキュリティアドバイザリに従い最新版へ更新してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-114203 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/114xxx/CVE-2026-114203.json) |
 | 11/24 10:38 | **CVE-2026-18530**<br>Lantronix S2220 Series 2 ファームウェア 1.3.36 以前 | SSH の制限付きシェル a3cli でコマンド置換文字が無害化されず、認証済み攻撃者が任意の OS コマンドを実行できるおそれがあります。ファームウェア 1.3.37 以降へ更新してください。 | 9.9 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-18530 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/18xxx/CVE-2026-18530.json) |
 | 11/24 10:38 | **CVE-2026-134458**<br>web-token jwt-framework / jwt-library 3.4.12 未満、4.0.8 / 4.1.10 / 4.2.4 未満 ほか | ECDH-ES の鍵導出が不十分で、A256CBC-HS512 の JWE が全ゼロ鍵で復号されるなど暗号の安全性が失われるおそれがあります。修正版へ更新し、影響する JWE の鍵を見直してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-134458 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134458.json) |
 | 11/24 10:38 | **CVE-2026-134453**<br>Dockhand 1.0.50 未満 | 一部 API に RBAC チェックがなく、一般ユーザーがユーザー情報やライセンスキーを取得でき、無効なライセンス時には全員が管理者権限を得るおそれがあります。1.0.50 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134453 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134453.json) |
