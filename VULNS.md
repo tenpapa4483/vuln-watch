@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/24 19:38(日本時間)
-- 登録: 4625 件 / 悪用確認あり: 54 件
+- 最終チェック: 11/24 20:38(日本時間)
+- 登録: 4630 件 / 悪用確認あり: 54 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/24 20:38 | **CVE-2026-127183**<br>SUSE NeuVector 5.5.6 未満、5.6.0〜5.6.5 未満 | データプレーンの複数のメモリ安全性の問題により、認証不要のリモート攻撃者がクラッシュを引き起こしサービス停止させるおそれがあります。NeuVector 5.5.6 / 5.6.5 以降(または 5.7 系)へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-127183 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127183.json) |
+| 11/24 20:38 | **CVE-2026-127182**<br>SUSE NeuVector 5.5.6 未満、5.6.0〜5.6.5 未満 | Enforcer のデータプレーンで DLP/WAF ルール処理時にスタックバッファオーバーフローが起き、認証済みの攻撃者によりクラッシュや任意コード実行が起こるおそれがあります。NeuVector 5.5.6 / 5.6.5 以降(または 5.7 系)へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-127182 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127182.json) |
+| 11/24 20:38 | **CVE-2026-103333**<br>Apache Jena ARQ(jena-arq)6.2.0 以前 | SPARQL 関数の入力検証不備により、細工したクエリや不十分に検証されたデータで CPU・メモリを過剰に消費させられ、サービス停止につながるおそれがあります。Apache Jena 6.3.0 以降へ更新してください。 | 7.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-103333 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/103xxx/CVE-2026-103333.json) |
+| 11/24 20:38 | **CVE-2025-5222**<br>ICU 78.1 未満(RHEL 9/10 の icu ほか) | ICU の genrb ツールで細工したリソースファイルを処理するとスタックバッファオーバーフローが起き、ローカルで任意コード実行につながるおそれがあります。ICU 78.1 以降またはディストリビューションの修正版へ更新してください。 | 7.0 (高)<br>v3.1 | 確認されていない | [CVE-2025-5222 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/5xxx/CVE-2025-5222.json) |
+| 11/24 20:38 | **CVE-2025-4953**<br>Podman(RHEL 8 container-tools、OpenShift 4.12 ほかの修正版未満) | podman build 中に RUN --mount=type=bind で書き込んだデータが破棄されず、ホスト側の一時ビルドコンテキストに残って他者から参照されるおそれがあります。Red Hat 等が提供する修正済みの podman へ更新してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2025-4953 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/4xxx/CVE-2025-4953.json) |
 | 11/24 19:38 | **CVE-2026-59415**<br>Spring AI 1.0.0〜1.0.11 未満、1.1.0〜1.1.10 未満、2.0.0〜2.0.3 未満(TypesenseVectorStore) | TypesenseVectorStore の削除処理で文書IDがフィルタ式に無加工で連結されるため、細工したIDで意図しない文書がまとめて削除されるおそれがあります。修正版の Spring AI へ更新してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-59415 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59415.json) |
 | 11/24 19:38 | **CVE-2026-18358**<br>gnome-remote-desktop(RHEL 8/9/10 のシステムモード RDP、修正版未満) | システムモードの RDP サーバーで接続数の制限が効かず、認証前の大量接続によって正規ユーザーが接続できなくなるおそれがあります。修正版へ更新するか、RDP の公開範囲を制限してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-18358 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/18xxx/CVE-2026-18358.json) |
 | 11/24 19:38 | **CVE-2026-18107**<br>CRIU(RHEL 7/8/9/10、OpenShift Container Platform 4) | コンテナ内の悪意あるプロセスが CRIU のチェックポイント処理を乗っ取り、復元時に root 相当の権限を得てコンテナから脱出するおそれがあります。修正版の criu へ更新し、信頼できないコンテナのチェックポイント/リストアは避けてください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-18107 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/18xxx/CVE-2026-18107.json) |
