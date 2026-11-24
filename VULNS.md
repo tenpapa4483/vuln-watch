@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/24 15:38(日本時間)
-- 登録: 4591 件 / 悪用確認あり: 54 件
+- 最終チェック: 11/24 16:36(日本時間)
+- 登録: 4593 件 / 悪用確認あり: 54 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/24 16:36 | **CVE-2026-120951**<br>ASUSTOR ADM 4.1.0〜4.3.3.RY62、5.0.0〜5.1.4.RM62 | WireGuard VPN 設定の CGI でプロファイル名が書式文字列として扱われるため、認証済みの攻撃者に root 権限での任意コード実行を許すおそれがあります。ASUSTOR の修正版 ADM へ更新し、管理画面を外部に公開しないでください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-120951 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120951.json) |
+| 11/24 16:36 | **CVE-2026-120934**<br>ASUSTOR ADM 4.1.0〜4.3.3.RY62、5.0.0〜5.1.4.RM62 | 通知設定の CGI に引数インジェクションがあり、認証済みの管理者が root 権限で任意のファイルを作成・切り詰めてシステムを停止させるおそれがあります。ASUSTOR の修正版 ADM へ更新し、管理者アカウントを厳重に管理してください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2026-120934 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/120xxx/CVE-2026-120934.json) |
 | 11/24 15:38 | **CVE-2026-65623**<br>Elixir Bandit 1.11.0〜1.12.1 未満 | WebSocket の分割フレーム再構成で処理量が二乗的に増えるため、認証なしで CPU を使い果たされサービス拒否となるおそれがあります。Bandit 1.12.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-65623 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/65xxx/CVE-2026-65623.json) |
 | 11/24 15:38 | **CVE-2026-59695**<br>Elixir mpp 0.2.0〜0.6.0 未満(fee_payer 有効時) | クライアント指定のガス価格上限を検証しないため、1回のリクエストで支払い用ウォレットを枯渇させられるおそれがあります。mpp 0.6.0 以降へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-59695 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59695.json) |
 | 11/24 15:38 | **CVE-2026-59694**<br>Elixir mpp 0.2.0〜0.6.0 未満(fee_payer 有効時) | クライアント指定のアクセスリストを無制限に受け入れるため、1回の支払いあたりのガス代を大幅に膨らまされるおそれがあります。mpp 0.6.0 以降へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-59694 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59694.json) |
