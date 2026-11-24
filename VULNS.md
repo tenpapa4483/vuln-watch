@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/24 13:37(日本時間)
-- 登録: 4563 件 / 悪用確認あり: 54 件
+- 最終チェック: 11/24 14:37(日本時間)
+- 登録: 4570 件 / 悪用確認あり: 54 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/24 14:37 | **CVE-2026-58229**<br>Elixir mint 0.1.0 以上 1.9.2 未満 | HTTP/1 の応答ヘッダーや chunked トレーラーを件数・サイズの上限なく蓄積するため、悪意あるサーバーがクライアントのメモリを枯渇させるおそれがあります。mint 1.9.2 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-58229 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/58xxx/CVE-2026-58229.json) |
+| 11/24 14:37 | **CVE-2026-58226**<br>Elixir hpax 0.1.0 以上 1.0.4 未満 | HPACK の可変長整数を上限なく復号するため、認証なしの細工したヘッダーで CPU を浪費させサービス停止を起こせるおそれがあります。hpax 1.0.4 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-58226 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/58xxx/CVE-2026-58226.json) |
+| 11/24 14:37 | **CVE-2026-56810**<br>Elixir mint 0.5.0 以上 1.9.1 未満 | chunked 形式の応答でチャンク全体を上限なくメモリに溜めるため、悪意あるサーバーへの接続でクライアント側がメモリ枯渇によるサービス停止に陥るおそれがあります。mint 1.9.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-56810 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/56xxx/CVE-2026-56810.json) |
+| 11/24 14:37 | **CVE-2026-55954**<br>Elixir ueberauth_apple 0.6.0-rc.0 以上 0.6.2 未満 | Apple の ID トークンの iss・aud・exp などのクレームを検証しないため、別のトークンを流用したアカウント乗っ取りのおそれがあります。ueberauth_apple 0.6.2 以降へ更新してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-55954 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/55xxx/CVE-2026-55954.json) |
+| 11/24 14:37 | **CVE-2026-55735**<br>Elixir guardian 1.0.0-beta.0 以上 2.4.1 未満 | Guardian.revoke/3 が署名を検証せずにトークンの内容を使うため、認証なしの攻撃者が偽造トークンで他人のセッションを失効させられるおそれがあります。guardian 2.4.1 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-55735 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/55xxx/CVE-2026-55735.json) |
+| 11/24 14:37 | **CVE-2024-3056**<br>Podman(IPC 名前空間を共有するコンテナ構成) | IPC 名前空間を共有する悪意あるコンテナが /dev/shm に大量の IPC 資源を作り続け、ホストのメモリを枯渇させてサービス停止を招くおそれがあります。IPC 名前空間の共有を避け、ベンダーの修正を適用してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2024-3056 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/3xxx/CVE-2024-3056.json) |
+| 11/24 14:37 | **CVE-2024-2947**<br>Cockpit 270 以降(RHEL 8/9 は修正版未満) | Cockpit の Web 画面で細工した名前の sosreport を削除するとコマンドインジェクションが起き、権限昇格につながるおそれがあります。修正版の cockpit へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2024-2947 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/2xxx/CVE-2024-2947.json) |
 | 11/24 13:37 | **CVE-2026-54892**<br>Elixir Plug 1.15.0〜1.15.4、1.16.0〜1.16.3、1.17.0〜1.17.1、1.18.0〜1.18.2、1.19.0〜1.19.2 | 深くネストしたクエリ/フォームパラメーターの解析に二乗時間がかかり、認証不要のリクエストでサービス拒否を起こされるおそれがあります。1.15.5 / 1.16.4 / 1.17.2 / 1.18.3 / 1.19.3 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-54892 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/54xxx/CVE-2026-54892.json) |
 | 11/24 13:37 | **CVE-2026-14164**<br>libarchive(RAR5 リーダー)— Red Hat Enterprise Linux 6〜10、OpenShift 等に同梱 | 細工された RAR5 アーカイブの展開時に二重解放が発生し、libarchive を使うアプリケーションが異常終了(サービス拒否)するおそれがあります。Red Hat のエラータに従って libarchive を更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-14164 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/14xxx/CVE-2026-14164.json) |
 | 11/24 13:37 | **CVE-2026-135457**<br>amirhamza05 Student-Management-System(コミット 449397e まで) | インストーラー(install.php)の db_name パラメーター経由でリモートからコードを注入され、任意のコードが実行されるおそれがあります。攻撃手法が公開済みのため、インストーラーを削除するか外部から到達できないよう制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-135457 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135457.json) |
