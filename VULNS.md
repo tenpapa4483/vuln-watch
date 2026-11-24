@@ -2,12 +2,21 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/25 06:38(日本時間)
-- 登録: 4976 件 / 悪用確認あり: 57 件
+- 最終チェック: 11/25 07:38(日本時間)
+- 登録: 4985 件 / 悪用確認あり: 57 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/25 07:38 | **CVE-2026-87853**<br>SSSD(IdP 認証プロバイダ使用時、RHEL 10 等) | OIDC の識別子を前方一致で比較しているため、識別子が他ユーザーの前方部分と一致する攻撃者がそのユーザーとして認証できるおそれがあります。RHSA-2026:77534 / 98559 などの修正版を適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-87853 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87853.json) |
+| 11/25 07:38 | **CVE-2026-86345**<br>389-ds-base(Red Hat Directory Server 11 / 12) | StartTLS 開始前に受信した平文データが破棄されず、通信経路上の攻撃者が LDAP 応答をすり替えて、失敗した認証をクライアントに成功と誤認させられるおそれがあります。Red Hat の修正版を適用してください。 | 9.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-86345 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/86xxx/CVE-2026-86345.json) |
+| 11/25 07:38 | **CVE-2026-16665**<br>MCUboot 1.1.0 以降(修正コミット適用前) | リリースビルドでは assert() による安全チェックが無効になるため、シリアルリカバリーや DFU 経由で不整合な状態を作られると検証なしでイメージ入れ替えが完了するおそれがあります。修正コミットを取り込んでください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-16665 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/16xxx/CVE-2026-16665.json) |
+| 11/25 07:38 | **CVE-2026-16663**<br>MCUboot 1.9.0〜2.5.0 | 暗号化シリアルリカバリーで細工したイメージを送られると、認証前にスタック上の範囲外書き込みが起き、ブートローダーでの任意コード実行につながるおそれがあります。2.5.1 以降へ更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-16663 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/16xxx/CVE-2026-16663.json) |
+| 11/25 07:38 | **CVE-2026-132734**<br>MediaWiki ExternalData 拡張(MediaWiki 1.43 / 1.45〜1.47 向け) | DB・LDAP コネクタ等の不備により、サーバーのファイルや機密情報が権限のない者に読み取られるおそれがあります。修正済みの拡張へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-132734 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132734.json) |
+| 11/25 07:38 | **CVE-2026-132724**<br>MediaWiki EasyTimeline 拡張(MediaWiki 1.43 / 1.45〜1.47 向け) | <timeline> タグの入力で以前の修正(CVE-2026-8857)のサニタイズを回避し、サーバー上の任意ファイルを読み出せるおそれがあります。修正済みの拡張へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-132724 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132724.json) |
+| 11/25 07:38 | **CVE-2026-132697**<br>MediaWiki EmailAuth 拡張(MediaWiki 1.43 / 1.45〜1.47 向け) | レート制限を使い切らせることでメール認証の追加確認を回避でき、2段階目の認証が効かなくなるおそれがあります。修正済みの拡張へ更新してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-132697 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132697.json) |
+| 11/25 07:38 | **CVE-2026-132669**<br>MediaWiki EditAccount 拡張(修正コミット 36ffbc8 より前) | アクセス制御の不備により、未認証の攻撃者がパスワードやメールアドレスを再設定して任意のアカウントを乗っ取れるおそれがあります。修正を含む最新版へ更新してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-132669 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132669.json) |
+| 11/25 07:38 | **CVE-2026-124284**<br>Genetec Security Center 5.10.0〜5.14.2.0(各系列の修正版未満) | OIDC・SAML 2.0・AD FS などの外部認証を使う構成で、特定条件下では未認証の攻撃者が正規ユーザーの権限でシステムに入り込めるおそれがあります。5.10.4.34 / 5.11.3.32 / 5.12.2.25 / 5.13.3.11 / 5.14.1.4 / 5.14.2.1 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-124284 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/124xxx/CVE-2026-124284.json) |
 | 11/25 06:38 | **CVE-2026-61513**<br>VeraCrypt(Linux 版)1.26.31 以前 | 昇格済み CoreService が対象を検証せずに chown() を実行するため、同じUIDのローカル攻撃者が /etc/shadow などの所有者を変えて root を奪取できるおそれがあります。修正版が出たら更新し、それまでは昇格セッションを開いたままにしないでください。 | 7.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-61513 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/61xxx/CVE-2026-61513.json) |
 | 11/25 06:38 | **CVE-2026-61512**<br>VeraCrypt(Linux 版)1.26.30 未満 | CoreUnix::CheckFilesystem で VirtualDevice の値がシェルコマンドに無害化されずに渡り、同じUIDのローカル攻撃者が昇格済みセッションを悪用して root で任意コマンドを実行できます。1.26.30 以降へ更新してください。 | 7.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-61512 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/61xxx/CVE-2026-61512.json) |
 | 11/25 06:38 | **CVE-2026-58014**<br>GLib 2.88.1 未満(Red Hat Enterprise Linux 10 の glib2 ほか) | g_key_file_get_locale_string_list の off-by-one により、空の値を含むキーファイルの読み込みで範囲外アクセスやサービス停止が起こりえます(今回 Red Hat が修正情報を更新)。修正済みの GLib へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-58014 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/58xxx/CVE-2026-58014.json) |
