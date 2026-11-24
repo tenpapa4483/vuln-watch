@@ -2,12 +2,21 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/24 21:38(日本時間)
-- 登録: 4646 件 / 悪用確認あり: 54 件
+- 最終チェック: 11/24 22:38(日本時間)
+- 登録: 4655 件 / 悪用確認あり: 54 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/24 22:38 | **CVE-2026-82216**<br>ITG vSRM 14.08.1〜14.08.3 未満 | サーバーサイドリクエストフォージェリ(SSRF)により、サーバーから内部ネットワークなど任意の宛先へ要求を送らせることができます。14.08.3 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-82216 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82216.json) |
+| 11/24 22:38 | **CVE-2026-65175**<br>NVIDIA AIStore 5.0 以前 | ストレージターゲットのノード制御で認可が不十分なため、認証なしの攻撃者が公開インターフェース経由で管理機能を操作し、情報漏えい・データ改ざん・サービス停止を起こすおそれがあります。NVIDIA の修正版へ更新し、ターゲットのインターフェースを信頼できるネットワークに限定してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-65175 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/65xxx/CVE-2026-65175.json) |
+| 11/24 22:38 | **CVE-2026-136128**<br>WPC Linked Variation for WooCommerce(WordPress プラグイン)4.6.1 未満 | 寄稿者権限のユーザーが格納型 XSS を仕込み、管理者が編集画面を開くだけで任意の JavaScript が実行され、管理者権限を奪われるおそれがあります。4.6.1 以降へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-136128 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136128.json) |
+| 11/24 22:38 | **CVE-2026-136126**<br>c-icap-server 0.5.15 以前、0.6.0〜0.6.5 | process_encapsulated() の範囲外書き込みにより、認証なしの攻撃者が細工した ICAP リクエスト1つでヒープを破壊し、二重解放などを引き起こせます。0.5.16 / 0.6.6 以降へ更新してください。 | 9.2 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-136126 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136126.json) |
+| 11/24 22:38 | **CVE-2026-136123**<br>Friendica 2026.05-1 以前 | ActivityPub のプロフィール処理の検証不備により、外部のアクターがローカルユーザーの公開鍵や inbox を上書きし、そのユーザーになりすませます。修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-136123 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136123.json) |
+| 11/24 22:38 | **CVE-2026-136120**<br>Ziit 1.3.2 | Epilogue OAuth コールバックが state パラメータなしの要求を受け付けるため、CSRF でログイン中の被害者のアカウントに攻撃者のアカウントを連携させ、乗っ取りが可能です。1.3.3 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-136120 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136120.json) |
+| 11/24 22:38 | **CVE-2026-103038**<br>PingTools Network Utilities 4.64(Android) | Watcher の ICMP 監視の Host 欄が sh -c にそのまま渡されるため、監視設定を作成・変更できる攻撃者がアプリの権限で任意のコマンドを実行できます。修正版が出るまで Watcher の設定変更を制限してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-103038 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/103xxx/CVE-2026-103038.json) |
+| 11/24 22:38 | **CVE-2026-100986**<br>NVIDIA AIStore 5.0 以前 | 追記(append)操作のハンドル検証不備により、認証なしの攻撃者が保存領域外のファイルにデータを追記でき、コード実行や改ざんにつながるおそれがあります。NVIDIA の修正版へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-100986 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/100xxx/CVE-2026-100986.json) |
+| 11/24 22:38 | **CVE-2026-100985**<br>NVIDIA AIStore 5.0 以前 | オブジェクトコピー先の名前の検証不備により、認証なしの攻撃者が保存領域外にファイルを書き込み、コード実行や権限昇格、改ざんにつながるおそれがあります。NVIDIA の修正版へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-100985 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/100xxx/CVE-2026-100985.json) |
 | 11/24 21:38 | **CVE-2026-6507**<br>dnsmasq 2.92(--dhcp-split-relay 使用時)、RHEL 各版の dnsmasq | 細工した BOOTREPLY パケットで境界外書き込みが起き、dnsmasq がクラッシュしてサービス停止に陥るおそれがあります。修正済みパッケージへ更新するか、該当オプションの使用を見直してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-6507 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/6xxx/CVE-2026-6507.json) |
 | 11/24 21:38 | **CVE-2026-59698**<br>ex_aws(Elixir)2.1.7〜2.8.0未満 | S3 オブジェクトキー中の .. が正規化されるため、キーを操作できる攻撃者が想定外のバケットやプレフィックスにアクセスできるおそれがあります。2.8.0 以降へ更新してください。 | 7.4 (高)<br>v4.0 | 確認されていない | [CVE-2026-59698 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59698.json) |
 | 11/24 21:38 | **CVE-2026-59697**<br>ex_aws(Elixir)2.3.0〜2.8.0未満 | IMDSv2 トークン取得時に HTTP リダイレクトを追従するため、SSRF によりクラウドのメタデータトークンが外部に渡るおそれがあります。2.8.0 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-59697 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59697.json) |
