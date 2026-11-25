@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/25 14:38(日本時間)
-- 登録: 5046 件 / 悪用確認あり: 57 件
+- 最終チェック: 11/25 15:37(日本時間)
+- 登録: 5048 件 / 悪用確認あり: 57 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/25 15:37 | **CVE-2026-136552**<br>Tenda RX3 ファームウェア 16.03.13.11_multi(/goform/setIPv6Status) | マルチWAN の IPv6 設定で remoteIP パラメータの処理にコマンドインジェクションがあり、遠隔から機器上で任意の OS コマンドを実行されるおそれがあります(攻撃手法は公開済み)。管理画面への外部アクセスを制限し、修正ファームウェアの提供を待って適用してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136552 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136552.json) |
+| 11/25 15:37 | **CVE-2026-136550**<br>Tenda RX3 ファームウェア 16.03.13.11_multi(/goform/AdvSetMacMtuWan) | WAN の MAC/MTU 設定で mac パラメータの処理にコマンドインジェクションがあり、遠隔から機器上で任意の OS コマンドを実行されるおそれがあります(攻撃手法は公開済み)。管理画面を外部に公開しないようにし、修正ファームウェアが出たら適用してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136550 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136550.json) |
 | 11/25 14:38 | **CVE-2026-136549**<br>Tenda RX3 ファームウェア 16.03.13.11_multi(/goform/SetRemoteWebCfg) | リモート管理設定の remoteIp パラメータ処理にコマンドインジェクションがあり、機器上で任意の OS コマンドを実行されるおそれがあります(攻撃手法は公開済み)。リモート管理を無効にし、修正ファームウェアの提供を待って適用してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136549 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136549.json) |
 | 11/25 14:38 | **CVE-2026-136548**<br>Tenda RX3 ファームウェア 16.03.13.11(auto_discover) | ホスト名の文字コード変換処理にスタックバッファオーバーフローがあり、リモートから任意コード実行などに悪用されるおそれがあります(攻撃手法は公開済み)。ベンダーの修正ファームウェアを確認し、提供されるまで機器を信頼できないネットワークから隔離してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136548 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136548.json) |
 | 11/25 14:38 | **CVE-2026-136547**<br>Tenda RX3 ファームウェア 16.03.13.11_multi(httpd) | Web 管理画面の認証処理の不備により、リモートから認証を回避されるおそれがあり、攻撃手法も公開されています。修正版が出るまで管理画面を WAN 側に公開せず、アクセス元を制限してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136547 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136547.json) |
