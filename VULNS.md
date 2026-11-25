@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/25 10:38(日本時間)
-- 登録: 5008 件 / 悪用確認あり: 57 件
+- 最終チェック: 11/25 11:37(日本時間)
+- 登録: 5009 件 / 悪用確認あり: 57 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/25 11:37 | **CVE-2026-126536**<br>Akaunting 3.3.0 | XLSX による税率インポートで Manager 権限のユーザーが税名に HTML を仕込むと、管理者がその税を無効化しようとした際のエラー表示でスクリプトが実行される格納型 XSS です。修正版の提供状況を確認して更新し、それまではインポート権限を信頼できるユーザーに限定してください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2026-126536 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126536.json) |
 | 11/25 10:38 | **CVE-2026-85150**<br>GStreamer RTSP ライブラリ(gst-plugins-base、RHEL 7〜10 ほか) | Digest 認証ヘッダーの解析で長さ計算がアンダーフローし、認証を有効にした RTSP サーバーが細工した1回の要求でクラッシュ(DoS)するおそれがあります。Red Hat 等の修正パッケージを適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-85150 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/85xxx/CVE-2026-85150.json) |
 | 11/25 10:38 | **CVE-2026-121155**<br>UpdraftPlus(WordPress プラグイン) 無償版 1.26.16 未満 / Pro 2.26.16.26 未満 | 別アドレス・別サーバーへの復元時に JSON 値のエスケープが失われ、認証なしの攻撃者がコメント等に仕込んだ文字列が蓄積型 XSS になるおそれがあります。1.26.16 / 2.26.16.26 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-121155 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121155.json) |
 | 11/25 10:38 | **CVE-2026-121153**<br>UpdraftPlus(WordPress プラグイン) 無償版 1.26.16 未満 / Pro 2.26.16.26 未満 | 検索置換・移行復元の再帰上限到達時にシリアライズ値が無害化されず、購読者権限のユーザーが仕込んだデータが PHP オブジェクトとして実体化されるおそれがあります。1.26.16 / 2.26.16.26 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-121153 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121153.json) |
