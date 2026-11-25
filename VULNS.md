@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/25 17:37(日本時間)
-- 登録: 5057 件 / 悪用確認あり: 57 件
+- 最終チェック: 11/25 18:38(日本時間)
+- 登録: 5064 件 / 悪用確認あり: 57 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/25 18:38 | **CVE-2026-80273**<br>Dell Secure Connect Gateway Virtual Edition 5.36.00.16 より前 | アプライアンス上のOSコマンドインジェクションにより、ローカルアクセスできる攻撃者が任意のコマンドを実行して特権を奪い、機器全体を乗っ取るおそれがあります。5.36.00.16 以降へ更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-80273 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80273.json) |
+| 11/25 18:38 | **CVE-2026-80271**<br>Dell Secure Connect Gateway Virtual Edition 5.36.00.16 より前 | ハードコードされた暗号鍵が使われているため、低権限のローカル攻撃者がこれを悪用してコードを実行できるおそれがあります。5.36.00.16 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80271 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80271.json) |
+| 11/25 18:38 | **CVE-2026-80269**<br>Dell Secure Connect Gateway Virtual Edition 5.36.00.16 より前 | 一時ファイルの扱いが安全でないため、低権限のローカル攻撃者がファイルシステム上の情報を読み書きできるおそれがあります。5.36.00.16 以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-80269 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80269.json) |
+| 11/25 18:38 | **CVE-2026-80267**<br>Dell Secure Connect Gateway Virtual Edition 5.36.00.16 より前 | ハードコードされた認証情報が含まれており、低権限のローカル攻撃者が本来許可されない操作や情報へアクセスできるおそれがあります。5.36.00.16 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80267 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80267.json) |
+| 11/25 18:38 | **CVE-2026-135840**<br>WordPress用プラグイン Timetics 1.0.67 以前 | クロスサイトリクエストフォージェリ(CSRF)により、ログイン中の管理者が罠ページを開くと意図しない設定変更などを実行されるおそれがあります。1.0.68 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-135840 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135840.json) |
+| 11/25 18:38 | **CVE-2026-135040**<br>WordPress用プラグイン Hydra Booking 1.2.11 以前 | クロスサイトリクエストフォージェリ(CSRF)により、細工したページを管理者に開かせることで管理者権限の操作を勝手に実行されるおそれがあります。1.2.12 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-135040 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135040.json) |
+| 11/25 18:38 | **CVE-2026-135008**<br>WordPress用プラグイン Tainacan 1.4.1 以前 | クロスサイトリクエストフォージェリ(CSRF)により、管理者が細工したリンクを開くと管理者権限で不正な操作を行われるおそれがあります。1.5.0 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-135008 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135008.json) |
 | 11/25 17:37 | **CVE-2026-80247**<br>Dell Secure Connect Gateway Virtual Edition 5.36.00.16 より前 | 重要な機能に認証がないため、アプライアンスにローカルでアクセスできる攻撃者が機密情報の取得や設定の改ざん、特権操作を行えるおそれがあります。5.36.00.16 以降へ更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-80247 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80247.json) |
 | 11/25 17:37 | **CVE-2026-135049**<br>WordPress用プラグイン Presto Player 4.5.6 以前 | 細工したページを管理者に開かせるクロスサイトリクエストフォージェリ(CSRF)により、管理者の権限で意図しない設定変更などの操作を実行されるおそれがあります。Presto Player を 4.5.6 より新しい修正版へ更新し、更新までは管理者ログイン中に不審なリンクを開かないよう注意してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-135049 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135049.json) |
 | 11/25 17:37 | **CVE-2026-134942**<br>WordPress用プラグイン ElasticPress 5.3.5 以前 | 細工したページを管理者に開かせるクロスサイトリクエストフォージェリ(CSRF)により、管理者の権限で意図しない設定変更などの操作を実行されるおそれがあります。ElasticPress を 5.3.5 より新しい修正版へ更新し、更新までは管理者ログイン中に不審なリンクを開かないよう注意してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-134942 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134942.json) |
