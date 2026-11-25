@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/25 09:38(日本時間)
-- 登録: 5001 件 / 悪用確認あり: 57 件
+- 最終チェック: 11/25 10:38(日本時間)
+- 登録: 5008 件 / 悪用確認あり: 57 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/25 10:38 | **CVE-2026-85150**<br>GStreamer RTSP ライブラリ(gst-plugins-base、RHEL 7〜10 ほか) | Digest 認証ヘッダーの解析で長さ計算がアンダーフローし、認証を有効にした RTSP サーバーが細工した1回の要求でクラッシュ(DoS)するおそれがあります。Red Hat 等の修正パッケージを適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-85150 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/85xxx/CVE-2026-85150.json) |
+| 11/25 10:38 | **CVE-2026-121155**<br>UpdraftPlus(WordPress プラグイン) 無償版 1.26.16 未満 / Pro 2.26.16.26 未満 | 別アドレス・別サーバーへの復元時に JSON 値のエスケープが失われ、認証なしの攻撃者がコメント等に仕込んだ文字列が蓄積型 XSS になるおそれがあります。1.26.16 / 2.26.16.26 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-121155 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121155.json) |
+| 11/25 10:38 | **CVE-2026-121153**<br>UpdraftPlus(WordPress プラグイン) 無償版 1.26.16 未満 / Pro 2.26.16.26 未満 | 検索置換・移行復元の再帰上限到達時にシリアライズ値が無害化されず、購読者権限のユーザーが仕込んだデータが PHP オブジェクトとして実体化されるおそれがあります。1.26.16 / 2.26.16.26 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-121153 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121153.json) |
+| 11/25 10:38 | **CVE-2026-121151**<br>UpdraftPlus(WordPress プラグイン) 無償版 1.26.16 未満 / Pro 2.26.16.26 未満 | 復元時に長いデータベース値が正確に保たれず、購読者権限のユーザーが仕込んだシリアライズ値が管理者のバックアップ・復元後に PHP オブジェクトインジェクションになるおそれがあります。1.26.16 / 2.26.16.26 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-121151 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121151.json) |
+| 11/25 10:38 | **CVE-2026-121150**<br>UpdraftPlus(WordPress プラグイン) 無償版 1.26.16 未満 / Pro 2.26.16.26 未満 | バックアップ復元時に長い SQL 文中のコメント風文字列を正しく扱えず、購読者権限のユーザーがプロフィールに仕込んだ SQL が管理者の復元時に実行され権限昇格につながるおそれがあります。1.26.16 / 2.26.16.26 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-121150 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/121xxx/CVE-2026-121150.json) |
+| 11/25 10:38 | **CVE-2026-114434**<br>Video Conferencing with Zoom(WordPress プラグイン)4.6.8〜4.7.0 未満 | 会議参加の権限確認をせずに Zoom Meeting SDK の署名を発行するため、認証なしで任意の会議への有効な参加資格情報を取得されるおそれがあります。4.7.0 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-114434 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/114xxx/CVE-2026-114434.json) |
+| 11/25 10:38 | **CVE-2026-111067**<br>UpdraftPlus(WordPress プラグイン) 無償版 1.26.9 / Pro 2.26.9.26(1.26.10 / 2.26.10.26 未満) | データベース復元処理の一部経路に二次 SQL インジェクションが残り、購読者権限のユーザーが仕込んだデータを管理者が復元すると管理者権限を奪われるおそれがあります。1.26.10 / 2.26.10.26 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-111067 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/111xxx/CVE-2026-111067.json) |
 | 11/25 08:38 | **CVE-2026-96276**<br>Flatpak(RHEL 7〜10 ほか) | 悪意ある SDK を使って flatpak build-init --writable-sdk --sdk-extension を実行すると、作業ディレクトリ外に任意のファイルを書き込まれるおそれがあります(CISA-ADP 評価 9.8、Red Hat 評価 6.5)。修正版へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-96276 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/96xxx/CVE-2026-96276.json) |
 | 11/25 08:38 | **CVE-2026-95519**<br>rpm(RHEL 6〜10、OpenShift AI ほか) | 細工したマニフェストファイルを rpm -q -p などで処理すると、エントリがマクロ展開され埋め込まれたシェルコマンドが実行されるおそれがあります。信頼できないマニフェストを処理せず、更新を適用してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-95519 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95519.json) |
 | 11/25 08:38 | **CVE-2026-95508**<br>libslirp(RHEL 8/9/10、OpenShift 4/5 ほか) | インターフェースの MTU を小さく設定した環境で、ゲストからの DHCPv6/TFTP 要求によりホスト側プロセスでヒープオーバーフローが起き、停止やコード実行につながるおそれがあります。ディストリビューションの更新を適用してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-95508 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95508.json) |
