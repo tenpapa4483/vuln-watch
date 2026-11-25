@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/25 12:38(日本時間)
-- 登録: 5039 件 / 悪用確認あり: 57 件
+- 最終チェック: 11/25 13:38(日本時間)
+- 登録: 5042 件 / 悪用確認あり: 57 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/25 13:38 | **CVE-2026-133415**<br>sumiie24 School-Management-System(コミット d946d649 まで) | parent_Registration.php の student_reg パラメータに SQL インジェクションがあり、リモートからデータベースを不正操作されるおそれがあり、攻撃手法も公開されています。修正が提供されるまで公開環境での利用を避けてください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-133415 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133415.json) |
+| 11/25 13:38 | **CVE-2026-130336**<br>Rapid7 Metasploit Framework 6.5.10 未満 | HWBridge のカスタムメソッド処理に eval インジェクションがあり、悪意あるハードウェアブリッジに接続しただけで msfconsole 上で任意コードが実行されるおそれがあります。6.5.10 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-130336 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130336.json) |
+| 11/25 13:38 | **CVE-2024-3727**<br>containers/image ライブラリ 5.29.3 未満、5.30.0 以上 5.30.1 未満(Red Hat 各製品に同梱) | ダイジェスト型の検証不備により、被害者の権限で意図しない認証付きレジストリアクセスが行われ、リソース枯渇やローカルのパストラバーサルにつながるおそれがあります。containers/image を修正版へ更新し、Red Hat 製品は各エラッタを適用してください。 | 8.3 (高)<br>v3.1 | 確認されていない | [CVE-2024-3727 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/3xxx/CVE-2024-3727.json) |
 | 11/25 12:38 | **CVE-2026-83535**<br>Red Hat OpenStack Services on OpenShift 18.0(openstack-network-exporter) | TLS を設定せずに認証を有効にすると認証が無視され、隣接ネットワークの攻撃者に OVS/OVN のメトリクスやホスト構成を取得されるおそれがあります。RHSA-2026:102936 を適用し TLS を正しく設定してください。 | 7.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-83535 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/83xxx/CVE-2026-83535.json) |
 | 11/25 12:38 | **CVE-2026-136632**<br>OpenProject 17.2.0〜17.9.7 未満(17.5.2/17.6.1/17.7.3/17.8.2/17.9.7 で修正) | インライン編集の属性パラメータを検証しないため、プロジェクトを閲覧できるだけのユーザーがプロジェクトを削除したり制限された情報を取得したりできるおそれがあります。修正版へ更新してください。 | 8.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-136632 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136632.json) |
 | 11/25 12:38 | **CVE-2026-136631**<br>Mastodon 4.7.4、4.8.0-alpha.3 以上 5.0.0-beta.1 未満 | ログイン用トークンの処理に不備があり、ログイン済みのローカルユーザーが二要素認証のない休眠アカウントになりすましてログインできるおそれがあります。修正版へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-136631 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136631.json) |
