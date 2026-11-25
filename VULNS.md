@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 03:38(日本時間)
-- 登録: 5201 件 / 悪用確認あり: 58 件
+- 最終チェック: 11/26 04:38(日本時間)
+- 登録: 5207 件 / 悪用確認あり: 58 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/26 04:38 | **CVE-2026-78102**<br>Apache JSPWiki 1.6.1〜3.0.0 | プラグイン管理機能の不備により、スレッドを大量生成させてサービス停止を招いたり、クラスパス上の任意のクラスをインスタンス化されたりするおそれがあります。3.0.1 以降へ更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-78102 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/78xxx/CVE-2026-78102.json) |
+| 11/26 04:38 | **CVE-2026-135486**<br>Petpooja Munshi 2026-07-07 より前 | 請求書データ更新APIで所有者や権限の確認が欠けており、認証済み攻撃者が他者の請求書(削除済みを含む)の内容を書き換えられるおそれがあります。2026-07-07 以降の版を利用してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-135486 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135486.json) |
+| 11/26 04:38 | **CVE-2026-135400**<br>Ever Gauzy 111.44.3 未満 | 管理者がアカウントを無効化した後も既存のJWTで最大24時間程度APIを元の権限のまま利用できてしまうおそれがあります。111.44.3 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-135400 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135400.json) |
+| 11/26 04:38 | **CVE-2026-133467**<br>CodeSafe(Python)0.0.1〜0.0.5 未満 | safe_eval() の検査が間接的な組み込み関数呼び出しを見逃すため、評価対象の式を操作できる攻撃者に任意のPythonコードを実行されるおそれがあります。0.0.5 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133467 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133467.json) |
+| 11/26 04:38 | **CVE-2026-133466**<br>OpenEXR 3.4.0〜3.4.19 未満、3.5.0〜3.5.3 未満 | 細工されたHT圧縮EXRファイルの復号時に境界の揃っていないメモリ書き込みが起き、クラッシュなどを招くおそれがあります。3.4.19 または 3.5.3 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-133466 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133466.json) |
+| 11/26 04:38 | **CVE-2025-10622**<br>Foreman 3.12.0〜3.16.1 未満(Red Hat Satellite 6.15〜6.17 同梱版) | 設定編集権限(edit_settings)を持つ認証済みユーザーが、コマンド許可リストの検証不備を突いてサーバーOS上で任意のコマンドを実行できるおそれがあります。修正版へ更新し、設定編集権限の付与を最小限にしてください。 | 8.0 (高)<br>v3.1 | 確認されていない | [CVE-2025-10622 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/10xxx/CVE-2025-10622.json) |
 | 11/26 03:38 | **CVE-2026-99277**<br>Linux カーネル(ksmbd、修正前の各安定版) | セッション解除と接続の後始末の競合で解放済みメモリが参照され、カーネルのクラッシュなどにつながるおそれがあります。修正版カーネルへ更新するか ksmbd を無効にしてください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-99277 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/99xxx/CVE-2026-99277.json) |
 | 11/26 03:38 | **CVE-2026-82445**<br>Apache StormCrawler 3.0.0〜4.0.0 未満(SQLステータスストア) | クロール先が返す値にタブを含めることで内部メタデータを注入され、クローラーの動作を操作されるおそれがあります。4.0.0 以降へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-82445 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82445.json) |
 | 11/26 03:38 | **CVE-2026-82442**<br>Apache StormCrawler 3.0.0〜4.0.0 未満 | HostURLFilter のドメイン限定設定が誤った変数判定で無効になり、クロール範囲外のURLまで取得されるおそれがあります。4.0.0 以降へ更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-82442 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/82xxx/CVE-2026-82442.json) |
