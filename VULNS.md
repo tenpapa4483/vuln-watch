@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/25 13:38(日本時間)
-- 登録: 5042 件 / 悪用確認あり: 57 件
+- 最終チェック: 11/25 14:38(日本時間)
+- 登録: 5046 件 / 悪用確認あり: 57 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/25 14:38 | **CVE-2026-136549**<br>Tenda RX3 ファームウェア 16.03.13.11_multi(/goform/SetRemoteWebCfg) | リモート管理設定の remoteIp パラメータ処理にコマンドインジェクションがあり、機器上で任意の OS コマンドを実行されるおそれがあります(攻撃手法は公開済み)。リモート管理を無効にし、修正ファームウェアの提供を待って適用してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136549 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136549.json) |
+| 11/25 14:38 | **CVE-2026-136548**<br>Tenda RX3 ファームウェア 16.03.13.11(auto_discover) | ホスト名の文字コード変換処理にスタックバッファオーバーフローがあり、リモートから任意コード実行などに悪用されるおそれがあります(攻撃手法は公開済み)。ベンダーの修正ファームウェアを確認し、提供されるまで機器を信頼できないネットワークから隔離してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136548 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136548.json) |
+| 11/25 14:38 | **CVE-2026-136547**<br>Tenda RX3 ファームウェア 16.03.13.11_multi(httpd) | Web 管理画面の認証処理の不備により、リモートから認証を回避されるおそれがあり、攻撃手法も公開されています。修正版が出るまで管理画面を WAN 側に公開せず、アクセス元を制限してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136547 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136547.json) |
+| 11/25 14:38 | **CVE-2026-118898**<br>partisan(Erlang/Elixir ライブラリ、lasp-lang)ピアリスナー | ピア認証前に受信フレームを安全でない方法で逆シリアル化するため、認証なしの攻撃者が細工した1フレームでアトム表を枯渇させ、Erlang VM を停止させるおそれがあります。修正コミットを含む版へ更新し、ピアリスナーを信頼できるホストに限定し TLS を有効化してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-118898 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118898.json) |
 | 11/25 13:38 | **CVE-2026-133415**<br>sumiie24 School-Management-System(コミット d946d649 まで) | parent_Registration.php の student_reg パラメータに SQL インジェクションがあり、リモートからデータベースを不正操作されるおそれがあり、攻撃手法も公開されています。修正が提供されるまで公開環境での利用を避けてください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-133415 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133415.json) |
 | 11/25 13:38 | **CVE-2026-130336**<br>Rapid7 Metasploit Framework 6.5.10 未満 | HWBridge のカスタムメソッド処理に eval インジェクションがあり、悪意あるハードウェアブリッジに接続しただけで msfconsole 上で任意コードが実行されるおそれがあります。6.5.10 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-130336 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/130xxx/CVE-2026-130336.json) |
 | 11/25 13:38 | **CVE-2024-3727**<br>containers/image ライブラリ 5.29.3 未満、5.30.0 以上 5.30.1 未満(Red Hat 各製品に同梱) | ダイジェスト型の検証不備により、被害者の権限で意図しない認証付きレジストリアクセスが行われ、リソース枯渇やローカルのパストラバーサルにつながるおそれがあります。containers/image を修正版へ更新し、Red Hat 製品は各エラッタを適用してください。 | 8.3 (高)<br>v3.1 | 確認されていない | [CVE-2024-3727 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/3xxx/CVE-2024-3727.json) |
