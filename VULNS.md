@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 07:38(日本時間)
-- 登録: 5269 件 / 悪用確認あり: 64 件
+- 最終チェック: 11/26 08:38(日本時間)
+- 登録: 5272 件 / 悪用確認あり: 67 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/26 08:38 | **CVE-2026-133324**<br>Mitel MiCollab 10.3 (10.3.0.18) 以前 | AWVコンポーネントの認証処理の不備により、認証なしの攻撃者が認証を回避して不正な操作を行えるおそれがあり、実際の悪用が確認されています。Mitelのアドバイザリ(MISA-2026-0012)に従い速やかに修正版を適用してください。 | 5.3 (中)<br>v3.1 | **悪用確認あり**<br>CISA KEV に追加(2026-11-25) | [CVE-2026-133324 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133324.json)<br>[CISA KEV カタログ(cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json) |
+| 11/26 08:38 | **CVE-2026-133311**<br>Mitel MiCollab 10.3 (10.3.0.18) 以前 | AWVコンポーネントの認証の仕組みが弱く、特定の識別子や事前配置されたコンテンツを知る攻撃者が認証なしで機密情報を取得できるおそれがあり、実際の悪用が確認されています。Mitelのアドバイザリ(MISA-2026-0012)に従い修正版を適用してください。 | 5.9 (中)<br>v3.1 | **悪用確認あり**<br>CISA KEV に追加(2026-11-25) | [CVE-2026-133311 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133311.json)<br>[CISA KEV カタログ(cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json) |
+| 11/26 08:38 | **CVE-2026-133275**<br>Mitel MiCollab 10.3 (10.3.0.18) 以前 | AWVコンポーネントのファイル種別検証が不十分なため、認証なしの攻撃者が任意のファイルをアップロードできるおそれがあり、実際の悪用が確認されています。Mitelのアドバイザリ(MISA-2026-0012)に従い速やかに修正版を適用してください。 | 5.3 (中)<br>v3.1 | **悪用確認あり**<br>CISA KEV に追加(2026-11-25) | [CVE-2026-133275 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133275.json)<br>[CISA KEV カタログ(cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json) |
 | 11/26 07:38 | **CVE-2026-66052**<br>Comviva Revenue Plus 3.0.0(サポート終了) | ユーザー管理機能で式言語(EL)インジェクションがあり、低権限の認証済み攻撃者がOSコマンドを実行できるおそれがあります。製品はサポート終了のため、利用停止や移行、ネットワークからの隔離を検討してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-66052 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/66xxx/CVE-2026-66052.json) |
 | 11/26 07:38 | **CVE-2026-136515**<br>PostgreSQL psqlODBC 18.00.0006 以前 | 文の書き換えに使う位置情報が不正になる場合があり、範囲外のメモリ操作が発生するおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-136515 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136515.json) |
 | 11/26 07:38 | **CVE-2026-136512**<br>PostgreSQL psqlODBC 18.00.0006 以前 | SQL_C_DEFAULT使用時に取得時の型が変わると、アプリケーションのバッファより大きいデータが書き込まれ、メモリ破壊につながるおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-136512 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136512.json) |
