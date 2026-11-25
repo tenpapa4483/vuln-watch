@@ -2,12 +2,21 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/25 20:38(日本時間)
-- 登録: 5088 件 / 悪用確認あり: 58 件
+- 最終チェック: 11/25 21:38(日本時間)
+- 登録: 5097 件 / 悪用確認あり: 58 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/25 21:38 | **CVE-2026-87753**<br>İdeal Data iDeal WEB v1.82 未満 | 利用者が制御できるキーによって認可を回避され、本来アクセスできない機能を使われるおそれがあります。v1.82 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-87753 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/87xxx/CVE-2026-87753.json) |
+| 11/25 21:38 | **CVE-2026-1531**<br>Red Hat Satellite 6.16〜6.18(foreman_kubevirt) | CA 証明書未設定時に SSL 検証が無効になる既定動作のため、中間者攻撃で通信内容を漏えい・改ざんされるおそれがあります。修正版を適用し、CA 証明書を明示的に設定してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-1531 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/1xxx/CVE-2026-1531.json) |
+| 11/25 21:38 | **CVE-2026-1530**<br>Red Hat Satellite 6.16〜6.17(fog-kubevirt) | 証明書検証が無効化されているため、Satellite と OpenShift 間の通信を中間者攻撃で盗聴・改ざんされるおそれがあります。修正版を適用してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-1530 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/1xxx/CVE-2026-1530.json) |
+| 11/25 21:38 | **CVE-2026-135888**<br>Posit Package Manager 2026.11.2 未満ほか各系列の修正版未満 | カスタムホームページ用アセットのエンドポイントにディレクトリトラバーサルがあり、認証なしでサービスアカウントが読める任意のファイルを取得されるおそれがあります。各系列の修正版(例: 2026.11.2)へ更新してください。 | 9.2 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-135888 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135888.json) |
+| 11/25 21:38 | **CVE-2026-125812**<br>WordPress用プラグイン WP Rocket 3.24.2 未満 | パストラバーサルの不備により、リモートからコード実行に至るおそれがあります。3.24.2 以降へ速やかに更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-125812 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125812.json) |
+| 11/25 21:38 | **CVE-2025-14459**<br>Red Hat OpenShift Virtualization 4(KubeVirt CDI) | DataImportCron の仕組みを悪用して、権限のないネームスペースの PVC を複製しデータへアクセスされるおそれがあります。Red Hat の修正版を適用してください。 | 8.5 (高)<br>v3.1 | 確認されていない | [CVE-2025-14459 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/14xxx/CVE-2025-14459.json) |
+| 11/25 21:38 | **CVE-2025-12805**<br>Red Hat OpenShift AI 2.25(llama-stack-k8s-operator) | NetworkPolicy が設定されないため、別のネームスペースの利用者が Llama Stack サービスへ直接アクセスし、データを閲覧・改変できるおそれがあります。Red Hat の修正版を適用し、ネットワーク制限を設定してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2025-12805 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/12xxx/CVE-2025-12805.json) |
+| 11/25 21:38 | **CVE-2024-7431**<br>OpenText Application Performance Management 9.60 IP4 未満 | 入力検証の不足によるクロスサイトスクリプティングで、利用者のブラウザ上で任意のスクリプトが実行され、情報窃取やなりすましにつながるおそれがあります。9.60 IP4 以降へ更新してください。 | 8.4 (高)<br>v4.0 | 確認されていない | [CVE-2024-7431 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/7xxx/CVE-2024-7431.json) |
+| 11/25 21:38 | **CVE-2024-7430**<br>OpenText Application Performance Management 9.60 IP4 未満 | 認可チェックの不備により、一般ユーザーが管理者専用の機能を直接呼び出せるおそれがあります。9.60 IP4 以降へ更新してください。 | 8.4 (高)<br>v4.0 | 確認されていない | [CVE-2024-7430 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/7xxx/CVE-2024-7430.json) |
 | 11/25 20:38 | **CVE-2026-95533**<br>Eclipse Jetty jetty-util-ajax 9.4.0〜9.4.65 / 10.0.0〜10.0.33 / 11.0.0〜11.0.33 ほか | JSON解析ユーティリティが深い入れ子構造の入力でスタックオーバーフローを起こし、サービス停止(DoS)につながるおそれがあります。修正版のJettyへ更新し、信頼できないJSONの入れ子の深さを制限してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-95533 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/95xxx/CVE-2026-95533.json) |
 | 11/25 20:38 | **CVE-2026-56211**<br>libaom(AV1エンコーダ) | SVC有効時に攻撃者が用意した映像フレームでエンコーダ内部構造を書き換えられ、fork型の動画処理サービスでは任意コマンド実行に至るおそれがあります。更新済みの aom パッケージを適用し、外部からのフレーム入力を制限してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-56211 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/56xxx/CVE-2026-56211.json) |
 | 11/25 20:38 | **CVE-2026-56210**<br>libaom(AV1エンコーダ) | SVCレイヤーID設定の境界確認不足でヒープ領域外読み取りが起き、メモリ内容の漏えいやクラッシュのおそれがあります。更新済みの aom パッケージを適用してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-56210 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/56xxx/CVE-2026-56210.json) |
