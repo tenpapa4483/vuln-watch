@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 07:37(日本時間)
-- 登録: 5710 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 08:38(日本時間)
+- 登録: 5717 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 08:38 | **CVE-2026-137660**<br>stylefeng Guns 2.2 まで | JWT 署名にハードコードされた鍵が使われており、リモートの攻撃者がトークンを偽造して認証を回避できるおそれがあります。修正版は未公開のため、独自鍵への変更やアクセス制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137660 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137660.json) |
+| 11/27 08:38 | **CVE-2026-136976**<br>Canonical LXD クライアント(4.0.16/5.0.12/5.21.10 等の修正版未満、大文字小文字を区別しないファイルシステム上) | 再帰的なファイル取得で大文字小文字違いのシンボリックリンクが正しく扱われず、インスタンスに書き込める利用者が操作者側の任意の場所にファイルを書き込み、コード実行につなげるおそれがあります。修正版へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-136976 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136976.json) |
+| 11/27 08:38 | **CVE-2026-135385**<br>Canonical LXD 4.0〜6.10.2 未満 | バックアップのエクスポートとネットワークゾーン参照で閲覧権限しか確認されず、閲覧専用ユーザーがインスタンスやボリュームのバックアップ、TSIG 鍵を取得できるおそれがあります。LXD 6.10.2 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-135385 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135385.json) |
+| 11/27 08:38 | **CVE-2026-135384**<br>Canonical LXD 5.0.12/5.21.10/6.10.2 未満 | OIDC ベアラートークンの検証が不十分で、同じ IdP が他アプリ向けに発行したトークン等を使って LXD API に認証され、不正操作やなりすましが行われるおそれがあります。LXD 5.0.12・5.21.10・6.10.2 以降へ更新してください。 | 9.2 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-135384 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135384.json) |
+| 11/27 08:38 | **CVE-2026-127163**<br>Canonical pylxd 2.4.3 未満 | WebSocket 接続で証明書が正しく検証されず、ネットワーク上の攻撃者が LXD サーバーになりすましてコマンドの入力を盗み見たり出力を偽装したりできるおそれがあります。pylxd 2.4.3 以降へ更新してください。 | 9.1 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-127163 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127163.json) |
+| 11/27 08:38 | **CVE-2026-127162**<br>Canonical LXD 5.0.12/5.21.10/6.10.2 未満 | Prometheus メトリクス出力でゲスト側の値がエスケープされず、VM を操作できる利用者がホストのメトリクスラベルを偽装したり収集を妨害したりできるおそれがあります。LXD 5.0.12・5.21.10・6.10.2 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-127162 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127162.json) |
+| 11/27 08:38 | **CVE-2026-114454**<br>Canonical LXD 4.8〜5.0.12/5.21.10/6.10.2 未満 | TPM デバイス管理のパストラバーサルにより、プロジェクト権限を持つ認証済みユーザーが細工したデバイス名でホスト上の任意のファイルを root 権限で再帰削除できるおそれがあります。LXD 5.0.12・5.21.10・6.10.2 以降へ更新してください。 | 7.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-114454 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/114xxx/CVE-2026-114454.json) |
 | 11/27 07:37 | **CVE-2026-6855**<br>InstructLab(Red Hat Enterprise Linux AI 3) | チャットセッション処理の logs_dir パラメータでパストラバーサルが可能で、ローカル攻撃者が任意の場所にディレクトリやファイルを作成できるおそれがあります。Red Hat の修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-6855 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/6xxx/CVE-2026-6855.json) |
 | 11/27 07:37 | **CVE-2026-35092**<br>Corosync(totemudp/totemudpu 構成、RHEL 同梱版など) | join メッセージ検証の整数オーバーフローにより、認証なしで細工した UDP パケットを送られるとサービスがクラッシュするおそれがあります。修正版へ更新し、クラスタ通信を信頼できるネットワークに限定してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-35092 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/35xxx/CVE-2026-35092.json) |
 | 11/27 07:37 | **CVE-2026-35091**<br>Corosync(RHEL 7/8/9/10 同梱版など) | 認証なしのリモート攻撃者が細工した UDP パケットを送ると範囲外読み取りが起き、サービス停止や一部メモリ内容の漏えいにつながるおそれがあります。RHSA 等の修正版へ更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-35091 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/35xxx/CVE-2026-35091.json) |
