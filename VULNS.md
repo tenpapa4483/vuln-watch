@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 15:37(日本時間)
-- 登録: 5304 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/26 16:38(日本時間)
+- 登録: 5307 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/26 16:38 | **CVE-2026-133337**<br>ChronoForms extension for Joomla 8.0.0〜8.0.53 | 一覧表示の並べ替えパラメータ order_by の無害化が不十分で、認証なしの攻撃者が SQL インジェクションによりデータベースの情報を取得できるおそれがあります。8.0.54 以降へ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-133337 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133337.json) |
+| 11/26 16:38 | **CVE-2026-133336**<br>ChronoForms extension for Joomla 8.0.0〜8.0.53 | ファイル項目の拡張子チェックが保存後のファイル名ではなく元のファイル名に対して行われるため、認証なしで危険な拡張子のファイルをアップロードされ、任意コード実行に至るおそれがあります。8.0.54 以降へ更新してください。 | 9.5 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-133336 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133336.json) |
+| 11/26 16:38 | **CVE-2017-20291**<br>Broadcom SiteMinder (CA Single Sign-On) Secure Proxy Server / Access Gateway R12.52 SP1 CR1〜CR5 | Federation Web Services の SOAP エンドポイントに XXE の脆弱性があり、認証なしの遠隔攻撃者がローカルファイルの読み取り、SSRF、サービス妨害を引き起こすおそれがあります。R12.52 SP1 CR6 以降へ更新するか、R12.8/R12.9 系へ移行してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2017-20291 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2017/20xxx/CVE-2017-20291.json) |
 | 11/26 14:38 | **CVE-2026-80364**<br>Dell Secure Connect Gateway Virtual Edition 5.36.00.16 未満 | 整合性検証なしでコードをダウンロードする不備があり、ローカルの低権限攻撃者にシステムを完全に侵害されるおそれがあります。Dell の DSA-2026-386 に従い 5.36.00.16 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80364 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80364.json) |
 | 11/26 14:38 | **CVE-2026-80363**<br>Dell Secure Connect Gateway Virtual Edition 5.36.00.16 未満 | ハードコードされた認証情報が含まれており、ローカルの低権限ユーザーに不正アクセスされるおそれがあります。Dell の DSA-2026-386 に従い 5.36.00.16 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80363 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80363.json) |
 | 11/26 13:38 | **CVE-2026-49191**<br>Acer Connect M6E 5G ポータブル WiFi ルーター(ファームウェア M6E_AI_1.00.000007〜1.00.000019) | 組み込み Web サーバーにバックエンド API キーがハードコードされており、詳細なエラーページ経由で第三者に取得され悪用されるおそれがあります。Acer の案内に従いファームウェアを更新してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-49191 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49191.json) |
