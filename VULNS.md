@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 09:37(日本時間)
-- 登録: 5272 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/26 10:38(日本時間)
+- 登録: 5278 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/26 10:38 | **CVE-2026-66784**<br>Red Hat Advanced Cluster Management for Kubernetes 2(Submariner) | 既定のPSKモードでは全ゲートウェイが同じ事前共有鍵を使うため、鍵を知る攻撃者が別クラスタになりすましてIPsecトンネルを張り、クラスタ間通信を傍受・改ざんできるおそれがあります。Red Hat の修正情報を確認し適用してください。 | 8.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-66784 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/66xxx/CVE-2026-66784.json) |
+| 11/26 10:38 | **CVE-2026-52803**<br>Gogs 0.15.0 未満 | ログイン成功後にセッションIDが再生成されないため、攻撃者が事前に仕込んだセッションIDを使って被害者のアカウントを乗っ取れるおそれがあります。0.15.0 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-52803 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/52xxx/CVE-2026-52803.json) |
+| 11/26 10:38 | **CVE-2026-15369**<br>Custom User Registration Fields for WooCommerce(WordPress プラグイン)2.2.3 以前 | Store API のチェックアウト要求で渡されたユーザー権限の値が検証されずに付与されるため、認証なしの攻撃者が管理者などに権限昇格できるおそれがあります。修正版への更新、または更新までプラグインの無効化を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-15369 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/15xxx/CVE-2026-15369.json) |
+| 11/26 10:38 | **CVE-2026-136947**<br>Ticket-Travel-Management-System(msaifulcsse、コミット 28b68ce / 15c7bc0) | bus1.php の検索パラメータにSQLインジェクションがあり、リモートからデータベースの読み取りや改ざんが行われるおそれがあり、攻撃手法も公開されています。修正版は未提供のため、公開環境での利用を避けてください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-136947 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136947.json) |
+| 11/26 10:38 | **CVE-2026-136946**<br>simple-thumbnail(npm、philipjscott)1.6.5 以前 | ffmpegExecute 関数の seek 引数を通じてOSコマンドを注入でき、リモートから任意コマンドが実行されるおそれがあり、攻撃手法も公開されています。修正版は未提供のため、外部入力を渡さない・別ライブラリへ置き換えるなどの対策を取ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-136946 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136946.json) |
+| 11/26 10:38 | **CVE-2026-115576**<br>NetBird クライアント 0.5.0〜0.76.0 未満 | クライアントデーモンの制御用ソケットが認証なしで全ローカルユーザーに開かれており、低権限ユーザーがVPN設定の改ざんや内蔵SSH経由でroot権限の取得を行えるおそれがあります。0.76.0 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-115576 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115576.json) |
 | 11/26 08:38 | **CVE-2026-133324**<br>Mitel MiCollab 10.3 (10.3.0.18) 以前 | AWVコンポーネントの認証処理の不備により、認証なしの攻撃者が認証を回避して不正な操作を行えるおそれがあり、実際の悪用が確認されています。Mitelのアドバイザリ(MISA-2026-0012)に従い速やかに修正版を適用してください。 | 5.3 (中)<br>v3.1 | **悪用確認あり**<br>CISA KEV に追加(2026-11-25) | [CVE-2026-133324 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133324.json)<br>[CISA KEV カタログ(cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json) |
 | 11/26 08:38 | **CVE-2026-133311**<br>Mitel MiCollab 10.3 (10.3.0.18) 以前 | AWVコンポーネントの認証の仕組みが弱く、特定の識別子や事前配置されたコンテンツを知る攻撃者が認証なしで機密情報を取得できるおそれがあり、実際の悪用が確認されています。Mitelのアドバイザリ(MISA-2026-0012)に従い修正版を適用してください。 | 5.9 (中)<br>v3.1 | **悪用確認あり**<br>CISA KEV に追加(2026-11-25) | [CVE-2026-133311 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133311.json)<br>[CISA KEV カタログ(cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json) |
 | 11/26 08:38 | **CVE-2026-133275**<br>Mitel MiCollab 10.3 (10.3.0.18) 以前 | AWVコンポーネントのファイル種別検証が不十分なため、認証なしの攻撃者が任意のファイルをアップロードできるおそれがあり、実際の悪用が確認されています。Mitelのアドバイザリ(MISA-2026-0012)に従い速やかに修正版を適用してください。 | 5.3 (中)<br>v3.1 | **悪用確認あり**<br>CISA KEV に追加(2026-11-25) | [CVE-2026-133275 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133275.json)<br>[CISA KEV カタログ(cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json) |
