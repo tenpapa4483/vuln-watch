@@ -2,12 +2,21 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 10:38(日本時間)
-- 登録: 5278 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/26 11:38(日本時間)
+- 登録: 5287 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/26 11:38 | **CVE-2026-137309**<br>Friendica 2026.05-1 以前 | item_edit() の認可不備により、ログイン済みユーザーが他人の投稿の本文や添付を書き換え・削除できるおそれがあります。修正版の提供を確認して更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-137309 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137309.json) |
+| 11/26 11:38 | **CVE-2026-137308**<br>markdownify-mcp 1.2.0 未満 | URL検証を DNS 名や IPv6 表記で回避でき、プロンプトインジェクション経由で内部ホストやクラウドのメタデータへアクセスさせられる SSRF のおそれがあります。1.2.0 以降へ更新してください。 | 8.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-137308 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137308.json) |
+| 11/26 11:38 | **CVE-2026-137306**<br>Grav Admin プラグイン 1.10.65 未満 | パスワード再設定リンクの生成で信頼済みホスト設定が無視され、偽の Host ヘッダーで管理者のリセットトークンを盗まれアカウントを乗っ取られるおそれがあります。1.10.65 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-137306 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137306.json) |
+| 11/26 11:38 | **CVE-2026-137305**<br>Grav Form プラグイン 9.2.4 未満 | ファイル欄のアップロード先が検査されず、ページ作成権限を持つ者が Twig を含むファイルをテンプレート領域に置いてサンドボックス外でコードを実行できるおそれがあります。9.2.4 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-137305 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137305.json) |
+| 11/26 11:38 | **CVE-2026-137043**<br>TOTOLINK N350RT 9.3.5u.6466_B20250825 / 9.3.5u.6468_B20250827 | cstecgi.cgi の setLanguageCfg で lang 引数の処理に認可回避があり、遠隔から認証なしに設定を操作されるおそれがあります。攻撃手法も公開されているため、管理画面をインターネットに公開しないようにし、修正ファームウェアの提供を確認してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-137043 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137043.json) |
+| 11/26 11:38 | **CVE-2026-134270**<br>Vikunja 0.19.0〜2.8.0 未満 | CalDAV で大量のパラメーターを含む VTODO を送られると解析で CPU を使い切り、サービス停止に陥るおそれがあります。2.8.0 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134270 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134270.json) |
+| 11/26 11:38 | **CVE-2026-134266**<br>Vikunja 0.19.0〜2.8.0 未満 | 日付計算フィルターに極端な営業日数を指定されると CPU を使い切り、サービス停止に陥るおそれがあります。2.8.0 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-134266 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134266.json) |
+| 11/26 11:38 | **CVE-2026-134250**<br>Grav Form プラグイン 1.1.0〜9.1.40 未満 | 二重拡張子の SVG ファイルが無害化されずにアップロードでき、管理者が開くとスクリプトが実行され特権管理者を作られるおそれがあります(格納型XSS)。9.1.40 以降へ更新してください。 | 8.8 (高)<br>v4.0 | 確認されていない | [CVE-2026-134250 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134250.json) |
+| 11/26 11:38 | **CVE-2026-134246**<br>SiYuan 3.6.0〜3.6.2 未満、3.7.3〜3.8.10 未満 | 公開認証が無効な場合、getDOMText API で未公開の画像アセットの OCR テキストを匿名で取得されるおそれがあります。3.6.2 / 3.8.10 以降へ更新するか、公開認証を有効にしてください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-134246 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134246.json) |
 | 11/26 10:38 | **CVE-2026-66784**<br>Red Hat Advanced Cluster Management for Kubernetes 2(Submariner) | 既定のPSKモードでは全ゲートウェイが同じ事前共有鍵を使うため、鍵を知る攻撃者が別クラスタになりすましてIPsecトンネルを張り、クラスタ間通信を傍受・改ざんできるおそれがあります。Red Hat の修正情報を確認し適用してください。 | 8.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-66784 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/66xxx/CVE-2026-66784.json) |
 | 11/26 10:38 | **CVE-2026-52803**<br>Gogs 0.15.0 未満 | ログイン成功後にセッションIDが再生成されないため、攻撃者が事前に仕込んだセッションIDを使って被害者のアカウントを乗っ取れるおそれがあります。0.15.0 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-52803 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/52xxx/CVE-2026-52803.json) |
 | 11/26 10:38 | **CVE-2026-15369**<br>Custom User Registration Fields for WooCommerce(WordPress プラグイン)2.2.3 以前 | Store API のチェックアウト要求で渡されたユーザー権限の値が検証されずに付与されるため、認証なしの攻撃者が管理者などに権限昇格できるおそれがあります。修正版への更新、または更新までプラグインの無効化を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-15369 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/15xxx/CVE-2026-15369.json) |
