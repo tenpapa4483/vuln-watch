@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 20:38(日本時間)
-- 登録: 5352 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/26 21:38(日本時間)
+- 登録: 5358 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/26 21:38 | **CVE-2026-136519**<br>WordPress プラグイン Advanced Product Fields (Product Addons) for WooCommerce 1.7.4 以下 | 商品アドオン項目の入力値の無害化が不十分で、認証なしの攻撃者がスクリプトを保存し、注文確認などのページで実行させるおそれがあります。修正版への更新を行ってください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-136519 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136519.json) |
+| 11/26 21:38 | **CVE-2026-135655**<br>WordPress プラグイン Easy SwipeBox 1.1.2 以下 | 承認済みコメント内リンクの title 属性が適切に処理されず、認証なしの攻撃者が DOM ベースの格納型スクリプトを仕込めるおそれがあります。修正版への更新、またはプラグインの無効化とコメント承認の見直しを行ってください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-135655 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135655.json) |
+| 11/26 21:38 | **CVE-2026-131806**<br>WordPress プラグイン CubeWP Forms 1.1.13 以下 | フォーム送信パラメータの無害化が不十分で、認証なしの攻撃者がスクリプトを埋め込み、管理者などが該当ページを開いた際に実行させるおそれがあります。修正版への更新、または利用停止を検討してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-131806 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131806.json) |
+| 11/26 21:38 | **CVE-2026-131688**<br>WordPress プラグイン Secure MCP Server for Claude, ChatGPT, Gemini, Cursor and other AI Agents(miniOrange)1.5.8 以下 | MCP エンドポイントの認可確認が不適切で、有効な MCP ベアラートークンを持つ攻撃者がトークン所有者の権限まで昇格できるおそれがあります。修正版への更新と、発行済みトークンの見直し・再発行を行ってください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-131688 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131688.json) |
+| 11/26 21:38 | **CVE-2026-131613**<br>WordPress プラグイン Classified Listing(AI-Powered Business Directory & Classified Ads)6.3.0 以下 | 掲載情報の説明欄の無害化が不十分で、認証なしの攻撃者が掲載ページにスクリプトを埋め込めるおそれがあります。6.3.0 より新しい修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-131613 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131613.json) |
+| 11/26 21:38 | **CVE-2026-128111**<br>WordPress プラグイン Drag and Drop Multiple File Upload for Contact Form 7 1.4.1 以下 | ファイルアップロード処理の入力検証が不十分で、認証なしの攻撃者が悪意あるスクリプトを保存し、閲覧者のブラウザで実行させるおそれがあります。修正版への更新、または更新まで無効化を検討してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-128111 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/128xxx/CVE-2026-128111.json) |
 | 11/26 20:38 | **CVE-2026-135203**<br>Eclipse Ditto 0.3.0-M1〜3.8.15、3.9.0〜3.9.9 | connectivity サービスの JavaScript ペイロードマッパーのサンドボックスが不十分で、接続設定を変更できるユーザーが任意のコードを実行し、認証情報やクラスタにアクセスできるおそれがあります。修正版への更新と、接続の作成・変更権限の見直しを行ってください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-135203 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135203.json) |
 | 11/26 20:38 | **CVE-2026-133342**<br>Joomla 拡張 Events Booking(joomdonation)5.12.0 未満 | 公開の参加登録フォームで送られる event_id が検証されず、認証なしで SQL インジェクションを受けデータベースの情報を窃取・改ざんされるおそれがあります。Events Booking 5.12.0 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-133342 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133342.json) |
 | 11/26 19:37 | **CVE-2026-135266**<br>WordPress プラグイン Music Player for WooCommerce 1.9.4 以下 | ダウンロードファイル設定のパストラバーサルにより、認証なしでサーバ上の任意のファイルを読み取られるおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-135266 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135266.json) |
