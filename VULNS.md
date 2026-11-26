@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 12:38(日本時間)
-- 登録: 5301 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/26 13:38(日本時間)
+- 登録: 5302 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/26 13:38 | **CVE-2026-49191**<br>Acer Connect M6E 5G ポータブル WiFi ルーター(ファームウェア M6E_AI_1.00.000007〜1.00.000019) | 組み込み Web サーバーにバックエンド API キーがハードコードされており、詳細なエラーページ経由で第三者に取得され悪用されるおそれがあります。Acer の案内に従いファームウェアを更新してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-49191 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49191.json) |
 | 11/26 12:38 | **CVE-2026-49190**<br>Acer Connect M6E 5G ポータブルWi-Fiルーター M6E_AI_1.00.000007〜1.00.000019 | 複数の内部オペコードで権限確認が行われず、不正なアプリのインストールやコマンド実行を許すおそれがあります。Acer の案内に従いファームウェアを更新してください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-49190 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49190.json) |
 | 11/26 12:38 | **CVE-2026-49189**<br>Acer Connect M6E 5G ポータブルWi-Fiルーター M6E_AI_1.00.000007〜1.00.000019 | 中核の Broadcast Receiver の公開権限が検証されておらず、不正なローカルアプリが管理操作を呼び出せるおそれがあります。Acer の案内に従いファームウェアを更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-49189 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49189.json) |
 | 11/26 12:38 | **CVE-2026-49188**<br>Acer Connect M6E 5G ポータブルWi-Fiルーター M6E_AI_1.00.000007〜1.00.000019 | root 権限で動く ai_cmd がソケット入力をそのままシェル実行するため、認証なしで任意の root コマンドを実行されるおそれがあります。Acer の案内に従いファームウェアを更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-49188 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/49xxx/CVE-2026-49188.json) |
