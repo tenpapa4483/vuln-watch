@@ -2,12 +2,17 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 05:38(日本時間)
-- 登録: 5699 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 06:38(日本時間)
+- 登録: 5704 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 06:38 | **CVE-2026-14476**<br>SSSD(RHEL 7 ELS/8/9/10 の修正前パッケージ) | AD の GPO 管理権限を持つ攻撃者が gPCFileSysPath 属性にパストラバーサルを仕込むと、root 権限で任意の場所にファイルを書き込まれ、Kerberos 設定の改ざんによる認証回避につながるおそれがあります。修正版の sssd パッケージを適用してください。 | 8.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-14476 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/14xxx/CVE-2026-14476.json) |
+| 11/27 06:38 | **CVE-2026-11770**<br>389 Directory Server / Red Hat Directory Server 11.x・12.x、RHEL 10 の 389-ds-base(修正前) | 認証なしのリモート攻撃者が CleanAllRUV の状態確認操作に LDAP フィルタを注入し、レプリケーション用バインド DN やパスワード保存方式などの設定情報を引き出せるおそれがあります。修正版の 389-ds-base を適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-11770 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/11xxx/CVE-2026-11770.json) |
+| 11/27 06:38 | **CVE-2025-14905**<br>389 Directory Server / Red Hat Directory Server 11.x・12.x、RHEL 10 の 389-ds-base(修正前) | スキーマ処理でのバッファサイズ計算誤りによりヒープオーバーフローが起き、高権限の攻撃者にサービス停止やリモートコード実行を許すおそれがあります。修正版の 389-ds-base を適用してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2025-14905 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/14xxx/CVE-2025-14905.json) |
+| 11/27 06:38 | **CVE-2023-3961**<br>Samba(RHEL 8/9 の修正前パッケージ、4.18.6 系より前) | クライアントが送るパイプ名の検証不足により、SMB クライアントが意図しない Unix ドメインソケットへ接続でき、サービスの改ざんや停止につながるおそれがあります。修正版の Samba に更新してください。 | 9.1 (緊急)<br>v3.1 | 確認されていない | [CVE-2023-3961 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2023/3xxx/CVE-2023-3961.json) |
+| 11/27 06:38 | **CVE-2023-39198**<br>Linux カーネル QXL ドライバ(RHEL 8/9 の修正前カーネル) | QXL ドライバの競合状態により解放済みメモリが使われ、サービス停止や権限昇格につながるおそれがあります。修正済みカーネルへ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2023-39198 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2023/39xxx/CVE-2023-39198.json) |
 | 11/27 05:38 | **CVE-2026-137657**<br>InternLM LMDeploy 0.9.0〜0.18.0 | DistServe プロキシの warmup エンドポイントへ認証なしで繰り返し要求するとメモリを使い果たし、プロキシが停止するおそれがあります。エンドポイントへのアクセスを制限し、修正版へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-137657 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137657.json) |
 | 11/27 05:38 | **CVE-2026-137588**<br>LibreChat 0.7.6〜0.8.8 未満 | 認証済みユーザーが細工した会話インポートファイルを送ると、処理が長時間ブロックされ全ユーザーがサービスを使えなくなるおそれがあります。0.8.8 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-137588 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137588.json) |
 | 11/27 05:38 | **CVE-2026-137539**<br>lastversion 3.6.20 未満 | tar内のシンボリックリンクを悪用して展開先外にファイルを書き込まれ、コード実行につながるおそれがあります。3.6.20 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-137539 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137539.json) |
