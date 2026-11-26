@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 19:37(日本時間)
-- 登録: 5350 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/26 20:38(日本時間)
+- 登録: 5352 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/26 20:38 | **CVE-2026-135203**<br>Eclipse Ditto 0.3.0-M1〜3.8.15、3.9.0〜3.9.9 | connectivity サービスの JavaScript ペイロードマッパーのサンドボックスが不十分で、接続設定を変更できるユーザーが任意のコードを実行し、認証情報やクラスタにアクセスできるおそれがあります。修正版への更新と、接続の作成・変更権限の見直しを行ってください。 | 9.4 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-135203 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135203.json) |
+| 11/26 20:38 | **CVE-2026-133342**<br>Joomla 拡張 Events Booking(joomdonation)5.12.0 未満 | 公開の参加登録フォームで送られる event_id が検証されず、認証なしで SQL インジェクションを受けデータベースの情報を窃取・改ざんされるおそれがあります。Events Booking 5.12.0 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-133342 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133342.json) |
 | 11/26 19:37 | **CVE-2026-135266**<br>WordPress プラグイン Music Player for WooCommerce 1.9.4 以下 | ダウンロードファイル設定のパストラバーサルにより、認証なしでサーバ上の任意のファイルを読み取られるおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-135266 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135266.json) |
 | 11/26 19:37 | **CVE-2026-135151**<br>WordPress プラグイン Download Manager 3.3.78 以下 | 投稿者権限以上の利用者がページテンプレート指定を悪用してサーバ上の PHP ファイルを読み込ませ、コードを実行できるおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-135151 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135151.json) |
 | 11/26 19:37 | **CVE-2026-131589**<br>WordPress プラグイン AI Engine 3.9.4 以下 | 画像作成用 REST API の url パラメータで拡張子チェックが不十分なため、限定的な任意ファイルのアップロードが可能です。修正版へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-131589 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131589.json) |
