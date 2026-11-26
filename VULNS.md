@@ -2,8 +2,8 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/26 08:38(日本時間)
-- 登録: 5272 件 / 悪用確認あり: 67 件
+- 最終チェック: 11/26 09:37(日本時間)
+- 登録: 5272 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
@@ -648,7 +648,7 @@
 | 11/24 21:38 | **CVE-2026-119582**<br>ITG vSRM v14.08.3〜v14.08.5未満 | SQLインジェクションにより、リモートからデータベースの不正な参照・改ざんが行われるおそれがあります。v14.08.5 以降へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-119582 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119582.json) |
 | 11/24 21:38 | **CVE-2026-119543**<br>ITG vSRM v14.08.3〜v14.08.5未満 | 利用者が指定できるキーによる認可回避(IDOR)があり、本来アクセスできない機能やデータに到達されるおそれがあります。v14.08.5 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-119543 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119543.json) |
 | 11/24 21:38 | **CVE-2026-10765**<br>Hitachi Energy RTU500 シリーズ CMU ファームウェア 13.5.1〜13.8.x の修正版未満 | IEC 61850 MMS サーバの非同期制御処理に不備があり、インターフェースにアクセスできる攻撃者が通信断や機器の再起動を引き起こすおそれがあります。修正版ファームウェアへ更新してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-10765 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/10xxx/CVE-2026-10765.json) |
-| 11/24 21:38 | **CVE-2026-103406**<br>Juniper Networks Session Smart Conductor(7.0.5未満、7.1.7未満、7.2.3未満) | 鍵管理処理(AutomatedProvisioner)で細工した salt minion ID を受け取ると、未認証のリモート攻撃者が root 権限で任意のコマンドを実行できるおそれがあります。Juniper の修正版へ更新してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-103406 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/103xxx/CVE-2026-103406.json) |
+| 11/24 21:38 | **CVE-2026-103406**<br>Juniper Networks Session Smart Conductor(7.0.5未満、7.1.7未満、7.2.3未満) | 鍵管理処理(AutomatedProvisioner)で細工した salt minion ID を受け取ると、未認証のリモート攻撃者が root 権限で任意のコマンドを実行できるおそれがあります。Juniper の修正版へ更新してください。 | 9.8 (緊急)<br>v3.1 | **悪用確認あり**<br>CISA KEV に追加(2026-11-25) | [CVE-2026-103406 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/103xxx/CVE-2026-103406.json) |
 | 11/24 21:38 | **CVE-2024-3154**<br>CRI-O 1.27.6 / 1.28.6 未満ほか(Red Hat OpenShift 同梱版を含む) | Pod アノテーション経由で任意の systemd プロパティを注入でき、Pod を作成できる利用者がホスト上で任意の操作を行えるおそれがあります。修正版の CRI-O / OpenShift へ更新してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2024-3154 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2024/3xxx/CVE-2024-3154.json) |
 | 11/24 20:38 | **CVE-2026-127183**<br>SUSE NeuVector 5.5.6 未満、5.6.0〜5.6.5 未満 | データプレーンの複数のメモリ安全性の問題により、認証不要のリモート攻撃者がクラッシュを引き起こしサービス停止させるおそれがあります。NeuVector 5.5.6 / 5.6.5 以降(または 5.7 系)へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-127183 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127183.json) |
 | 11/24 20:38 | **CVE-2026-127182**<br>SUSE NeuVector 5.5.6 未満、5.6.0〜5.6.5 未満 | Enforcer のデータプレーンで DLP/WAF ルール処理時にスタックバッファオーバーフローが起き、認証済みの攻撃者によりクラッシュや任意コード実行が起こるおそれがあります。NeuVector 5.5.6 / 5.6.5 以降(または 5.7 系)へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-127182 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127182.json) |
