@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 03:38(日本時間)
-- 登録: 5682 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 04:37(日本時間)
+- 登録: 5683 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 04:37 | **CVE-2026-137437**<br>SourceCodester Basic Hotel Online Reservation System 1.0(add_reserve.php) | 予約追加処理の Date パラメータに SQL インジェクションがあり、リモートからデータベースの情報漏えいや改ざんのおそれがあります。攻撃手法が公開済みのため、利用を停止するか該当ページへのアクセスを制限してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137437 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137437.json) |
 | 11/27 03:38 | **CVE-2026-137436**<br>SourceCodester Basic Hotel Online Reservation System 1.0 | add_reserve.php の room_id パラメータに SQL インジェクションがあり、リモートからデータベースを不正操作されるおそれがあります。攻撃方法が公開されているため、利用を中止するか入力値を厳格に検証してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137436 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137436.json) |
 | 11/27 03:38 | **CVE-2026-137415**<br>Tencent RapidJSON 1.1.0 まで | Writer::WriteString の長さ処理に整数オーバーフローがあり、細工した入力でメモリ破壊などを引き起こされるおそれがあります。公開済みの修正パッチを適用してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137415 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137415.json) |
 | 11/27 03:38 | **CVE-2026-135039**<br>WordPress プラグイン GiveWP 4.19.2.1 以前 | 反射型クロスサイトスクリプティングがあり、細工したリンクを開いた利用者のブラウザで任意のスクリプトを実行されるおそれがあります。修正版に更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-135039 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135039.json) |
