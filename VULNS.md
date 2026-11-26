@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 06:38(日本時間)
-- 登録: 5704 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 07:37(日本時間)
+- 登録: 5710 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 07:37 | **CVE-2026-6855**<br>InstructLab(Red Hat Enterprise Linux AI 3) | チャットセッション処理の logs_dir パラメータでパストラバーサルが可能で、ローカル攻撃者が任意の場所にディレクトリやファイルを作成できるおそれがあります。Red Hat の修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-6855 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/6xxx/CVE-2026-6855.json) |
+| 11/27 07:37 | **CVE-2026-35092**<br>Corosync(totemudp/totemudpu 構成、RHEL 同梱版など) | join メッセージ検証の整数オーバーフローにより、認証なしで細工した UDP パケットを送られるとサービスがクラッシュするおそれがあります。修正版へ更新し、クラスタ通信を信頼できるネットワークに限定してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-35092 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/35xxx/CVE-2026-35092.json) |
+| 11/27 07:37 | **CVE-2026-35091**<br>Corosync(RHEL 7/8/9/10 同梱版など) | 認証なしのリモート攻撃者が細工した UDP パケットを送ると範囲外読み取りが起き、サービス停止や一部メモリ内容の漏えいにつながるおそれがあります。RHSA 等の修正版へ更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-35091 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/35xxx/CVE-2026-35091.json) |
+| 11/27 07:37 | **CVE-2025-62231**<br>X.Org Xwayland 24.1.9 未満 / X サーバー・TigerVNC(Red Hat 製品同梱版を含む) | Xkb 拡張の XkbSetCompatMap() の境界検査不足で値がオーバーフローし、細工した入力によりメモリ破壊やクラッシュが起きるおそれがあります。修正版へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2025-62231 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/62xxx/CVE-2025-62231.json) |
+| 11/27 07:37 | **CVE-2025-62230**<br>X.Org Xwayland 24.1.9 未満 / X サーバー・TigerVNC(Red Hat 製品同梱版を含む) | Xkb 拡張でクライアント切断時のリソース解放処理に不備があり、解放後使用によるメモリ破壊やクラッシュが起きるおそれがあります。修正版へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2025-62230 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/62xxx/CVE-2025-62230.json) |
+| 11/27 07:37 | **CVE-2025-62229**<br>X.Org Xwayland 1.15.0〜24.1.9 未満 / X サーバー・TigerVNC(Red Hat 製品同梱版を含む) | Present 拡張の通知生成時のエラー処理不備で解放済みメモリが参照され、任意コード実行やサービス停止につながるおそれがあります。Xwayland 24.1.9 以降または各ディストリビューションの修正版へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2025-62229 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/62xxx/CVE-2025-62229.json) |
 | 11/27 06:38 | **CVE-2026-14476**<br>SSSD(RHEL 7 ELS/8/9/10 の修正前パッケージ) | AD の GPO 管理権限を持つ攻撃者が gPCFileSysPath 属性にパストラバーサルを仕込むと、root 権限で任意の場所にファイルを書き込まれ、Kerberos 設定の改ざんによる認証回避につながるおそれがあります。修正版の sssd パッケージを適用してください。 | 8.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-14476 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/14xxx/CVE-2026-14476.json) |
 | 11/27 06:38 | **CVE-2026-11770**<br>389 Directory Server / Red Hat Directory Server 11.x・12.x、RHEL 10 の 389-ds-base(修正前) | 認証なしのリモート攻撃者が CleanAllRUV の状態確認操作に LDAP フィルタを注入し、レプリケーション用バインド DN やパスワード保存方式などの設定情報を引き出せるおそれがあります。修正版の 389-ds-base を適用してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-11770 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/11xxx/CVE-2026-11770.json) |
 | 11/27 06:38 | **CVE-2025-14905**<br>389 Directory Server / Red Hat Directory Server 11.x・12.x、RHEL 10 の 389-ds-base(修正前) | スキーマ処理でのバッファサイズ計算誤りによりヒープオーバーフローが起き、高権限の攻撃者にサービス停止やリモートコード実行を許すおそれがあります。修正版の 389-ds-base を適用してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2025-14905 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/14xxx/CVE-2025-14905.json) |
