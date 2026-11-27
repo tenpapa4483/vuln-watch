@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 18:39(日本時間)
-- 登録: 5762 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 19:37(日本時間)
+- 登録: 5765 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 19:37 | **CVE-2026-80477**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | SQL インジェクションにより、認証不要のローカル攻撃者がスクリプトを注入できるおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-80477 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80477.json) |
+| 11/27 19:37 | **CVE-2026-80475**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | サーバーサイドリクエストフォージェリ(SSRF)により、認証不要のローカル攻撃者がサーバーから任意の宛先へ要求を送らせられるおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-80475 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80475.json) |
+| 11/27 19:37 | **CVE-2026-127118**<br>SMSEagle RCDevs OpenOTP SMS 連携コネクタ 1.0(1.1 より前) | 接続先の TLS 証明書を検証せず、認証情報やメッセージ内容を URL パラメータで送信するため、通信経路上の攻撃者に盗聴・改ざんされるおそれがあります。バージョン 1.1 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-127118 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127118.json) |
 | 11/27 18:39 | **CVE-2026-80472**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | OS コマンドインジェクションにより、低権限のローカル攻撃者が任意のスクリプトを注入・実行できるおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-80472 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80472.json) |
 | 11/27 18:39 | **CVE-2026-80459**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | 安全でない一時ファイルの扱いにより、低権限のローカル攻撃者がファイルシステムにアクセスできるおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-80459 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80459.json) |
 | 11/27 18:39 | **CVE-2026-80457**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | 重要なリソースへの不適切な権限設定により、低権限のローカル攻撃者がサービス停止を引き起こすおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80457 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80457.json) |
