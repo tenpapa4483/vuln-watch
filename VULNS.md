@@ -2,12 +2,19 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/28 03:37(日本時間)
-- 登録: 5883 件 / 悪用確認あり: 71 件
+- 最終チェック: 11/28 04:37(日本時間)
+- 登録: 5890 件 / 悪用確認あり: 71 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/28 04:37 | **CVE-2026-138034**<br>bigcommerce-api-mcp 1.0.1 未満 | /sse と /messages が認証処理を通らないため、認証なしの遠隔攻撃者が運用者のAPIキーでツールを呼び出し、商品・注文・顧客情報を取得できるおそれがあります。1.0.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-138034 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138034.json) |
+| 11/28 04:37 | **CVE-2026-138033**<br>mcp-video-analyzer 0.2.0 以上 0.10.1 未満 | 動画拡張子で終わる任意URLを取得するため、プロンプトインジェクション経由でループバックやクラウドメタデータなど内部アドレスへのSSRFのおそれがあります。0.10.1 以降へ更新してください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2026-138033 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138033.json) |
+| 11/28 04:37 | **CVE-2026-138031**<br>Typebot 2.14.0 以上 3.19.0 未満 | 認可の不備により、認証済みのボット作成者が他ワークスペースの旧式Webhookを参照し、URL・ヘッダー・本文の取得やWebhook URLの書き換えができるおそれがあります。3.19.0 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-138031 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138031.json) |
+| 11/28 04:37 | **CVE-2026-138028**<br>Bagel(bagel-mcp)2.5.5 未満 | rsync 実行時のオプション検査が不十分で、プロンプトインジェクションにより -e や --rsync-path を注入されサーバー権限で任意コマンドを実行されるおそれがあります。2.5.5 以降へ更新してください。 | 7.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-138028 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138028.json) |
+| 11/28 04:37 | **CVE-2026-138027**<br>Bagel(bagel-mcp)2.5.5 未満 | 読み取り専用とされる query_messages ツールでサンドボックスなしの DuckDB SQL が実行でき、プロンプトインジェクション経由でファイルの読み書きやSSRFのおそれがあります。2.5.5 以降へ更新してください。 | 7.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-138027 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138027.json) |
+| 11/28 04:37 | **CVE-2026-138026**<br>Crypto APIs MCP サーバー(@cryptoapis-io/mcp-*)0.4.0 未満ほか | HTTP トランスポートで起動すると認証なしで全インターフェースに公開され、運用者のAPIキーでツールを実行されてクレジット消費や情報閲覧・設定改ざんのおそれがあります。修正版(0.4.0/0.5.0/0.2.0 以降)へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-138026 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138026.json) |
+| 11/28 04:37 | **CVE-2026-137898**<br>pam(libeconf 有効ビルド)— Red Hat Enterprise Linux 6/7/10 など | ベンダー設定ディレクトリ未設定時に pam_econf がカレントディレクトリ相対で設定を読み込むため、細工した環境設定ファイル経由でローカル権限昇格のおそれがあります。ベンダーの修正パッケージを適用し、書き込み可能な共有ディレクトリで特権コマンドを実行しないでください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137898 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137898.json) |
 | 11/28 03:37 | **CVE-2026-136117**<br>Solid Affiliate(WordPressプラグイン)3.3.0 以前 | 保存型クロスサイトスクリプティングにより、ページを閲覧した利用者のブラウザで不正なスクリプトを実行されるおそれがあります。修正版への更新を確認してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-136117 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136117.json) |
 | 11/28 03:37 | **CVE-2026-136116**<br>Solid Affiliate(WordPressプラグイン)3.3.0 以前 | 反射型クロスサイトスクリプティングにより、細工したリンクを開いた利用者のブラウザで不正なスクリプトを実行されるおそれがあります。修正版への更新を確認してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-136116 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136116.json) |
 | 11/28 03:37 | **CVE-2026-136115**<br>MemberPress Discord Addon(WordPressプラグイン)1.1.5 以前 | 権限の割り当てに不備があり、認証なしで管理者などの高い権限を奪われるおそれがあります。修正版が出ていれば更新し、出ていなければプラグインを無効化してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136115 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136115.json) |
