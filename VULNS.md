@@ -2,12 +2,23 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/28 01:38(日本時間)
-- 登録: 5864 件 / 悪用確認あり: 70 件
+- 最終チェック: 11/28 02:38(日本時間)
+- 登録: 5875 件 / 悪用確認あり: 71 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/28 02:38 | **CVE-2026-81411**<br>Nmap 7.992 未満 | 悪意あるRDPサーバーをスキャンすると、NSEの rdp.lua の解析処理が無限ループに陥りNmapがCPU100%で停止するおそれがあります。7.992 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-81411 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/81xxx/CVE-2026-81411.json) |
+| 11/28 02:38 | **CVE-2026-137089**<br>merge-deep-composed(npm)0.1.4 以前 | __proto__ キーを含む入力をマージするとプロトタイプ汚染が起き、ロジックの迂回やサービス停止につながるおそれがあります。外部入力をマージに渡さないか、代替ライブラリへ移行してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137089 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137089.json) |
+| 11/28 02:38 | **CVE-2026-137085**<br>ProjeQtOr 13.1.2 未満 | 権限チェックの欠如により、低権限ユーザーが管理者のパスワードハッシュやメールアドレスなど任意のオブジェクト属性を読み取れるおそれがあります。13.1.2 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-137085 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137085.json) |
+| 11/28 02:38 | **CVE-2026-137058**<br>cron-parser(npm)5.10.0 以前 | 巨大なcron式を解析させるとメモリを大量に確保し、Node.jsプロセスを停止させられるおそれがあります(DoS)。修正版へ更新し、外部入力のcron式は長さを制限してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-137058 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137058.json) |
+| 11/28 02:38 | **CVE-2025-25038**<br>MiniDVBLinux 5.4 以前 | Web管理画面の入力検証不備によるOSコマンドインジェクションで、認証なしにroot権限で任意コマンドを実行されるおそれがあります。管理画面をインターネットから遮断し、侵害の有無を確認してください。 | 9.3 (緊急)<br>v4.0 | **悪用確認あり**<br>CVEレコード(CNA: VulnCheck)にShadowserverによる悪用観測(2024-04-10)の記載 | [CVE-2025-25038 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/25xxx/CVE-2025-25038.json) |
+| 11/28 02:38 | **CVE-2023-53773**<br>MiniDVBLinux 5.4 以前 | tv_action.sh が認証なしで呼び出せるため、視聴中のライブ映像のスナップショットを第三者に取得されるおそれがあります。管理画面への外部アクセスを遮断してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2023-53773 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2023/53xxx/CVE-2023-53773.json) |
+| 11/28 02:38 | **CVE-2023-53772**<br>MiniDVBLinux 5.4 以前 | about ページの file パラメータを悪用して、機器上の任意のファイルを読み取られるおそれがあります。管理画面への外部アクセスを遮断してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2023-53772 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2023/53xxx/CVE-2023-53772.json) |
+| 11/28 02:38 | **CVE-2023-53771**<br>MiniDVBLinux 5.4 以前 | システム設定エンドポイントで認証が回避され、rootパスワードを第三者に変更されるおそれがあります。管理画面への外部アクセスを遮断し、パスワードを確認してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2023-53771 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2023/53xxx/CVE-2023-53771.json) |
+| 11/28 02:38 | **CVE-2023-53770**<br>MiniDVBLinux 5.4 以前 | バックアップ取得機能が認証を要求しないため、認証情報を含むシステム設定一式を第三者に取得されるおそれがあります。管理画面への外部アクセスを遮断してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2023-53770 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2023/53xxx/CVE-2023-53770.json) |
+| 11/28 02:38 | **CVE-2022-50691**<br>MiniDVBLinux 5.4 以前 | Web管理画面の commands.sh に細工した command パラメータを送ることで、認証なしにroot権限で任意コマンドを実行されるおそれがあります。インターネットから管理画面に到達できないよう遮断してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2022-50691 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2022/50xxx/CVE-2022-50691.json) |
+| 11/28 02:38 | **CVE-2012-10033**<br>Narcissus(Ångström Distribution のイメージ構築Web UI)全版 | backend.php が release パラメータを無害化せずにコマンド実行へ渡すため、認証なしで任意のOSコマンドを実行されるおそれがあります。開発終了製品のため、公開を停止し利用を中止してください。 | 9.3 (緊急)<br>v4.0 | 確認されていない | [CVE-2012-10033 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2012/10xxx/CVE-2012-10033.json) |
 | 11/28 01:38 | **CVE-2026-81041**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | 証明書検証の不備により、低権限のローカル攻撃者がサービス妨害や情報漏えいを引き起こすおそれがあります。5.36.00.16 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-81041 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/81xxx/CVE-2026-81041.json) |
 | 11/28 01:38 | **CVE-2026-80510**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | 利用者が制御できるキーによる認可回避があり、未認証のローカル攻撃者が権限昇格できるおそれがあります。5.36.00.16 以降へ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-80510 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80510.json) |
 | 11/28 01:38 | **CVE-2026-137999**<br>JSONSchema2PoPo2 3.0.3 まで | JSON Schema の default や format の値がエスケープされずに生成コードへ書き込まれるため、細工したスキーマから生成したモジュールをインポートすると任意のPythonコードが実行されるおそれがあります。信頼できないスキーマを使わないでください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-137999 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137999.json) |
