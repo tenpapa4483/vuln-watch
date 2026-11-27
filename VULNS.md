@@ -2,12 +2,16 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 13:38(日本時間)
-- 登録: 5739 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 14:37(日本時間)
+- 登録: 5743 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 14:37 | **CVE-2026-137723**<br>Mitel OpenScape 4000 / 4000 Manager V11 R0.22〜V11 R2.11、V10 R1.68 以前 | Platform コンポーネントのコマンドインジェクションにより、隣接ネットワーク上の攻撃者が認証なしで任意のコマンドを実行できるおそれがあります。MISA-2026-0013 に従い修正版(V11 R2.14 以降)へ更新し、管理インターフェースへの到達を制限してください。 | 9.6 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-137723 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137723.json) |
+| 11/27 14:37 | **CVE-2026-137721**<br>Mitel OpenScape 4000 / 4000 Manager V11 R0.22〜V11 R2.11、V10 R1.68 以前 | Platform コンポーネントのパラメータ検証不備により、認証なしでネットワーク経由からシステム上で任意のコマンドを実行されるおそれがあります。Mitel のアドバイザリ MISA-2026-0013 に従い修正版(V11 R2.14 以降)へ更新してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-137721 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137721.json) |
+| 11/27 14:37 | **CVE-2026-136995**<br>WordPress プラグイン Upsell Funnel Builder for WooCommerce 3.1.7 以前 | form_data パラメータの処理不備により、未認証の攻撃者がページにスクリプトを埋め込み、閲覧者のブラウザで実行させる蓄積型XSSのおそれがあります。修正版が出ていれば更新し、それまでは無効化を検討してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-136995 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136995.json) |
+| 11/27 14:37 | **CVE-2026-119071**<br>WordPress プラグイン W3 Total Cache 2.11.0 以前 | 投稿者(Author)権限以上のユーザーが、他人のものを含むメディアライブラリの添付ファイルを任意に完全削除できるおそれがあります。2.11.1 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-119071 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/119xxx/CVE-2026-119071.json) |
 | 11/27 13:38 | **CVE-2026-137715**<br>Webmin 2.670 以前(コミット 07d1949 未適用) | save_log.cgi でログファイルのパスがエスケープされないため、Webalizer モジュールの利用を許可している共有ホスティング環境などで、利用者が任意のコードを実行するおそれがあります。修正を含む最新版へ更新し、Webalizer モジュールの権限付与を見直してください。 | 7.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-137715 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137715.json) |
 | 11/27 13:38 | **CVE-2026-137679**<br>code-projects Online Job Portal 1.0 | 求職者向け検索画面 JobSeeker/SearchJob.php の cmbQual パラメータが SQL 文に直接使われるため、リモートからデータベースを不正に読み書きされるおそれがあり、攻撃手法も公開されています。修正版は確認できていないため、公開停止やアクセス制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137679 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137679.json) |
 | 11/27 13:38 | **CVE-2026-135627**<br>WordPress プラグイン Simple Membership 4.9.0 以前 | 一括操作で会員レベルを変更する処理に管理者レベルの除外チェックがなく、投稿者(Contributor)以上の認証済みユーザーが管理者に昇格できるおそれがあります。修正版へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-135627 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135627.json) |
