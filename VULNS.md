@@ -2,12 +2,21 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 17:38(日本時間)
-- 登録: 5753 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 18:39(日本時間)
+- 登録: 5762 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 18:39 | **CVE-2026-80472**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | OS コマンドインジェクションにより、低権限のローカル攻撃者が任意のスクリプトを注入・実行できるおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-80472 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80472.json) |
+| 11/27 18:39 | **CVE-2026-80459**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | 安全でない一時ファイルの扱いにより、低権限のローカル攻撃者がファイルシステムにアクセスできるおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-80459 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80459.json) |
+| 11/27 18:39 | **CVE-2026-80457**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | 重要なリソースへの不適切な権限設定により、低権限のローカル攻撃者がサービス停止を引き起こすおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80457 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80457.json) |
+| 11/27 18:39 | **CVE-2026-80453**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | 整合性検証なしでコードをダウンロードする問題により、認証不要のローカル攻撃者が不正アクセスに至るおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-80453 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80453.json) |
+| 11/27 18:39 | **CVE-2026-80451**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | ハードコードされた暗号鍵の使用により、低権限のローカル攻撃者がコード実行に至るおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80451 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80451.json) |
+| 11/27 18:39 | **CVE-2026-59103**<br>MONEO ERP 1.8.45.6 以前 | WebSocket 経由の JSON-RPC の Ping メソッドが認証なしで呼べ、利用者が指定した値でセッションを作れるため、遠隔の攻撃者が管理者を含む任意のユーザーとして全テナントを操作できるおそれがあります。ベンダーの修正版の適用と、外部からのアクセス制限を行ってください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-59103 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/59xxx/CVE-2026-59103.json) |
+| 11/27 18:39 | **CVE-2026-133941**<br>JTL-Shop 5.6.0〜5.6.7 未満、5.7.0〜5.7.7 未満、5.8.0〜5.8.5 未満 | 管理画面の国管理ページでパラメータがエスケープされず CSRF 対策もないため、細工したリンクを管理者に開かせると管理者権限でスクリプトを実行されるおそれがあります(XSS)。修正版へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133941 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133941.json) |
+| 11/27 18:39 | **CVE-2026-133940**<br>JTL-Shop 5.0.0〜5.5.6 未満、5.6.0〜5.6.7 未満、5.7.0〜5.7.7 未満 ほか | export/backup ディレクトリのアクセス制御が不十分で、データベースやファイルのバックアップ(顧客情報・パスワードハッシュを含む)を認証なしでダウンロードされるおそれがあります。修正版へ更新し、既存バックアップの扱いも見直してください。 | 8.2 (高)<br>v4.0 | 確認されていない | [CVE-2026-133940 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133940.json) |
+| 11/27 18:39 | **CVE-2026-133939**<br>JTL-Shop 5.0.0〜5.5.6 未満、5.6.0〜5.6.7 未満、5.7.0〜5.7.7 未満 ほか | 店舗画面に表示される OPC スタートメニューが検索語をエスケープせずに JavaScript に埋め込むため、細工したリンクをログイン中の管理者に開かせるとスクリプトを実行され、管理画面を操作されるおそれがあります。ベンダーの修正版へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-133939 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/133xxx/CVE-2026-133939.json) |
 | 11/27 17:38 | **CVE-2026-80450**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | 証明書検証の不備により、認証されていないローカルの攻撃者が権限昇格やコード実行に至るおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-80450 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80450.json) |
 | 11/27 17:38 | **CVE-2026-80448**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | サーバーサイドリクエストフォージェリ(SSRF)により、認証されていないローカルの攻撃者が不正アクセスを行うおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-80448 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80448.json) |
 | 11/27 17:38 | **CVE-2026-80268**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | リソースが不適切な範囲に公開されている問題により、低権限のローカル攻撃者がコード実行に至るおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-80268 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80268.json) |
