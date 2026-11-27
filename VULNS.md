@@ -2,12 +2,20 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/28 02:38(日本時間)
-- 登録: 5875 件 / 悪用確認あり: 71 件
+- 最終チェック: 11/28 03:37(日本時間)
+- 登録: 5883 件 / 悪用確認あり: 71 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/28 03:37 | **CVE-2026-136117**<br>Solid Affiliate(WordPressプラグイン)3.3.0 以前 | 保存型クロスサイトスクリプティングにより、ページを閲覧した利用者のブラウザで不正なスクリプトを実行されるおそれがあります。修正版への更新を確認してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-136117 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136117.json) |
+| 11/28 03:37 | **CVE-2026-136116**<br>Solid Affiliate(WordPressプラグイン)3.3.0 以前 | 反射型クロスサイトスクリプティングにより、細工したリンクを開いた利用者のブラウザで不正なスクリプトを実行されるおそれがあります。修正版への更新を確認してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-136116 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136116.json) |
+| 11/28 03:37 | **CVE-2026-136115**<br>MemberPress Discord Addon(WordPressプラグイン)1.1.5 以前 | 権限の割り当てに不備があり、認証なしで管理者などの高い権限を奪われるおそれがあります。修正版が出ていれば更新し、出ていなければプラグインを無効化してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136115 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136115.json) |
+| 11/28 03:37 | **CVE-2026-136114**<br>VikBooking Hotel Booking Engine & PMS(WordPressプラグイン)1.8.22 以前 | 保存型クロスサイトスクリプティングにより、管理者や閲覧者のブラウザで不正なスクリプトを実行されるおそれがあります。修正版への更新を確認してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-136114 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136114.json) |
+| 11/28 03:37 | **CVE-2026-136113**<br>Hello Clever Gateway for WooCommerce(WordPressプラグイン)1.8.4 以前 | 認証なしでSQLインジェクションが可能で、データベース内の情報を盗み出されるおそれがあります。修正版への更新、または修正版が出るまでプラグインの無効化を検討してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-136113 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136113.json) |
+| 11/28 03:37 | **CVE-2026-136112**<br>Shipment Tracker for Woocommerce(WordPressプラグイン)1.5.7 以前 | 保存型クロスサイトスクリプティングにより、閲覧者のブラウザ上で不正なスクリプトを実行されるおそれがあります。修正版が出ていれば更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-136112 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136112.json) |
+| 11/28 03:37 | **CVE-2026-134129**<br>smalot/pdfparser(PHPライブラリ)2.14.0 未満 | 入れ子の括弧を大量に含む細工したPDFを解析させると処理時間が二乗的に増え、PHPワーカーを占有されてサービス停止に陥るおそれがあります。2.14.0 以降に更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-134129 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134129.json) |
+| 11/28 03:37 | **CVE-2026-132876**<br>Adobe Dreamweaver Desktop 21.8.1 以前 | 脆弱なサードパーティ部品に依存しており、細工したファイルを開くと利用者の権限で任意のコードを実行されるおそれがあります。21.8.2 以降に更新してください(APSB26-223)。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-132876 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/132xxx/CVE-2026-132876.json) |
 | 11/28 02:38 | **CVE-2026-81411**<br>Nmap 7.992 未満 | 悪意あるRDPサーバーをスキャンすると、NSEの rdp.lua の解析処理が無限ループに陥りNmapがCPU100%で停止するおそれがあります。7.992 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-81411 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/81xxx/CVE-2026-81411.json) |
 | 11/28 02:38 | **CVE-2026-137089**<br>merge-deep-composed(npm)0.1.4 以前 | __proto__ キーを含む入力をマージするとプロトタイプ汚染が起き、ロジックの迂回やサービス停止につながるおそれがあります。外部入力をマージに渡さないか、代替ライブラリへ移行してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137089 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137089.json) |
 | 11/28 02:38 | **CVE-2026-137085**<br>ProjeQtOr 13.1.2 未満 | 権限チェックの欠如により、低権限ユーザーが管理者のパスワードハッシュやメールアドレスなど任意のオブジェクト属性を読み取れるおそれがあります。13.1.2 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-137085 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137085.json) |
