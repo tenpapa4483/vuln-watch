@@ -2,12 +2,18 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/28 04:37(日本時間)
-- 登録: 5890 件 / 悪用確認あり: 71 件
+- 最終チェック: 11/28 05:37(日本時間)
+- 登録: 5896 件 / 悪用確認あり: 71 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/28 05:37 | **CVE-2026-137974**<br>tuned(RHEL 6〜10、Fast Datapath for RHEL) | spindown-disk プロファイルのスクリプトがマウント元を検証せず root で再マウントするため、ユーザー空間ファイルシステムを作れるローカルユーザーが root 権限でコマンドを実行できるおそれがあります。Red Hat の修正版が出たら適用し、それまでは当該プロファイルの使用を避けてください。 | 7.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-137974 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137974.json) |
+| 11/28 05:37 | **CVE-2026-137941**<br>GIMP(RHEL 6/7/8/9 同梱版ほか) | 細工された XCF ファイルを開くと Levels フィルタのチャネル値検証不備によりヒープ範囲外読み書きが起き、クラッシュや任意コード実行につながるおそれがあります。修正版への更新と、信頼できない XCF ファイルを開かないよう注意してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-137941 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137941.json) |
+| 11/28 05:37 | **CVE-2026-131776**<br>WordPress プラグイン LiteSpeed Cache 7.9.3 以前 | 格納型クロスサイトスクリプティングの脆弱性で、閲覧者のブラウザ上で不正なスクリプトが実行されるおそれがあります。7.9.3 より新しい修正版へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-131776 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/131xxx/CVE-2026-131776.json) |
+| 11/28 05:37 | **CVE-2025-59011**<br>WordPress テーマ Traveler 3.2.3 より前 | 認可チェックの欠如により、認証されていない攻撃者が任意のコンテンツを削除し、サービスを妨害するおそれがあります。3.2.3 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2025-59011 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/59xxx/CVE-2025-59011.json) |
+| 11/28 05:37 | **CVE-2025-26898**<br>WordPress テーマ Traveler 3.2.1 より前 | SQL インジェクションにより、認証されていない攻撃者がデータベースの情報を窃取するおそれがあります。Traveler を 3.2.1 以降(できれば最新版)へ更新してください。 | 9.3 (緊急)<br>v3.1 | 確認されていない | [CVE-2025-26898 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/26xxx/CVE-2025-26898.json) |
+| 11/28 05:37 | **CVE-2025-26733**<br>WordPress テーマ Traveler 3.2.1 より前 | 認可チェックの欠如により、認証されていない攻撃者が本来許可されない操作を行い、データの改ざん等につながるおそれがあります。3.2.1 以降へ更新してください。 | 8.2 (高)<br>v3.1 | 確認されていない | [CVE-2025-26733 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2025/26xxx/CVE-2025-26733.json) |
 | 11/28 04:37 | **CVE-2026-138034**<br>bigcommerce-api-mcp 1.0.1 未満 | /sse と /messages が認証処理を通らないため、認証なしの遠隔攻撃者が運用者のAPIキーでツールを呼び出し、商品・注文・顧客情報を取得できるおそれがあります。1.0.1 以降へ更新してください。 | 8.7 (高)<br>v4.0 | 確認されていない | [CVE-2026-138034 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138034.json) |
 | 11/28 04:37 | **CVE-2026-138033**<br>mcp-video-analyzer 0.2.0 以上 0.10.1 未満 | 動画拡張子で終わる任意URLを取得するため、プロンプトインジェクション経由でループバックやクラウドメタデータなど内部アドレスへのSSRFのおそれがあります。0.10.1 以降へ更新してください。 | 7.0 (高)<br>v4.0 | 確認されていない | [CVE-2026-138033 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138033.json) |
 | 11/28 04:37 | **CVE-2026-138031**<br>Typebot 2.14.0 以上 3.19.0 未満 | 認可の不備により、認証済みのボット作成者が他ワークスペースの旧式Webhookを参照し、URL・ヘッダー・本文の取得やWebhook URLの書き換えができるおそれがあります。3.19.0 以降へ更新してください。 | 7.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-138031 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138031.json) |
