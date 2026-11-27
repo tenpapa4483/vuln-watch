@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 14:37(日本時間)
-- 登録: 5743 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 15:37(日本時間)
+- 登録: 5745 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 15:37 | **CVE-2026-137738**<br>RealVNC Server 6.4.0〜7.19.0、RealVNC Viewer 8.4.0〜8.6.1 ほか各種 RealVNC 製品 | UDP ベースの接続処理の欠陥により、認証なしで遠隔からコードを実行(一部環境では root 権限)されたり、サービスを停止させられたりするおそれがあります。RealVNC Server 7.19.1 以降など各製品の修正版へ更新し、不要な UDP 接続を無効化してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-137738 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137738.json) |
+| 11/27 15:37 | **CVE-2026-137724**<br>Mitel OpenScape 4000 / 4000 Manager V11 R0.22〜V11 R2.11、V10 R1.68 以前 | Platform コンポーネントの認証処理の不備により、認証されていない遠隔の攻撃者がシステムへ不正にアクセスし機密情報を取得できるおそれがあります。MISA-2026-0013 に従い V11 R2.14 以降へ更新し、管理インターフェースへのアクセスを制限してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-137724 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137724.json) |
 | 11/27 14:37 | **CVE-2026-137723**<br>Mitel OpenScape 4000 / 4000 Manager V11 R0.22〜V11 R2.11、V10 R1.68 以前 | Platform コンポーネントのコマンドインジェクションにより、隣接ネットワーク上の攻撃者が認証なしで任意のコマンドを実行できるおそれがあります。MISA-2026-0013 に従い修正版(V11 R2.14 以降)へ更新し、管理インターフェースへの到達を制限してください。 | 9.6 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-137723 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137723.json) |
 | 11/27 14:37 | **CVE-2026-137721**<br>Mitel OpenScape 4000 / 4000 Manager V11 R0.22〜V11 R2.11、V10 R1.68 以前 | Platform コンポーネントのパラメータ検証不備により、認証なしでネットワーク経由からシステム上で任意のコマンドを実行されるおそれがあります。Mitel のアドバイザリ MISA-2026-0013 に従い修正版(V11 R2.14 以降)へ更新してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-137721 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137721.json) |
 | 11/27 14:37 | **CVE-2026-136995**<br>WordPress プラグイン Upsell Funnel Builder for WooCommerce 3.1.7 以前 | form_data パラメータの処理不備により、未認証の攻撃者がページにスクリプトを埋め込み、閲覧者のブラウザで実行させる蓄積型XSSのおそれがあります。修正版が出ていれば更新し、それまでは無効化を検討してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-136995 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136995.json) |
