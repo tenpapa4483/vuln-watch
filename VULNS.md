@@ -2,12 +2,13 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 09:38(日本時間)
-- 登録: 5717 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 10:37(日本時間)
+- 登録: 5718 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 10:37 | **CVE-2026-137677**<br>code-projects Simple Laundry System 1.0 | viewdetailforuser.php の serviceId パラメータに SQL インジェクションがあり、認証なしのリモート攻撃者にデータベースを不正に操作・閲覧されるおそれがあります(攻撃手法は公開済み)。修正版は確認できないため、公開環境での利用停止やアクセス制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137677 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137677.json) |
 | 11/27 08:38 | **CVE-2026-137660**<br>stylefeng Guns 2.2 まで | JWT 署名にハードコードされた鍵が使われており、リモートの攻撃者がトークンを偽造して認証を回避できるおそれがあります。修正版は未公開のため、独自鍵への変更やアクセス制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137660 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137660.json) |
 | 11/27 08:38 | **CVE-2026-136976**<br>Canonical LXD クライアント(4.0.16/5.0.12/5.21.10 等の修正版未満、大文字小文字を区別しないファイルシステム上) | 再帰的なファイル取得で大文字小文字違いのシンボリックリンクが正しく扱われず、インスタンスに書き込める利用者が操作者側の任意の場所にファイルを書き込み、コード実行につなげるおそれがあります。修正版へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-136976 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136976.json) |
 | 11/27 08:38 | **CVE-2026-135385**<br>Canonical LXD 4.0〜6.10.2 未満 | バックアップのエクスポートとネットワークゾーン参照で閲覧権限しか確認されず、閲覧専用ユーザーがインスタンスやボリュームのバックアップ、TSIG 鍵を取得できるおそれがあります。LXD 6.10.2 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-135385 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135385.json) |
