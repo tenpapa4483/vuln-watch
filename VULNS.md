@@ -2,12 +2,20 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 10:37(日本時間)
-- 登録: 5718 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 11:38(日本時間)
+- 登録: 5726 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 11:38 | **CVE-2026-137704**<br>D-Link DWM-222W v1.02.00 以前 | ファームウェアに埋め込まれた管理者アカウントにより、隣接ネットワーク上の認証なしの攻撃者が設定バックアップを取得し、全ユーザーの平文パスワードを入手できるおそれがあります。ベンダーの修正情報を確認し、修正がなければ機器の置き換えやネットワーク分離を検討してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-137704 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137704.json) |
+| 11/27 11:38 | **CVE-2026-137702**<br>Exim 4.100.2 未満 | 細工した SMTP 通信により root 権限で動く文字列展開処理でヒープ領域外書き込みが起き、リモートからコード実行等につながるおそれがあります。4.100.2 以降へ速やかに更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-137702 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137702.json) |
+| 11/27 11:38 | **CVE-2026-135616**<br>WordPress プラグイン W3 Total Cache 2.11.0 以前 | Memcached オブジェクトキャッシュと Minify を有効にした構成で、購読者以上の権限を持つ攻撃者が PHP オブジェクトを注入し、任意ファイル書き込みやコード実行に至るおそれがあります。修正版への更新、または該当キャッシュ設定の見直しを推奨します。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-135616 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135616.json) |
+| 11/27 11:38 | **CVE-2026-126717**<br>WordPress プラグイン Translate WordPress with Weglot 6.4.3 以前 | comment パラメータの処理不備により、匿名コメントを許可し翻訳先言語が有効なサイトで、認証なしの攻撃者が格納型 XSS を仕込めるおそれがあります。修正版への更新、または匿名コメントの制限を検討してください。 | 7.2 (高)<br>v3.1 | 確認されていない | [CVE-2026-126717 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126717.json) |
+| 11/27 11:38 | **CVE-2026-125399**<br>Fluxion 6.39 未満 | ターゲットスキャン処理で ESSID を eval で扱うため、Wi-Fi 圏内の攻撃者が細工した SSID を発信すると、操作者がスキャン・選択した際に root 権限で任意コマンドが実行されるおそれがあります。6.39 以降へ更新してください。 | 8.6 (高)<br>v4.0 | 確認されていない | [CVE-2026-125399 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/125xxx/CVE-2026-125399.json) |
+| 11/27 11:38 | **CVE-2026-115867**<br>WordPress プラグイン Database for Contact Form 7, WPforms, Elementor forms 1.5.5 以前 | ファイルコピー処理で拡張子が検証されないため、認証なしの攻撃者が実行可能なファイルをアップロードでき、Nginx 等の環境ではリモートコード実行につながるおそれがあります。修正版への更新を推奨します。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-115867 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/115xxx/CVE-2026-115867.json) |
+| 11/27 11:38 | **CVE-2026-113774**<br>WordPress プラグイン Schema & Structured Data for WP & AMP 1.68 以前 | レビューフォーム経由で未認証の訪問者が保存したデータを、管理者のエクスポート処理が unserialize するため、管理者が操作した際に PHP オブジェクトインジェクションが起き、条件次第でコード実行に至るおそれがあります。修正版への更新を推奨します。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-113774 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/113xxx/CVE-2026-113774.json) |
+| 11/27 11:38 | **CVE-2026-106125**<br>WordPress プラグイン Sneeit Framework 8.7 以前 | AJAX アクションの callback パラメータが未検証のまま関数呼び出しに渡されるため、認証なしのリモート攻撃者が任意の PHP 関数を実行し、サイトを乗っ取るおそれがあります。修正版への更新、または更新できるまでプラグインの無効化を検討してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-106125 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/106xxx/CVE-2026-106125.json) |
 | 11/27 10:37 | **CVE-2026-137677**<br>code-projects Simple Laundry System 1.0 | viewdetailforuser.php の serviceId パラメータに SQL インジェクションがあり、認証なしのリモート攻撃者にデータベースを不正に操作・閲覧されるおそれがあります(攻撃手法は公開済み)。修正版は確認できないため、公開環境での利用停止やアクセス制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137677 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137677.json) |
 | 11/27 08:38 | **CVE-2026-137660**<br>stylefeng Guns 2.2 まで | JWT 署名にハードコードされた鍵が使われており、リモートの攻撃者がトークンを偽造して認証を回避できるおそれがあります。修正版は未公開のため、独自鍵への変更やアクセス制限を検討してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-137660 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137660.json) |
 | 11/27 08:38 | **CVE-2026-136976**<br>Canonical LXD クライアント(4.0.16/5.0.12/5.21.10 等の修正版未満、大文字小文字を区別しないファイルシステム上) | 再帰的なファイル取得で大文字小文字違いのシンボリックリンクが正しく扱われず、インスタンスに書き込める利用者が操作者側の任意の場所にファイルを書き込み、コード実行につなげるおそれがあります。修正版へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-136976 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/136xxx/CVE-2026-136976.json) |
