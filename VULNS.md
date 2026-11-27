@@ -2,12 +2,20 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/27 20:38(日本時間)
-- 登録: 5765 件 / 悪用確認あり: 68 件
+- 最終チェック: 11/27 21:37(日本時間)
+- 登録: 5773 件 / 悪用確認あり: 68 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/27 21:37 | **CVE-2026-137907**<br>FFmpeg 3.0 以上 8.1.3 未満(boxblur フィルタ) | boxblur フィルタが16ビット超の画素形式を受け付けるため、細工した浮動小数点画像(PFM/OpenEXR 等)の処理でヒープバッファオーバーフローが起き、クラッシュや任意コード実行につながるおそれがあります。8.1.3 以降へ更新してください。 | 7.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-137907 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137907.json) |
+| 11/27 21:37 | **CVE-2026-135961**<br>WordPress プラグイン Continuous Image Carousel With Lightbox 2.0 以前 | 格納型クロスサイトスクリプティング(XSS)により、閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。2.0.1 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-135961 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135961.json) |
+| 11/27 21:37 | **CVE-2026-135958**<br>WordPress プラグイン WP Review Slider 15.5 以前 | 格納型クロスサイトスクリプティング(XSS)により、埋め込まれたスクリプトがページ閲覧者のブラウザで実行されるおそれがあります。15.6 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-135958 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135958.json) |
+| 11/27 21:37 | **CVE-2026-135951**<br>WordPress プラグイン DirectoryPress 3.6.27 以前 | 反射型クロスサイトスクリプティング(XSS)により、利用者のブラウザで任意のスクリプトが実行されるおそれがあります。3.6.28 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-135951 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135951.json) |
+| 11/27 21:37 | **CVE-2026-135949**<br>WordPress プラグイン MPG(Multiple Pages Generator)4.2.6 以前 | 反射型クロスサイトスクリプティング(XSS)により、細工したリンクを開いた利用者のセッション悪用などにつながるおそれがあります。4.2.7 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-135949 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135949.json) |
+| 11/27 21:37 | **CVE-2026-135942**<br>WordPress プラグイン Tutor LMS 4.2.1 以前 | 反射型クロスサイトスクリプティング(XSS)により、細工したリンク経由で利用者のブラウザ上で任意のスクリプトが実行されるおそれがあります。4.2.2 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-135942 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135942.json) |
+| 11/27 21:37 | **CVE-2026-135941**<br>WordPress プラグイン Booking Activities 1.19.5 以前 | 反射型クロスサイトスクリプティング(XSS)により、細工したリンクを開いた利用者のブラウザで任意のスクリプトが実行されるおそれがあります。1.19.6 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-135941 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135941.json) |
+| 11/27 21:37 | **CVE-2026-129052**<br>WordPress プラグイン WPAdverts 2.3.5 以前 | 入力の無害化が不十分なため格納型クロスサイトスクリプティング(XSS)が可能で、閲覧者のブラウザで任意のスクリプトが実行されるおそれがあります。2.3.6 以降へ更新してください。 | 7.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-129052 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/129xxx/CVE-2026-129052.json) |
 | 11/27 19:37 | **CVE-2026-80477**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | SQL インジェクションにより、認証不要のローカル攻撃者がスクリプトを注入できるおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 8.4 (高)<br>v3.1 | 確認されていない | [CVE-2026-80477 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80477.json) |
 | 11/27 19:37 | **CVE-2026-80475**<br>Dell Secure Connect Gateway - Virtual Edition 5.36.00.16 より前 | サーバーサイドリクエストフォージェリ(SSRF)により、認証不要のローカル攻撃者がサーバーから任意の宛先へ要求を送らせられるおそれがあります。DSA-2026-507 に従い 5.36.00.16 以降へ更新してください。 | 7.7 (高)<br>v3.1 | 確認されていない | [CVE-2026-80475 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/80xxx/CVE-2026-80475.json) |
 | 11/27 19:37 | **CVE-2026-127118**<br>SMSEagle RCDevs OpenOTP SMS 連携コネクタ 1.0(1.1 より前) | 接続先の TLS 証明書を検証せず、認証情報やメッセージ内容を URL パラメータで送信するため、通信経路上の攻撃者に盗聴・改ざんされるおそれがあります。バージョン 1.1 以降へ更新してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-127118 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/127xxx/CVE-2026-127118.json) |
