@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/28 09:38(日本時間)
-- 登録: 5898 件 / 悪用確認あり: 71 件
+- 最終チェック: 11/28 10:38(日本時間)
+- 登録: 5900 件 / 悪用確認あり: 73 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/28 10:38 | **CVE-2026-129243**<br>OSGeo GeoServer(サービス単位のロールチェック) | service パラメータに接頭辞を付けたリクエストで、サービス単位の権限チェックを認証なしで回避されるおそれがあり、CVE-2026-120705 などと連鎖して遠隔コード実行に悪用されています。GeoServer の告知に従い修正版へ更新し、外部公開しているインスタンスは侵害の痕跡も確認してください。 | 未評価 | **悪用確認あり**<br>CISA KEV に追加(2026-11-27、対応期限 2026-11-30) | [CISA Known Exploited Vulnerabilities Catalog (cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json) |
+| 11/28 10:38 | **CVE-2026-120705**<br>OSGeo GeoServer(WFS 2.0 GetFeatureById ストアドクエリ) | 細工した ID パラメータによる XML インジェクションで、認証なしにサーバー上のファイル読み取りや任意URLへのリクエスト(SSRF)をされるおそれがあり、他の GeoServer の脆弱性と連鎖すると認証なしの遠隔コード実行に至ります。GeoServer の 2026-11-23 付けの告知に従い、ただちに修正版へ更新してください。 | 未評価 | **悪用確認あり**<br>CISA KEV に追加(2026-11-27、対応期限 2026-11-30) | [CISA Known Exploited Vulnerabilities Catalog (cisagov/kev-data)](https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json) |
 | 11/28 07:38 | **CVE-2026-138004**<br>TRENDnet TEW-751DR / TEW-733GR 1.03B01(UPnP IGD soap.cgi) | UPnP IGD の /soap.cgi で service パラメータを介したOSコマンドインジェクションがあり、認証なしで遠隔から機器を乗っ取られるおそれがあります(実証コード公開済み)。修正版の情報がないため、UPnP の無効化や外部からのアクセス遮断を行い、機器の置き換えを検討してください。 | 10.0 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-138004 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138004.json) |
 | 11/28 07:38 | **CVE-2026-138003**<br>TRENDnet TEW-751DR 1.03B01(UPnP/WFA wfadev.cgi) | UPnP/WFA の wfadev.cgi で SOAPAction ヘッダーの処理にスタックバッファオーバーフローがあり、遠隔から任意コード実行に至るおそれがあります(攻撃難度は高いが実証コードが公開済み)。修正版の情報がないため、UPnP の無効化やWAN側からの遮断、機器の更新・置き換えを検討してください。 | 9.5 (緊急)<br>v4.0 | 確認されていない | [CVE-2026-138003 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138003.json) |
 | 11/28 05:37 | **CVE-2026-137974**<br>tuned(RHEL 6〜10、Fast Datapath for RHEL) | spindown-disk プロファイルのスクリプトがマウント元を検証せず root で再マウントするため、ユーザー空間ファイルシステムを作れるローカルユーザーが root 権限でコマンドを実行できるおそれがあります。Red Hat の修正版が出たら適用し、それまでは当該プロファイルの使用を避けてください。 | 7.0 (高)<br>v3.1 | 確認されていない | [CVE-2026-137974 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/137xxx/CVE-2026-137974.json) |
