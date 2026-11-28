@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/28 17:37(日本時間)
-- 登録: 5916 件 / 悪用確認あり: 74 件
+- 最終チェック: 11/28 18:38(日本時間)
+- 登録: 5918 件 / 悪用確認あり: 74 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/28 18:38 | **CVE-2026-138005**<br>TRENDnet TEW-751DR 1.03B01 | UPnP イベント処理(gena.php)の uri 引数にOSコマンドインジェクションがあり、認証なしでリモートから任意のコマンドを実行されるおそれがあります(攻撃コードは公開済み)。修正の有無を確認し、UPnP を無効化してWAN側に公開しない、機器の置き換えを検討してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-138005 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138005.json) |
+| 11/28 18:38 | **CVE-2026-118082**<br>BuddyBoss Platform(WordPress プラグイン)3.5.0 以前 | 権限の割り当てに不備があり、低権限でログインしたユーザーが管理者などに権限昇格できるおそれがあります。3.6.1 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-118082 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118082.json) |
 | 11/28 12:37 | **CVE-2026-135432**<br>sdcb Chats 1.10.0 以上 1.17.1 未満 | 認可の不備により、一般ユーザーが他ユーザーのMCP用カスタムヘッダー(Bearerトークン)を読み取り、そのユーザーになりすませるおそれがあります。1.17.1 以降へ更新し、登録済みトークンの再発行を検討してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-135432 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135432.json) |
 | 11/28 12:37 | **CVE-2026-135208**<br>Kerberos Agent 3.14.4 未満 | JWT署名鍵が既定の固定値のまま使われるため、認証なしで管理者トークンを偽造され、カメラ設定や暗号鍵などの取得・改ざん・停止をされるおそれがあります。3.14.4 以降へ更新し、独自の署名鍵を設定してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-135208 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135208.json) |
 | 11/28 12:37 | **CVE-2026-134882**<br>TOTOLINK A7100RU 7.4cu.2313_B20191024 | CGI の exportOvpn 処理で Username 引数を通じたOSコマンドインジェクションがあり、リモートから任意のコマンドを実行されるおそれがあります。修正ファームウェアの提供状況を確認し、管理画面を外部に公開しない、機器の更新・置き換えを検討してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-134882 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134882.json) |
