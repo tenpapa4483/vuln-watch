@@ -2,12 +2,15 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/28 11:39(日本時間)
-- 登録: 5913 件 / 悪用確認あり: 74 件
+- 最終チェック: 11/28 12:37(日本時間)
+- 登録: 5916 件 / 悪用確認あり: 74 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/28 12:37 | **CVE-2026-135432**<br>sdcb Chats 1.10.0 以上 1.17.1 未満 | 認可の不備により、一般ユーザーが他ユーザーのMCP用カスタムヘッダー(Bearerトークン)を読み取り、そのユーザーになりすませるおそれがあります。1.17.1 以降へ更新し、登録済みトークンの再発行を検討してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-135432 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135432.json) |
+| 11/28 12:37 | **CVE-2026-135208**<br>Kerberos Agent 3.14.4 未満 | JWT署名鍵が既定の固定値のまま使われるため、認証なしで管理者トークンを偽造され、カメラ設定や暗号鍵などの取得・改ざん・停止をされるおそれがあります。3.14.4 以降へ更新し、独自の署名鍵を設定してください。 | 9.8 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-135208 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135208.json) |
+| 11/28 12:37 | **CVE-2026-134882**<br>TOTOLINK A7100RU 7.4cu.2313_B20191024 | CGI の exportOvpn 処理で Username 引数を通じたOSコマンドインジェクションがあり、リモートから任意のコマンドを実行されるおそれがあります。修正ファームウェアの提供状況を確認し、管理画面を外部に公開しない、機器の更新・置き換えを検討してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-134882 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/134xxx/CVE-2026-134882.json) |
 | 11/28 11:39 | **CVE-2026-138163**<br>Gammu 1.45.2 未満 | WAP/MMS 設定項目を過剰に含む細工されたバックアップファイルを読み込むと、ヒープが破壊されクラッシュや任意コード実行のおそれがあります。1.45.2 以降へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-138163 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138163.json) |
 | 11/28 11:39 | **CVE-2026-138162**<br>Gammu 1.45.2 未満(Alcatel 端末連携) | 細工された電話帳データを Alcatel 端末へ restore / addnew すると、スタックバッファオーバーフローでクラッシュや任意コード実行のおそれがあります。1.45.2 以降へ更新してください。 | 7.3 (高)<br>v4.0 | 確認されていない | [CVE-2026-138162 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138162.json) |
 | 11/28 11:39 | **CVE-2026-138161**<br>Gammu 1.45.2 未満 | バックアップファイル内の過長なMD5値によりメモリが破壊され、クラッシュや任意コード実行につながるおそれがあります。1.45.2 以降へ更新してください。 | 8.5 (高)<br>v4.0 | 確認されていない | [CVE-2026-138161 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138161.json) |
