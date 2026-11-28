@@ -2,12 +2,14 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/29 01:38(日本時間)
-- 登録: 5927 件 / 悪用確認あり: 74 件
+- 最終チェック: 11/29 02:38(日本時間)
+- 登録: 5929 件 / 悪用確認あり: 74 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/29 02:38 | **CVE-2026-138294**<br>GPAC 26.07.0 より前 | httpout フィルタのパス検証不備により、認証なしの遠隔攻撃者が公開ディレクトリ外の設定ファイルや秘密鍵などを読み取るおそれがあります。26.07.0 以降へ更新し、それまでは httpout サーバ機能を外部に公開しないでください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-138294 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138294.json) |
+| 11/29 02:38 | **CVE-2026-138075**<br>shopizer-ecommerce shopizer 3.2.5 まで | authentication.properties にハードコードされた暗号鍵が使われており、遠隔の攻撃者が認証情報を偽造するおそれがあります。修正はまだ取り込まれていないため、鍵を独自の値に置き換えるなどの対策を行ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-138075 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138075.json) |
 | 11/29 01:38 | **CVE-2026-85388**<br>Worklenz 3.4.3 未満 | ページングの並び替えパラメータに SQL インジェクションがあり、認証済みユーザーが他テナントのパスワードハッシュなどを抜き取るおそれがあります(CVE-2026-25947 の不完全な修正)。3.4.3 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-85388 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/85xxx/CVE-2026-85388.json) |
 | 11/29 01:38 | **CVE-2026-63305**<br>WWBN AVideo 29.1.0 未満 | ffmpeg.json.php の notifyCode / callback パラメータが未エスケープでシェルに渡され、任意の OS コマンドを実行されるおそれがあります。29.1.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-63305 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/63xxx/CVE-2026-63305.json) |
 | 11/29 01:38 | **CVE-2026-63304**<br>WWBN AVideo 29.1.0 未満 | listFFmpegProcesses() のキーワード処理に OS コマンドインジェクションがあり、有効な暗号化ペイロードを作れる攻撃者が Web サーバー権限で任意コマンドを実行するおそれがあります。29.1.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-63304 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/63xxx/CVE-2026-63304.json) |
