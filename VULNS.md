@@ -2,12 +2,21 @@
 
 > 自動収集のため、内容に誤りがある可能性があります。対応の前に、必ず各行のソース(一次情報)を確認してください。
 
-- 最終チェック: 11/29 00:38(日本時間)
-- 登録: 5918 件 / 悪用確認あり: 74 件
+- 最終チェック: 11/29 01:38(日本時間)
+- 登録: 5927 件 / 悪用確認あり: 74 件
 - 新しい順に並んでいます。
 
 | 検知(JST) | ID・製品 | 要約 | CVSS | 悪用状況 | ソース |
 |---|---|---|---|---|---|
+| 11/29 01:38 | **CVE-2026-85388**<br>Worklenz 3.4.3 未満 | ページングの並び替えパラメータに SQL インジェクションがあり、認証済みユーザーが他テナントのパスワードハッシュなどを抜き取るおそれがあります(CVE-2026-25947 の不完全な修正)。3.4.3 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-85388 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/85xxx/CVE-2026-85388.json) |
+| 11/29 01:38 | **CVE-2026-63305**<br>WWBN AVideo 29.1.0 未満 | ffmpeg.json.php の notifyCode / callback パラメータが未エスケープでシェルに渡され、任意の OS コマンドを実行されるおそれがあります。29.1.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-63305 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/63xxx/CVE-2026-63305.json) |
+| 11/29 01:38 | **CVE-2026-63304**<br>WWBN AVideo 29.1.0 未満 | listFFmpegProcesses() のキーワード処理に OS コマンドインジェクションがあり、有効な暗号化ペイロードを作れる攻撃者が Web サーバー権限で任意コマンドを実行するおそれがあります。29.1.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-63304 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/63xxx/CVE-2026-63304.json) |
+| 11/29 01:38 | **CVE-2026-138074**<br>go-dev-frame sponge 1.16.1 まで | JWT パッケージにハードコードされた暗号鍵が使われており、遠隔の攻撃者がトークンを偽造して認証を回避するおそれがあります。公開済みのエクスプロイトがあるため、別の認証基盤への移行や独自の鍵設定を行ってください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-138074 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138074.json) |
+| 11/29 01:38 | **CVE-2026-138056**<br>SonicJS 3.0.1 まで | トークン検証にハードコードされた鍵が使われており、遠隔の攻撃者がトークンを偽造して認証を回避するおそれがあります。修正パッチを適用し、固有のシークレットを設定してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-138056 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138056.json) |
+| 11/29 01:38 | **CVE-2026-138055**<br>Cloud-CV EvalAI コミット 30128ca まで | JWT 認証の SECRET_KEY がハードコードされており、遠隔の攻撃者がトークンを偽造して認証を回避するおそれがあります。修正コミット 9c430a7 を適用し、鍵を独自の値に変更してください。 | 7.3 (高)<br>v3.1 | 確認されていない | [CVE-2026-138055 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138055.json) |
+| 11/29 01:38 | **CVE-2026-126543**<br>WWBN AVideo 29.8.0 未満 | PayPal IPN の検証が自サイトの加盟店アカウントに限定されておらず、未認証の攻撃者が任意ユーザーのウォレット残高を不正に増やせるおそれがあります。29.8.0 以降へ更新してください。 | 7.5 (高)<br>v3.1 | 確認されていない | [CVE-2026-126543 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126543.json) |
+| 11/29 01:38 | **CVE-2026-126541**<br>WWBN AVideo 29.8.0 未満 | Live プラグインのリストリーム API で認可が欠けており、認証済み配信者が他人のストリームキーを取得してなりすまし配信や有料配信の再配信を行えるおそれがあります。29.8.0 以降へ更新してください。 | 8.1 (高)<br>v3.1 | 確認されていない | [CVE-2026-126541 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/126xxx/CVE-2026-126541.json) |
+| 11/29 01:38 | **CVE-2026-110628**<br>Kan 0.5.5 以上 0.8.0 未満 | 添付ファイルのダウンロード API に未認証の SSRF があり、S3_ENDPOINT 未設定時に内部サービスやクラウドのメタデータを読み取られるおそれがあります。0.8.0 以降へ更新してください。 | 8.6 (高)<br>v3.1 | 確認されていない | [CVE-2026-110628 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/110xxx/CVE-2026-110628.json) |
 | 11/28 18:38 | **CVE-2026-138005**<br>TRENDnet TEW-751DR 1.03B01 | UPnP イベント処理(gena.php)の uri 引数にOSコマンドインジェクションがあり、認証なしでリモートから任意のコマンドを実行されるおそれがあります(攻撃コードは公開済み)。修正の有無を確認し、UPnP を無効化してWAN側に公開しない、機器の置き換えを検討してください。 | 10.0 (緊急)<br>v3.1 | 確認されていない | [CVE-2026-138005 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/138xxx/CVE-2026-138005.json) |
 | 11/28 18:38 | **CVE-2026-118082**<br>BuddyBoss Platform(WordPress プラグイン)3.5.0 以前 | 権限の割り当てに不備があり、低権限でログインしたユーザーが管理者などに権限昇格できるおそれがあります。3.6.1 以降へ更新してください。 | 8.8 (高)<br>v3.1 | 確認されていない | [CVE-2026-118082 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/118xxx/CVE-2026-118082.json) |
 | 11/28 12:37 | **CVE-2026-135432**<br>sdcb Chats 1.10.0 以上 1.17.1 未満 | 認可の不備により、一般ユーザーが他ユーザーのMCP用カスタムヘッダー(Bearerトークン)を読み取り、そのユーザーになりすませるおそれがあります。1.17.1 以降へ更新し、登録済みトークンの再発行を検討してください。 | 7.1 (高)<br>v4.0 | 確認されていない | [CVE-2026-135432 (CVE Program cvelistV5)](https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/2026/135xxx/CVE-2026-135432.json) |
